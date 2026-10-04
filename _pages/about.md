@@ -19,7 +19,7 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
-<p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I can work in Canada, Hong Kong, and Mainland China without needing to apply for a work visa. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
+<p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I can work in Canada, Hong Kong, and Mainland China without needing to apply for an additional work visa. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
 
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
