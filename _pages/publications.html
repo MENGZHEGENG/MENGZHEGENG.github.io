@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p class="publication-intro">This page lists {{ site.publications.size }} works on my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>. Each record has links to the paper or PDF, DOI information, and its Google Scholar citation record. Where noted in my CV, ∗ marks a co-first author and † a corresponding author.</p>
+<p class="publication-intro">This page lists {{ site.publications.size }} works on my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>. Each record has links to the paper or PDF, DOI information, and its Google Scholar citation record. An asterisk (*) marks co-first authors where indicated in Google Scholar or my CV.</p>
 
 {% assign publication_years = site.publications | group_by: "year" | sort: "name" | reverse %}
 {% for year_group in publication_years %}

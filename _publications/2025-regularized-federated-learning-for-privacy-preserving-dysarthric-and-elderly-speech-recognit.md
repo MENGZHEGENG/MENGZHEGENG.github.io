@@ -1,8 +1,12 @@
 ---
 title: Regularized Federated Learning for Privacy-Preserving Dysarthric and Elderly Speech Recognition
-authors: Tao Zhong∗, Mengzhe Geng∗, Shujie Hu, Guinan Li, Xunying Liu
+authors: Tao Zhong*, Mengzhe Geng*, Shujie Hu, Guinan Li, Xunying Liu
 venue: INTERSPEECH 2025
 year: 2025
+author_role: co-first
+author_role_order: 11.2
+publication_theme: Federated learning
+timeline_theme: Accessible speech AI
 category: conferences
 scholar_sort_order: 108
 scholar_rank: 40

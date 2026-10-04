@@ -1,10 +1,10 @@
 ---
 title: Evaluating Speech Foundation Models for Automatic Speech Recognition in the Low-Resource Kanyen’kéha Language
-authors: Mengzhe Geng†, Patrick Littell, Aidan Pine, Robbie Jimerson, Gilles Boulianne, Vishwa Gupta, Rolando Coto-Solano, Anna Kazantseva, Marc Tessier, Delaney Lothian, Akwiratékha' Martin, Eric Joanis, Samuel Larkin, Roland Kuhn
-homepage_authors: Mengzhe Geng† et al.
+authors: Mengzhe Geng, Patrick Littell, Aidan Pine, Robbie Jimerson, Gilles Boulianne, Vishwa Gupta, Rolando Coto-Solano, Anna Kazantseva, Marc Tessier, Delaney Lothian, Akwiratékha' Martin, Eric Joanis, Samuel Larkin, Roland Kuhn
+homepage_authors: Mengzhe Geng et al.
 venue: INTERSPEECH
 year: 2025
-author_role: first
+author_role: first-corresponding
 author_role_order: 9
 publication_theme: Indigenous language speech recognition
 timeline_theme: Language technology

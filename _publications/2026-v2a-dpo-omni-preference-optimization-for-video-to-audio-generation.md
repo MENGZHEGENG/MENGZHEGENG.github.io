@@ -1,8 +1,12 @@
 ---
 title: 'V2A-DPO: Omni-Preference Optimization for Video-To-Audio Generation'
-authors: N Chan, Mengzhe Geng, Y Wang, Y Liang, D Wang
+authors: N Chan*, Mengzhe Geng*, Y Wang, Y Liang, D Wang
 venue: ICASSP 2026
 year: 2026
+author_role: co-first
+author_role_order: 6.25
+publication_theme: Video-to-audio generation
+timeline_theme: Speech generation and agents
 category: conferences
 scholar_sort_order: 2
 scholar_rank: 50

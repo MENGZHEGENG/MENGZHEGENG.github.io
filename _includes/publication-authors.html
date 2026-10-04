@@ -1,4 +1,5 @@
 {% assign display_authors = include.authors | default: "" | escape %}
+{% assign display_authors = display_authors | replace: "†", "" %}
 {% assign display_authors = display_authors | replace: "Mengzhe Geng", "<strong>Mengzhe Geng</strong>" %}
 {% assign display_authors = display_authors | replace: "M. Geng", "<strong>Mengzhe Geng</strong>" %}
 {% assign display_authors = display_authors | replace: "M Geng", "<strong>Mengzhe Geng</strong>" %}

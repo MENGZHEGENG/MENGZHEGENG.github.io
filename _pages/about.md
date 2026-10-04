@@ -21,6 +21,16 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
+<h2>Education</h2>
+<div class="timeline-entry">
+  <div class="timeline-date">2019–2023</div>
+  <div><h3>Ph.D. in Systems Engineering and Engineering Management</h3><p>The Chinese University of Hong Kong</p></div>
+</div>
+<div class="timeline-entry">
+  <div class="timeline-date">2015–2019</div>
+  <div><h3>B.Sc. in Mathematics and Information Engineering</h3><p>The Chinese University of Hong Kong · First-class honours · ELITE Stream graduate · Minor in Computer Science</p></div>
+</div>
+
 <h2 id="research">Research</h2>
 <div class="research-grid">
   <section class="research-card">
@@ -51,7 +61,7 @@ classes: wide
 </div>
 
 <h2>Author-led publications</h2>
-<p class="publication-intro">These are the publications in which I am listed as first author, last author, or both, based on the author order in the publication record.</p>
+<p class="publication-intro">These include publications for which I am a first author, co-first author, or corresponding author.</p>
 {% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
 {% assign timeline_themes = "Accessible speech AI|Language technology|Trustworthy audio AI|Foundation model evaluation|Speech generation and agents" | split: "|" %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
@@ -97,16 +107,6 @@ classes: wide
 <div class="timeline-entry">
   <div class="timeline-date">Nov 2023–present</div>
   <div><h3>Research Scientist</h3><p>Digital Technologies, National Research Council Canada · Ottawa, Canada</p></div>
-</div>
-
-<h2>Education</h2>
-<div class="timeline-entry">
-  <div class="timeline-date">2019–2023</div>
-  <div><h3>Ph.D. in Systems Engineering and Engineering Management</h3><p>The Chinese University of Hong Kong</p></div>
-</div>
-<div class="timeline-entry">
-  <div class="timeline-date">2015–2019</div>
-  <div><h3>B.Sc. in Mathematics and Information Engineering</h3><p>The Chinese University of Hong Kong · First-class honours · ELITE Stream graduate · Minor in Computer Science</p></div>
 </div>
 
 <h2 id="awards">Selected awards and honours</h2>

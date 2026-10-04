@@ -3,7 +3,7 @@ title: 'SURE-Challenge: Evaluating Speech Evidence Before Speech-LLM Generation'
 authors: Mengzhe Geng
 venue: arXiv preprint arXiv:2608.27783
 year: 2026
-author_role: first-last
+author_role: first
 author_role_order: 2
 publication_theme: Speech language model evaluation
 timeline_theme: Foundation model evaluation

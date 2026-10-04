@@ -1,10 +1,10 @@
 ---
 title: Supporting SENĆOŦEN Language Documentation Efforts with Automatic Speech Recognition
-authors: Mengzhe Geng†, Patrick Littell, Aidan Pine, Penáć, Marc Tessier, Roland Kuhn
-homepage_authors: Mengzhe Geng† et al.
+authors: Mengzhe Geng, Patrick Littell, Aidan Pine, Penáć, Marc Tessier, Roland Kuhn
+homepage_authors: Mengzhe Geng et al.
 venue: ComputEL-8
 year: 2025
-author_role: first
+author_role: first-corresponding
 author_role_order: 10
 publication_theme: Indigenous language speech recognition
 timeline_theme: Language technology

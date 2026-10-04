@@ -3,8 +3,6 @@ title: 'AudioNoisePrints: Model-free audio watermarking using spatial correlatio
 authors: T Tin-Long, J Zhu, A Pine, Mengzhe Geng
 venue: INTERSPEECH 2026
 year: 2026
-author_role: last
-author_role_order: 7
 publication_theme: Audio watermarking
 timeline_theme: Trustworthy audio AI
 category: conferences

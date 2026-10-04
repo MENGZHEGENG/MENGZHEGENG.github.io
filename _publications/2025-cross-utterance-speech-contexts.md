@@ -3,6 +3,10 @@ title: Exploring Cross-Utterance Speech Contexts for Conformer-Transducer Speech
 authors: Mingyu Cui, Mengzhe Geng, Jiajun Deng, et al.
 venue: IEEE Transactions on Audio, Speech and Language Processing
 year: 2025
+author_role: corresponding
+author_role_order: 11.3
+publication_theme: Speech recognition
+timeline_theme: Accessible speech AI
 category: journals
 sort_order: 6
 paperurl: https://arxiv.org/abs/2508.10456
