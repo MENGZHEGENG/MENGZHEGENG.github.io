@@ -91,6 +91,19 @@ html[data-theme="dark"] .google-scholar-icon {
   color: #ffffff;
 }
 
+.author__email-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-right: 0.45em;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  vertical-align: -0.12em;
+}
+
 .eyebrow {
   margin: 0 0 1em;
   color: var(--site-muted-color);
@@ -106,8 +119,27 @@ html[data-theme="dark"] .google-scholar-icon {
   margin: 0 0 0.8em;
   color: var(--global-text-color);
   font-size: 1.35em;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.42;
+}
+
+.lede strong {
+  font-weight: 700;
+}
+
+.availability-notice {
+  margin: 1.5em 0;
+  padding: 0.85em 1em;
+  border-left: 4px solid var(--site-focus-color);
+  border-radius: 0 4px 4px 0;
+  background: var(--site-surface-muted);
+  color: var(--site-focus-color);
+}
+
+.availability-notice a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
 }
 
 .profile-actions {

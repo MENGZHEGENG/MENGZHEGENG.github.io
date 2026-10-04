@@ -8,9 +8,7 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> National Research Council Canada</p>
 
-<p class="lede">I study and develop machine learning methods for speech, language, and audio, spanning accessible recognition, speaker adaptation, low-resource language technology, generative models, and trustworthy evaluation of multimodal and reasoning systems.</p>
-
-<p>My research spans speech recognition and adaptation for dysarthric and older-adult speech, speech technologies for Canadian Indigenous and other low-resource languages, and the evaluation of speech and multimodal foundation models. I also work on reasoning systems and generative AI in public-sector settings.</p>
+<p class="lede">My research develops and evaluates <strong>machine learning for speech, language, audio, and multimodal AI</strong>, including accessible and low-resource speech, speaker adaptation, foundation models, generative and reasoning systems, and trustworthy evaluation.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 
@@ -21,7 +19,7 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
-<p><strong>I am open to opportunities in both academia and industry. I can work in Canada, Hong Kong, and Mainland China without needing to apply for a work visa. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
+<p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I can work in Canada, Hong Kong, and Mainland China without needing to apply for a work visa. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
 
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
