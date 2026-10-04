@@ -55,10 +55,11 @@ classes: wide
 {% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
 {% for post in author_led_publications %}
 {% assign publication_url = post.paperurl | default: post.scholarurl %}
+{% assign displayed_authors = post.homepage_authors | default: post.authors %}
 <article class="publication-entry">
   <h3><a href="{{ publication_url }}" target="_blank" rel="noopener">{{ post.title }}</a></h3>
-  <p class="publication-meta">{{ post.homepage_authors | default: post.authors | escape }} <span aria-hidden="true">·</span> <em>{{ post.venue }}</em>, {{ post.year }}</p>
-  <p class="publication-role-line">{% include author-role-label.html %}</p>
+  <p class="publication-meta">{% include publication-authors.html authors=displayed_authors %} <span aria-hidden="true">·</span> <em>{{ post.venue }}</em>, {{ post.year }}</p>
+  <p class="publication-theme-line">{% include publication-theme-label.html %}</p>
 </article>
 {% endfor %}
 <p class="more-link"><a href="/publications/">View the full publication list <span aria-hidden="true">→</span></a> <span aria-hidden="true">·</span> <a href="{{ site.author.googlescholar }}">All publications on Google Scholar</a></p>
@@ -79,23 +80,23 @@ classes: wide
   <div><h3>B.Sc. in Mathematics and Information Engineering</h3><p>The Chinese University of Hong Kong · First-class honours · ELITE Stream graduate · Minor in Computer Science</p></div>
 </div>
 
-<h2 id="awards">Awards and honours</h2>
+<h2 id="awards">Selected awards and honours</h2>
 <ul class="award-list">
-  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>Honourable Mention, Outstanding Achievement Award (OAA),</strong> NRC Inclusive Innovation Award, National Research Council Canada, 2026</li>
+  <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award (OAA),</strong> NRC Inclusive Innovation Award, National Research Council Canada, 2026</li>
   <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility,</strong> Digital Government Community Awards, Canada, 2026</li>
-  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>Valedictorian</strong>, CUHK Postgraduate Class of 2023</li>
-  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>IEEE ICASSP Outstanding Reviewer</strong>, 2023</li>
-  <li class="award-item"><strong>ISCA INTERSPEECH Travel Grant</strong>, 2023</li>
-  <li class="award-item"><strong>Finalist</strong>, Hong Kong X Foundation FYP+ Project, 2019</li>
-  <li class="award-item"><strong>CUHK Academic Excellence Scholarship for Non-local Students</strong>, 2019</li>
-  <li class="award-item"><strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong>, 2018</li>
-  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>CUHK ELITE Stream Student Scholarship</strong>, 2019 and 2016</li>
-  <li class="award-item"><strong>CUHK S.H. Ho College Outstanding Student Scholarship</strong>, 2018, 2017, 2016, and 2015</li>
-  <li class="award-item"><strong>HKSAR Government Reaching Out Award</strong>, 2018</li>
-  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>HKSAR Government Talent Development Scholarship (Innovation)</strong>, 2017</li>
-  <li class="award-item"><strong>The IET Prize</strong>, the Institute of Engineering and Technology, 2017</li>
-  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>The Soong Ching Ling Foundation Scholarship</strong>, China Soong Ching Ling Foundation, 2015</li>
+  <li class="award-item"><strong>Valedictorian</strong>, CUHK Postgraduate Class of 2023</li>
+  <li class="award-item"><strong>IEEE ICASSP Outstanding Reviewer</strong>, 2023</li>
+  <li class="award-item">ISCA INTERSPEECH Travel Grant, 2023</li>
+  <li class="award-item">Finalist, Hong Kong X Foundation FYP+ Project, 2019</li>
+  <li class="award-item">CUHK Academic Excellence Scholarship for Non-local Students, 2019</li>
+  <li class="award-item">CUHK Best Project Award for Undergraduate Research Summer Internship, 2018</li>
+  <li class="award-item"><strong>CUHK ELITE Stream Student Scholarship</strong>, 2019 and 2016</li>
+  <li class="award-item">CUHK S.H. Ho College Outstanding Student Scholarship, 2018, 2017, 2016, and 2015</li>
+  <li class="award-item">HKSAR Government Reaching Out Award, 2018</li>
+  <li class="award-item"><strong>HKSAR Government Talent Development Scholarship (Innovation)</strong>, 2017</li>
+  <li class="award-item">The IET Prize, the Institute of Engineering and Technology, 2017</li>
+  <li class="award-item"><strong>The Soong Ching Ling Foundation Scholarship</strong>, China Soong Ching Ling Foundation, 2015</li>
 </ul>
 
 <h2>Profiles</h2>
-<p>For the complete publication record and current citation metrics, visit <a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>.</p>
+<p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>

@@ -5,6 +5,7 @@ venue: European Chapter of the Association for Computational Linguistics (EACL 2
 year: 2026
 author_role: last
 author_role_order: 8
+publication_theme: Low-resource speech synthesis
 category: conferences
 scholar_sort_order: 19
 scholar_rank: 69

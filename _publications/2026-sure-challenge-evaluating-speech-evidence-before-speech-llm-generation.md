@@ -5,6 +5,7 @@ venue: arXiv preprint arXiv:2608.27783
 year: 2026
 author_role: first-last
 author_role_order: 2
+publication_theme: Speech language model evaluation
 category: preprints
 scholar_sort_order: 14
 scholar_rank: 64

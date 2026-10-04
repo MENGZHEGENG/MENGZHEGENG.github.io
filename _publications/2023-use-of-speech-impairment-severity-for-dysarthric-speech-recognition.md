@@ -6,6 +6,7 @@ venue: INTERSPEECH 2023
 year: 2023
 author_role: first
 author_role_order: 12
+publication_theme: Dysarthric speech recognition
 category: conferences
 scholar_sort_order: 305
 scholar_rank: 17

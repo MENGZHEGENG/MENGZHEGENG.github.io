@@ -5,6 +5,7 @@ venue: IEEE Transactions on Audio, Speech and Language Processing
 year: 2025
 author_role: first
 author_role_order: 11
+publication_theme: Speaker adaptation
 category: journals
 sort_order: 2
 featured: true

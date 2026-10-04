@@ -5,6 +5,7 @@ venue: arXiv preprint arXiv:2609.08899
 year: 2026
 author_role: first
 author_role_order: 4
+publication_theme: Speech deepfake detection
 category: preprints
 scholar_sort_order: 5
 scholar_rank: 55

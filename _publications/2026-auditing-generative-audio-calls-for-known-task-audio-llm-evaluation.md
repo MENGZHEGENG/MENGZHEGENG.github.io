@@ -5,6 +5,7 @@ venue: arXiv preprint arXiv:2608.27817
 year: 2026
 author_role: first-last
 author_role_order: 3
+publication_theme: Audio language model evaluation
 category: preprints
 scholar_sort_order: 13
 scholar_rank: 63

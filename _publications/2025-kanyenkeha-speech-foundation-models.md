@@ -6,6 +6,7 @@ venue: INTERSPEECH
 year: 2025
 author_role: first
 author_role_order: 9
+publication_theme: Indigenous language speech recognition
 category: conferences
 sort_order: 1
 featured: true

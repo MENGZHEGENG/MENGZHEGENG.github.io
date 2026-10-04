@@ -13,10 +13,11 @@ author_profile: true
 {% assign year_publications = year_group.items | sort: "scholar_sort_order" %}
 {% for post in year_publications %}
 {% assign publication_url = post.paperurl | default: post.scholarurl %}
+{% assign displayed_authors = post.authors %}
 <article class="publication-entry publication-page-entry" id="publication-{{ post.scholar_rank }}">
   <h3><a href="{{ publication_url | escape }}" target="_blank" rel="noopener noreferrer">{{ post.title | escape }} <span aria-hidden="true">↗</span></a></h3>
-  <p class="publication-meta">{{ post.authors | escape }} <span aria-hidden="true">·</span> <em>{{ post.venue | escape }}</em></p>
-  {% if post.author_role %}<p class="publication-role-line">{% include author-role-label.html %}</p>{% endif %}
+  <p class="publication-meta">{% include publication-authors.html authors=displayed_authors %} <span aria-hidden="true">·</span> <em>{{ post.venue | escape }}</em></p>
+  {% if post.publication_theme %}<p class="publication-theme-line">{% include publication-theme-label.html %}</p>{% endif %}
   {% if post.doi or post.scholar_citations > 0 %}
   <p class="publication-links">{% if post.doi %}<a href="{{ post.doi | escape }}" target="_blank" rel="noopener noreferrer">DOI <span aria-hidden="true">↗</span></a>{% endif %}{% if post.doi and post.scholar_citations > 0 %} <span aria-hidden="true">·</span> {% endif %}{% if post.scholar_citations > 0 %}<a href="{{ post.scholarurl | escape }}" target="_blank" rel="noopener noreferrer">Cited by {{ post.scholar_citations }}</a>{% endif %}</p>
   {% endif %}

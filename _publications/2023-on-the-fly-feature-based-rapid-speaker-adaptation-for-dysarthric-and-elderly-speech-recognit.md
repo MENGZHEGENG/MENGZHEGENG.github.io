@@ -6,6 +6,7 @@ venue: INTERSPEECH 2023
 year: 2023
 author_role: first
 author_role_order: 13
+publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 308
 scholar_rank: 29

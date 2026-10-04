@@ -5,6 +5,7 @@ venue: INTERSPEECH 2026
 year: 2026
 author_role: last
 author_role_order: 7
+publication_theme: Audio watermarking
 category: conferences
 scholar_sort_order: 7
 scholar_rank: 57

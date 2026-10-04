@@ -6,6 +6,7 @@ venue: ComputEL-8
 year: 2025
 author_role: first
 author_role_order: 10
+publication_theme: Indigenous language speech recognition
 category: conferences
 sort_order: 5
 featured: true

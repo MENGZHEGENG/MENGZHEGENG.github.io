@@ -5,6 +5,7 @@ venue: Language Resources and Evaluation Conference (LREC 2026)
 year: 2026
 author_role: last
 author_role_order: 6
+publication_theme: Language technology
 category: conferences
 scholar_sort_order: 16
 scholar_rank: 66

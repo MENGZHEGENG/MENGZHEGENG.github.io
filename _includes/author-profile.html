@@ -45,7 +45,7 @@
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right" aria-hidden="true"></i>Google Scholar</a></li>
+        <li><a class="google-scholar-link" href="{{ author.googlescholar }}"><img class="google-scholar-icon" src="{{ '/images/google-scholar.webp' | prepend: base_path }}" alt="" aria-hidden="true"><span>Google Scholar</span></a></li>
       {% endif %}
       {% if author.inspire-hep %}
         <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>

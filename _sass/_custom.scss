@@ -18,12 +18,6 @@
   --site-meta-color: #5c6965;
   --site-focus-color: #176b65;
   --site-on-accent-color: #ffffff;
-  --site-role-first-color: #176b65;
-  --site-role-first-bg: #e3f1ed;
-  --site-role-last-color: #805b2e;
-  --site-role-last-bg: #f5ecdf;
-  --site-role-both-color: #5a536e;
-  --site-role-both-bg: #eee8f6;
   color-scheme: light;
 }
 
@@ -70,6 +64,27 @@ body {
 
 .theme-toggle-label {
   margin-left: 0.35em;
+}
+
+.author__urls .google-scholar-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.google-scholar-icon {
+  display: block;
+  width: 1.35em;
+  height: 1.35em;
+  flex: 0 0 1.35em;
+  object-fit: contain;
+  filter: grayscale(1) contrast(100);
+  mix-blend-mode: multiply;
+}
+
+html[data-theme="dark"] .google-scholar-icon {
+  filter: grayscale(1) contrast(100) invert(1);
+  mix-blend-mode: screen;
 }
 
 .eyebrow {
@@ -229,35 +244,22 @@ body {
   font-size: 0.93em;
 }
 
-.publication-role-line {
+.publication-theme-line {
   margin: 0.65em 0 0;
 }
 
-.author-role {
+.publication-theme {
   display: inline-block;
   padding: 0.22em 0.62em;
-  border: 1px solid currentColor;
+  border: 1px solid var(--global-border-color);
   border-radius: 999px;
-  font-size: 0.72em;
-  font-weight: 800;
+  color: var(--site-focus-color);
+  background: var(--site-surface-color);
+  font-size: 0.74em;
+  font-weight: 700;
   letter-spacing: 0.025em;
   line-height: 1.35;
   white-space: nowrap;
-}
-
-.author-role--first {
-  color: var(--site-role-first-color);
-  background: var(--site-role-first-bg);
-}
-
-.author-role--last {
-  color: var(--site-role-last-color);
-  background: var(--site-role-last-bg);
-}
-
-.author-role--first-last {
-  color: var(--site-role-both-color);
-  background: var(--site-role-both-bg);
 }
 
 .timeline-entry {
@@ -289,25 +291,6 @@ body {
 
 .award-list li {
   margin-bottom: 0.55em;
-}
-
-.award-badge {
-  display: inline-block;
-  margin-right: 0.25em;
-  padding: 0.16em 0.55em;
-  border: 1px solid var(--site-focus-color);
-  border-radius: 999px;
-  color: var(--site-focus-color);
-  font-size: 0.68em;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-  line-height: 1.3;
-  text-transform: uppercase;
-  vertical-align: 0.08em;
-}
-
-.award-item--featured {
-  padding-left: 0.35em;
 }
 
 .publication-intro {
