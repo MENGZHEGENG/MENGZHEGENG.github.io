@@ -1,0 +1,12 @@
+---
+title: 'SURE-Challenge: Evaluating Speech Evidence Before Speech-LLM Generation'
+authors: Mengzhe Geng
+venue: arXiv preprint arXiv:2608.27783
+year: 2026
+category: preprints
+scholar_sort_order: 14
+scholar_rank: 64
+scholar_citations: 0
+scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3Aa0OBvERweLwC
+paperurl: https://arxiv.org/abs/2608.27783
+---

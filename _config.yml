@@ -1,0 +1,108 @@
+locale: "en-CA"
+site_theme: "default"
+title: "Mengzhe Geng"
+title_separator: "·"
+name: &name "Mengzhe Geng"
+description: &description "Mengzhe Geng is a Research Scientist at the National Research Council Canada working on inclusive speech and language technology."
+url: "https://mengzhegeng.github.io"
+baseurl: ""
+repository: "MENGZHEGENG/mengzhegeng.github.io"
+
+author:
+  avatar: "mengzhe-geng.jpg"
+  name: "Mengzhe Geng"
+  bio: "Research Scientist"
+  location: "Ottawa, Canada"
+  employer: "National Research Council Canada"
+  googlescholar: "https://scholar.google.ca/citations?user=RS59rgIAAAAJ"
+  linkedin: "mengzhe-geng-3a6b26115"
+
+publication_category:
+  journals:
+    title: "Journal Articles"
+  conferences:
+    title: "Conference Papers"
+
+breadcrumbs: false
+future: false
+read_more: "disabled"
+words_per_minute: 160
+comments:
+  provider: false
+analytics:
+  provider: false
+atom_feed:
+  hide: true
+social:
+  type: Person
+  name: "Mengzhe Geng"
+  links:
+    - "https://scholar.google.ca/citations?user=RS59rgIAAAAJ"
+    - "https://www.linkedin.com/in/mengzhe-geng-3a6b26115/"
+
+include:
+  - _pages
+exclude:
+  - .bundle
+  - .devcontainer
+  - .github
+  - .sass-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - _config_docker.yml
+  - _drafts
+  - node_modules
+  - package.json
+  - package-lock.json
+  - scripts
+  - tmp
+  - vendor
+keep_files:
+  - .git
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkd,md"
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+collections:
+  publications:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+
+permalink: /:categories/:title/
+timezone: America/Toronto
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-redirect-from

@@ -1,0 +1,12 @@
+---
+title: Auditing Generative Audio Calls for Known-Task Audio-LLM Evaluation
+authors: Mengzhe Geng
+venue: arXiv preprint arXiv:2608.27817
+year: 2026
+category: preprints
+scholar_sort_order: 13
+scholar_rank: 63
+scholar_citations: 0
+scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3AyD5IFk8b50cC
+paperurl: https://arxiv.org/abs/2608.27817
+---

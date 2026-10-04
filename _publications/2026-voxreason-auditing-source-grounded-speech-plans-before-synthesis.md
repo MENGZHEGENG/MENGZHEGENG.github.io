@@ -1,0 +1,12 @@
+---
+title: 'VoxReason: Auditing Source-Grounded Speech Plans Before Synthesis'
+authors: Mengzhe Geng
+venue: arXiv preprint arXiv:2609.03203
+year: 2026
+category: preprints
+scholar_sort_order: 6
+scholar_rank: 56
+scholar_citations: 0
+scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3A_xSYboBqXhAC
+paperurl: https://arxiv.org/abs/2609.03203
+---
