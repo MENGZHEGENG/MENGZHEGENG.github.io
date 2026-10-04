@@ -21,6 +21,12 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
+<h2 id="experience">Experience</h2>
+<div class="timeline-entry">
+  <div class="timeline-date">Nov 2023–present</div>
+  <div><h3>Research Scientist</h3><p>Digital Technologies, National Research Council Canada · Ottawa, Canada</p></div>
+</div>
+
 <h2>Education</h2>
 <div class="timeline-entry">
   <div class="timeline-date">2019–2023</div>
@@ -61,7 +67,7 @@ classes: wide
 </div>
 
 <h2>Author-led publications</h2>
-<p class="publication-intro">These include publications for which I am a first author, co-first author, or corresponding author.</p>
+<p class="publication-intro">These include publications for which I am a first author, co-first author, or (joint) corresponding author.</p>
 {% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
 {% assign timeline_themes = "Accessible speech AI|Language technology|Trustworthy audio AI|Foundation model evaluation|Speech generation and agents" | split: "|" %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
@@ -102,12 +108,6 @@ classes: wide
 {% endfor %}
 <script defer src="{{ '/assets/js/publication-timeline.js' | prepend: base_path }}"></script>
 <p class="more-link"><a href="/publications/">View the full publication list <span aria-hidden="true">→</span></a> <span aria-hidden="true">·</span> <a href="{{ site.author.googlescholar }}">All publications on Google Scholar</a></p>
-
-<h2 id="experience">Experience</h2>
-<div class="timeline-entry">
-  <div class="timeline-date">Nov 2023–present</div>
-  <div><h3>Research Scientist</h3><p>Digital Technologies, National Research Council Canada · Ottawa, Canada</p></div>
-</div>
 
 <h2 id="awards">Selected awards and honours</h2>
 <ul class="award-list">
