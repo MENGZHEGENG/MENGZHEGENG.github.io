@@ -4,6 +4,8 @@ authors: Mengzhe Geng, Xurong Xie, Rongfeng Su, Jianwei Yu, Zengrui Jin, Tianzi 
   Liu
 venue: INTERSPEECH 2023
 year: 2023
+author_role: first
+author_role_order: 13
 category: conferences
 scholar_sort_order: 308
 scholar_rank: 29

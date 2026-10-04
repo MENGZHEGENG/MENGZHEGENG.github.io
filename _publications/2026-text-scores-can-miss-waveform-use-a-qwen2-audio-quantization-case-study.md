@@ -3,6 +3,8 @@ title: 'Text Scores Can Miss Waveform Use: A Qwen2-Audio Quantization Case Study
 authors: Mengzhe Geng, J Jin, J Xu
 venue: arXiv preprint arXiv:2609.26823
 year: 2026
+author_role: first
+author_role_order: 5
 category: preprints
 scholar_sort_order: 4
 scholar_rank: 54

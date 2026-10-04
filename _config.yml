@@ -15,7 +15,6 @@ author:
   location: "Ottawa, Canada"
   employer: "National Research Council Canada"
   googlescholar: "https://scholar.google.ca/citations?user=RS59rgIAAAAJ"
-  linkedin: "mengzhe-geng-3a6b26115"
 
 publication_category:
   journals:
@@ -38,7 +37,6 @@ social:
   name: "Mengzhe Geng"
   links:
     - "https://scholar.google.ca/citations?user=RS59rgIAAAAJ"
-    - "https://www.linkedin.com/in/mengzhe-geng-3a6b26115/"
 
 include:
   - _pages

@@ -4,6 +4,8 @@ authors: Mengzhe Geng†, Patrick Littell, Aidan Pine, Penáć, Marc Tessier, Ro
 homepage_authors: Mengzhe Geng† et al.
 venue: ComputEL-8
 year: 2025
+author_role: first
+author_role_order: 10
 category: conferences
 sort_order: 5
 featured: true

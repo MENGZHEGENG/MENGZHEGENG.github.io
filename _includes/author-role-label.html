@@ -1,0 +1,7 @@
+{% if post.author_role == "first" %}
+  <span class="author-role author-role--first">First author</span>
+{% elsif post.author_role == "last" %}
+  <span class="author-role author-role--last">Last author</span>
+{% elsif post.author_role == "first-last" %}
+  <span class="author-role author-role--first-last">First and last author</span>
+{% endif %}

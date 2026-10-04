@@ -4,6 +4,8 @@ authors: Mengzhe Geng, Zengrui Jin, Tianzi Wang, Shujie Hu, Jiajun Deng, Mingyu 
   Liu
 venue: INTERSPEECH 2023
 year: 2023
+author_role: first
+author_role_order: 12
 category: conferences
 scholar_sort_order: 305
 scholar_rank: 17

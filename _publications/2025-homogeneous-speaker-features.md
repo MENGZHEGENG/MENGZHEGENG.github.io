@@ -3,6 +3,8 @@ title: Homogeneous Speaker Features for on-the-Fly Dysarthric and Elderly Speake
 authors: Mengzhe Geng, Xurong Xie, Jiajun Deng, et al.
 venue: IEEE Transactions on Audio, Speech and Language Processing
 year: 2025
+author_role: first
+author_role_order: 11
 category: journals
 sort_order: 2
 featured: true

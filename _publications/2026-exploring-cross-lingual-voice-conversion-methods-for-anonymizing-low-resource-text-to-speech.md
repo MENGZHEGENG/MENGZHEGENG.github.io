@@ -3,6 +3,8 @@ title: Exploring Cross-Lingual Voice Conversion Methods for Anonymizing Low-Reso
 authors: S Wang, A Pine, Mengzhe Geng
 venue: European Chapter of the Association for Computational Linguistics (EACL 2026)
 year: 2026
+author_role: last
+author_role_order: 8
 category: conferences
 scholar_sort_order: 19
 scholar_rank: 69

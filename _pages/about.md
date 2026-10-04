@@ -24,25 +24,41 @@ classes: wide
 <h2 id="research">Research</h2>
 <div class="research-grid">
   <section class="research-card">
-    <h3>Speech, health and accessibility</h3>
-    <p>Recognition and speaker adaptation for dysarthric and older-adult speech, with a focus on robust systems under limited data.</p>
+    <span class="research-label">AI for Healthcare</span>
+    <h3>Accessible speech recognition</h3>
+    <p>Speech recognition and severity-aware evaluation for dysarthric and older-adult speech under limited data.</p>
   </section>
   <section class="research-card">
-    <h3>Indigenous and low-resource languages</h3>
-    <p>Speech recognition and language technologies that support documentation and learning for Canadian Indigenous languages.</p>
+    <span class="research-label">AI Safety</span>
+    <h3>Evidence-aware and trustworthy speech AI</h3>
+    <p>Auditable decisions, deepfake detection, and evaluation methods that make speech systems easier to inspect and trust.</p>
   </section>
   <section class="research-card">
-    <h3>Foundation models and responsible AI</h3>
-    <p>Speech and multimodal foundation models, reasoning, spoken agents, AI safety, and generative AI in government.</p>
+    <span class="research-label">Multimodal Foundation Models</span>
+    <h3>Efficient speech foundation models</h3>
+    <p>Evaluation, compression, quantization, and adaptation of speech foundation models for practical deployment, including low-resource languages.</p>
+  </section>
+  <section class="research-card">
+    <span class="research-label">Spoken Agents</span>
+    <h3>Source-grounded speech generation</h3>
+    <p>Spoken agents, audio language models, and speech generation systems that plan, produce, and evaluate audio with explicit evidence.</p>
+  </section>
+  <section class="research-card">
+    <span class="research-label">Reasoning</span>
+    <h3>Reasoning and evaluation for generative AI</h3>
+    <p>Reasoning systems and evaluation frameworks for generative and multimodal AI in public-sector and research settings.</p>
   </section>
 </div>
 
-<h2>Selected publications</h2>
-{% assign featured_publications = site.publications | where: "featured", true | sort: "sort_order" %}
-{% for post in featured_publications %}
+<h2>Author-led publications</h2>
+<p class="publication-intro">These are the publications in which I am listed as first author, last author, or both, based on the author order in the publication record.</p>
+{% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
+{% for post in author_led_publications %}
+{% assign publication_url = post.paperurl | default: post.scholarurl %}
 <article class="publication-entry">
-  <h3><a href="{{ post.paperurl }}" target="_blank" rel="noopener">{{ post.title }}</a></h3>
+  <h3><a href="{{ publication_url }}" target="_blank" rel="noopener">{{ post.title }}</a></h3>
   <p class="publication-meta">{{ post.homepage_authors | default: post.authors | escape }} <span aria-hidden="true">·</span> <em>{{ post.venue }}</em>, {{ post.year }}</p>
+  <p class="publication-role-line">{% include author-role-label.html %}</p>
 </article>
 {% endfor %}
 <p class="more-link"><a href="/publications/">View the full publication list <span aria-hidden="true">→</span></a> <span aria-hidden="true">·</span> <a href="{{ site.author.googlescholar }}">All publications on Google Scholar</a></p>
@@ -60,17 +76,26 @@ classes: wide
 </div>
 <div class="timeline-entry">
   <div class="timeline-date">2015–2019</div>
-  <div><h3>B.Sc. in Mathematics and Information Engineering</h3><p>The Chinese University of Hong Kong · First-class honours · Minor in Computer Science</p></div>
+  <div><h3>B.Sc. in Mathematics and Information Engineering</h3><p>The Chinese University of Hong Kong · First-class honours · ELITE Stream graduate · Minor in Computer Science</p></div>
 </div>
 
 <h2 id="awards">Awards and honours</h2>
 <ul class="award-list">
-  <li><strong>Honourable Mention, Outstanding Achievement Award (OAA),</strong> NRC Inclusive Innovation Award, National Research Council Canada, 2026</li>
-  <li><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility,</strong> Digital Government Community Awards, Canada, 2026</li>
-  <li>Valedictorian, CUHK Postgraduate Class of 2023</li>
-  <li>ISCA INTERSPEECH Travel Grant, 2023</li>
-  <li>CUHK Academic Excellence Scholarship for Non-local Students, 2019</li>
+  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>Honourable Mention, Outstanding Achievement Award (OAA),</strong> NRC Inclusive Innovation Award, National Research Council Canada, 2026</li>
+  <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility,</strong> Digital Government Community Awards, Canada, 2026</li>
+  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>Valedictorian</strong>, CUHK Postgraduate Class of 2023</li>
+  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>IEEE ICASSP Outstanding Reviewer</strong>, 2023</li>
+  <li class="award-item"><strong>ISCA INTERSPEECH Travel Grant</strong>, 2023</li>
+  <li class="award-item"><strong>Finalist</strong>, Hong Kong X Foundation FYP+ Project, 2019</li>
+  <li class="award-item"><strong>CUHK Academic Excellence Scholarship for Non-local Students</strong>, 2019</li>
+  <li class="award-item"><strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong>, 2018</li>
+  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>CUHK ELITE Stream Student Scholarship</strong>, 2019 and 2016</li>
+  <li class="award-item"><strong>CUHK S.H. Ho College Outstanding Student Scholarship</strong>, 2018, 2017, 2016, and 2015</li>
+  <li class="award-item"><strong>HKSAR Government Reaching Out Award</strong>, 2018</li>
+  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>HKSAR Government Talent Development Scholarship (Innovation)</strong>, 2017</li>
+  <li class="award-item"><strong>The IET Prize</strong>, the Institute of Engineering and Technology, 2017</li>
+  <li class="award-item award-item--featured"><span class="award-badge">Featured</span> <strong>The Soong Ching Ling Foundation Scholarship</strong>, China Soong Ching Ling Foundation, 2015</li>
 </ul>
 
 <h2>Profiles</h2>
-<p>For the complete publication record and current citation metrics, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a>. You can also find me on <a href="https://www.linkedin.com/in/mengzhe-geng-3a6b26115/">LinkedIn</a>.</p>
+<p>For the complete publication record and current citation metrics, visit <a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a>.</p>

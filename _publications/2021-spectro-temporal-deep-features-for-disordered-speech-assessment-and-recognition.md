@@ -3,6 +3,8 @@ title: Spectro-Temporal Deep Features for Disordered Speech Assessment and Recog
 authors: Mengzhe Geng, Shansong Liu, Jianwei Yu, Xurong Xie, Shoukang Hu, Zi Ye, Zengrui Jin, Xunying Liu, Helen Meng
 venue: INTERSPEECH 2021
 year: 2021
+author_role: first
+author_role_order: 15
 category: conferences
 scholar_sort_order: 506
 scholar_rank: 21

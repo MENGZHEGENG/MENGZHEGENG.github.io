@@ -3,6 +3,8 @@ title: Speaker Adaptation Using Spectro-Temporal Deep Features for Dysarthric an
 authors: Mengzhe Geng, Xurong Xie, Zi Ye, et al.
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 year: 2022
+author_role: first
+author_role_order: 14
 category: journals
 sort_order: 7
 paperurl: https://ieeexplore.ieee.org/document/9844834

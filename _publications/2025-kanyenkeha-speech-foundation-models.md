@@ -4,6 +4,8 @@ authors: Mengzhe Geng†, Patrick Littell, Aidan Pine, Robbie Jimerson, Gilles B
 homepage_authors: Mengzhe Geng† et al.
 venue: INTERSPEECH
 year: 2025
+author_role: first
+author_role_order: 9
 category: conferences
 sort_order: 1
 featured: true

@@ -3,6 +3,8 @@ title: Investigation of Data Augmentation Techniques for Disordered Speech Recog
 authors: Mengzhe Geng, Xurong Xie, Shansong Liu, et al.
 venue: INTERSPEECH
 year: 2020
+author_role: first
+author_role_order: 16
 category: conferences
 sort_order: 9
 paperurl: https://www.isca-archive.org/interspeech_2020/geng20_interspeech.html
