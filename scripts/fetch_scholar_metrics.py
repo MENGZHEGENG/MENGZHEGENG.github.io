@@ -4,10 +4,12 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
@@ -16,6 +18,8 @@ PROFILE_URLS = (
     "https://scholar.google.com/citations?user=RS59rgIAAAAJ&hl=en",
     "https://scholar.google.co.uk/citations?user=RS59rgIAAAAJ&hl=en",
 )
+MIRROR_BASE_URL = "https://r.jina.ai/http://scholar.google.ca/citations?"
+PROFILE_ID = "RS59rgIAAAAJ"
 OUTPUT_PATH = Path(__file__).resolve().parents[1] / "_data" / "scholar_metrics.json"
 
 
@@ -55,39 +59,95 @@ class MetricsParser(HTMLParser):
             self.current_cell.append(data)
 
 
+def read_profile_metrics(profile_url: str) -> dict[str, int]:
+    request = Request(
+        profile_url,
+        headers={"User-Agent": "Mozilla/5.0 (compatible; AcademicHomepageMetrics/1.0)"},
+    )
+    with urlopen(request, timeout=30) as response:
+        if response.status != 200:
+            raise RuntimeError(f"HTTP {response.status}")
+        html = response.read().decode("utf-8", errors="replace")
+
+    parser = MetricsParser()
+    parser.feed(html)
+    names = {"Citations": "citations", "h-index": "h_index", "i10-index": "i10_index"}
+    metrics: dict[str, int] = {}
+    for row in parser.rows:
+        if len(row) < 2 or row[0] not in names:
+            continue
+        value = re.sub(r"[^0-9]", "", row[1])
+        if not value:
+            raise RuntimeError(f"invalid {row[0]} value")
+        metrics[names[row[0]]] = int(value)
+    expected = {"citations", "h_index", "i10_index"}
+    if set(metrics) != expected:
+        raise RuntimeError(f"incomplete metrics: {sorted(metrics)}")
+    return metrics
+
+
+def read_profile_metrics_through_reader() -> dict[str, int]:
+    """Read the profile's public publication pages and derive its three metrics."""
+    counts: list[int] = []
+    seen_pages: set[tuple[int, ...]] = set()
+    for start in range(0, 200, 20):
+        query = urlencode({
+            "user": PROFILE_ID,
+            "hl": "en",
+            "view_op": "list_works",
+            "cstart": start,
+            "pagesize": 20,
+        })
+        page_url = MIRROR_BASE_URL + query
+        request = Request(page_url, headers={"User-Agent": "AcademicHomepageMetrics/1.0"})
+        with urlopen(request, timeout=45) as response:
+            if response.status != 200:
+                raise RuntimeError(f"Reader HTTP {response.status}")
+            page = response.read().decode("utf-8", errors="replace")
+        if "Mengzhe Geng" not in page:
+            raise RuntimeError("Reader response was not the requested Scholar profile")
+        page_counts = tuple(
+            int(value)
+            for value in re.findall(
+                r"(\d+)\]\(https?://scholar\.google\.(?:ca|com|co\.uk)/scholar\?",
+                page,
+            )
+        )
+        if not page_counts or page_counts in seen_pages:
+            break
+        seen_pages.add(page_counts)
+        counts.extend(page_counts)
+        if len(page_counts) < 20:
+            break
+    if not counts:
+        raise RuntimeError("Reader returned no publication citation counts")
+    ordered = sorted(counts, reverse=True)
+    return {
+        "citations": sum(counts),
+        "h_index": sum(count >= rank for rank, count in enumerate(ordered, start=1)),
+        "i10_index": sum(count >= 10 for count in counts),
+    }
+
+
 def main() -> None:
     metrics: dict[str, int] = {}
     source_url = ""
     last_error = ""
-    names = {"Citations": "citations", "h-index": "h_index", "i10-index": "i10_index"}
-    for profile_url in PROFILE_URLS:
-        try:
-            request = Request(
-                profile_url,
-                headers={"User-Agent": "Mozilla/5.0 (compatible; AcademicHomepageMetrics/1.0)"},
-            )
-            with urlopen(request, timeout=30) as response:
-                if response.status != 200:
-                    raise RuntimeError(f"HTTP {response.status}")
-                html = response.read().decode("utf-8", errors="replace")
+    if os.environ.get("SCHOLAR_METRICS_SOURCE") != "mirror":
+        for profile_url in PROFILE_URLS:
+            try:
+                metrics = read_profile_metrics(profile_url)
+                source_url = profile_url
+                break
+            except Exception as error:
+                last_error = f"{profile_url}: {error}"
 
-            parser = MetricsParser()
-            parser.feed(html)
-            candidate: dict[str, int] = {}
-            for row in parser.rows:
-                if len(row) < 2 or row[0] not in names:
-                    continue
-                value = re.sub(r"[^0-9]", "", row[1])
-                if not value:
-                    raise RuntimeError(f"invalid {row[0]} value")
-                candidate[names[row[0]]] = int(value)
-            if set(candidate) != {"citations", "h_index", "i10_index"}:
-                raise RuntimeError(f"incomplete metrics: {sorted(candidate)}")
-            metrics = candidate
-            source_url = profile_url
-            break
+    if not metrics:
+        try:
+            metrics = read_profile_metrics_through_reader()
+            source_url = MIRROR_BASE_URL + urlencode({"user": PROFILE_ID, "view_op": "list_works"})
         except Exception as error:
-            last_error = f"{profile_url}: {error}"
+            last_error = f"{MIRROR_BASE_URL}: {error}"
 
     expected = {"citations", "h_index", "i10_index"}
     if set(metrics) != expected:
