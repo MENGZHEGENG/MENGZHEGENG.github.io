@@ -21,6 +21,8 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
+<p><strong>I am open to opportunities in both academia and industry. I can work in Canada, Hong Kong, and Mainland China without needing to apply for a work visa. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
+
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
   <div class="timeline-date">Nov 2023–present</div>
@@ -128,4 +130,4 @@ classes: wide
 </ul>
 
 <h2>Profiles</h2>
-<p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a>. See the <a href="#author-led-publications">Author-led publications</a> section on this page.</p>
+<p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a> or browse the <a href="{{ '/publications/' | relative_url }}">Publications page</a>.</p>
