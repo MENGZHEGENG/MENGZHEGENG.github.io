@@ -34,6 +34,8 @@ jobs:
         run: python3 scripts/fetch_scholar_metrics.py
       - name: Build Jekyll site
         run: bundle exec jekyll build
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
