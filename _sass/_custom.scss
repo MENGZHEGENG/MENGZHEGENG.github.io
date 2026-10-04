@@ -73,18 +73,14 @@ body {
 }
 
 .google-scholar-icon {
-  display: block;
-  width: 1.35em;
-  height: 1.35em;
-  flex: 0 0 1.35em;
-  object-fit: contain;
-  filter: grayscale(1) contrast(100);
-  mix-blend-mode: multiply;
+  flex: 0 0 1.25em;
+  color: #111111;
+  font-size: 1.18em;
+  line-height: 1;
 }
 
 html[data-theme="dark"] .google-scholar-icon {
-  filter: grayscale(1) contrast(100) invert(1);
-  mix-blend-mode: screen;
+  color: #ffffff;
 }
 
 .eyebrow {
@@ -262,6 +258,201 @@ html[data-theme="dark"] .google-scholar-icon {
   white-space: nowrap;
 }
 
+.publication-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  margin-top: 0.65em;
+}
+
+.publication-action {
+  display: inline-block;
+  padding: 0.16em 0.58em;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  color: var(--site-meta-color);
+  font-size: 0.78em;
+  font-weight: 650;
+  line-height: 1.55;
+  text-decoration: none;
+}
+
+.publication-action--pdf {
+  color: #b84b3e;
+}
+
+.publication-action--doi {
+  color: #94601c;
+}
+
+.publication-action--cite {
+  color: #665bc0;
+}
+
+.publication-action:hover {
+  background: var(--site-surface-muted);
+}
+
+html[data-theme="dark"] .publication-action--pdf {
+  color: #ff9283;
+}
+
+html[data-theme="dark"] .publication-action--doi {
+  color: #e5b56f;
+}
+
+html[data-theme="dark"] .publication-action--cite {
+  color: #aaa1ff;
+}
+
+.timeline-scroller {
+  width: 100%;
+  margin: 1.15em 0 1.25em;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-color: var(--global-dark-border-color) transparent;
+}
+
+.research-timeline {
+  min-width: max-content;
+  padding: 0.2em 0 0.5em;
+}
+
+.timeline-axis,
+.timeline-row {
+  display: grid;
+  grid-template-columns: 15rem repeat(var(--timeline-year-count), 4.7rem);
+  align-items: center;
+}
+
+.timeline-axis {
+  min-height: 2.2em;
+  color: var(--global-text-color-light);
+  font-size: 0.77em;
+  font-weight: 650;
+  text-align: center;
+}
+
+.timeline-axis-label {
+  text-align: left;
+}
+
+.timeline-row {
+  min-height: 3.45em;
+  margin: 0.34em 0;
+  border-radius: 5px;
+  background: var(--site-surface-color);
+}
+
+.timeline-row-label {
+  padding: 0.35em 0.75em 0.35em 0;
+  color: var(--site-muted-color);
+  font-size: 0.88em;
+  font-weight: 650;
+  line-height: 1.3;
+}
+
+.timeline-cell {
+  position: relative;
+  display: flex;
+  min-height: 3.45em;
+  align-items: center;
+  justify-content: center;
+  gap: 0.18em;
+}
+
+.timeline-cell.has-publications::before {
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  left: 0;
+  height: 0.62em;
+  border-radius: 999px;
+  background: var(--timeline-color, #168f7a);
+  content: "";
+  opacity: 0.2;
+}
+
+.timeline-marker {
+  position: relative;
+  z-index: 1;
+  width: 0.78em;
+  height: 0.78em;
+  flex: 0 0 0.78em;
+  border: 2px solid var(--global-bg-color);
+  border-radius: 50%;
+  background: var(--timeline-color, #168f7a);
+  box-shadow: 0 0 0 1px var(--timeline-color, #168f7a);
+}
+
+.timeline-count {
+  position: absolute;
+  top: 0.08em;
+  z-index: 2;
+  color: var(--timeline-color, #168f7a);
+  font-size: 0.66em;
+  font-weight: 750;
+  line-height: 1;
+}
+
+.timeline-row[data-timeline-theme="accessible-speech-ai"] {
+  --timeline-color: #168f7a;
+}
+
+.timeline-row[data-timeline-theme="language-technology"] {
+  --timeline-color: #6c5bc6;
+}
+
+.timeline-row[data-timeline-theme="trustworthy-audio-ai"] {
+  --timeline-color: #d65d45;
+}
+
+.timeline-row[data-timeline-theme="foundation-model-evaluation"] {
+  --timeline-color: #3479b8;
+}
+
+.timeline-row[data-timeline-theme="speech-generation-and-agents"] {
+  --timeline-color: #a76a21;
+}
+
+.publication-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.48em;
+  margin: 0.9em 0 0.2em;
+}
+
+.publication-filter {
+  padding: 0.5em 0.72em;
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 4px;
+  background: transparent;
+  color: var(--site-muted-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.76em;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.publication-filter:hover,
+.publication-filter.is-active {
+  border-color: var(--global-base-color);
+  background: var(--global-base-color);
+  color: #ffffff;
+}
+
+.publication-filter-status {
+  margin: 0.55em 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.78em;
+}
+
+.author-led-publication[hidden] {
+  display: none;
+}
+
 .timeline-entry {
   display: grid;
   grid-template-columns: 9.5em minmax(0, 1fr);
@@ -300,6 +491,10 @@ html[data-theme="dark"] .google-scholar-icon {
 
 .publication-page-entry {
   padding: 1.25em 0;
+}
+
+.publication-page-entry .publication-actions {
+  margin-top: 0.7em;
 }
 
 .publication-year-heading {

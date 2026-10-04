@@ -6,6 +6,7 @@ year: 2026
 author_role: last
 author_role_order: 7
 publication_theme: Audio watermarking
+timeline_theme: Trustworthy audio AI
 category: conferences
 scholar_sort_order: 7
 scholar_rank: 57

@@ -1,0 +1,19 @@
+{% assign pdf_url = post.pdfurl | default: post.paperurl | default: post.scholarurl %}
+{% if post.paperurl contains 'arxiv.org/abs/' %}
+  {% assign pdf_url = post.paperurl | replace: '/abs/', '/pdf/' | append: '.pdf' %}
+{% elsif post.paperurl contains 'arxiv.org/pdf/' and post.paperurl contains '?' %}
+  {% assign pdf_url = post.paperurl | replace: '?', '.pdf' %}
+{% endif %}
+{% assign doi_url = post.doi %}
+{% unless post.doi contains 'http' %}
+  {% assign doi_url = post.doi | prepend: 'https://doi.org/' %}
+{% endunless %}
+<div class="publication-actions" role="group" aria-label="Publication links">
+  <a class="publication-action publication-action--pdf" href="{{ pdf_url | escape }}" target="_blank" rel="noopener noreferrer"{% unless post.paperurl or post.pdfurl %} title="Open this Google Scholar record to check for a linked PDF"{% endunless %}>PDF</a>
+  {% if post.doi %}
+    <a class="publication-action publication-action--doi" href="{{ doi_url | escape }}" target="_blank" rel="noopener noreferrer">DOI</a>
+  {% else %}
+    <a class="publication-action publication-action--doi" href="https://search.crossref.org/?q={{ post.title | cgi_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Search Crossref for a DOI for {{ post.title | escape }}" title="Search Crossref for a DOI">DOI</a>
+  {% endif %}
+  <a class="publication-action publication-action--cite" href="{{ post.scholarurl | default: site.author.googlescholar | escape }}" target="_blank" rel="noopener noreferrer">Cite</a>
+</div>

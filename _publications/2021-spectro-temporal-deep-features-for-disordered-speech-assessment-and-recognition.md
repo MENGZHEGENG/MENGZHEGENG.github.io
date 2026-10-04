@@ -6,6 +6,7 @@ year: 2021
 author_role: first
 author_role_order: 15
 publication_theme: Disordered speech assessment
+timeline_theme: Accessible speech AI
 category: conferences
 scholar_sort_order: 506
 scholar_rank: 21

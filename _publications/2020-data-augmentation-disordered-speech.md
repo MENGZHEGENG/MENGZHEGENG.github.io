@@ -6,6 +6,7 @@ year: 2020
 author_role: first
 author_role_order: 16
 publication_theme: Disordered speech recognition
+timeline_theme: Accessible speech AI
 category: conferences
 sort_order: 9
 paperurl: https://www.isca-archive.org/interspeech_2020/geng20_interspeech.html

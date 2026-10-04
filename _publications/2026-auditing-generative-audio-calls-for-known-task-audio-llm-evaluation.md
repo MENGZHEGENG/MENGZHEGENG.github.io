@@ -6,6 +6,7 @@ year: 2026
 author_role: first-last
 author_role_order: 3
 publication_theme: Audio language model evaluation
+timeline_theme: Foundation model evaluation
 category: preprints
 scholar_sort_order: 13
 scholar_rank: 63

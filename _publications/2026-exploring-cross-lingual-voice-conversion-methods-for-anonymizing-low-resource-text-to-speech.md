@@ -6,6 +6,7 @@ year: 2026
 author_role: last
 author_role_order: 8
 publication_theme: Low-resource speech synthesis
+timeline_theme: Speech generation and agents
 category: conferences
 scholar_sort_order: 19
 scholar_rank: 69

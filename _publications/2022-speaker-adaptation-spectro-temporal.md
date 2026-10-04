@@ -6,6 +6,7 @@ year: 2022
 author_role: first
 author_role_order: 14
 publication_theme: Speaker adaptation
+timeline_theme: Accessible speech AI
 category: journals
 sort_order: 7
 paperurl: https://ieeexplore.ieee.org/document/9844834

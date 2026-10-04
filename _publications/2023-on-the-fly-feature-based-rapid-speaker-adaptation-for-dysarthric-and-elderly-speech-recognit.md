@@ -7,6 +7,7 @@ year: 2023
 author_role: first
 author_role_order: 13
 publication_theme: Speaker adaptation
+timeline_theme: Accessible speech AI
 category: conferences
 scholar_sort_order: 308
 scholar_rank: 29
