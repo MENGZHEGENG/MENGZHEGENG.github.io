@@ -66,7 +66,7 @@ classes: wide
   </section>
 </div>
 
-<h2>Author-led publications</h2>
+<h2 id="author-led-publications">Author-led publications</h2>
 <p class="publication-intro">These include publications for which I am a first author, co-first author, or (joint) corresponding author.</p>
 {% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
 {% assign timeline_themes = "Accessible speech AI|Language technology|Trustworthy audio AI|Foundation model evaluation|Speech generation and agents" | split: "|" %}
@@ -123,9 +123,9 @@ classes: wide
   <li class="award-item">CUHK S.H. Ho College Outstanding Student Scholarship, 2018, 2017, 2016, and 2015</li>
   <li class="award-item">HKSAR Government Reaching Out Award, 2018</li>
   <li class="award-item"><strong>HKSAR Government Talent Development Scholarship (Innovation)</strong>, 2017</li>
-  <li class="award-item"><strong>The IET Prize, the Institute of Engineering and Technology, 2017</strong></li>
+  <li class="award-item"><strong>The IET Prize</strong>, the Institute of Engineering and Technology, 2017</li>
   <li class="award-item"><strong>The Soong Ching Ling Foundation Scholarship</strong>, China Soong Ching Ling Foundation, 2015</li>
 </ul>
 
 <h2>Profiles</h2>
-<p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+<p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a>. See the <a href="#author-led-publications">Author-led publications</a> section on this page.</p>
