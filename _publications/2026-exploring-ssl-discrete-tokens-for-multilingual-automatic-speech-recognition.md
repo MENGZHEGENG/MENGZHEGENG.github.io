@@ -8,8 +8,8 @@ author_role_order: 6.1
 publication_theme: Multilingual speech recognition
 timeline_theme: Language technology
 category: conferences
-scholar_sort_order: 17
-scholar_rank: 67
+scholar_sort_order: 18
+scholar_rank: 68
 scholar_citations: 0
 scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3ApqnbT2bcN3wC
 ---

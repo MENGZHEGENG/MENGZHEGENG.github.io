@@ -6,8 +6,8 @@ year: 2026
 publication_theme: Audio watermarking
 timeline_theme: Trustworthy audio AI
 category: conferences
-scholar_sort_order: 7
-scholar_rank: 57
+scholar_sort_order: 8
+scholar_rank: 58
 scholar_citations: 0
 scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3AcFHS6HbyZ2cC
 ---

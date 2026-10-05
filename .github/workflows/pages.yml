@@ -30,6 +30,8 @@ jobs:
         with:
           ruby-version: "3.1"
           bundler-cache: true
+      - name: Check Google Scholar for new papers
+        run: python3 scripts/check_scholar_publications.py
       - name: Refresh Google Scholar metrics
         run: python3 scripts/fetch_scholar_metrics.py
       - name: Build Jekyll site
