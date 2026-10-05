@@ -112,7 +112,7 @@ classes: wide
 <h2 id="awards">Selected awards and honours</h2>
 <ul class="award-list">
   <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award (OAA),</strong> NRC Inclusive Innovation Award, National Research Council Canada, 2026</li>
-  <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility,</strong> Digital Government Community Awards, Canada, 2026</li>
+  <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility,</strong> Digital Government Community Awards, Government of Canada, 2026</li>
   <li class="award-item"><strong>Valedictorian</strong>, CUHK Postgraduate Class of 2023</li>
   <li class="award-item"><strong>IEEE ICASSP Outstanding Reviewer</strong>, 2023</li>
   <li class="award-item">ISCA INTERSPEECH Travel Grant, 2023</li>
