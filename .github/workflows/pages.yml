@@ -31,8 +31,6 @@ jobs:
           ruby-version: "3.1"
           bundler-cache: true
       - name: Refresh Google Scholar metrics
-        env:
-          SCHOLAR_METRICS_SOURCE: mirror
         run: python3 scripts/fetch_scholar_metrics.py
       - name: Build Jekyll site
         run: bundle exec jekyll build
