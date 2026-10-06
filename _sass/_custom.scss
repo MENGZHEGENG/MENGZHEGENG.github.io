@@ -552,14 +552,14 @@ html[data-theme="dark"] .publication-action--cite {
 
 .visitor-counter {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(15rem, 26rem);
+  grid-template-columns: minmax(13rem, 0.78fr) minmax(0, 1.6fr);
   align-items: center;
-  gap: 1.3em 2em;
+  gap: 1.3em 1.8em;
   margin: 0.25em 0 1.25em;
-  padding: 1.1em 1.25em;
+  padding: 1.1em 1.2em;
   border: 1px solid var(--global-border-color);
   border-top: 3px solid var(--site-focus-color);
-  border-radius: 5px;
+  border-radius: 8px;
   background: var(--site-surface-color);
 }
 
@@ -594,26 +594,44 @@ html[data-theme="dark"] .publication-action--cite {
   line-height: 1.55;
 }
 
-.visitor-counter__widget {
-  justify-self: end;
-  max-width: 100%;
-  padding: 0.45em 0.6em;
+.visitor-counter__map {
+  box-sizing: border-box;
+  width: 100%;
+  height: 320px;
+  min-width: 0;
   overflow: hidden;
-  border: 1px solid #dfe8e5;
-  border-radius: 5px;
-  background: #f8faf9;
-  line-height: 0;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  background: var(--site-surface-muted);
 }
 
-.visitor-counter__widget img {
+.visitor-counter__map > div,
+.visitor-counter__map > div > div {
+  width: 100%;
+  height: 100%;
+}
+
+.visitor-counter__map svg {
   display: block;
   max-width: 100%;
-  height: auto;
 }
 
-html[data-theme="dark"] .visitor-counter__widget {
-  border-color: #dfe8e5;
-  background: #f8faf9;
+.visitor-counter__map .stbl-attr {
+  color: var(--site-muted-color) !important;
+}
+
+.visitor-counter__map .stbl-attr a {
+  color: var(--site-focus-color) !important;
+}
+
+.visitor-counter__map-status {
+  display: grid;
+  height: 100%;
+  margin: 0;
+  place-items: center;
+  color: var(--site-muted-color);
+  font-size: 0.9em;
+  text-align: center;
 }
 
 @media (max-width: 760px) {
@@ -623,10 +641,8 @@ html[data-theme="dark"] .visitor-counter__widget {
     padding: 1em;
   }
 
-  .visitor-counter__widget {
-    justify-self: start;
-    width: 100%;
-    box-sizing: border-box;
+  .visitor-counter__map {
+    height: 230px;
   }
 
   #main {

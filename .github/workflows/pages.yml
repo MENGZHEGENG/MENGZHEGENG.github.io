@@ -66,7 +66,7 @@ jobs:
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Build Jekyll site
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
-        run: bundle exec jekyll build
+        run: JEKYLL_ENV=production bundle exec jekyll build
       - name: Configure GitHub Pages
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: actions/configure-pages@v5
