@@ -4,7 +4,8 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 7 * * *"
+    - cron: "10 4 * * *"
+    - cron: "10 5 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,25 +24,47 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Check 12:10 a.m. ET schedule
+        id: schedule-gate
+        if: github.event_name == 'schedule'
+        env:
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          offset="$(TZ=America/Toronto date +'%z')"
+          if [[ "$SCHEDULE" == '10 4 * * *' && "$offset" == '-0400' ]] ||
+             [[ "$SCHEDULE" == '10 5 * * *' && "$offset" == '-0500' ]]; then
+            echo "run_refresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run_refresh=false" >> "$GITHUB_OUTPUT"
+            echo "Skipping the duplicate schedule for the other ET offset ($offset)."
+          fi
       - name: Check out website
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: actions/checkout@v4
       - name: Set up Ruby
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.1"
           bundler-cache: true
       - name: Check Google Scholar for new papers
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         run: python3 scripts/check_scholar_publications.py
       - name: Refresh Google Scholar metrics
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         run: python3 scripts/fetch_scholar_metrics.py
       - name: Build Jekyll site
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         run: bundle exec jekyll build
       - name: Configure GitHub Pages
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
       - name: Deploy to GitHub Pages
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         id: deployment
         uses: actions/deploy-pages@v4
