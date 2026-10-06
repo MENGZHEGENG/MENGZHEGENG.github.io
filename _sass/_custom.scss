@@ -605,6 +605,10 @@ html[data-theme="dark"] .publication-action--cite {
   background: var(--site-surface-muted);
 }
 
+.visitor-counter__map-column {
+  min-width: 0;
+}
+
 .visitor-counter__map > div {
   width: 100%;
   height: 100%;
@@ -621,6 +625,18 @@ html[data-theme="dark"] .publication-action--cite {
 
 .visitor-counter__map .stbl-attr a {
   color: var(--site-focus-color) !important;
+}
+
+.visitor-counter__attribution {
+  margin: 0.3em 0 0;
+  color: var(--site-muted-color);
+  font-size: 0.72em;
+  text-align: right;
+}
+
+.visitor-counter__attribution a {
+  color: var(--site-focus-color);
+  font-weight: 650;
 }
 
 .visitor-counter__map-status {
