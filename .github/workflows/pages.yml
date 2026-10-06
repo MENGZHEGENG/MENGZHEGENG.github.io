@@ -51,8 +51,19 @@ jobs:
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         run: python3 scripts/check_scholar_publications.py
       - name: Refresh Google Scholar metrics
+        id: scholar-metrics
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
+        continue-on-error: true
         run: python3 scripts/fetch_scholar_metrics.py
+      - name: Record Scholar metrics refresh warning
+        if: steps.scholar-metrics.outcome == 'failure'
+        run: |
+          echo "::warning::Google Scholar metrics could not be refreshed; deploying the last saved metrics."
+          {
+            echo "### Google Scholar metrics refresh"
+            echo
+            echo "Google Scholar could not be reached during this run. The site will deploy with the last saved metrics."
+          } >> "$GITHUB_STEP_SUMMARY"
       - name: Build Jekyll site
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         run: bundle exec jekyll build
