@@ -15,6 +15,7 @@ from urllib.request import Request, urlopen
 
 PROFILE_ID = "RS59rgIAAAAJ"
 PROFILE_URL = "https://scholar.google.ca/citations"
+MIRROR_BASE_URL = "https://r.jina.ai/http://scholar.google.ca/citations?"
 PUBLICATIONS_DIR = Path(__file__).resolve().parents[1] / "_publications"
 
 
@@ -74,7 +75,7 @@ def normalized_title(title: str) -> str:
     return " ".join(re.findall(r"[a-z0-9]+", html.unescape(title).casefold()))
 
 
-def read_scholar_works() -> list[dict[str, str]]:
+def read_scholar_works_direct() -> list[dict[str, str]]:
     works: list[dict[str, str]] = []
     seen_ids: set[str] = set()
     for start in range(0, 10000, 100):
@@ -113,6 +114,82 @@ def read_scholar_works() -> list[dict[str, str]]:
         if len(parser.rows) < 100:
             break
     return works
+
+
+def read_scholar_works_through_reader() -> list[dict[str, str]]:
+    works: list[dict[str, str]] = []
+    seen_ids: set[str] = set()
+    link_pattern = re.compile(
+        r"^\[(?P<title>.+)\]\((?P<href>https?://scholar\.google\.(?:ca|com|co\.uk)/citations\?[^)]+)\)\s*$"
+    )
+    for start in range(0, 10000, 100):
+        query = urlencode(
+            {
+                "user": PROFILE_ID,
+                "hl": "en",
+                "view_op": "list_works",
+                "cstart": start,
+                "pagesize": 100,
+            }
+        )
+        request = Request(
+            MIRROR_BASE_URL + query,
+            headers={"User-Agent": "AcademicHomepageMetrics/1.0"},
+        )
+        with urlopen(request, timeout=45) as response:
+            page = response.read().decode("utf-8", errors="replace")
+        if "Mengzhe Geng" not in page or "citation_for_view" not in page:
+            raise RuntimeError("Reader response was not the requested Scholar works page")
+
+        lines = page.splitlines()
+        page_works: list[dict[str, str]] = []
+        for index, line in enumerate(lines):
+            match = link_pattern.match(line)
+            if not match:
+                continue
+            href = html.unescape(match.group("href"))
+            record_id = record_id_from_url(href)
+            if record_id in seen_ids:
+                raise RuntimeError("Google Scholar Reader repeated a publication page")
+            seen_ids.add(record_id)
+
+            year = ""
+            for detail_line in lines[index + 1 : index + 4]:
+                year_match = re.search(r"\b(?:19|20)\d{2}\b", detail_line)
+                if year_match:
+                    year = year_match.group(0)
+                    break
+            page_works.append(
+                {
+                    "title": " ".join(html.unescape(match.group("title")).split()),
+                    "href": href,
+                    "year": year,
+                    "record_id": record_id,
+                }
+            )
+
+        if not page_works:
+            if start == 0:
+                raise RuntimeError("Google Scholar Reader returned no publication records")
+            break
+        works.extend(page_works)
+        if len(page_works) < 100:
+            break
+    return works
+
+
+def read_scholar_works() -> list[dict[str, str]]:
+    try:
+        return read_scholar_works_direct()
+    except Exception as direct_error:
+        try:
+            works = read_scholar_works_through_reader()
+            print(f"Google Scholar direct fetch failed; Reader fallback retrieved {len(works)} records.")
+            return works
+        except Exception as reader_error:
+            raise RuntimeError(
+                f"direct Scholar fetch failed ({direct_error}); Reader fallback failed ({reader_error})"
+            ) from reader_error
 
 
 def read_site_record_ids() -> tuple[set[str], set[str]]:
