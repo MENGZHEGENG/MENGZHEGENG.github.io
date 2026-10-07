@@ -70,6 +70,10 @@ def record_id_from_url(url: str) -> str:
     return record_id
 
 
+def normalized_title(title: str) -> str:
+    return " ".join(re.findall(r"[a-z0-9]+", html.unescape(title).casefold()))
+
+
 def read_scholar_works() -> list[dict[str, str]]:
     works: list[dict[str, str]] = []
     seen_ids: set[str] = set()
@@ -111,21 +115,36 @@ def read_scholar_works() -> list[dict[str, str]]:
     return works
 
 
-def read_site_record_ids() -> set[str]:
+def read_site_record_ids() -> tuple[set[str], set[str]]:
     ids: set[str] = set()
+    pending_titles: set[str] = set()
     for path in sorted(PUBLICATIONS_DIR.glob("*.md")):
         source = path.read_text(encoding="utf-8")
         parts = source.split("---", 2)
         if len(parts) != 3:
             raise RuntimeError(f"publication file has no YAML front matter: {path.name}")
-        match = re.search(r"(?m)^scholarurl:\s*['\"]?(.+?)['\"]?\s*$", parts[1])
+        frontmatter = parts[1]
+        if re.search(r"(?mi)^scholar_pending:\s*true\s*$", frontmatter):
+            title_match = re.search(r"(?m)^title:\s*(.*?)\s*$", frontmatter)
+            if not title_match:
+                raise RuntimeError(f"pending Scholar record has no title: {path.name}")
+            title = title_match.group(1).strip()
+            if len(title) >= 2 and title[0] == title[-1] and title[0] in "'\"":
+                title = title[1:-1]
+            normalized = normalized_title(title)
+            if not normalized:
+                raise RuntimeError(f"pending Scholar record has an invalid title: {path.name}")
+            pending_titles.add(normalized)
+            continue
+
+        match = re.search(r"(?m)^scholarurl:\s*['\"]?(.+?)['\"]?\s*$", frontmatter)
         if not match:
             raise RuntimeError(f"publication file has no Scholar citation link: {path.name}")
         record_id = record_id_from_url(match.group(1).strip())
         if record_id in ids:
             raise RuntimeError(f"duplicate Scholar citation ID in publication files: {path.name}")
         ids.add(record_id)
-    return ids
+    return ids, pending_titles
 
 
 def markdown_label(value: str) -> str:
@@ -159,7 +178,7 @@ def write_summary(message: str) -> None:
 def main() -> int:
     try:
         works = read_scholar_works()
-        site_ids = read_site_record_ids()
+        site_ids, pending_titles = read_site_record_ids()
     except Exception as error:
         detail = " ".join(f"{type(error).__name__}: {error}".split())
         write_summary(
@@ -170,7 +189,12 @@ def main() -> int:
         print("::warning::Google Scholar publication check could not be completed.")
         return 0
 
-    new_works = [work for work in works if work["record_id"] not in site_ids]
+    new_works = [
+        work
+        for work in works
+        if work["record_id"] not in site_ids
+        and normalized_title(work["title"]) not in pending_titles
+    ]
     if not new_works:
         write_summary(
             "### Google Scholar publication check\n\n"

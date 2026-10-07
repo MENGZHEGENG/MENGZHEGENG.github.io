@@ -102,6 +102,7 @@ classes: wide
 <article class="publication-entry author-led-publication" id="author-publication-{{ post.scholar_rank }}" data-publication-theme="{{ post.timeline_theme | slugify }}">
   <h3><a href="{{ post.paperurl | default: post.scholarurl }}" target="_blank" rel="noopener">{{ post.title }}</a></h3>
   <p class="publication-meta">{% include publication-authors.html authors=displayed_authors %} <span aria-hidden="true">·</span> <em>{{ post.venue }}</em>, {{ post.year }}</p>
+  {% if post.publication_status %}<p class="publication-meta publication-status"><strong>Status:</strong> {{ post.publication_status | escape }}</p>{% endif %}
   <p class="publication-theme-line">{% include publication-theme-label.html %}</p>
   {% include publication-actions.html %}
 </article>

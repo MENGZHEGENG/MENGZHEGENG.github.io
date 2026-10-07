@@ -12,6 +12,8 @@
   <a class="publication-action publication-action--pdf" href="{{ pdf_url | escape }}" target="_blank" rel="noopener noreferrer"{% unless post.paperurl or post.pdfurl %} title="Open this Google Scholar record to check for a linked PDF"{% endunless %}>PDF</a>
   {% if post.doi %}
     <a class="publication-action publication-action--doi" href="{{ doi_url | escape }}" target="_blank" rel="noopener noreferrer">DOI</a>
+  {% elsif post.doi_pending %}
+    <span class="publication-action publication-action--doi" aria-label="DOI pending arXiv publication" title="The DOI will be available after arXiv assigns the public identifier">DOI pending</span>
   {% else %}
     <a class="publication-action publication-action--doi" href="https://search.crossref.org/?q={{ post.title | cgi_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Search Crossref for a DOI for {{ post.title | escape }}" title="Search Crossref for a DOI">DOI</a>
   {% endif %}
