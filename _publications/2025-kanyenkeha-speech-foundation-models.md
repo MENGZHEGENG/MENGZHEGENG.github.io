@@ -7,7 +7,7 @@ year: 2025
 author_role: first-corresponding
 author_role_order: 9
 publication_theme: Indigenous language speech recognition
-timeline_theme: Language technology
+timeline_theme: Language Technology
 category: conferences
 sort_order: 1
 featured: true

@@ -6,7 +6,7 @@ year: 2025
 author_role: co-first-corresponding
 author_role_order: 11.1
 publication_theme: Generative AI in government
-timeline_theme: Foundation model evaluation
+timeline_theme: Trustworthy Multimodal AI
 category: journals
 sort_order: 4
 featured: true

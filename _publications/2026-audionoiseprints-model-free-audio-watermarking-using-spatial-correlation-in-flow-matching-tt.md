@@ -4,7 +4,7 @@ authors: T Tin-Long, J Zhu, A Pine, Mengzhe Geng
 venue: INTERSPEECH 2026
 year: 2026
 publication_theme: Audio watermarking
-timeline_theme: Trustworthy audio AI
+timeline_theme: Trustworthy Multimodal AI
 category: conferences
 scholar_sort_order: 8
 scholar_rank: 58

@@ -6,7 +6,7 @@ year: 2026
 author_role: first
 author_role_order: 5
 publication_theme: Multimodal audio evaluation
-timeline_theme: Foundation model evaluation
+timeline_theme: Speech Foundation Models
 category: preprints
 scholar_sort_order: 5
 scholar_rank: 55

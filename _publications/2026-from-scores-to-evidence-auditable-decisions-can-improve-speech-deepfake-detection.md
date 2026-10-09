@@ -6,7 +6,7 @@ year: 2026
 author_role: first
 author_role_order: 4
 publication_theme: Speech deepfake detection
-timeline_theme: Trustworthy audio AI
+timeline_theme: Trustworthy Multimodal AI
 category: preprints
 scholar_sort_order: 6
 scholar_rank: 56

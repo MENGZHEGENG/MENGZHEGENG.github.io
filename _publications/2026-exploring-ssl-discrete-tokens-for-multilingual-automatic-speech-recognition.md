@@ -6,7 +6,7 @@ year: 2026
 author_role: corresponding
 author_role_order: 6.1
 publication_theme: Multilingual speech recognition
-timeline_theme: Language technology
+timeline_theme: Language Technology
 category: conferences
 scholar_sort_order: 18
 scholar_rank: 68

@@ -6,7 +6,7 @@ year: 2025
 author_role: co-first
 author_role_order: 11.2
 publication_theme: Federated learning
-timeline_theme: Accessible speech AI
+timeline_theme: Accessible Speech AI
 category: conferences
 scholar_sort_order: 108
 scholar_rank: 40

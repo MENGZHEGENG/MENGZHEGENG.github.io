@@ -6,7 +6,7 @@ year: 2026
 author_role: first
 author_role_order: 1
 publication_theme: Spoken agents
-timeline_theme: Speech generation and agents
+timeline_theme: Speech Generation and Agents
 category: preprints
 scholar_sort_order: 7
 scholar_rank: 57

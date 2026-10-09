@@ -6,7 +6,7 @@ year: 2021
 author_role: co-first
 author_role_order: 15.5
 publication_theme: Adversarial data augmentation
-timeline_theme: Accessible speech AI
+timeline_theme: Accessible Speech AI
 category: conferences
 scholar_sort_order: 502
 scholar_rank: 7

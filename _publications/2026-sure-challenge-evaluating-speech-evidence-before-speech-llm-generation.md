@@ -6,7 +6,7 @@ year: 2026
 author_role: first
 author_role_order: 2
 publication_theme: Speech language model evaluation
-timeline_theme: Foundation model evaluation
+timeline_theme: Trustworthy Multimodal AI
 category: preprints
 scholar_sort_order: 15
 scholar_rank: 65

@@ -240,7 +240,7 @@ html[data-theme="dark"] .google-scholar-icon {
 .research-card {
   padding: 1em 1.1em 0.85em;
   border: 1px solid var(--global-border-color);
-  border-top: 3px solid var(--site-focus-color);
+  border-top: 3px solid var(--research-theme-color, var(--site-focus-color));
   border-radius: 5px;
   background: var(--site-surface-color);
 }
@@ -252,7 +252,7 @@ html[data-theme="dark"] .google-scholar-icon {
 .research-label {
   display: block;
   margin-bottom: 0.55em;
-  color: var(--site-focus-color);
+  color: var(--research-theme-color, var(--site-focus-color));
   font-size: 0.72em;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -465,30 +465,6 @@ html[data-theme="dark"] .publication-action--cite {
   font-size: 0.66em;
   font-weight: 750;
   line-height: 1;
-}
-
-.timeline-row[data-timeline-theme="accessible-speech-ai"] {
-  --timeline-color: #168f7a;
-}
-
-.timeline-row[data-timeline-theme="language-technology"] {
-  --timeline-color: #6c5bc6;
-}
-
-.timeline-row[data-timeline-theme="trustworthy-audio-ai"] {
-  --timeline-color: #d65d45;
-}
-
-.timeline-row[data-timeline-theme="foundation-model-evaluation"] {
-  --timeline-color: #3479b8;
-}
-
-.timeline-row[data-timeline-theme="speech-generation-and-agents"] {
-  --timeline-color: #a76a21;
-}
-
-.timeline-row[data-timeline-theme="multimodal-decision-making"] {
-  --timeline-color: #277da1;
 }
 
 .publication-filters {

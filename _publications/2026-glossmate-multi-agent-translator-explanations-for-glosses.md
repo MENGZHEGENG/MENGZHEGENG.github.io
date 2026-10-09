@@ -6,7 +6,7 @@ year: 2026
 author_role: corresponding
 author_role_order: 6
 publication_theme: Language technology
-timeline_theme: Language technology
+timeline_theme: Language Technology
 category: conferences
 scholar_sort_order: 17
 scholar_rank: 67

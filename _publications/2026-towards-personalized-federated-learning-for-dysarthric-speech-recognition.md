@@ -6,7 +6,7 @@ year: 2026
 author_role: co-first
 author_role_order: 6.5
 publication_theme: Federated learning
-timeline_theme: Accessible speech AI
+timeline_theme: Accessible Speech AI
 category: conferences
 scholar_sort_order: 12
 scholar_rank: 62

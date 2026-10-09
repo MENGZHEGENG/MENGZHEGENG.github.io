@@ -6,7 +6,7 @@ year: 2026
 author_role: first
 author_role_order: 0.25
 publication_theme: Multimodal decision-making
-timeline_theme: Multimodal decision-making
+timeline_theme: Trustworthy Multimodal AI
 category: preprints
 scholar_sort_order: 0
 scholar_rank: pending-controlled-acquisition

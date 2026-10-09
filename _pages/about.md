@@ -38,38 +38,21 @@ classes: wide
 </div>
 
 <h2 id="research">Research</h2>
+{% assign research_themes = site.data.research_themes %}
 <div class="research-grid">
-  <section class="research-card">
-    <span class="research-label">Accessible Speech AI</span>
-    <h3>Inclusive speech recognition and adaptation</h3>
-    <p>Recognition and speaker adaptation for dysarthric and older-adult speech, with attention to severity, limited data, and privacy-preserving learning.</p>
+  {% for theme in research_themes %}
+  <section class="research-card" data-research-theme="{{ theme.label | slugify }}" style="--research-theme-color: {{ theme.color }}">
+    <span class="research-label">{{ theme.label }}</span>
+    <h3>{{ theme.heading }}</h3>
+    <p>{{ theme.description }}</p>
   </section>
-  <section class="research-card">
-    <span class="research-label">Low-Resource Languages</span>
-    <h3>Speech technology for under-resourced languages</h3>
-    <p>Speech recognition, synthesis, and language adaptation for low-resource languages, including work on Indigenous language learning and technology.</p>
-  </section>
-  <section class="research-card">
-    <span class="research-label">Speech Foundation Models</span>
-    <h3>Adaptive and efficient speech models</h3>
-    <p>Speaker-aware adaptation and efficient deployment of pretrained speech models through prompting, compression, and quantization.</p>
-  </section>
-  <section class="research-card">
-    <span class="research-label">Multimodal Decision-Making</span>
-    <h3>Evidence acquisition in multimodal systems</h3>
-    <p>Controlled studies of decisions under conflicting audio, video, and text evidence: when another source is worth acquiring, and when a system should answer or abstain under explicit costs.</p>
-  </section>
-  <section class="research-card">
-    <span class="research-label">Trustworthy Generative AI</span>
-    <h3>Evaluation and evidence-grounded generation</h3>
-    <p>Evaluation of speech and audio generation, spoken agents, and multimodal reasoning, focusing on grounding, reliability, and how errors affect decisions.</p>
-  </section>
+  {% endfor %}
 </div>
 
 <h2 id="author-led-publications">Author-led publications</h2>
 <p class="publication-intro">These include publications for which I am a first author, co-first author, or (joint) corresponding author.</p>
 {% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
-{% assign timeline_themes = "Accessible speech AI|Language technology|Trustworthy audio AI|Foundation model evaluation|Speech generation and agents|Multimodal decision-making" | split: "|" %}
+{% assign timeline_themes = site.data.research_themes %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
 {% assign last_timeline_year = site.time | date: "%Y" | plus: 0 %}
 {% assign timeline_years = (first_timeline_year..last_timeline_year) %}
@@ -77,12 +60,13 @@ classes: wide
   <div class="research-timeline" style="--timeline-year-count: {{ timeline_years.size }}">
     <div class="timeline-axis"><span class="timeline-axis-label">Research theme</span>{% for year in timeline_years %}<span class="timeline-year">{{ year }}</span>{% endfor %}</div>
     {% for theme in timeline_themes %}
-    {% assign theme_slug = theme | slugify %}
-    <div class="timeline-row" data-timeline-theme="{{ theme_slug }}">
-      <span class="timeline-row-label">{{ theme }}</span>
+    {% assign theme_slug = theme.label | slugify %}
+    <div class="timeline-row" data-timeline-theme="{{ theme_slug }}" style="--timeline-color: {{ theme.color }}">
+      <span class="timeline-row-label">{{ theme.label }}</span>
       {% for year in timeline_years %}
       {% assign year_number = year | plus: 0 %}
-      {% assign year_theme_publications = author_led_publications | where: "year", year_number | where: "timeline_theme", theme %}
+      {% assign theme_label = theme.label %}
+      {% assign year_theme_publications = author_led_publications | where: "year", year_number | where: "timeline_theme", theme_label %}
       <span class="timeline-cell{% if year_theme_publications.size > 0 %} has-publications{% endif %}" aria-label="{{ year }}: {{ year_theme_publications.size }} publications">
         {% if year_theme_publications.size > 0 %}<span class="timeline-count">{{ year_theme_publications.size }}</span>{% endif %}
         {% for post in year_theme_publications %}<a class="timeline-marker" href="#author-publication-{{ post.scholar_rank }}" title="{{ post.title | escape }}" aria-label="{{ post.title | escape }}"></a>{% endfor %}
@@ -94,7 +78,7 @@ classes: wide
 </div>
 <div class="publication-filters" role="group" aria-label="Filter author-led publications by research theme">
   <button class="publication-filter is-active" type="button" data-publication-filter="all" aria-pressed="true">All</button>
-  {% for theme in timeline_themes %}<button class="publication-filter" type="button" data-publication-filter="{{ theme | slugify }}" aria-pressed="false">{{ theme }}</button>{% endfor %}
+  {% for theme in timeline_themes %}<button class="publication-filter" type="button" data-publication-filter="{{ theme.label | slugify }}" aria-pressed="false">{{ theme.label }}</button>{% endfor %}
 </div>
 <p class="publication-filter-status" aria-live="polite">{{ author_led_publications.size }} publications</p>
 {% for post in author_led_publications %}

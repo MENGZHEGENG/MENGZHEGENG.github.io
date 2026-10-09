@@ -6,7 +6,7 @@ year: 2026
 author_role: co-first
 author_role_order: 6.25
 publication_theme: Video-to-audio generation
-timeline_theme: Speech generation and agents
+timeline_theme: Speech Generation and Agents
 category: conferences
 scholar_sort_order: 2
 scholar_rank: 50

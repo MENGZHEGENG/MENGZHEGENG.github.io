@@ -6,7 +6,7 @@ year: 2021
 author_role: co-first
 author_role_order: 15.2
 publication_theme: Dysarthric speech recognition
-timeline_theme: Accessible speech AI
+timeline_theme: Accessible Speech AI
 category: journals
 sort_order: 8
 paperurl: https://ieeexplore.ieee.org/document/9463679

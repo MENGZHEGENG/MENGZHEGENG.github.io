@@ -1,0 +1,20 @@
+- label: Accessible Speech AI
+  heading: Inclusive speech recognition and adaptation
+  description: Recognition and speaker adaptation for dysarthric and older-adult speech, with attention to severity, limited data, and privacy-preserving learning.
+  color: "#168f7a"
+- label: Language Technology
+  heading: Low-resource and multilingual language technology
+  description: Speech recognition, synthesis, and language tools for under-resourced languages, including Indigenous language documentation, education, and multilingual processing.
+  color: "#6c5bc6"
+- label: Speech Foundation Models
+  heading: Adaptive and efficient speech models
+  description: Evaluation, speaker-aware adaptation, and efficient deployment of pretrained speech models through prompting, compression, and quantization.
+  color: "#3479b8"
+- label: Trustworthy Multimodal AI
+  heading: Evidence and decisions under conflict
+  description: How speech, audio, video, and text systems evaluate evidence, acquire additional sources, answer or abstain, and support auditable decisions.
+  color: "#277da1"
+- label: Speech Generation and Agents
+  heading: Source-grounded generation and spoken agents
+  description: Speech and audio generation, cross-lingual voice conversion, video-to-audio systems, and spoken agents that ground plans and actions in evidence.
+  color: "#a76a21"

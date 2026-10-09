@@ -6,7 +6,7 @@ year: 2025
 author_role: first
 author_role_order: 11
 publication_theme: Speaker adaptation
-timeline_theme: Accessible speech AI
+timeline_theme: Accessible Speech AI
 category: journals
 sort_order: 2
 featured: true

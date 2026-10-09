@@ -6,7 +6,7 @@ year: 2025
 author_role: corresponding
 author_role_order: 11.3
 publication_theme: Speech recognition
-timeline_theme: Accessible speech AI
+timeline_theme: Accessible Speech AI
 category: journals
 sort_order: 6
 paperurl: https://arxiv.org/abs/2508.10456
