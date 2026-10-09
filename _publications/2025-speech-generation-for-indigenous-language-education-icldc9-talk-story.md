@@ -1,8 +1,6 @@
 ---
 title: Speech Generation for Indigenous Language Education - ICLDC9 Talk Story
-authors: Aidan Pine, Marion Caldecott, Erica Cooper, Mengzhe Geng, Eric Joanis, Ross Krekoski, Delaney Lothian, Owennatekha
-  Brian Maracle, Akwirat´ekha’ Martin, Ko- rin Richmond, Tye Swallow, Tina Wellman 9th International Conference on Language
-  Documentation & Conservation
+authors: Aidan Pine, Marion Caldecott, Erica Cooper, Mengzhe Geng, Eric Joanis, Ross Krekoski, Delaney Lothian, Owennatekha Brian Maracle, Akwiratékha' Martin, Korin Richmond, Tye Swallow, Tina Wellman
 venue: 9th International Conference on Language Documentation & Conservation
 year: 2025
 category: conferences
