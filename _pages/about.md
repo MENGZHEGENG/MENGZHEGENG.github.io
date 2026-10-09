@@ -8,7 +8,7 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> National Research Council Canada</p>
 
-<p class="lede">My research develops and evaluates <strong>machine learning for speech, language, audio, and multimodal AI</strong>, including accessible and low-resource speech, speaker adaptation, foundation models, generative and reasoning systems, and trustworthy evaluation.</p>
+<p class="lede">My research develops and evaluates <strong>machine learning for speech, language, audio, and multimodal systems</strong>. I study accessible and low-resource technologies, adaptive and efficient speech models, and how generative and multimodal systems should be evaluated when evidence is limited or conflicting.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 
@@ -40,36 +40,36 @@ classes: wide
 <h2 id="research">Research</h2>
 <div class="research-grid">
   <section class="research-card">
-    <span class="research-label">AI for Healthcare</span>
-    <h3>Accessible speech recognition</h3>
-    <p>Speech recognition and severity-aware evaluation for dysarthric and older-adult speech under limited data.</p>
+    <span class="research-label">Accessible Speech AI</span>
+    <h3>Inclusive speech recognition and adaptation</h3>
+    <p>Recognition and speaker adaptation for dysarthric and older-adult speech, with attention to severity, limited data, and privacy-preserving learning.</p>
   </section>
   <section class="research-card">
-    <span class="research-label">AI Safety</span>
-    <h3>Evidence-aware and trustworthy speech AI</h3>
-    <p>Auditable decisions, deepfake detection, and evaluation methods that make speech systems easier to inspect and trust.</p>
+    <span class="research-label">Low-Resource Languages</span>
+    <h3>Speech technology for under-resourced languages</h3>
+    <p>Speech recognition, synthesis, and language adaptation for low-resource languages, including work on Indigenous language learning and technology.</p>
   </section>
   <section class="research-card">
-    <span class="research-label">Multimodal Foundation Models</span>
-    <h3>Efficient speech foundation models</h3>
-    <p>Evaluation, compression, quantization, and adaptation of speech foundation models for practical deployment, including low-resource languages.</p>
+    <span class="research-label">Speech Foundation Models</span>
+    <h3>Adaptive and efficient speech models</h3>
+    <p>Speaker-aware adaptation and efficient deployment of pretrained speech models through prompting, compression, and quantization.</p>
   </section>
   <section class="research-card">
-    <span class="research-label">Spoken Agents</span>
-    <h3>Source-grounded speech generation</h3>
-    <p>Spoken agents, audio language models, and speech generation systems that plan, produce, and evaluate audio with explicit evidence.</p>
+    <span class="research-label">Multimodal Decision-Making</span>
+    <h3>Evidence acquisition in multimodal systems</h3>
+    <p>Controlled studies of decisions under conflicting audio, video, and text evidence: when another source is worth acquiring, and when a system should answer or abstain under explicit costs.</p>
   </section>
   <section class="research-card">
-    <span class="research-label">Reasoning</span>
-    <h3>Reasoning and evaluation for generative AI</h3>
-    <p>Reasoning systems and evaluation frameworks for generative and multimodal AI in public-sector and research settings.</p>
+    <span class="research-label">Trustworthy Generative AI</span>
+    <h3>Evaluation and evidence-grounded generation</h3>
+    <p>Evaluation of speech and audio generation, spoken agents, and multimodal reasoning, focusing on grounding, reliability, and how errors affect decisions.</p>
   </section>
 </div>
 
 <h2 id="author-led-publications">Author-led publications</h2>
 <p class="publication-intro">These include publications for which I am a first author, co-first author, or (joint) corresponding author.</p>
 {% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
-{% assign timeline_themes = "Accessible speech AI|Language technology|Trustworthy audio AI|Foundation model evaluation|Speech generation and agents" | split: "|" %}
+{% assign timeline_themes = "Accessible speech AI|Language technology|Trustworthy audio AI|Foundation model evaluation|Speech generation and agents|Multimodal decision-making" | split: "|" %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
 {% assign last_timeline_year = site.time | date: "%Y" | plus: 0 %}
 {% assign timeline_years = (first_timeline_year..last_timeline_year) %}

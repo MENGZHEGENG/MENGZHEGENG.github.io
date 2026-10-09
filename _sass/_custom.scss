@@ -487,6 +487,10 @@ html[data-theme="dark"] .publication-action--cite {
   --timeline-color: #a76a21;
 }
 
+.timeline-row[data-timeline-theme="multimodal-decision-making"] {
+  --timeline-color: #277da1;
+}
+
 .publication-filters {
   display: flex;
   flex-wrap: wrap;
