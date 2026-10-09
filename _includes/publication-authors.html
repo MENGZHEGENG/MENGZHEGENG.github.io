@@ -1,6 +1,56 @@
-{% assign display_authors = include.authors | default: "" | escape %}
-{% assign display_authors = display_authors | replace: "†", "" %}
-{% assign display_authors = display_authors | replace: "Mengzhe Geng", "<strong>Mengzhe Geng</strong>" %}
-{% assign display_authors = display_authors | replace: "M. Geng", "<strong>Mengzhe Geng</strong>" %}
-{% assign display_authors = display_authors | replace: "M Geng", "<strong>Mengzhe Geng</strong>" %}
-{{ display_authors }}
+{%- assign author_list = include.authors | default: "" | replace: "†", "" | split: "," -%}
+{%- for source_author in author_list -%}
+  {%- unless forloop.first -%}, {% endunless -%}
+  {%- assign author_name = source_author | strip -%}
+  {%- assign author_marker = "" -%}
+  {%- assign author_suffix = "" -%}
+  {%- assign author_prefix = "" -%}
+  {%- if author_name contains "*" -%}
+    {%- assign author_marker = "*" -%}
+    {%- assign author_name = author_name | remove: "*" | strip -%}
+  {%- endif -%}
+  {%- if author_name contains " et al." -%}
+    {%- assign author_suffix = " et al." -%}
+    {%- assign author_name = author_name | remove: " et al." | strip -%}
+  {%- endif -%}
+  {%- if author_name contains "including " -%}
+    {%- assign author_prefix = "including" -%}
+    {%- assign author_name = author_name | remove: "including " | strip -%}
+  {%- endif -%}
+  {%- if author_name == "et al." or author_name == "et al" -%}
+    {{- author_name -}}
+  {%- else -%}
+    {%- assign name_parts = author_name | split: " " -%}
+    {%- capture formatted_author -%}
+      {%- for name_part in name_parts -%}
+        {%- unless forloop.first -%}{{ " " }}{%- endunless -%}
+        {%- if forloop.last -%}
+          {{- name_part -}}
+        {%- else -%}
+          {%- assign clean_name_part = name_part | remove: "." -%}
+          {%- assign uppercase_name_part = clean_name_part | upcase -%}
+          {%- if clean_name_part contains "-" -%}
+            {%- assign hyphenated_initials = clean_name_part | split: "-" -%}
+            {%- for hyphenated_part in hyphenated_initials -%}
+              {%- unless forloop.first -%}-{% endunless -%}{{- hyphenated_part | slice: 0 | upcase -}}.
+            {%- endfor -%}
+          {%- elsif name_part contains "." or clean_name_part == uppercase_name_part -%}
+            {%- assign initials = clean_name_part | split: "" -%}
+            {%- for initial in initials -%}
+              {%- unless forloop.first -%}{{ " " }}{%- endunless -%}{{- initial | upcase -}}.
+            {%- endfor -%}
+          {%- else -%}
+            {{- name_part | slice: 0 | upcase -}}.
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endcapture -%}
+    {%- assign formatted_author = formatted_author | strip -%}
+    {%- if author_prefix != "" -%}including {% endif -%}
+    {%- if formatted_author == "M. Geng" -%}
+      <strong>M. Geng</strong>
+    {%- else -%}
+      {{- formatted_author -}}
+    {%- endif -%}{{- author_marker -}}{{- author_suffix -}}
+  {%- endif -%}
+{%- endfor -%}

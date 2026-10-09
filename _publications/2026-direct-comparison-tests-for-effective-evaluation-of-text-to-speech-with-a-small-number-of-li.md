@@ -1,6 +1,6 @@
 ---
 title: Direct comparison tests for effective evaluation of text-to-speech with a small number of listeners
-authors: C Valentini-Botinhao, D Wells, ALA Blanco, E Cooper, J Yamagishi, et al.
+authors: C. Valentini-Botinhao, D. Wells, A. L. A. Blanco, E. Cooper, J. Yamagishi, M. Geng, P. Littell, A. Pine, K. Richmond
 venue: Computer Speech & Language
 year: 2026
 category: journals

@@ -1,6 +1,6 @@
 ---
 title: Personalized adversarial data augmentation for dysarthric and elderly speech recognition
-authors: Zengrui Jin, Mengzhe Geng, Jiajun Deng, Tianzi Wang, Shujie Hu, Guinan Li, Xun- ying Liu
+authors: Zengrui Jin, Mengzhe Geng, Jiajun Deng, Tianzi Wang, Shujie Hu, Guinan Li, Xunying Liu
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 year: 2023
 category: journals
