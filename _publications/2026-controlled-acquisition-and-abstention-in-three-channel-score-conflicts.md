@@ -1,7 +1,7 @@
 ---
 title: 'Controlled Acquisition and Abstention in Three-Channel Score Conflicts'
 authors: Mengzhe Geng
-venue: 'arXiv preprint arXiv:2610.10808 [cs.LG]'
+venue: arXiv preprint arXiv:2610.10808
 year: 2026
 author_role: first
 author_role_order: 0.25
