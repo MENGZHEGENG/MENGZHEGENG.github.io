@@ -15,5 +15,4 @@ scholarurl: 'https://scholar.google.ca/scholar?hl=en&q=%22Controlled+Acquisition
 paperurl: https://arxiv.org/abs/2610.10808
 pdfurl: /files/controlled-acquisition-and-abstention-in-three-channel-score-conflicts.pdf
 doi: 10.48550/arXiv.2610.10808
-publication_status: 'Available on arXiv since October 7, 2026'
 ---
