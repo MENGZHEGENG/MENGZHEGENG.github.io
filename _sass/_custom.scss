@@ -53,8 +53,10 @@ body {
 
 .greedy-nav .visible-links #theme-toggle .theme-toggle-button {
   display: inline-flex;
+  position: static;
   width: 2.25rem;
   height: 2.25rem;
+  right: auto;
   align-items: center;
   justify-content: center;
   padding: 0;
@@ -63,6 +65,7 @@ body {
   border: 1px solid var(--global-border-color);
   border-radius: 50%;
   cursor: pointer;
+  z-index: auto;
 }
 
 .greedy-nav .visible-links #theme-toggle .theme-toggle-button:hover {
@@ -111,6 +114,11 @@ body {
   font-size: 1.18em;
   line-height: 1;
   pointer-events: none;
+}
+
+.author__github-profile .author-profile-icon i {
+  font-size: 1.15em;
+  line-height: 1;
 }
 
 html[data-theme="dark"] .google-scholar-icon {
