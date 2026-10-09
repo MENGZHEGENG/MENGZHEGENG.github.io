@@ -114,13 +114,13 @@ classes: wide
 <ul class="award-list">
   <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award (OAA),</strong> NRC Inclusive Innovation Award, National Research Council Canada, 2026</li>
   <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility,</strong> Digital Government Community Awards, Government of Canada, 2026</li>
-  <li class="award-item"><strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore</li>
+  <li class="award-item"><strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore, 2025</li>
   <li class="award-item"><strong>Valedictorian</strong>, CUHK Postgraduate Class of 2023</li>
   <li class="award-item"><strong>IEEE ICASSP Outstanding Reviewer</strong>, 2023</li>
   <li class="award-item">ISCA INTERSPEECH Travel Grant, 2023</li>
   <li class="award-item">Finalist, Hong Kong X Foundation FYP+ Project, 2019</li>
   <li class="award-item">CUHK Academic Excellence Scholarship for Non-local Students, 2019</li>
-  <li class="award-item">CUHK Best Project Award for Undergraduate Research Summer Internship, 2018</li>
+  <li class="award-item"><strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong>, 2018</li>
   <li class="award-item"><strong>CUHK ELITE Stream Student Scholarship</strong>, 2019 and 2016</li>
   <li class="award-item">CUHK S.H. Ho College Outstanding Student Scholarship, 2018, 2017, 2016, and 2015</li>
   <li class="award-item">HKSAR Government Reaching Out Award, 2018</li>
