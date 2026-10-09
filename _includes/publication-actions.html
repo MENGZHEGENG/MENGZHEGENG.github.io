@@ -1,9 +1,11 @@
 {% assign pdf_url = post.pdfurl | default: post.paperurl | default: post.scholarurl %}
-{% if post.paperurl contains 'arxiv.org/abs/' %}
-  {% assign pdf_url = post.paperurl | replace: '/abs/', '/pdf/' | append: '.pdf' %}
-{% elsif post.paperurl contains 'arxiv.org/pdf/' and post.paperurl contains '?' %}
-  {% assign pdf_url = post.paperurl | replace: '?', '.pdf' %}
-{% endif %}
+{% unless post.pdfurl %}
+  {% if post.paperurl contains 'arxiv.org/abs/' %}
+    {% assign pdf_url = post.paperurl | replace: '/abs/', '/pdf/' | append: '.pdf' %}
+  {% elsif post.paperurl contains 'arxiv.org/pdf/' and post.paperurl contains '?' %}
+    {% assign pdf_url = post.paperurl | replace: '?', '.pdf' %}
+  {% endif %}
+{% endunless %}
 {% assign doi_url = post.doi %}
 {% unless post.doi contains 'http' %}
   {% assign doi_url = post.doi | prepend: 'https://doi.org/' %}
