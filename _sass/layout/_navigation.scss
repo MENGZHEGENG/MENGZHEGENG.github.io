@@ -226,10 +226,8 @@
     }
 
     #theme-toggle {
-      a {
-        width: 25px;
-        display: flex;
-        justify-content: center;
+      button {
+        flex: 0 0 auto;
         cursor: pointer;
       }
     }

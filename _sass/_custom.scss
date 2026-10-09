@@ -45,37 +45,63 @@ body {
 
 .page__content a:focus-visible,
 .masthead a:focus-visible,
+.masthead button:focus-visible,
 .sidebar a:focus-visible {
   outline: 3px solid var(--site-focus-color);
   outline-offset: 3px;
 }
 
-.greedy-nav .visible-links #theme-toggle a {
+.greedy-nav .visible-links #theme-toggle .theme-toggle-button {
   display: inline-flex;
-  width: auto;
-  min-width: 4.4em;
-  padding: 0.3em 0.55em;
-  border: 1px solid var(--global-border-color);
-  border-radius: 4px;
-  font-size: 0.82em;
-  text-align: center;
-  text-decoration: none;
-}
-
-.theme-toggle-label {
-  margin-left: 0.35em;
-}
-
-.author__urls .google-scholar-link {
-  display: inline-flex;
+  width: 2.25rem;
+  height: 2.25rem;
   align-items: center;
-  gap: 0.16em;
-  margin-left: -0.2em;
+  justify-content: center;
+  padding: 0;
+  color: var(--global-masthead-link-color);
+  background: transparent;
+  border: 1px solid var(--global-border-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.greedy-nav .visible-links #theme-toggle .theme-toggle-button:hover {
+  color: var(--global-link-color);
+  background: var(--site-surface-muted);
+}
+
+.greedy-nav .visible-links #theme-toggle .theme-toggle-button:focus-visible {
+  outline: 3px solid var(--site-focus-color);
+  outline-offset: 3px;
+}
+
+#theme-icon {
+  font-size: 1rem;
+}
+
+.author__urls .author-profile-link {
+  display: grid;
+  grid-template-columns: 1.45em max-content;
+  align-items: center;
+  column-gap: 0.45em;
   padding: 0.12em 0.2em;
   border-radius: 0.2em;
 }
 
-.author__urls .google-scholar-link:hover {
+.author__urls .author-profile-icon {
+  display: inline-flex;
+  flex: 0 0 1.45em;
+  width: 1.45em;
+  height: 1.45em;
+  align-items: center;
+  justify-content: center;
+}
+
+.author__urls .author__scholar-profile {
+  margin-top: 0.7em;
+}
+
+.author__urls .author-profile-link:hover {
   background-color: var(--site-surface-muted);
 }
 
@@ -92,16 +118,14 @@ html[data-theme="dark"] .google-scholar-icon {
 }
 
 .author__email-icon {
-  display: inline-block;
+  display: block;
   width: 1em;
   height: 1em;
-  margin-right: 0.45em;
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.8;
-  vertical-align: -0.12em;
 }
 
 .eyebrow {

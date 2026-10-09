@@ -34,7 +34,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><svg class="author__email-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5h17v11h-17z"/><path d="m4 7 8 6 8-6"/></svg>{{ author.email }}</a></li>
+        <li class="author__email-profile"><a class="author-profile-link" href="mailto:{{ author.email }}"><span class="author-profile-icon"><svg class="author__email-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.5 6.5h17v11h-17z"/><path d="m4 7 8 6 8-6"/></svg></span><span>{{ author.email }}</span></a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -45,7 +45,7 @@
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}
       {% if author.googlescholar %}
-        <li><a class="google-scholar-link" href="{{ author.googlescholar }}"><i class="ai ai-google-scholar google-scholar-icon" aria-hidden="true"></i><span>Google Scholar</span></a></li>
+        <li class="author__scholar-profile"><a class="author-profile-link google-scholar-link" href="{{ author.googlescholar }}"><span class="author-profile-icon"><i class="ai ai-google-scholar google-scholar-icon" aria-hidden="true"></i></span><span>Google Scholar</span></a></li>
       {% endif %}
       {% if author.inspire-hep %}
         <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>

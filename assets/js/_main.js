@@ -29,6 +29,8 @@ function determineComputedTheme() {
 // theme is the stored preference or, failing that, the OS/browser preference.
 function setTheme(theme) {
   const use_theme = theme || determineComputedTheme();
+  const toggleLabel = use_theme === "dark" ? "Switch to light mode" : "Switch to dark mode";
+  $("#theme-toggle-button").attr("aria-label", toggleLabel).attr("title", toggleLabel);
 
   if (use_theme === "dark") {
     $("html").attr("data-theme", "dark");
