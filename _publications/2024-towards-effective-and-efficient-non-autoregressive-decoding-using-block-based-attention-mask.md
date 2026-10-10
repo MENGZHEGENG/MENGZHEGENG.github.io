@@ -3,6 +3,7 @@ title: Towards Effective and Efficient Non-autoregressive Decoding Using Block-b
 authors: Tianzi Wang, Xurong Xie, Zhaoqing Li, Shoukang Hu, Zengrui Jin, Jiajun Deng, Mingyu Cui, Shujie Hu, Mengzhe Geng,
   Guinan Li, Helen Meng, Xunying Liu
 venue: INTERSPEECH 2024
+doi: https://doi.org/10.21437/Interspeech.2024-404
 year: 2024
 category: conferences
 scholar_sort_order: 209

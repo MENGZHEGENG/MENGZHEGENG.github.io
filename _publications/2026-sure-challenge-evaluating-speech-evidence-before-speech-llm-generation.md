@@ -1,7 +1,8 @@
 ---
-title: 'SURE-Challenge: Evaluating Speech Evidence Before Speech-LLM Generation'
+title: 'SURE-Voice: A Front-End Baseline for Speech-Evidence Filtering in Speech LLMs'
 authors: Mengzhe Geng
 venue: arXiv preprint arXiv:2608.27783
+doi: https://doi.org/10.48550/arXiv.2608.27783
 year: 2026
 author_role: first
 author_role_order: 2

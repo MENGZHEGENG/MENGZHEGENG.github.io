@@ -1,7 +1,8 @@
 ---
-title: 'Text Scores Can Miss Waveform Use: A Qwen2-Audio Quantization Case Study'
+title: 'Text Scores Do Not Establish Performance on Lexically Non-Diagnostic Speech Tasks: A Qwen2-Audio Quantization Case Study'
 authors: Mengzhe Geng, J Jin, J Xu
 venue: arXiv preprint arXiv:2609.26823
+doi: https://doi.org/10.48550/arXiv.2609.26823
 year: 2026
 author_role: first
 author_role_order: 5

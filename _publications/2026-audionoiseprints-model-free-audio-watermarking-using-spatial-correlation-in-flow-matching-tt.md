@@ -2,6 +2,9 @@
 title: 'AudioNoisePrints: Model-free audio watermarking using spatial correlation in flow matching TTS'
 authors: T Tin-Long, J Zhu, A Pine, Mengzhe Geng
 venue: INTERSPEECH 2026
+doi: https://doi.org/10.21437/Interspeech.2026-2165
+paperurl: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.pdf
+doiurl: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html
 year: 2026
 publication_theme: Audio watermarking
 timeline_theme: Trustworthy Multimodal AI

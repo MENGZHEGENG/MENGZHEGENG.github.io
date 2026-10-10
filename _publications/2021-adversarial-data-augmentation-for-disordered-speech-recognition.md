@@ -2,6 +2,7 @@
 title: Adversarial Data Augmentation for Disordered Speech Recognition
 authors: Zengrui Jin*, Mengzhe Geng*, Xurong Xie, Jianwei Yu, Shansong Liu, Xunying Liu, Helen Meng
 venue: INTERSPEECH 2021
+doi: https://doi.org/10.21437/Interspeech.2021-168
 year: 2021
 author_role: co-first
 author_role_order: 15.5

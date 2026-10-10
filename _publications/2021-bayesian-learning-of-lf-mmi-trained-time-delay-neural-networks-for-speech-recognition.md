@@ -2,6 +2,7 @@
 title: Bayesian learning of LF-MMI trained time delay neural networks for speech recognition
 authors: Shoukang Hu, Xurong Xie, Shansong Liu, Jianwei Yu, Zi Ye, Mengzhe Geng, Xunying Liu, Helen Meng
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+doi: https://doi.org/10.1109/TASLP.2021.3069080
 year: 2021
 category: journals
 scholar_sort_order: 507

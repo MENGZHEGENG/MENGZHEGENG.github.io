@@ -2,6 +2,7 @@
 title: Recent Progress in the CUHK Dysarthric Speech Recognition System
 authors: Shansong Liu*, Mengzhe Geng*, Shoukang Hu*, Xurong Xie*, Mingyu Cui, Jianwei Yu, Xunying Liu, Helen M Meng
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+doi: https://doi.org/10.1109/TASLP.2021.3091805
 year: 2021
 author_role: co-first
 author_role_order: 15.2

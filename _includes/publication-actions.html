@@ -6,18 +6,22 @@
     {% assign pdf_url = post.paperurl | replace: '?', '.pdf' %}
   {% endif %}
 {% endunless %}
-{% assign doi_url = post.doi %}
+{% assign doi_url = post.doiurl | default: post.doi %}
 {% unless post.doi contains 'http' %}
   {% assign doi_url = post.doi | prepend: 'https://doi.org/' %}
 {% endunless %}
 <div class="publication-actions" role="group" aria-label="Publication links">
   <a class="publication-action publication-action--pdf" href="{{ pdf_url | escape }}" target="_blank" rel="noopener noreferrer"{% unless post.paperurl or post.pdfurl %} title="Open this Google Scholar record to check for a linked PDF"{% endunless %}>PDF</a>
   {% if post.doi %}
-    <a class="publication-action publication-action--doi" href="{{ doi_url | escape }}" target="_blank" rel="noopener noreferrer">DOI</a>
+    {% assign doi_description = 'Open DOI record for ' | append: post.title %}
+    {% if post.doiurl %}
+      {% assign doi_description = 'Open the official ISCA archive record listing the DOI for ' | append: post.title | append: ' (the DOI resolver currently returns 404)' %}
+    {% endif %}
+    <a class="publication-action publication-action--doi" href="{{ doi_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{{ doi_description | escape }}" title="{{ doi_description | escape }}">DOI</a>
   {% elsif post.doi_pending %}
     <span class="publication-action publication-action--doi" aria-label="DOI pending arXiv publication" title="The DOI will be available after arXiv assigns the public identifier">DOI pending</span>
   {% else %}
-    <a class="publication-action publication-action--doi" href="https://search.crossref.org/?q={{ post.title | cgi_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Search Crossref for a DOI for {{ post.title | escape }}" title="Search Crossref for a DOI">DOI</a>
+    <a class="publication-action publication-action--doi" href="https://search.crossref.org/?q={{ post.title | cgi_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Search Crossref for a DOI for {{ post.title | escape }}" title="Search Crossref for a DOI">Find DOI</a>
   {% endif %}
   <a class="publication-action publication-action--cite" href="{{ post.scholarurl | default: site.author.googlescholar | escape }}" target="_blank" rel="noopener noreferrer">Cite</a>
 </div>

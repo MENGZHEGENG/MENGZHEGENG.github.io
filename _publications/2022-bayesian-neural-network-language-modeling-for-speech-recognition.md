@@ -2,6 +2,7 @@
 title: Bayesian neural network language modeling for speech recognition
 authors: Boyang Xue, Shoukang Hu, Junhao Xu, Mengzhe Geng, Xunying Liu, Helen Meng
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+doi: https://doi.org/10.1109/TASLP.2022.3203891
 year: 2022
 category: journals
 scholar_sort_order: 403

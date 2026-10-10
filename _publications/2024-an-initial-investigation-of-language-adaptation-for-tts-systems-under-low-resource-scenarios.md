@@ -3,6 +3,7 @@ title: An initial investigation of language adaptation for TTS systems under low
 authors: Cheng Gong, Erica Cooper, Xin Wang, Chunyu Qiang, Mengzhe Geng, Dan Wells, Longbiao Wang, Jianwu Dang, Marc Tessier,
   Aidan Pine, Korin Richmond, Junichi Yamagishi
 venue: INTERSPEECH 2024
+doi: https://doi.org/10.21437/Interspeech.2024-969
 year: 2024
 category: conferences
 scholar_sort_order: 204

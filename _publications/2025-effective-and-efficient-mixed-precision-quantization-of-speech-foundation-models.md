@@ -3,6 +3,7 @@ title: Effective and Efficient Mixed Precision Quantization of Speech Foundation
 authors: Haoning Xu, Zhaoqing Li, Zengrui Jin, Huimeng Wang, Youjun Chen, Guinan Li, Mengzhe Geng, Shujie Hu, Jiajun Deng,
   Xunying Liu
 venue: ICASSP 2025
+doi: https://doi.org/10.1109/ICASSP49660.2025.10888920
 year: 2025
 category: conferences
 scholar_sort_order: 104

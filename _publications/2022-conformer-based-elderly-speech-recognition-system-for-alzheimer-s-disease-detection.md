@@ -3,6 +3,7 @@ title: Conformer based elderly speech recognition system for Alzheimer's disease
 authors: Tianzi Wang, Jiajun Deng, Mengzhe Geng, Zi Ye, Shoukang Hu, Yi Wang, Mingyu Cui, Zengrui Jin, Xunying Liu, Helen
   Meng
 venue: INTERSPEECH 2022
+doi: https://doi.org/10.21437/Interspeech.2022-712
 year: 2022
 category: conferences
 scholar_sort_order: 404

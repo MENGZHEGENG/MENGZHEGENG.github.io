@@ -3,6 +3,7 @@ title: Towards high-performance and low-latency feature-based speaker adaptation
 authors: Jiajun Deng, Xurong Xie, Guinan Li, Mingyu Cui, Mengzhe Geng, Zengrui Jin, Tianzi Wang, Shujie Hu, Zhaoqing Li, Xunying
   Liu
 venue: ICASSP 2024
+doi: https://doi.org/10.1109/ICASSP48485.2024.10448488
 year: 2024
 category: conferences
 scholar_sort_order: 207

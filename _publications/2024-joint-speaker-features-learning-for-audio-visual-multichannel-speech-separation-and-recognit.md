@@ -3,6 +3,7 @@ title: Joint Speaker Features Learning for Audio-visual Multichannel Speech Sepa
 authors: Guinan Li, Jiajun Deng, Youjun Chen, Mengzhe Geng, Shujie Hu, Zhe Li, Zengrui Jin, Tianzi Wang, Xurong Xie, Helen
   Meng, Xunying Liu
 venue: INTERSPEECH 2024
+doi: https://doi.org/10.21437/Interspeech.2024-1063
 year: 2024
 category: conferences
 scholar_sort_order: 208

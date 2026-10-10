@@ -3,6 +3,7 @@ title: On-the-fly feature based rapid speaker adaptation for dysarthric and elde
 authors: Mengzhe Geng, Xurong Xie, Rongfeng Su, Jianwei Yu, Zengrui Jin, Tianzi Wang, Shujie Hu, Zi Ye, Helen Meng, Xunying
   Liu
 venue: INTERSPEECH 2023
+doi: https://doi.org/10.21437/Interspeech.2023-301
 year: 2023
 author_role: first
 author_role_order: 13

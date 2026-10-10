@@ -2,6 +2,7 @@
 title: Audio-visual end-to-end multi-channel speech separation, dereverberation and recognition
 authors: Guinan Li, Jiajun Deng, Mengzhe Geng, Zengrui Jin, Tianzi Wang, Shujie Hu, Mingyu Cui, Helen Meng, Xunying Liu
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+doi: https://doi.org/10.1109/TASLP.2023.3294705
 year: 2023
 category: journals
 scholar_sort_order: 304

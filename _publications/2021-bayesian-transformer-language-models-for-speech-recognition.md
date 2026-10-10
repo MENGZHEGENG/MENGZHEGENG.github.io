@@ -2,6 +2,7 @@
 title: Bayesian transformer language models for speech recognition
 authors: Boyang Xue, Jianwei Yu, Junhao Xu, Shansong Liu, Shoukang Hu, Zi Ye, Mengzhe Geng, Xunying Liu, Helen Meng
 venue: ICASSP 2021
+doi: https://doi.org/10.1109/ICASSP39728.2021.9414046
 year: 2021
 category: conferences
 scholar_sort_order: 504

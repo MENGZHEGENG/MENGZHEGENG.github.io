@@ -2,6 +2,7 @@
 title: Enhancing pre-trained ASR system fine-tuning for dysarthric speech recognition using adversarial data augmentation
 authors: Huimeng Wang, Zengrui Jin, Mengzhe Geng, Shujie Hu, Guinan Li, Tianzi Wang, Haoning Xu, Xunying Liu
 venue: ICASSP 2024
+doi: https://doi.org/10.1109/ICASSP48485.2024.10447702
 year: 2024
 category: conferences
 scholar_sort_order: 201

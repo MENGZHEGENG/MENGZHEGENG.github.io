@@ -2,6 +2,7 @@
 title: 'GlossMATE: Multi-Agent Translator Explanations for Glosses'
 authors: Changbing Yang, Patrick Littell, Gabriel Bernier-Colborne, Yanfei Lu, Mengzhe Geng
 venue: Language Resources and Evaluation Conference (LREC 2026)
+doi: https://doi.org/10.63317/5bhwdv5gcjqz
 year: 2026
 author_role: corresponding
 author_role_order: 6

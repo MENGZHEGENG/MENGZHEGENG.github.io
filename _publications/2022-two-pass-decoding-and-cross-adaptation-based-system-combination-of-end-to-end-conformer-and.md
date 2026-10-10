@@ -3,6 +3,7 @@ title: Two-pass decoding and cross-adaptation based system combination of end-to
 authors: Mingyu Cui, Jiajun Deng, Shoukang Hu, Xurong Xie, Tianzi Wang, Shujie Hu, Mengzhe Geng, Boyang Xue, Xunying Liu,
   Helen Meng
 venue: INTERSPEECH 2022
+doi: https://doi.org/10.21437/Interspeech.2022-696
 year: 2022
 category: conferences
 scholar_sort_order: 407

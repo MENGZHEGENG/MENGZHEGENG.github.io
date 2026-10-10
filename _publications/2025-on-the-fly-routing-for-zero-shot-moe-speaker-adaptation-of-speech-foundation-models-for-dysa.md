@@ -3,6 +3,7 @@ title: On-the-fly Routing for Zero-shot MoE Speaker Adaptation of Speech Foundat
 authors: Shujie Hu, Xurong Xie, Mengzhe Geng, Jiajun Deng, Huimeng Wang, Guinan Li, Chengxi Deng, Tianzi Wang, Mingyu Cui,
   Helen Meng, Xunying Liu
 venue: INTERSPEECH 2025
+doi: https://doi.org/10.48550/arXiv.2505.22072
 year: 2025
 category: conferences
 scholar_sort_order: 107

@@ -2,6 +2,7 @@
 title: Towards Extremely Low-Bit and Multi-Precision Conformer and Speech Foundation Model Quantization
 authors: Z Li, H Xu, Z Jin, T Wang, L Meng, H Wang, Y Chen, M Cui, S Hu, Mengzhe Geng, et al.
 venue: IEEE Transactions on Audio, Speech and Language Processing
+doi: https://doi.org/10.1109/TASLPRO.2026.3724410
 year: 2026
 category: journals
 scholar_sort_order: 16

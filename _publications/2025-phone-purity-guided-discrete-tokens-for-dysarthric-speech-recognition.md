@@ -2,6 +2,7 @@
 title: Phone-purity Guided Discrete Tokens for Dysarthric Speech Recognition
 authors: Huimeng Wang, Xurong Xie, Mengzhe Geng, Shujie Hu, Haoning Xu, Youjun Chen, Zhaoqing Li, Jiajun Deng, Xunying Liu
 venue: ICASSP 2025
+doi: https://doi.org/10.1109/ICASSP49660.2025.10889032
 year: 2025
 category: conferences
 scholar_sort_order: 103

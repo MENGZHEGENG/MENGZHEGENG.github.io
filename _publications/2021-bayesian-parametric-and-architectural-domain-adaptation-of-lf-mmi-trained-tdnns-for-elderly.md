@@ -2,6 +2,7 @@
 title: Bayesian Parametric and Architectural Domain Adaptation of LF-MMI Trained TDNNs for Elderly and Dysarthric Speech Recognition.
 authors: J Deng, FR Gutierrez, S Hu, Mengzhe Geng, X Xie, Z Ye, S Liu, J Yu, X Liu, et al.
 venue: INTERSPEECH 2021
+doi: https://doi.org/10.21437/Interspeech.2021-289
 year: 2021
 category: conferences
 scholar_sort_order: 508

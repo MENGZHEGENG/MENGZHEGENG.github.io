@@ -2,6 +2,7 @@
 title: Effective and Efficient One-pass Compression of Speech Foundation Models Using Sparsity-aware Self-pinching Gates
 authors: Haoning Xu, Zhaoqing Li, Youjun Chen, Huimeng Wang, Guinan Li, Mengzhe Geng, Chengxi Deng, Xunying Liu
 venue: INTERSPEECH 2025
+doi: https://doi.org/10.48550/arXiv.2505.22608
 year: 2025
 category: conferences
 scholar_sort_order: 114

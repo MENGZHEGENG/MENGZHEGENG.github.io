@@ -3,6 +3,7 @@ title: Towards Effective and Efficient Non-autoregressive decoders for Conformer
   Mask
 authors: T Wang, X Xie, Z Jin, Mengzhe Geng, J Deng, Z Li, S Hu, S Hu, G Li, M Cui, et al.
 venue: IEEE Transactions on Audio, Speech and Language Processing
+doi: https://doi.org/10.1109/TASLPRO.2025.3633090
 year: 2025
 category: journals
 scholar_sort_order: 113

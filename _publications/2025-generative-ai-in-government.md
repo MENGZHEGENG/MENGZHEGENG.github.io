@@ -1,7 +1,8 @@
 ---
-title: 'Exploring Generative AI Techniques in Government: A Case Study'
+title: 'Exploring Generative Artificial Intelligence Techniques in Government: A Case Study'
 authors: Sunyi Liu*, Mengzhe Geng*, Rebecca Hart
 venue: IEEE Intelligent Systems
+doi: https://doi.org/10.1109/MIS.2025.3569429
 year: 2025
 author_role: co-first-corresponding
 author_role_order: 11.1

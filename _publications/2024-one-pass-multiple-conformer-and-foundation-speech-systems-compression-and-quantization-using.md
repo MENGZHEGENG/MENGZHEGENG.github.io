@@ -3,6 +3,7 @@ title: One-pass Multiple Conformer and Foundation Speech Systems Compression and
 authors: Zhaoqing Li, Haoning Xu, Tianzi Wang, Shoukang Hu, Zengrui Jin, Shujie Hu, Jiajun Deng, Mingyu Cui, Mengzhe Geng,
   Xunying Liu
 venue: INTERSPEECH 2024
+doi: https://doi.org/10.21437/Interspeech.2024-703
 year: 2024
 category: conferences
 scholar_sort_order: 206

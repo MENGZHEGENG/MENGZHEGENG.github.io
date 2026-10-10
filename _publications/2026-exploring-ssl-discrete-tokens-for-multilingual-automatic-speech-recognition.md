@@ -2,6 +2,7 @@
 title: Exploring SSL Discrete Tokens for Multilingual Automatic Speech Recognition
 authors: Mingyu Cui, Mengzhe Geng, Yiwen Shao, Jiawen Kang, Lingwei Meng, Dingdong Wang, Chenxing Li, Meng Yu, Xunying Liu
 venue: ICASSP 2026
+doi: https://doi.org/10.1109/ICASSP55912.2026.11460887
 year: 2026
 author_role: corresponding
 author_role_order: 6.1

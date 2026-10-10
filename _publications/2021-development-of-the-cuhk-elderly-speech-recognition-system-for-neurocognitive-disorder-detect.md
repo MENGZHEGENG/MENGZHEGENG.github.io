@@ -4,6 +4,7 @@ title: Development of the cuhk elderly speech recognition system for neurocognit
 authors: Zi Ye, Shoukang Hu, Jinchao Li, Xurong Xie, Mengzhe Geng, Jianwei Yu, Junhao Xu, Boyang Xue, Shansong Liu, Xunying
   Liu, Helen Meng
 venue: ICASSP 2021
+doi: https://doi.org/10.1109/ICASSP39728.2021.9413634
 year: 2021
 category: conferences
 scholar_sort_order: 503

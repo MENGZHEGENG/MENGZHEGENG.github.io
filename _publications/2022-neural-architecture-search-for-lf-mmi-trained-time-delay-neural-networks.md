@@ -2,6 +2,7 @@
 title: Neural architecture search for LF-MMI trained time delay neural networks
 authors: Shoukang Hu, Xurong Xie, Mingyu Cui, Jiajun Deng, Shansong Liu, Jianwei Yu, Mengzhe Geng, Xunying Liu, Helen Meng
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+doi: https://doi.org/10.1109/TASLP.2022.3153253
 year: 2022
 category: journals
 scholar_sort_order: 402

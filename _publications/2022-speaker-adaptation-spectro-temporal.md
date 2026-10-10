@@ -2,6 +2,7 @@
 title: Speaker Adaptation Using Spectro-Temporal Deep Features for Dysarthric and Elderly Speech Recognition
 authors: Mengzhe Geng, Xurong Xie, Zi Ye, et al.
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+doi: https://doi.org/10.1109/TASLP.2022.3195113
 year: 2022
 author_role: first
 author_role_order: 14
