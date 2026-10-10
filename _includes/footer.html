@@ -19,6 +19,19 @@
 </div>
 {% endif %}
 
+<section class="visitor-counter" data-visitor-counter data-statable-hash="G4H6CB0Fb6" aria-labelledby="visitor-counter-title">
+  <span class="visitor-counter__icon" aria-hidden="true">
+    <i class="fas fa-users"></i>
+  </span>
+  <div class="visitor-counter__content">
+    <p class="visitor-counter__title" id="visitor-counter-title">Live visitors</p>
+    <p class="visitor-counter__reading" role="status" aria-live="polite" aria-atomic="true">
+      <strong data-visitor-count-value>...</strong>
+      <span data-visitor-count-label>Loading the live count...</span>
+    </p>
+  </div>
+</section>
+
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Built with <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a> and Jekyll.
 </div>
