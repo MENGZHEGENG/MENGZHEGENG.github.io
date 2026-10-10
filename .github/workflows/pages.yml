@@ -75,7 +75,7 @@ jobs:
           else
             echo "configured=false" >> "$GITHUB_OUTPUT"
           fi
-      - name: Refresh 30-day visitor count
+      - name: Refresh 30-day visitor count and country breakdown
         id: visitor-count
         if: (github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true') && steps.statable-key.outputs.configured == 'true'
         continue-on-error: true
@@ -85,11 +85,11 @@ jobs:
       - name: Record visitor count refresh warning
         if: (github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true') && (steps.statable-key.outputs.configured != 'true' || steps.visitor-count.outcome == 'failure')
         run: |
-          echo "::warning::Statable's 30-day visitor count was not refreshed during this run."
+          echo "::warning::Statable's 30-day visitor statistics were not refreshed during this run."
           {
-            echo "### Visitor count refresh"
+            echo "### Visitor statistics refresh"
             echo
-            echo "The 30-day visitor count could not be refreshed. The site will show an unavailable state rather than a stale value."
+            echo "The 30-day visitor count and country breakdown could not be refreshed. The site will show unavailable states rather than stale values."
           } >> "$GITHUB_STEP_SUMMARY"
       - name: Build Jekyll site
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'

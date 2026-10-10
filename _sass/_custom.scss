@@ -683,6 +683,100 @@ html[data-theme="dark"] .timeline-row {
   font-variant-numeric: tabular-nums;
 }
 
+.visitor-counter__locations {
+  margin-top: 0.6em;
+  padding-top: 0.45em;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.visitor-counter__locations summary {
+  display: flex;
+  align-items: center;
+  gap: 0.55em;
+  color: var(--global-link-color);
+  cursor: pointer;
+  font-size: 0.82em;
+  font-weight: 700;
+  list-style: none;
+}
+
+.visitor-counter__locations summary::-webkit-details-marker {
+  display: none;
+}
+
+.visitor-counter__locations summary::after {
+  margin-left: auto;
+  color: var(--global-text-color-light);
+  content: "+";
+  font-size: 1.25em;
+  line-height: 1;
+}
+
+.visitor-counter__locations[open] summary::after {
+  content: "−";
+}
+
+.visitor-counter__locations summary:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid var(--global-link-color);
+  outline-offset: 3px;
+}
+
+.visitor-counter__location-total {
+  color: var(--global-text-color-light);
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+.visitor-counter__country-list {
+  margin: 0.55em 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.visitor-counter__country-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.18em 0.8em;
+  padding: 0.28em 0;
+  border-bottom: 1px solid var(--global-border-color);
+  font-size: 0.84em;
+  line-height: 1.35;
+}
+
+.visitor-counter__country-name {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.visitor-counter__country-count {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.visitor-counter__country-bar {
+  grid-column: 1 / -1;
+  height: 0.18em;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--global-border-color);
+}
+
+.visitor-counter__country-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--global-link-color);
+}
+
+.visitor-counter__country-note,
+.visitor-counter__locations-unavailable {
+  margin: 0.55em 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.74em;
+  line-height: 1.45;
+}
+
 @media (max-width: 760px) {
   #main {
     width: 100%;

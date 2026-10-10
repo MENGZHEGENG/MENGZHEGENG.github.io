@@ -34,10 +34,32 @@
           <span>visitors</span>
         {% endif %}
       {% else %}
-        <strong aria-label="Count unavailable">—</strong>
+        <strong aria-label="Count unavailable">N/A</strong>
         <span>The 30-day count is temporarily unavailable.</span>
       {% endif %}
     </p>
+    {% if site.data.statable_visitor_count.countries_available and site.data.statable_visitor_count.countries.size > 0 %}
+      <details class="visitor-counter__locations">
+        <summary>
+          <span>Visitors by country</span>
+          <span class="visitor-counter__location-total">{{ site.data.statable_visitor_count.countries.size }} locations</span>
+        </summary>
+        <div class="visitor-counter__country-breakdown">
+          <ol class="visitor-counter__country-list">
+            {% for country in site.data.statable_visitor_count.countries %}
+              <li>
+                <span class="visitor-counter__country-name">{{ country.name | escape }}</span>
+                <span class="visitor-counter__country-count">{{ country.visitors }}<span class="screen-reader-text"> visitors</span></span>
+                <span class="visitor-counter__country-bar" aria-hidden="true"><span style="width: {{ country.bar_percent }}%;"></span></span>
+              </li>
+            {% endfor %}
+          </ol>
+          <p class="visitor-counter__country-note">Statable country estimates are approximate; counts may not add to the overall total.</p>
+        </div>
+      </details>
+    {% else %}
+      <p class="visitor-counter__locations-unavailable">Country breakdown temporarily unavailable.</p>
+    {% endif %}
   </div>
 </section>
 
