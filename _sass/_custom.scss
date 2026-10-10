@@ -683,23 +683,6 @@ html[data-theme="dark"] .timeline-row {
   font-variant-numeric: tabular-nums;
 }
 
-.visitor-counter__live {
-  margin-top: 0.5em;
-  padding-top: 0.45em;
-  border-top: 1px solid var(--global-border-color);
-}
-
-.visitor-counter__live-reading {
-  min-height: 1.35em;
-}
-
-.visitor-counter__live-status {
-  margin: 0.12em 0 0;
-  color: var(--global-text-color-light);
-  font-size: 0.72em;
-  line-height: 1.4;
-}
-
 .visitor-counter__locations {
   margin-top: 0.6em;
   padding-top: 0.45em;

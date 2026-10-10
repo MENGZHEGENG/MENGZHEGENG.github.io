@@ -16,7 +16,6 @@ from urllib.request import Request, urlopen
 
 SITE_ID = 3386330
 QUERY_URL = "https://statable.com/api/v1/query"
-SITES_URL = "https://statable.com/api/v1/sites"
 OUTPUT_PATH = Path(__file__).resolve().parents[1] / "_data" / "statable_visitor_count.json"
 DATE_PATTERN = re.compile(r"\A\d{4}-\d{2}-\d{2}\Z")
 COUNTRY_CODE_PATTERN = re.compile(r"\A[A-Z]{2}\Z")
@@ -58,40 +57,6 @@ def query_statable(api_key: str, query: dict[str, object]) -> dict[str, object]:
     if not isinstance(echoed_query, dict) or echoed_query.get("site_id") != SITE_ID:
         raise RuntimeError("Statable returned data for an unexpected site.")
     return payload
-
-
-def fetch_public_hash(api_key: str) -> str:
-    request = Request(
-        SITES_URL,
-        headers={"Accept": "application/json", "Authorization": f"Bearer {api_key}"},
-        method="GET",
-    )
-    try:
-        with urlopen(request, timeout=30) as response:
-            if response.status != 200:
-                raise RuntimeError("Statable returned an unsuccessful site-list response.")
-            payload = json.load(response)
-    except HTTPError as exc:
-        raise RuntimeError(f"Statable site-list request failed with HTTP {exc.code}.") from None
-    except URLError:
-        raise RuntimeError("Statable could not be reached for the live-counter configuration.") from None
-    except (TimeoutError, json.JSONDecodeError):
-        raise RuntimeError("Statable returned an unreadable site-list response.") from None
-
-    sites = payload.get("sites") if isinstance(payload, dict) else None
-    if not isinstance(sites, list):
-        raise RuntimeError("Statable returned an unexpected site list.")
-    matches = [
-        site
-        for site in sites
-        if isinstance(site, dict) and type(site.get("site_id")) is int and site["site_id"] == SITE_ID
-    ]
-    if len(matches) != 1:
-        raise RuntimeError("Statable did not return exactly one matching site.")
-    public_hash = matches[0].get("hash")
-    if not isinstance(public_hash, str) or not public_hash.strip():
-        raise RuntimeError("Statable did not return a public widget token for the site.")
-    return public_hash.strip()
 
 
 def parse_date_range(payload: dict[str, object]) -> list[str]:
@@ -235,7 +200,6 @@ def write_count(
     date_range: list[str],
     countries: list[dict[str, int | str]],
     countries_available: bool,
-    public_hash: str,
 ) -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     record = {
@@ -244,7 +208,6 @@ def write_count(
         "refreshed_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "countries_available": countries_available,
         "countries": countries,
-        "public_hash": public_hash,
     }
     temporary_path: str | None = None
     try:
@@ -277,12 +240,6 @@ def main() -> int:
         print(str(exc), file=sys.stderr)
         return 1
 
-    public_hash = ""
-    try:
-        public_hash = fetch_public_hash(api_key)
-    except RuntimeError as exc:
-        print(f"::warning::Statable's live visitor count could not be configured: {exc}")
-
     countries_available = True
     try:
         countries = fetch_country_breakdown(api_key, date_range)
@@ -291,7 +248,7 @@ def main() -> int:
         countries_available = False
         print(f"::warning::Statable's visitor location breakdown could not be refreshed: {exc}")
 
-    write_count(visitors, date_range, countries, countries_available, public_hash)
+    write_count(visitors, date_range, countries, countries_available)
     print(f"Refreshed 30-day visitor statistics for {date_range[0]} through {date_range[1]}.")
     return 0
 
