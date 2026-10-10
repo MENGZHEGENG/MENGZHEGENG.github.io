@@ -19,18 +19,6 @@
 </div>
 {% endif %}
 
-<section class="visitor-counter" aria-labelledby="visitor-counter-title">
-  <div class="visitor-counter__copy">
-    <p class="visitor-counter__eyebrow">Site activity</p>
-    <h2 id="visitor-counter-title">Visitors around the world</h2>
-    <p>Pageviews over the past seven days, with country-level counts on the map.</p>
-  </div>
-  <div class="visitor-counter__map-column">
-    <div id="visitor-map" class="visitor-counter__map" role="region" aria-label="Map showing country-level pageview counts over the past seven days."></div>
-    <p class="visitor-counter__attribution">Powered by <a href="https://statable.com" target="_blank" rel="nofollow noopener">Statable</a></p>
-  </div>
-</section>
-
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. Built with <a href="https://github.com/academicpages/academicpages.github.io">Academic Pages</a> and Jekyll.
 </div>
