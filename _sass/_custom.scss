@@ -238,11 +238,16 @@ html[data-theme="dark"] .google-scholar-icon {
 }
 
 .research-card {
+  --research-card-accent: var(--research-theme-color-light, var(--site-focus-color));
   padding: 1em 1.1em 0.85em;
   border: 1px solid var(--global-border-color);
-  border-top: 3px solid var(--research-theme-color, var(--site-focus-color));
+  border-top: 3px solid var(--research-card-accent);
   border-radius: 5px;
   background: var(--site-surface-color);
+}
+
+html[data-theme="dark"] .research-card {
+  --research-card-accent: var(--research-theme-color-dark, var(--site-focus-color));
 }
 
 .research-card:last-child {
@@ -252,7 +257,7 @@ html[data-theme="dark"] .google-scholar-icon {
 .research-label {
   display: block;
   margin-bottom: 0.55em;
-  color: var(--research-theme-color, var(--site-focus-color));
+  color: var(--research-card-accent);
   font-size: 0.72em;
   font-weight: 800;
   letter-spacing: 0.08em;
@@ -410,10 +415,15 @@ html[data-theme="dark"] .publication-action--cite {
 }
 
 .timeline-row {
+  --timeline-color: var(--timeline-color-light, var(--site-focus-color));
   min-height: 3.45em;
   margin: 0.34em 0;
   border-radius: 5px;
   background: var(--site-surface-color);
+}
+
+html[data-theme="dark"] .timeline-row {
+  --timeline-color: var(--timeline-color-dark, var(--site-focus-color));
 }
 
 .timeline-row-label {
@@ -534,6 +544,57 @@ html[data-theme="dark"] .publication-action--cite {
 
 .award-list li {
   margin-bottom: 0.55em;
+}
+
+.author-led-disclosure {
+  margin: 0.7em 0 1.7em;
+}
+
+.author-led-disclosure > summary {
+  display: list-item;
+  width: max-content;
+  max-width: 100%;
+  padding: 0.48em 0.72em;
+  border: 1px solid var(--global-dark-border-color);
+  border-radius: 4px;
+  background: var(--site-surface-muted);
+  color: var(--site-focus-color);
+  cursor: pointer;
+  font-size: 0.88em;
+  font-weight: 700;
+  line-height: 1.4;
+  list-style-position: inside;
+}
+
+.author-led-disclosure > summary:hover {
+  border-color: var(--site-focus-color);
+}
+
+.author-led-disclosure > summary:focus-visible {
+  outline: 3px solid var(--site-focus-color);
+  outline-offset: 3px;
+}
+
+.author-led-disclosure:not([open]) .disclosure-label--expanded,
+.author-led-disclosure[open] .disclosure-label--collapsed {
+  display: none;
+}
+
+.author-led-disclosure[open] > summary {
+  margin-bottom: 0.9em;
+}
+
+.award-qualifier {
+  display: inline-block;
+  margin-left: 0.45em;
+  padding: 0.03em 0.45em;
+  border-left: 2px solid var(--site-focus-color);
+  background: var(--site-surface-muted);
+  color: var(--site-focus-color);
+  font-size: 0.82em;
+  font-weight: 650;
+  line-height: 1.5;
+  vertical-align: 0.08em;
 }
 
 .publication-intro {

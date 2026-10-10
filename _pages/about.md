@@ -34,14 +34,14 @@ classes: wide
 </div>
 <div class="timeline-entry">
   <div class="timeline-date">2015–2019</div>
-  <div><h3>B.Sc. in Mathematics and Information Engineering</h3><p>The Chinese University of Hong Kong · First-class honours · ELITE Stream graduate · Minor in Computer Science</p></div>
+  <div><h3>B.Sc. in Mathematics and Information Engineering</h3><p>The Chinese University of Hong Kong · First-class honours · <a href="https://www.erg.cuhk.edu.hk/iris/Elite" target="_blank" rel="noopener noreferrer">ELITE Stream graduate</a> · Minor in Computer Science</p></div>
 </div>
 
 <h2 id="research">Research</h2>
 {% assign research_themes = site.data.research_themes %}
 <div class="research-grid">
   {% for theme in research_themes %}
-  <section class="research-card" data-research-theme="{{ theme.label | slugify }}" style="--research-theme-color: {{ theme.color }}">
+  <section class="research-card" data-research-theme="{{ theme.label | slugify }}" style="--research-theme-color-light: {{ theme.color }}; --research-theme-color-dark: {{ theme.dark_color }}">
     <span class="research-label">{{ theme.label }}</span>
     <h3>{{ theme.heading }}</h3>
     <p>{{ theme.description }}</p>
@@ -50,18 +50,20 @@ classes: wide
 </div>
 
 <h2 id="author-led-publications">Author-led publications</h2>
-<p class="publication-intro">These include publications for which I am a first author, co-first author, or (joint) corresponding author.</p>
 {% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
 {% assign timeline_themes = site.data.research_themes %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
 {% assign last_timeline_year = site.time | date: "%Y" | plus: 0 %}
 {% assign timeline_years = (first_timeline_year..last_timeline_year) %}
+<details class="author-led-disclosure">
+  <summary><span class="disclosure-label--collapsed">Show timeline and publications ({{ author_led_publications.size }})</span><span class="disclosure-label--expanded">Hide timeline and publications ({{ author_led_publications.size }})</span></summary>
+<p class="publication-intro">These include publications for which I am a first author, co-first author, or (joint) corresponding author.</p>
 <div class="timeline-scroller" tabindex="0" aria-label="Scrollable publication timeline">
   <div class="research-timeline" style="--timeline-year-count: {{ timeline_years.size }}">
     <div class="timeline-axis"><span class="timeline-axis-label">Research theme</span>{% for year in timeline_years %}<span class="timeline-year">{{ year }}</span>{% endfor %}</div>
     {% for theme in timeline_themes %}
     {% assign theme_slug = theme.label | slugify %}
-    <div class="timeline-row" data-timeline-theme="{{ theme_slug }}" style="--timeline-color: {{ theme.color }}">
+    <div class="timeline-row" data-timeline-theme="{{ theme_slug }}" style="--timeline-color-light: {{ theme.color }}; --timeline-color-dark: {{ theme.dark_color }}">
       <span class="timeline-row-label">{{ theme.label }}</span>
       {% for year in timeline_years %}
       {% assign year_number = year | plus: 0 %}
@@ -93,14 +95,15 @@ classes: wide
 {% endfor %}
 <script defer src="{{ '/assets/js/publication-timeline.js' | prepend: base_path }}"></script>
 <p class="more-link"><a href="/publications/">View the full publication list <span aria-hidden="true">→</span></a> <span aria-hidden="true">·</span> <a href="{{ site.author.googlescholar }}">All publications on Google Scholar</a></p>
+</details>
 
-<h2 id="awards">Selected awards and honours</h2>
+<h2 id="awards">Selected Awards and Honours</h2>
 <ul class="award-list">
-  <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility</strong>, Digital Government Community Awards, Government of Canada, 2026 <em>(one team recipient per year)</em></li>
+  <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility</strong>, Digital Government Community Awards, Government of Canada, 2026 <span class="award-qualifier">One team recipient per year</span></li>
   <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada, 2026</li>
   <li class="award-item"><strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore, 2025</li>
   <li class="award-item"><strong>Valedictorian</strong>, CUHK Postgraduate Class of 2023</li>
-  <li class="award-item"><strong>IEEE ICASSP Outstanding Reviewer</strong>, 2023</li>
+  <li class="award-item"><strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong>, 2023</li>
   <li class="award-item">ISCA INTERSPEECH Travel Grant, 2023</li>
   <li class="award-item">Finalist, Hong Kong X Foundation FYP+ Project, 2019</li>
   <li class="award-item">CUHK Academic Excellence Scholarship for Non-local Students, 2019</li>
