@@ -163,7 +163,7 @@ def fetch_country_breakdown(api_key: str, date_range: list[str]) -> list[dict[st
 
         code = code_value.strip().upper() if isinstance(code_value, str) else ""
         name = name_value.strip() if isinstance(name_value, str) else ""
-        if code in {"CN", "HK", "TW"}:
+        if code in {"CN", "HK", "MO", "TW"}:
             code = "CN"
             name = "China"
         unknown_location = (
