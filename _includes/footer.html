@@ -19,15 +19,24 @@
 </div>
 {% endif %}
 
-<section class="visitor-counter" data-visitor-counter data-statable-hash="G4H6CB0Fb6" aria-labelledby="visitor-counter-title">
+<section class="visitor-counter" aria-labelledby="visitor-counter-title">
   <span class="visitor-counter__icon" aria-hidden="true">
     <i class="fas fa-users"></i>
   </span>
   <div class="visitor-counter__content">
-    <p class="visitor-counter__title" id="visitor-counter-title">Live visitors</p>
-    <p class="visitor-counter__reading" role="status" aria-live="polite" aria-atomic="true">
-      <strong data-visitor-count-value>...</strong>
-      <span data-visitor-count-label>Loading the live count...</span>
+    <p class="visitor-counter__title" id="visitor-counter-title">Visitors in the last 30 days</p>
+    <p class="visitor-counter__reading">
+      {% if site.data.statable_visitor_count.visitors != nil %}
+        <strong>{{ site.data.statable_visitor_count.visitors }}</strong>
+        {% if site.data.statable_visitor_count.visitors == 1 %}
+          <span>visitor</span>
+        {% else %}
+          <span>visitors</span>
+        {% endif %}
+      {% else %}
+        <strong aria-label="Count unavailable">—</strong>
+        <span>The 30-day count is temporarily unavailable.</span>
+      {% endif %}
     </p>
   </div>
 </section>

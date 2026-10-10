@@ -64,6 +64,33 @@ jobs:
             echo
             echo "Google Scholar could not be reached during this run. The site will deploy with the last saved metrics."
           } >> "$GITHUB_STEP_SUMMARY"
+      - name: Check Statable API key availability
+        id: statable-key
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
+        env:
+          STATABLE_API_KEY: ${{ secrets.STATABLE_API_KEY }}
+        run: |
+          if [[ -n "$STATABLE_API_KEY" ]]; then
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Refresh 30-day visitor count
+        id: visitor-count
+        if: (github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true') && steps.statable-key.outputs.configured == 'true'
+        continue-on-error: true
+        env:
+          STATABLE_API_KEY: ${{ secrets.STATABLE_API_KEY }}
+        run: python3 scripts/fetch_statable_visitor_count.py
+      - name: Record visitor count refresh warning
+        if: (github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true') && (steps.statable-key.outputs.configured != 'true' || steps.visitor-count.outcome == 'failure')
+        run: |
+          echo "::warning::Statable's 30-day visitor count was not refreshed during this run."
+          {
+            echo "### Visitor count refresh"
+            echo
+            echo "The 30-day visitor count could not be refreshed. The site will show an unavailable state rather than a stale value."
+          } >> "$GITHUB_STEP_SUMMARY"
       - name: Build Jekyll site
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         run: JEKYLL_ENV=production bundle exec jekyll build
