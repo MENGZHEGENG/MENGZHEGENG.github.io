@@ -96,7 +96,7 @@ classes: wide
 
 <h2 id="awards">Selected awards and honours</h2>
 <ul class="award-list">
-  <li class="award-item"><em>Award for Excellence in Inclusion, Diversity, Equity and Accessibility</em>, Digital Government Community Awards, Government of Canada, 2026 (one team recipient per year)</li>
+  <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility</strong>, Digital Government Community Awards, Government of Canada, 2026 <em>(one team recipient per year)</em></li>
   <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada, 2026</li>
   <li class="award-item"><strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore, 2025</li>
   <li class="award-item"><strong>Valedictorian</strong>, CUHK Postgraduate Class of 2023</li>
