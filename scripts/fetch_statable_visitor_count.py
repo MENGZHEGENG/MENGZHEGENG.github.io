@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch Statable's visitor count and country breakdown for the trailing 30 days."""
+"""Fetch Statable's visitor count and location breakdown for the trailing 30 days."""
 
 from __future__ import annotations
 
@@ -110,12 +110,12 @@ def fetch_country_breakdown(api_key: str, date_range: list[str]) -> list[dict[st
             },
         )
         if parse_date_range(payload) != date_range:
-            raise RuntimeError("Statable returned a different reporting period for the country breakdown.")
+            raise RuntimeError("Statable returned a different reporting period for the location breakdown.")
 
         page_rows = payload.get("results")
         meta = payload.get("meta")
         if not isinstance(page_rows, list) or not isinstance(meta, dict):
-            raise RuntimeError("Statable returned an unexpected country breakdown.")
+            raise RuntimeError("Statable returned an unexpected location breakdown.")
 
         page_total = meta.get("total")
         page_limit = meta.get("limit")
@@ -131,17 +131,17 @@ def fetch_country_breakdown(api_key: str, date_range: list[str]) -> list[dict[st
             or type(has_more) is not bool
             or len(page_rows) > page_limit
         ):
-            raise RuntimeError("Statable returned invalid country pagination metadata.")
+            raise RuntimeError("Statable returned invalid location pagination metadata.")
         if total_rows is None:
             total_rows = page_total
         elif total_rows != page_total:
-            raise RuntimeError("Statable changed the country breakdown while it was being read.")
+            raise RuntimeError("Statable changed the location breakdown while it was being read.")
 
         rows.extend(page_rows)
         if not has_more:
             break
         if not page_rows:
-            raise RuntimeError("Statable returned an empty country page while more rows were expected.")
+            raise RuntimeError("Statable returned an empty location page while more rows were expected.")
         offset += page_limit
 
     if total_rows != len(rows):
@@ -163,13 +163,15 @@ def fetch_country_breakdown(api_key: str, date_range: list[str]) -> list[dict[st
 
         code = code_value.strip().upper() if isinstance(code_value, str) else ""
         name = name_value.strip() if isinstance(name_value, str) else ""
+        if code in {"CN", "HK", "TW"}:
+            code = "CN"
+            name = "China"
         unknown_location = (
             not COUNTRY_CODE_PATTERN.fullmatch(code)
             or code in UNKNOWN_COUNTRY_CODES
             or name.casefold() in UNKNOWN_COUNTRY_LABELS
-            or "taiwan" in name.casefold()
         )
-        if code == "TW" or unknown_location:
+        if unknown_location:
             other_visitors += visitors
             continue
 
@@ -244,7 +246,7 @@ def main() -> int:
     except RuntimeError as exc:
         countries = []
         countries_available = False
-        print(f"::warning::Statable's visitor country breakdown could not be refreshed: {exc}")
+        print(f"::warning::Statable's visitor location breakdown could not be refreshed: {exc}")
 
     write_count(visitors, date_range, countries, countries_available)
     print(f"Refreshed 30-day visitor statistics for {date_range[0]} through {date_range[1]}.")

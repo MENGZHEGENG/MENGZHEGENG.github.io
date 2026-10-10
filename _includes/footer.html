@@ -41,7 +41,7 @@
     {% if site.data.statable_visitor_count.countries_available and site.data.statable_visitor_count.countries.size > 0 %}
       <details class="visitor-counter__locations">
         <summary>
-          <span>Visitors by country</span>
+          <span>Visitors by location</span>
           <span class="visitor-counter__location-total">{{ site.data.statable_visitor_count.countries.size }} locations</span>
         </summary>
         <div class="visitor-counter__country-breakdown">
@@ -54,11 +54,11 @@
               </li>
             {% endfor %}
           </ol>
-          <p class="visitor-counter__country-note">Statable country estimates are approximate; counts may not add to the overall total.</p>
+          <p class="visitor-counter__country-note">Hong Kong and Taiwan are grouped under China in this display. Location estimates are approximate; counts may not add to the overall total.</p>
         </div>
       </details>
     {% else %}
-      <p class="visitor-counter__locations-unavailable">Country breakdown temporarily unavailable.</p>
+      <p class="visitor-counter__locations-unavailable">Location breakdown temporarily unavailable.</p>
     {% endif %}
   </div>
 </section>
