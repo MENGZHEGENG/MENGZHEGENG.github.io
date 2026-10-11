@@ -4,6 +4,7 @@ authors: C. Valentini-Botinhao, D. Wells, A. L. A. Blanco, E. Cooper, J. Yamagis
 venue: Computer Speech & Language
 doi: https://doi.org/10.1016/j.csl.2026.102042
 year: 2026
+publication_theme: Text-to-speech evaluation
 category: journals
 scholar_sort_order: 1
 scholar_rank: 49

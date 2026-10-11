@@ -5,6 +5,7 @@ authors: T Wang, X Xie, Z Jin, Mengzhe Geng, J Deng, Z Li, S Hu, S Hu, G Li, M C
 venue: IEEE Transactions on Audio, Speech and Language Processing
 doi: https://doi.org/10.1109/TASLPRO.2025.3633090
 year: 2025
+publication_theme: Speech recognition
 category: journals
 scholar_sort_order: 113
 scholar_rank: 51

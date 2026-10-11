@@ -4,6 +4,7 @@ authors: Z Li, H Xu, Z Jin, T Wang, L Meng, H Wang, Y Chen, M Cui, S Hu, Mengzhe
 venue: IEEE Transactions on Audio, Speech and Language Processing
 doi: https://doi.org/10.1109/TASLPRO.2026.3724410
 year: 2026
+publication_theme: Speech foundation model compression
 category: journals
 scholar_sort_order: 16
 scholar_rank: 66

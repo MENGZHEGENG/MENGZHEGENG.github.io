@@ -4,6 +4,7 @@ authors: Zengrui Jin, Xurong Xie, Mengzhe Geng, Tianzi Wang, Shujie Hu, Jiajun D
 venue: ICASSP 2023
 doi: https://doi.org/10.1109/ICASSP49357.2023.10095547
 year: 2023
+publication_theme: Adversarial data augmentation
 category: conferences
 scholar_sort_order: 303
 scholar_rank: 13

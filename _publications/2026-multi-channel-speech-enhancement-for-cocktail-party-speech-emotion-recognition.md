@@ -5,6 +5,7 @@ authors: Youjun Chen, Guinan Li, Mengzhe Geng, Xurong Xie, Shujie Hu, Huimeng Wa
 venue: ICASSP 2026
 doi: https://doi.org/10.1109/ICASSP55912.2026.11464972
 year: 2026
+publication_theme: Speech enhancement
 category: conferences
 scholar_sort_order: 19
 scholar_rank: 69

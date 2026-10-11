@@ -5,6 +5,7 @@ authors: Zhaoqing Li, Haoning Xu, Tianzi Wang, Shoukang Hu, Zengrui Jin, Shujie 
 venue: INTERSPEECH 2024
 doi: https://doi.org/10.21437/Interspeech.2024-703
 year: 2024
+publication_theme: Speech foundation model compression
 category: conferences
 scholar_sort_order: 206
 scholar_rank: 37

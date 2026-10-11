@@ -7,6 +7,7 @@ doi: https://doi.org/10.21437/Interspeech.2026-1683
 paperurl: https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.pdf
 doiurl: https://www.isca-archive.org/interspeech_2026/chen26r_interspeech.html
 year: 2026
+publication_theme: Speech emotion recognition
 category: conferences
 scholar_sort_order: 10
 scholar_rank: 60

@@ -4,6 +4,7 @@ authors: Jiajun Deng, Guinan Li, Xurong Xie, Zengrui Jin, Mingyu Cui, Tianzi Wan
 venue: INTERSPEECH 2023
 doi: https://doi.org/10.21437/Interspeech.2023-583
 year: 2023
+publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 309
 scholar_rank: 48

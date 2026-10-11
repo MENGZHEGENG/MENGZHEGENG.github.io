@@ -4,6 +4,7 @@ authors: Huimeng Wang, Xurong Xie, Mengzhe Geng, Shujie Hu, Haoning Xu, Youjun C
 venue: ICASSP 2025
 doi: https://doi.org/10.1109/ICASSP49660.2025.10889032
 year: 2025
+publication_theme: Dysarthric speech recognition
 category: conferences
 scholar_sort_order: 103
 scholar_rank: 32

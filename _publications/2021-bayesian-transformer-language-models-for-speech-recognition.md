@@ -4,6 +4,7 @@ authors: Boyang Xue, Jianwei Yu, Junhao Xu, Shansong Liu, Shoukang Hu, Zi Ye, Me
 venue: ICASSP 2021
 doi: https://doi.org/10.1109/ICASSP39728.2021.9414046
 year: 2021
+publication_theme: Speech recognition
 category: conferences
 scholar_sort_order: 504
 scholar_rank: 11

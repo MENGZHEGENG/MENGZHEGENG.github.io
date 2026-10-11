@@ -4,6 +4,7 @@ authors: Jianwei Yu, Shi-Xiong Zhang, Bo Wu, Shansong Liu, Shoukang Hu, Mengzhe 
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 doi: https://doi.org/10.1109/TASLP.2021.3078883
 year: 2021
+publication_theme: Audio-visual speech recognition
 category: journals
 scholar_sort_order: 505
 scholar_rank: 18

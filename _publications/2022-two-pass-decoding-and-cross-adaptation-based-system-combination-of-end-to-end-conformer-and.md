@@ -5,6 +5,7 @@ authors: Mingyu Cui, Jiajun Deng, Shoukang Hu, Xurong Xie, Tianzi Wang, Shujie H
 venue: INTERSPEECH 2022
 doi: https://doi.org/10.21437/Interspeech.2022-696
 year: 2022
+publication_theme: Speech recognition
 category: conferences
 scholar_sort_order: 407
 scholar_rank: 30

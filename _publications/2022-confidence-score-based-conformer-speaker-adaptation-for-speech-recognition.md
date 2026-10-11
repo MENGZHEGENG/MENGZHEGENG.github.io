@@ -5,6 +5,7 @@ authors: Jiajun Deng, Xurong Xie, Tianzi Wang, Mingyu Cui, Boyang Xue, Zengrui J
 venue: INTERSPEECH 2022
 doi: https://doi.org/10.21437/Interspeech.2022-680
 year: 2022
+publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 406
 scholar_rank: 26

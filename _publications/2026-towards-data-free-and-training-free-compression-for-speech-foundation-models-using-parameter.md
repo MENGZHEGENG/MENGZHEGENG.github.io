@@ -6,6 +6,7 @@ doi: https://doi.org/10.21437/Interspeech.2026-1010
 paperurl: https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.pdf
 doiurl: https://www.isca-archive.org/interspeech_2026/xu26h_interspeech.html
 year: 2026
+publication_theme: Speech foundation model compression
 category: conferences
 scholar_sort_order: 13
 scholar_rank: 63

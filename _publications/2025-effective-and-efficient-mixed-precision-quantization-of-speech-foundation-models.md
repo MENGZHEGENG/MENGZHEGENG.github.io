@@ -5,6 +5,7 @@ authors: Haoning Xu, Zhaoqing Li, Zengrui Jin, Huimeng Wang, Youjun Chen, Guinan
 venue: ICASSP 2025
 doi: https://doi.org/10.1109/ICASSP49660.2025.10888920
 year: 2025
+publication_theme: Speech foundation model compression
 category: conferences
 scholar_sort_order: 104
 scholar_rank: 34

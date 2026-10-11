@@ -6,6 +6,7 @@ authors: Zi Ye, Shoukang Hu, Jinchao Li, Xurong Xie, Mengzhe Geng, Jianwei Yu, J
 venue: ICASSP 2021
 doi: https://doi.org/10.1109/ICASSP39728.2021.9413634
 year: 2021
+publication_theme: Elderly speech recognition
 category: conferences
 scholar_sort_order: 503
 scholar_rank: 9

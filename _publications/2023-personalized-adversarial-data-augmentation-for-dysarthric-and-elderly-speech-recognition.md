@@ -4,6 +4,7 @@ authors: Zengrui Jin, Mengzhe Geng, Jiajun Deng, Tianzi Wang, Shujie Hu, Guinan 
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 doi: https://doi.org/10.1109/TASLP.2023.3323888
 year: 2023
+publication_theme: Adversarial data augmentation
 category: journals
 scholar_sort_order: 302
 scholar_rank: 8

@@ -4,6 +4,7 @@ authors: Youjun Chen, Xurong Xie, Haoning Xu, Mengzhe Geng, Guinan Li, Chengxi D
 venue: INTERSPEECH 2025
 doi: https://doi.org/10.48550/arXiv.2505.23236
 year: 2025
+publication_theme: Speech emotion recognition
 category: conferences
 scholar_sort_order: 105
 scholar_rank: 35

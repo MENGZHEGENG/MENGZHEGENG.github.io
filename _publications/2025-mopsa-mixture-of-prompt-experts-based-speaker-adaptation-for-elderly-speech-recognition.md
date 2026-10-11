@@ -5,6 +5,7 @@ authors: Chengxi Deng, Xurong Xie, Shujie Hu, Mengzhe Geng, Yicong Jiang, Jianku
 venue: INTERSPEECH 2025
 doi: https://doi.org/10.48550/arXiv.2505.24224
 year: 2025
+publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 106
 scholar_rank: 38

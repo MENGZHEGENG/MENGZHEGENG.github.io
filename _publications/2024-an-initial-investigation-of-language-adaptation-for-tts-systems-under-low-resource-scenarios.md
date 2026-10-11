@@ -5,6 +5,7 @@ authors: Cheng Gong, Erica Cooper, Xin Wang, Chunyu Qiang, Mengzhe Geng, Dan Wel
 venue: INTERSPEECH 2024
 doi: https://doi.org/10.21437/Interspeech.2024-969
 year: 2024
+publication_theme: Low-resource speech synthesis
 category: conferences
 scholar_sort_order: 204
 scholar_rank: 33

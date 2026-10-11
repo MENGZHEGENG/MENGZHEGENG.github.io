@@ -4,6 +4,7 @@ authors: S Hu, X Xie, Mengzhe Geng, Z Jin, J Deng, G Li, Y Wang, M Cui, T Wang, 
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 doi: https://doi.org/10.1109/TASLP.2024.3422839
 year: 2024
+publication_theme: Dysarthric speech recognition
 category: journals
 scholar_sort_order: 202
 scholar_rank: 10

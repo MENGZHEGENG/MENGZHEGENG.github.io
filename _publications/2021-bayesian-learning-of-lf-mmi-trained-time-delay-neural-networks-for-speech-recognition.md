@@ -4,6 +4,7 @@ authors: Shoukang Hu, Xurong Xie, Shansong Liu, Jianwei Yu, Zi Ye, Mengzhe Geng,
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 doi: https://doi.org/10.1109/TASLP.2021.3069080
 year: 2021
+publication_theme: Speech recognition
 category: journals
 scholar_sort_order: 507
 scholar_rank: 22

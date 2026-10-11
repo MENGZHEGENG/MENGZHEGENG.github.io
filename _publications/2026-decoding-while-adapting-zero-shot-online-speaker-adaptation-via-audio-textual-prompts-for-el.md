@@ -7,6 +7,7 @@ doi: https://doi.org/10.21437/Interspeech.2026-620
 paperurl: https://www.isca-archive.org/interspeech_2026/deng26_interspeech.pdf
 doiurl: https://www.isca-archive.org/interspeech_2026/deng26_interspeech.html
 year: 2026
+publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 11
 scholar_rank: 61

@@ -5,6 +5,7 @@ authors: Shujie Hu, Xurong Xie, Mengzhe Geng, Jiajun Deng, Huimeng Wang, Guinan 
 venue: INTERSPEECH 2025
 doi: https://doi.org/10.48550/arXiv.2505.22072
 year: 2025
+publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 107
 scholar_rank: 39

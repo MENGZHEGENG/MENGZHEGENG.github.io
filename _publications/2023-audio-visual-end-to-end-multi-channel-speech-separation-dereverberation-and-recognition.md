@@ -4,6 +4,7 @@ authors: Guinan Li, Jiajun Deng, Mengzhe Geng, Zengrui Jin, Tianzi Wang, Shujie 
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 doi: https://doi.org/10.1109/TASLP.2023.3294705
 year: 2023
+publication_theme: Multichannel speech separation
 category: journals
 scholar_sort_order: 304
 scholar_rank: 14

@@ -5,6 +5,7 @@ authors: Shujie Hu, Xurong Xie, Mengzhe Geng, Jiajun Deng, Zengrui Jin, Tianzi W
 venue: arXiv preprint arXiv:2412.18832
 doi: https://doi.org/10.48550/arXiv.2412.18832
 year: 2024
+publication_theme: Speaker adaptation
 category: preprints
 scholar_sort_order: 205
 scholar_rank: 36

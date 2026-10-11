@@ -50,7 +50,7 @@ classes: wide
 </div>
 
 <h2 id="author-led-publications">Author-led publications</h2>
-{% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "author_role_order" %}
+{% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "scholar_sort_order" %}
 {% assign timeline_themes = site.data.research_themes %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
 {% assign last_timeline_year = site.time | date: "%Y" | plus: 0 %}
