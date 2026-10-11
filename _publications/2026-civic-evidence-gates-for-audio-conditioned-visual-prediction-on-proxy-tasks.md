@@ -1,0 +1,19 @@
+---
+title: 'CIViC: Evidence Gates for Audio-Conditioned Visual Prediction on Proxy Tasks'
+authors: 'Mengzhe Geng*, Max W. Y. Lam, Yuewen Cao, Shoukang Hu, Jing Xu, Marc Tessier, Xu Li*'
+venue: arXiv submission
+publication_status: Submitted to arXiv
+year: 2026
+author_role: co-first-corresponding
+author_role_order: 0.1
+publication_theme: Audio-conditioned visual evaluation
+timeline_theme: Trustworthy Multimodal AI
+category: preprints
+scholar_sort_order: 0.1
+scholar_rank: pending-civic-evidence-gates
+scholar_pending: true
+scholarurl: 'https://scholar.google.ca/scholar?hl=en&q=%22CIViC%3A+Evidence+Gates+for+Audio-Conditioned+Visual+Prediction+on+Proxy+Tasks%22'
+paperurl: /files/civic-evidence-gates-for-audio-conditioned-visual-prediction.pdf
+pdfurl: /files/civic-evidence-gates-for-audio-conditioned-visual-prediction.pdf
+doi_pending: true
+---

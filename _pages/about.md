@@ -8,7 +8,7 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> National Research Council Canada</p>
 
-<p class="lede">My research develops and evaluates <strong>machine learning for speech, language, audio, and multimodal systems</strong>. I study accessible and low-resource technologies, adaptive and efficient speech models, and how generative and multimodal systems should be evaluated when evidence is limited or conflicting.</p>
+<p class="lede">My research develops and evaluates <strong>machine learning for speech, language, audio, and multimodal systems</strong>. I study accessible and low-resource speech, adaptive and efficient speech models, and evidence-based evaluation of multimodal systems, including audio-conditioned visual prediction and evidence-sensitive decisions.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 

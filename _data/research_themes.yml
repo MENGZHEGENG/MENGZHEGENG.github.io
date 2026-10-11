@@ -14,8 +14,8 @@
   color: "#276aa3"
   dark_color: "#83b6ed"
 - label: Trustworthy Multimodal AI
-  heading: Evidence and decisions under conflict
-  description: How speech, audio, video, and text systems evaluate evidence, acquire additional sources, answer or abstain, and support auditable decisions.
+  heading: Evidence-based evaluation of multimodal systems
+  description: Evaluation of audio-conditioned visual prediction and multimodal decisions through input interventions, held-out task comparisons, endpoint controls, and abstention.
   color: "#a54d35"
   dark_color: "#f0997e"
 - label: Speech Generation and Agents
