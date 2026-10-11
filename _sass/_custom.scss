@@ -337,6 +337,7 @@ html[data-theme="dark"] .research-card {
 
 .publication-actions {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
   gap: 0.4em;
   margin-top: 0.65em;
