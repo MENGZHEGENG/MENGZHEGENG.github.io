@@ -4,6 +4,7 @@ authors: Mengzhe Geng, Patrick Littell, Aidan Pine, Penáć, Marc Tessier, Rolan
 homepage_authors: Mengzhe Geng et al.
 venue: ComputEL-8
 year: 2025
+publication_date: '2025-03'
 author_role: first-corresponding
 author_role_order: 10
 publication_theme: Indigenous language speech recognition

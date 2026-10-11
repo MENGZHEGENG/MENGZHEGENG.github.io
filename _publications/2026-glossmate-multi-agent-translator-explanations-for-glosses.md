@@ -4,6 +4,7 @@ authors: Changbing Yang, Patrick Littell, Gabriel Bernier-Colborne, Yanfei Lu, M
 venue: Language Resources and Evaluation Conference (LREC 2026)
 doi: https://doi.org/10.63317/5bhwdv5gcjqz
 year: 2026
+publication_date: '2026-05'
 author_role: corresponding
 author_role_order: 6
 publication_theme: Language technology

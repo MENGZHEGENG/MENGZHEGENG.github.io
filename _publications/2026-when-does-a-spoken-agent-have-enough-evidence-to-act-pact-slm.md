@@ -3,6 +3,7 @@ title: 'When Does a Spoken Agent Have Enough Evidence to Act? The PACT-SLM Contr
 authors: Mengzhe Geng
 venue: arXiv preprint arXiv:2609.38232
 year: 2026
+publication_date: '2026-09-28'
 author_role: first
 author_role_order: 0.5
 publication_theme: Spoken agents

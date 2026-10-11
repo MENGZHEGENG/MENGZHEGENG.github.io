@@ -4,6 +4,7 @@ authors: Mengzhe Geng
 venue: arXiv preprint arXiv:2608.27817
 doi: https://doi.org/10.48550/arXiv.2608.27817
 year: 2026
+publication_date: '2026-08-28'
 author_role: first
 author_role_order: 3
 publication_theme: Audio language model evaluation

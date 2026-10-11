@@ -4,6 +4,7 @@ authors: Huimeng Wang, Zengrui Jin, Mengzhe Geng, Shujie Hu, Guinan Li, Tianzi W
 venue: ICASSP 2024
 doi: https://doi.org/10.1109/ICASSP48485.2024.10447702
 year: 2024
+publication_date: '2024-03-18'
 publication_theme: Dysarthric speech recognition
 category: conferences
 scholar_sort_order: 201

@@ -4,6 +4,7 @@ authors: Zengrui Jin*, Mengzhe Geng*, Xurong Xie, Jianwei Yu, Shansong Liu, Xuny
 venue: INTERSPEECH 2021
 doi: https://doi.org/10.21437/Interspeech.2021-168
 year: 2021
+publication_date: '2021-08-30'
 author_role: co-first
 author_role_order: 15.5
 publication_theme: Adversarial data augmentation

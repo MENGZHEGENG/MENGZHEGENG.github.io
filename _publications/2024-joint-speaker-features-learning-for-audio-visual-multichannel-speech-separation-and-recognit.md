@@ -5,6 +5,7 @@ authors: Guinan Li, Jiajun Deng, Youjun Chen, Mengzhe Geng, Shujie Hu, Zhe Li, Z
 venue: INTERSPEECH 2024
 doi: https://doi.org/10.21437/Interspeech.2024-1063
 year: 2024
+publication_date: '2024-09-01'
 publication_theme: Multichannel speech separation
 category: conferences
 scholar_sort_order: 208

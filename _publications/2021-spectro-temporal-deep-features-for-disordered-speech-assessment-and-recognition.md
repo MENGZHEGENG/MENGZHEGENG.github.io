@@ -4,6 +4,7 @@ authors: Mengzhe Geng, Shansong Liu, Jianwei Yu, Xurong Xie, Shoukang Hu, Zi Ye,
 venue: INTERSPEECH 2021
 doi: https://doi.org/10.21437/Interspeech.2021-60
 year: 2021
+publication_date: '2021-08-30'
 author_role: first
 author_role_order: 15
 publication_theme: Disordered speech assessment

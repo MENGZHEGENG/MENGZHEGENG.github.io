@@ -4,6 +4,7 @@ authors: Mengzhe Geng, J Jin, J Xu
 venue: arXiv preprint arXiv:2609.26823
 doi: https://doi.org/10.48550/arXiv.2609.26823
 year: 2026
+publication_date: '2026-09-20'
 author_role: first
 author_role_order: 5
 publication_theme: Multimodal audio evaluation

@@ -4,6 +4,7 @@ authors: S Wang, A Pine, Mengzhe Geng
 venue: European Chapter of the Association for Computational Linguistics (EACL 2026)
 doi: https://doi.org/10.18653/v1/2026.eacl-short.16
 year: 2026
+publication_date: '2026-03'
 publication_theme: Low-resource speech synthesis
 timeline_theme: Speech Generation and Agents
 category: conferences

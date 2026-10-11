@@ -5,6 +5,7 @@ authors: Mengzhe Geng, Xurong Xie, Rongfeng Su, Jianwei Yu, Zengrui Jin, Tianzi 
 venue: INTERSPEECH 2023
 doi: https://doi.org/10.21437/Interspeech.2023-301
 year: 2023
+publication_date: '2023-08-20'
 author_role: first
 author_role_order: 13
 publication_theme: Speaker adaptation

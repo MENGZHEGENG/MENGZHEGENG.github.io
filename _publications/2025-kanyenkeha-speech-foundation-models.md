@@ -5,6 +5,7 @@ homepage_authors: Mengzhe Geng et al.
 venue: INTERSPEECH
 doi: https://doi.org/10.21437/Interspeech.2025-1215
 year: 2025
+publication_date: '2025-08-17'
 author_role: first-corresponding
 author_role_order: 9
 publication_theme: Indigenous language speech recognition

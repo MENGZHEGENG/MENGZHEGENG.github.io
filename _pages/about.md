@@ -8,7 +8,7 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">My research develops and evaluates <strong>machine learning for speech, language, audio, and multimodal systems</strong>. I study accessible and low-resource speech, adaptive and efficient speech models, and evidence-based evaluation of multimodal systems, including audio-conditioned visual prediction and evidence-sensitive decisions.</p>
+<p class="lede">I develop and evaluate <strong>machine learning across speech, language, audio, and multimodal AI</strong>. My work includes accessible speech recognition and speaker adaptation; low-resource and multilingual language technologies; efficient adaptation of speech foundation models; speech and audio generation; and spoken agents. I also study multimodal reasoning, including audio-conditioned visual prediction, and evidence-grounded decisions about when systems should gather more information, answer, act, or abstain.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 
@@ -19,7 +19,8 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
-<p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I can work in Canada, Hong Kong, and Mainland China without an additional work visa. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
+<p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I can work in Canada, Hong Kong, and Mainland China without needing to apply for an additional work visa. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
+<p class="collaboration-invitation">I welcome students and researchers from anywhere to work with me remotely as interns or guest researchers. Students in Canada can also explore the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> and <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Please email your CV and transcripts from your bachelor's degree onward to <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
@@ -51,6 +52,7 @@ classes: wide
 
 <h2 id="author-led-publications">Author-led publications</h2>
 {% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "scholar_sort_order" %}
+{% assign author_led_years = author_led_publications | group_by: "year" | sort: "name" | reverse %}
 {% assign timeline_themes = site.data.research_themes %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
 {% assign last_timeline_year = site.time | date: "%Y" | plus: 0 %}
@@ -83,7 +85,11 @@ classes: wide
   {% for theme in timeline_themes %}<button class="publication-filter" type="button" data-publication-filter="{{ theme.label | slugify }}" aria-pressed="false">{{ theme.label }}</button>{% endfor %}
 </div>
 <p class="publication-filter-status" aria-live="polite">{{ author_led_publications.size }} publications</p>
-{% for post in author_led_publications %}
+{% for year_group in author_led_years %}
+{% assign dated_author_led_publications = year_group.items | where_exp: "post", "post.publication_date" | sort: "publication_date" | reverse %}
+{% assign year_only_author_led_publications = year_group.items | where_exp: "post", "post.publication_date == nil" | sort: "scholar_sort_order" %}
+{% assign year_ordered_author_led_publications = dated_author_led_publications | concat: year_only_author_led_publications %}
+{% for post in year_ordered_author_led_publications %}
 {% assign displayed_authors = post.homepage_authors | default: post.authors %}
 <article class="publication-entry author-led-publication" id="author-publication-{{ post.scholar_rank }}" data-publication-theme="{{ post.timeline_theme | slugify }}">
   <h3><a href="{{ post.paperurl | default: post.scholarurl }}" target="_blank" rel="noopener">{{ post.title }}</a></h3>
@@ -93,6 +99,7 @@ classes: wide
   {% include publication-actions.html %}
 </article>
 {% endfor %}
+{% endfor %}
 <script defer src="{{ '/assets/js/publication-timeline.js' | prepend: base_path }}"></script>
 <script defer src="{{ '/assets/js/publication-citations.js' | prepend: base_path }}"></script>
 <p class="more-link"><a href="/publications/">View the full publication list <span aria-hidden="true">→</span></a> <span aria-hidden="true">·</span> <a href="{{ site.author.googlescholar }}">All publications on Google Scholar</a></p>
@@ -100,8 +107,8 @@ classes: wide
 
 <h2 id="awards">Selected Awards and Honours</h2>
 <ul class="award-list">
-  <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility</strong>, Digital Government Community Awards, Government of Canada, 2026 <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
-  <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, <a href="https://nrc.canada.ca/en">National Research Council Canada</a>, 2026 <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
+  <li class="award-item"><strong><a href="https://www.canada.ca/en/government/system/digital-government/gcdigital-community/networking-events/digital-government-community-awards/awards.html" target="_blank" rel="noopener noreferrer">Award for Excellence in Inclusion, Diversity, Equity and Accessibility</a></strong>, Digital Government Community Awards, Government of Canada, 2026 <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
+  <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada, 2026 <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
   <li class="award-item"><strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore, 2025</li>
   <li class="award-item"><strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
   <li class="award-item"><strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong>, 2023</li>

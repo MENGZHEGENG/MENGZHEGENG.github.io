@@ -3,6 +3,7 @@ title: Investigation of Data Augmentation Techniques for Disordered Speech Recog
 authors: Mengzhe Geng*, Xurong Xie*, Shansong Liu, Jianwei Yu, Shoukang Hu, Xunying Liu, Helen Meng
 venue: INTERSPEECH
 year: 2020
+publication_date: '2020-10-25'
 author_role: co-first
 author_role_order: 16
 publication_theme: Disordered speech recognition

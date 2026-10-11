@@ -5,6 +5,7 @@ homepage_authors: Jiankai Sun et al., including Mengzhe Geng
 venue: ACM Computing Surveys
 doi: https://doi.org/10.1145/3729218
 year: 2025
+publication_date: '2025-04-11'
 publication_theme: Foundation model reasoning
 category: journals
 sort_order: 3

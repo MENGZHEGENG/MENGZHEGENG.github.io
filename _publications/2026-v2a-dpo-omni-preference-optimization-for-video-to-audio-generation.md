@@ -4,6 +4,7 @@ authors: N. Chan*, M. Geng*, Y. Wang, Y. Liang, D. Wang
 venue: ICASSP 2026
 doi: https://doi.org/10.1109/ICASSP55912.2026.11463624
 year: 2026
+publication_date: '2026-04-21'
 author_role: co-first
 author_role_order: 6.25
 publication_theme: Video-to-audio generation

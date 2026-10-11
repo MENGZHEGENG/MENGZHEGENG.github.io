@@ -5,6 +5,7 @@ authors: Tianzi Wang, Jiajun Deng, Mengzhe Geng, Zi Ye, Shoukang Hu, Yi Wang, Mi
 venue: INTERSPEECH 2022
 doi: https://doi.org/10.21437/Interspeech.2022-712
 year: 2022
+publication_date: '2022-09-18'
 publication_theme: Elderly speech recognition
 category: conferences
 scholar_sort_order: 404

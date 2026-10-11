@@ -5,6 +5,7 @@ authors: Jiajun Deng, Xurong Xie, Guinan Li, Mingyu Cui, Mengzhe Geng, Zengrui J
 venue: ICASSP 2024
 doi: https://doi.org/10.1109/ICASSP48485.2024.10448488
 year: 2024
+publication_date: '2024-03-18'
 publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 207

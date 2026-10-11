@@ -4,6 +4,7 @@ authors: Mingyu Cui, Mengzhe Geng, Jiajun Deng, et al.
 venue: IEEE Transactions on Audio, Speech and Language Processing
 doi: https://doi.org/10.48550/arXiv.2508.10456
 year: 2025
+publication_date: '2025-08-14'
 author_role: corresponding
 author_role_order: 11.3
 publication_theme: Speech recognition

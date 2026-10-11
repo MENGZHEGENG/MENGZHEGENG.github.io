@@ -4,6 +4,7 @@ authors: Mingyu Cui, Mengzhe Geng, Yiwen Shao, Jiawen Kang, Lingwei Meng, Dingdo
 venue: ICASSP 2026
 doi: https://doi.org/10.1109/ICASSP55912.2026.11460887
 year: 2026
+publication_date: '2026-04-21'
 author_role: corresponding
 author_role_order: 6.1
 publication_theme: Multilingual speech recognition

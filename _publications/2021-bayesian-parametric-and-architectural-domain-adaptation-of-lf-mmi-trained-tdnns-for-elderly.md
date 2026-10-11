@@ -4,6 +4,7 @@ authors: J Deng, FR Gutierrez, S Hu, Mengzhe Geng, X Xie, Z Ye, S Liu, J Yu, X L
 venue: INTERSPEECH 2021
 doi: https://doi.org/10.21437/Interspeech.2021-289
 year: 2021
+publication_date: '2021-08-30'
 publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 508

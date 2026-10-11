@@ -4,6 +4,7 @@ authors: Shoukang Hu, Shansong Liu, Heng Fai Chang, Mengzhe Geng, Jiani Chen, La
   Wong, Xunying Liu, Helen Meng
 venue: INTERSPEECH 2019
 year: 2019
+publication_date: '2019-09-15'
 publication_theme: Dysarthric speech recognition
 category: conferences
 scholar_sort_order: 701

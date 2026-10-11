@@ -6,6 +6,7 @@ doi: https://doi.org/10.21437/Interspeech.2026-2165
 paperurl: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.pdf
 doiurl: https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html
 year: 2026
+publication_date: '2026-09-27'
 publication_theme: Audio watermarking
 timeline_theme: Trustworthy Multimodal AI
 category: conferences

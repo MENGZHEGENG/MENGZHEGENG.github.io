@@ -6,6 +6,7 @@ doi: https://doi.org/10.21437/Interspeech.2026-1559
 paperurl: https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.pdf
 doiurl: https://www.isca-archive.org/interspeech_2026/zhong26d_interspeech.html
 year: 2026
+publication_date: '2026-09-27'
 author_role: co-first
 author_role_order: 6.5
 publication_theme: Federated learning

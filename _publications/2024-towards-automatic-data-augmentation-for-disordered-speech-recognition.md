@@ -4,6 +4,7 @@ authors: Zengrui Jin, Xurong Xie, Tianzi Wang, Mengzhe Geng, Jiajun Deng, Guinan
 venue: ICASSP 2024
 doi: https://doi.org/10.1109/ICASSP48485.2024.10447627
 year: 2024
+publication_date: '2024-03-18'
 publication_theme: Data augmentation
 category: conferences
 scholar_sort_order: 203

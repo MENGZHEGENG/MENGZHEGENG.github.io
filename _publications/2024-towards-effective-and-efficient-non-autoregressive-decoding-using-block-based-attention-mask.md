@@ -5,6 +5,7 @@ authors: Tianzi Wang, Xurong Xie, Zhaoqing Li, Shoukang Hu, Zengrui Jin, Jiajun 
 venue: INTERSPEECH 2024
 doi: https://doi.org/10.21437/Interspeech.2024-404
 year: 2024
+publication_date: '2024-09-01'
 publication_theme: Speech recognition
 category: conferences
 scholar_sort_order: 209

@@ -4,6 +4,7 @@ authors: Tianzi Wang, Shoukang Hu, Jiajun Deng, Zengrui Jin, Mengzhe Geng, Yi Wa
 venue: INTERSPEECH 2023
 doi: https://doi.org/10.21437/Interspeech.2023-1263
 year: 2023
+publication_date: '2023-08-20'
 publication_theme: Speaker adaptation
 category: conferences
 scholar_sort_order: 307

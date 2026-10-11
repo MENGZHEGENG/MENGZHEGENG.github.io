@@ -4,6 +4,7 @@ authors: Tao Zhong*, Mengzhe Geng*, Shujie Hu, Guinan Li, Xunying Liu
 venue: INTERSPEECH 2025
 doi: https://doi.org/10.48550/arXiv.2506.11069
 year: 2025
+publication_date: '2025-06-02'
 author_role: co-first
 author_role_order: 11.2
 publication_theme: Federated learning

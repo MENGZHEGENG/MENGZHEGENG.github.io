@@ -5,6 +5,7 @@ authors: Mengzhe Geng, Zengrui Jin, Tianzi Wang, Shujie Hu, Jiajun Deng, Mingyu 
 venue: INTERSPEECH 2023
 doi: https://doi.org/10.21437/Interspeech.2023-322
 year: 2023
+publication_date: '2023-08-20'
 author_role: first
 author_role_order: 12
 publication_theme: Dysarthric speech recognition

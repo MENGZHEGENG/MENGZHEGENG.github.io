@@ -4,6 +4,7 @@ authors: Mengzhe Geng, Y Lu, M Kunz, P Littell
 venue: arXiv preprint arXiv:2609.08899
 doi: https://doi.org/10.48550/arXiv.2609.08899
 year: 2026
+publication_date: '2026-09-08'
 author_role: first
 author_role_order: 4
 publication_theme: Speech deepfake detection
