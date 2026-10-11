@@ -10,9 +10,10 @@ author_profile: true
 {% assign publication_years = site.publications | group_by: "year" | sort: "name" | reverse %}
 {% for year_group in publication_years %}
 <h2 class="publication-year-heading" id="year-{{ year_group.name }}">{{ year_group.name }}</h2>
-{% assign dated_publications = year_group.items | where_exp: "post", "post.publication_date" | sort: "publication_date" | reverse %}
-{% assign year_only_publications = year_group.items | where_exp: "post", "post.publication_date == nil" | sort: "scholar_sort_order" %}
-{% assign year_publications = dated_publications | concat: year_only_publications %}
+{% assign latest_publications = year_group.items | where_exp: "post", "post.latest_work" %}
+{% assign dated_publications = year_group.items | where_exp: "post", "post.publication_date" | where_exp: "post", "post.latest_work != true" | sort: "publication_date" | reverse %}
+{% assign year_only_publications = year_group.items | where_exp: "post", "post.publication_date == nil" | where_exp: "post", "post.latest_work != true" | sort: "scholar_sort_order" %}
+{% assign year_publications = latest_publications | concat: dated_publications | concat: year_only_publications %}
 {% for post in year_publications %}
 {% assign publication_url = post.paperurl | default: post.scholarurl %}
 {% assign displayed_authors = post.authors %}

@@ -8,7 +8,7 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">I develop and evaluate <strong>machine learning across speech, language, audio, and multimodal AI</strong>. My work includes accessible speech recognition and speaker adaptation; low-resource and multilingual language technologies; efficient adaptation of speech foundation models; speech and audio generation; and spoken agents. I also study multimodal reasoning, including audio-conditioned visual prediction, and evidence-grounded decisions about when systems should gather more information, answer, act, or abstain.</p>
+<p class="lede">I develop and evaluate <strong>machine learning across speech, language, audio, and multimodal AI</strong>. My work spans accessible speech recognition and speaker adaptation, low-resource and multilingual language technologies, efficient speech foundation models, speech and audio generation, and spoken agents. In multimodal AI, I study evidence-gated reasoning and audio-conditioned visual prediction on proxy tasks, including how systems decide when to gather more information, answer, act, or abstain.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 
@@ -20,7 +20,7 @@ classes: wide
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
 <p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I can work in Canada, Hong Kong, and Mainland China without needing to apply for an additional work visa. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">I welcome students and researchers from anywhere to work with me remotely as interns or guest researchers. Students in Canada can also explore the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> and <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Please email your CV and transcripts from your bachelor's degree onward to <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<p class="collaboration-invitation">I welcome students from anywhere for remote internships and researchers from anywhere for in-person guest researcher opportunities. Students in Canada can also explore the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> and <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Please email your CV and transcripts from your bachelor's degree onward to <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
@@ -86,9 +86,10 @@ classes: wide
 </div>
 <p class="publication-filter-status" aria-live="polite">{{ author_led_publications.size }} publications</p>
 {% for year_group in author_led_years %}
-{% assign dated_author_led_publications = year_group.items | where_exp: "post", "post.publication_date" | sort: "publication_date" | reverse %}
-{% assign year_only_author_led_publications = year_group.items | where_exp: "post", "post.publication_date == nil" | sort: "scholar_sort_order" %}
-{% assign year_ordered_author_led_publications = dated_author_led_publications | concat: year_only_author_led_publications %}
+{% assign latest_author_led_publications = year_group.items | where_exp: "post", "post.latest_work" %}
+{% assign dated_author_led_publications = year_group.items | where_exp: "post", "post.publication_date" | where_exp: "post", "post.latest_work != true" | sort: "publication_date" | reverse %}
+{% assign year_only_author_led_publications = year_group.items | where_exp: "post", "post.publication_date == nil" | where_exp: "post", "post.latest_work != true" | sort: "scholar_sort_order" %}
+{% assign year_ordered_author_led_publications = latest_author_led_publications | concat: dated_author_led_publications | concat: year_only_author_led_publications %}
 {% for post in year_ordered_author_led_publications %}
 {% assign displayed_authors = post.homepage_authors | default: post.authors %}
 <article class="publication-entry author-led-publication" id="author-publication-{{ post.scholar_rank }}" data-publication-theme="{{ post.timeline_theme | slugify }}">
