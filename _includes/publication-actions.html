@@ -10,6 +10,7 @@
 {% unless post.doi contains 'http' %}
   {% assign doi_url = post.doi | prepend: 'https://doi.org/' %}
 {% endunless %}
+{% assign citation_url = post.paperurl | default: post.pdfurl | default: post.scholarurl %}
 <div class="publication-actions" role="group" aria-label="Publication links">
   <a class="publication-action publication-action--pdf" href="{{ pdf_url | escape }}" target="_blank" rel="noopener noreferrer"{% unless post.paperurl or post.pdfurl %} title="Open this Google Scholar record to check for a linked PDF"{% endunless %}>PDF</a>
   {% if post.doi %}
@@ -23,5 +24,20 @@
   {% else %}
     <a class="publication-action publication-action--doi" href="https://search.crossref.org/?q={{ post.title | cgi_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Search Crossref for a DOI for {{ post.title | escape }}" title="Search Crossref for a DOI">Find DOI</a>
   {% endif %}
-  <a class="publication-action publication-action--cite" href="{{ post.scholarurl | default: site.author.googlescholar | escape }}" target="_blank" rel="noopener noreferrer">Cite</a>
+  <details class="publication-cite" data-citation-title="{{ post.title | escape }}" data-citation-authors="{{ post.authors | escape }}" data-citation-venue="{{ post.venue | escape }}" data-citation-year="{{ post.year | escape }}" data-citation-doi="{{ post.doi | escape }}" data-citation-url="{{ citation_url | escape }}">
+    <summary class="publication-action publication-action--cite">Cite</summary>
+    <div class="publication-cite__panel">
+      <div class="publication-cite__controls">
+        <label for="citation-format-{{ post.scholar_rank }}">Format</label>
+        <select id="citation-format-{{ post.scholar_rank }}" data-citation-format>
+          <option value="bibtex">BibTeX</option>
+          <option value="apa">APA 7</option>
+          <option value="ieee">IEEE</option>
+        </select>
+        <button class="publication-action publication-action--copy" type="button" data-citation-copy>Copy</button>
+      </div>
+      <pre class="publication-cite__text" data-citation-output tabindex="0"></pre>
+      <p class="publication-cite__status" data-citation-status role="status" aria-live="polite"></p>
+    </div>
+  </details>
 </div>

@@ -382,6 +382,100 @@ html[data-theme="dark"] .publication-action--cite {
   color: #aaa1ff;
 }
 
+.publication-cite {
+  flex: 0 0 auto;
+}
+
+.publication-cite[open] {
+  flex-basis: 100%;
+}
+
+.publication-cite > summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.publication-cite > summary::-webkit-details-marker {
+  display: none;
+}
+
+.publication-cite__panel {
+  max-width: 100%;
+  margin-top: 0.55em;
+  padding: 0.85em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
+  color: var(--global-text-color);
+  background: var(--site-surface-color);
+}
+
+.publication-cite__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.55em;
+  color: var(--site-muted-color);
+  font-size: 0.88em;
+}
+
+.publication-cite__controls select {
+  min-height: 2.1em;
+  max-width: 100%;
+  padding: 0.2em 0.55em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 5px;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  font: inherit;
+}
+
+.publication-action--copy {
+  color: var(--site-focus-color);
+  background: var(--global-bg-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.88em;
+}
+
+.publication-cite__text {
+  max-height: 24em;
+  margin: 0.75em 0 0;
+  padding: 0.75em;
+  overflow: auto;
+  border: 1px solid var(--global-border-color);
+  border-radius: 5px;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.82em;
+  line-height: 1.55;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  user-select: text;
+}
+
+.publication-cite__status {
+  min-height: 1.4em;
+  margin: 0.35em 0 0;
+  color: var(--site-muted-color);
+  font-size: 0.8em;
+}
+
+html[data-theme="dark"] .publication-action--copy {
+  color: #9adbd2;
+}
+
+@media (max-width: 600px) {
+  .publication-cite__panel {
+    padding: 0.65em;
+  }
+
+  .publication-cite__text {
+    max-height: 18em;
+    font-size: 0.78em;
+  }
+}
+
 .timeline-scroller {
   width: 100%;
   margin: 1.15em 0 1.25em;

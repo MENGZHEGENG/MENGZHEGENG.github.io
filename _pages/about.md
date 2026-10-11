@@ -94,6 +94,7 @@ classes: wide
 </article>
 {% endfor %}
 <script defer src="{{ '/assets/js/publication-timeline.js' | prepend: base_path }}"></script>
+<script defer src="{{ '/assets/js/publication-citations.js' | prepend: base_path }}"></script>
 <p class="more-link"><a href="/publications/">View the full publication list <span aria-hidden="true">→</span></a> <span aria-hidden="true">·</span> <a href="{{ site.author.googlescholar }}">All publications on Google Scholar</a></p>
 </details>
 
