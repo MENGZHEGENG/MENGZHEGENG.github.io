@@ -1,5 +1,5 @@
 ---
-title: On-the-fly Routing for Zero-shot MoE Speaker Adaptation of Speech Foundation Models for Dysarthric Speech Recognition
+title: 'On-the-Fly Routing for Zero-Shot MoE Speaker Adaptation of Speech Foundation Models for Dysarthric Speech Recognition'
 authors: Shujie Hu, Xurong Xie, Mengzhe Geng, Jiajun Deng, Huimeng Wang, Guinan Li, Chengxi Deng, Tianzi Wang, Mingyu Cui,
   Helen Meng, Xunying Liu
 venue: INTERSPEECH 2025

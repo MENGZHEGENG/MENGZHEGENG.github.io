@@ -1,5 +1,5 @@
 ---
-title: On-the-fly feature based rapid speaker adaptation for dysarthric and elderly speech recognition
+title: 'On-the-Fly Feature Based Rapid Speaker Adaptation for Dysarthric and Elderly Speech Recognition'
 authors: Mengzhe Geng, Xurong Xie, Rongfeng Su, Jianwei Yu, Zengrui Jin, Tianzi Wang, Shujie Hu, Zi Ye, Helen Meng, Xunying
   Liu
 venue: INTERSPEECH 2023

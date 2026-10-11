@@ -1,6 +1,5 @@
 ---
-title: Explainable and Trustworthy Speech Emotion Recognition Using Confidence Score and Reinforcement Learning Rectified
-  Speech Emotion Descriptors
+title: 'Explainable and Trustworthy Speech Emotion Recognition Using Confidence Score and Reinforcement Learning Rectified Speech Emotion Descriptors'
 authors: Y Chen, X Xie, Mengzhe Geng, Z Jin, J Deng, G Li, S Hu, H Wang, H Xu, C Deng, et al.
 venue: INTERSPEECH 2026
 doi: https://doi.org/10.21437/Interspeech.2026-1683

@@ -1,5 +1,5 @@
 ---
-title: Adversarial data augmentation using VAE-GAN for disordered speech recognition
+title: 'Adversarial Data Augmentation Using VAE-GAN for Disordered Speech Recognition'
 authors: Zengrui Jin, Xurong Xie, Mengzhe Geng, Tianzi Wang, Shujie Hu, Jiajun Deng, Guinan Li, Xunying Liu
 venue: ICASSP 2023
 doi: https://doi.org/10.1109/ICASSP49357.2023.10095547

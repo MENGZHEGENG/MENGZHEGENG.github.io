@@ -1,5 +1,5 @@
 ---
-title: Audio-visual Multi-channel Integration and Recognition of Overlapped Speech
+title: 'Audio-Visual Multi-Channel Integration and Recognition of Overlapped Speech'
 authors: Jianwei Yu, Shi-Xiong Zhang, Bo Wu, Shansong Liu, Shoukang Hu, Mengzhe Geng, Xunying Liu, Helen M Meng, Dong Yu
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 doi: https://doi.org/10.1109/TASLP.2021.3078883

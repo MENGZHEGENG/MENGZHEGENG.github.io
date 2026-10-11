@@ -1,5 +1,5 @@
 ---
-title: Use of speech impairment severity for dysarthric speech recognition
+title: 'Use of Speech Impairment Severity for Dysarthric Speech Recognition'
 authors: Mengzhe Geng, Zengrui Jin, Tianzi Wang, Shujie Hu, Jiajun Deng, Mingyu Cui, Guinan Li, Jianwei Yu, Xurong Xie, Xunying
   Liu
 venue: INTERSPEECH 2023

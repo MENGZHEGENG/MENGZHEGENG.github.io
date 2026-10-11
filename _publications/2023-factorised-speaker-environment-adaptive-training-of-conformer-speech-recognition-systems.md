@@ -1,5 +1,5 @@
 ---
-title: Factorised Speaker-environment Adaptive Training of Conformer Speech Recognition Systems
+title: 'Factorised Speaker-Environment Adaptive Training of Conformer Speech Recognition Systems'
 authors: Jiajun Deng, Guinan Li, Xurong Xie, Zengrui Jin, Mingyu Cui, Tianzi Wang, Shujie Hu, Mengzhe Geng, Xunying Liu
 venue: INTERSPEECH 2023
 doi: https://doi.org/10.21437/Interspeech.2023-583

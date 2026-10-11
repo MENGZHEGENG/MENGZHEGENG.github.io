@@ -1,5 +1,5 @@
 ---
-title: 'A Survey of Reasoning with Foundation Models: Concepts, Methodologies, and Outlook'
+title: 'A Survey of Reasoning With Foundation Models: Concepts, Methodologies, and Outlook'
 authors: Jiankai Sun, Chuanyang Zheng, Enze Xie, Zhengying Liu, Ruihang Chu, Jianing Qiu, Jiaqi Xu, Mingyu Ding, Hongyang Li, Mengzhe Geng, Yue Wu, Wenhai Wang, Junsong Chen, Zhangyue Yin, Xiaozhe Ren, Jie Fu, Junxian He, Yuan Wu, Qi Liu, Xihui Liu, Yu Li, Hao Dong, Yu Cheng, Ming Zhang, Pheng Ann Heng, Jifeng Dai, Ping Luo, Jingdong Wang, Ji-Rong Wen, Xipeng Qiu, Yike Guo, Hui Xiong, Qun Liu, Zhenguo Li
 homepage_authors: Jiankai Sun et al., including Mengzhe Geng
 venue: ACM Computing Surveys

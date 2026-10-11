@@ -1,5 +1,5 @@
 ---
-title: Differentiable and Severity-invariant Discrete Tokens for Dysarthric Speech Recognition
+title: 'Differentiable and Severity-Invariant Discrete Tokens for Dysarthric Speech Recognition'
 authors: Huimeng Wang, Xurong Xie, Mengzhe Geng, Haoning Xu, Jiajun Deng, Youjun Chen, Chengxi Deng, Xunying Liu
 venue: IEEE Spoken Language Technology Workshop
 year: 2026

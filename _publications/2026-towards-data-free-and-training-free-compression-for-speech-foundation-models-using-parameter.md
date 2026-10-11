@@ -1,5 +1,5 @@
 ---
-title: Towards Data-free and Training-free Compression for Speech Foundation Models Using Parameter Clustering
+title: 'Towards Data-Free and Training-Free Compression for Speech Foundation Models Using Parameter Clustering'
 authors: Haoning Xu, Zhaoqing Li, Huimeng Wang, Youjun Chen, Chengxi Deng, Mengzhe Geng, Xunying Liu
 venue: INTERSPEECH 2026
 doi: https://doi.org/10.21437/Interspeech.2026-1010

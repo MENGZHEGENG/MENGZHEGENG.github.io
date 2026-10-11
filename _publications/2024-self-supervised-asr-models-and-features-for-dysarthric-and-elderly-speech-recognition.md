@@ -1,5 +1,5 @@
 ---
-title: Self-supervised asr models and features for dysarthric and elderly speech recognition
+title: 'Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition'
 authors: S Hu, X Xie, Mengzhe Geng, Z Jin, J Deng, G Li, Y Wang, M Cui, T Wang, H Meng, et al.
 venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing
 doi: https://doi.org/10.1109/TASLP.2024.3422839

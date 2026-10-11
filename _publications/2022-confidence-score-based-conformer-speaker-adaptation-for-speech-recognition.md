@@ -1,5 +1,5 @@
 ---
-title: Confidence score based conformer speaker adaptation for speech recognition
+title: 'Confidence Score Based Conformer Speaker Adaptation for Speech Recognition'
 authors: Jiajun Deng, Xurong Xie, Tianzi Wang, Mingyu Cui, Boyang Xue, Zengrui Jin, Mengzhe Geng, Guinan Li, Xunying Liu,
   Helen Meng
 venue: INTERSPEECH 2022

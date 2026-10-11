@@ -1,5 +1,5 @@
 ---
-title: Two-pass decoding and cross-adaptation based system combination of end-to-end conformer and hybrid tdnn asr systems
+title: 'Two-Pass Decoding and Cross-Adaptation Based System Combination of End-to-End Conformer and Hybrid TDNN ASR Systems'
 authors: Mingyu Cui, Jiajun Deng, Shoukang Hu, Xurong Xie, Tianzi Wang, Shujie Hu, Mengzhe Geng, Boyang Xue, Xunying Liu,
   Helen Meng
 venue: INTERSPEECH 2022

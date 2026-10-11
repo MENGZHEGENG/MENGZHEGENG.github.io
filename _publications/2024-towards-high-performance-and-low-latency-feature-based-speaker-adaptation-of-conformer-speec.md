@@ -1,5 +1,5 @@
 ---
-title: Towards high-performance and low-latency feature-based speaker adaptation of conformer speech recognition systems
+title: 'Towards High-Performance and Low-Latency Feature-Based Speaker Adaptation of Conformer Speech Recognition Systems'
 authors: Jiajun Deng, Xurong Xie, Guinan Li, Mingyu Cui, Mengzhe Geng, Zengrui Jin, Tianzi Wang, Shujie Hu, Zhaoqing Li, Xunying
   Liu
 venue: ICASSP 2024

@@ -1,5 +1,5 @@
 ---
-title: Structured speaker-deficiency adaptation of foundation models for dysarthric and elderly speech recognition
+title: 'Structured Speaker-Deficiency Adaptation of Foundation Models for Dysarthric and Elderly Speech Recognition'
 authors: Shujie Hu, Xurong Xie, Mengzhe Geng, Jiajun Deng, Zengrui Jin, Tianzi Wang, Mingyu Cui, Guinan Li, Zhaoqing Li, Helen
   Meng, Xunying Liu
 venue: arXiv preprint arXiv:2412.18832

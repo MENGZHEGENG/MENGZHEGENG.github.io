@@ -1,5 +1,5 @@
 ---
-title: Towards automatic data augmentation for disordered speech recognition
+title: 'Towards Automatic Data Augmentation for Disordered Speech Recognition'
 authors: Zengrui Jin, Xurong Xie, Tianzi Wang, Mengzhe Geng, Jiajun Deng, Guinan Li, Shujie Hu, Xunying Liu
 venue: ICASSP 2024
 doi: https://doi.org/10.1109/ICASSP48485.2024.10447627

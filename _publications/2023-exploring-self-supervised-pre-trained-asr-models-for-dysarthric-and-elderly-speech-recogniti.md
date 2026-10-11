@@ -1,5 +1,5 @@
 ---
-title: Exploring self-supervised pre-trained asr models for dysarthric and elderly speech recognition
+title: 'Exploring Self-Supervised Pre-Trained ASR Models for Dysarthric and Elderly Speech Recognition'
 authors: Shujie Hu, Xurong Xie, Zengrui Jin, Mengzhe Geng, Yi Wang, Mingyu Cui, Jiajun Deng, Xunying Liu, Helen Meng
 venue: ICASSP 2023
 doi: https://doi.org/10.1109/ICASSP49357.2023.10097275

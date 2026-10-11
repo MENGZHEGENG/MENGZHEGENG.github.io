@@ -1,5 +1,5 @@
 ---
-title: Hyper-parameter adaptation of conformer ASR systems for elderly and dysarthric speech recognition
+title: 'Hyper-Parameter Adaptation of Conformer ASR Systems for Elderly and Dysarthric Speech Recognition'
 authors: Tianzi Wang, Shoukang Hu, Jiajun Deng, Zengrui Jin, Mengzhe Geng, Yi Wang, Helen Meng, Xunying Liu
 venue: INTERSPEECH 2023
 doi: https://doi.org/10.21437/Interspeech.2023-1263

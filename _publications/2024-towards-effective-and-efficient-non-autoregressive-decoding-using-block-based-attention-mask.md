@@ -1,5 +1,5 @@
 ---
-title: Towards Effective and Efficient Non-autoregressive Decoding Using Block-based Attention Mask
+title: 'Towards Effective and Efficient Non-Autoregressive Decoding Using Block-Based Attention Mask'
 authors: Tianzi Wang, Xurong Xie, Zhaoqing Li, Shoukang Hu, Zengrui Jin, Jiajun Deng, Mingyu Cui, Shujie Hu, Mengzhe Geng,
   Guinan Li, Helen Meng, Xunying Liu
 venue: INTERSPEECH 2024

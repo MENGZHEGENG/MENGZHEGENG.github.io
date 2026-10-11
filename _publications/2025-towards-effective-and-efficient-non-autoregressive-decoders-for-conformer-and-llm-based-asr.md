@@ -1,6 +1,5 @@
 ---
-title: Towards Effective and Efficient Non-autoregressive decoders for Conformer and LLM-based ASR using Block-based Attention
-  Mask
+title: 'Towards Effective and Efficient Non-Autoregressive Decoders for Conformer and LLM-Based ASR Using Block-Based Attention Mask'
 authors: T Wang, X Xie, Z Jin, Mengzhe Geng, J Deng, Z Li, S Hu, S Hu, G Li, M Cui, et al.
 venue: IEEE Transactions on Audio, Speech and Language Processing
 doi: https://doi.org/10.1109/TASLPRO.2025.3633090

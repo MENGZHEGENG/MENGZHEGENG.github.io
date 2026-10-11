@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-<p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> National Research Council Canada</p>
+<p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
 <p class="lede">My research develops and evaluates <strong>machine learning for speech, language, audio, and multimodal systems</strong>. I study accessible and low-resource speech, adaptive and efficient speech models, and evidence-based evaluation of multimodal systems, including audio-conditioned visual prediction and evidence-sensitive decisions.</p>
 
@@ -24,7 +24,7 @@ classes: wide
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
   <div class="timeline-date">Nov 2023–present</div>
-  <div><h3>Research Scientist</h3><p>Digital Technologies, National Research Council Canada · Ottawa, Canada</p></div>
+  <div><h3>Research Scientist</h3><p><a href="https://nrc.canada.ca/en/research-development/research-collaboration/research-centres/digital-technologies-research-centre">Digital Technologies</a>, <a href="https://nrc.canada.ca/en">National Research Council Canada</a> · Ottawa, Canada</p></div>
 </div>
 
 <h2>Education</h2>
@@ -101,7 +101,7 @@ classes: wide
 <h2 id="awards">Selected Awards and Honours</h2>
 <ul class="award-list">
   <li class="award-item"><strong>Award for Excellence in Inclusion, Diversity, Equity and Accessibility</strong>, Digital Government Community Awards, Government of Canada, 2026 <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
-  <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada, 2026 <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
+  <li class="award-item"><strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, <a href="https://nrc.canada.ca/en">National Research Council Canada</a>, 2026 <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
   <li class="award-item"><strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore, 2025</li>
   <li class="award-item"><strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
   <li class="award-item"><strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong>, 2023</li>

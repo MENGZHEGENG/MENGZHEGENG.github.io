@@ -1,5 +1,5 @@
 ---
-title: One-pass Multiple Conformer and Foundation Speech Systems Compression and Quantization Using An All-in-one Neural Model
+title: 'One-Pass Multiple Conformer and Foundation Speech Systems Compression and Quantization Using an All-in-One Neural Model'
 authors: Zhaoqing Li, Haoning Xu, Tianzi Wang, Shoukang Hu, Zengrui Jin, Shujie Hu, Jiajun Deng, Mingyu Cui, Mengzhe Geng,
   Xunying Liu
 venue: INTERSPEECH 2024

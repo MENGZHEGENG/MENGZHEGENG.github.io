@@ -1,5 +1,5 @@
 ---
-title: Conformer based elderly speech recognition system for Alzheimer's disease detection
+title: 'Conformer Based Elderly Speech Recognition System for Alzheimer''s Disease Detection'
 authors: Tianzi Wang, Jiajun Deng, Mengzhe Geng, Zi Ye, Shoukang Hu, Yi Wang, Mingyu Cui, Zengrui Jin, Xunying Liu, Helen
   Meng
 venue: INTERSPEECH 2022

@@ -1,5 +1,5 @@
 ---
-title: Joint Speaker Features Learning for Audio-visual Multichannel Speech Separation and Recognition
+title: 'Joint Speaker Features Learning for Audio-Visual Multichannel Speech Separation and Recognition'
 authors: Guinan Li, Jiajun Deng, Youjun Chen, Mengzhe Geng, Shujie Hu, Zhe Li, Zengrui Jin, Tianzi Wang, Xurong Xie, Helen
   Meng, Xunying Liu
 venue: INTERSPEECH 2024

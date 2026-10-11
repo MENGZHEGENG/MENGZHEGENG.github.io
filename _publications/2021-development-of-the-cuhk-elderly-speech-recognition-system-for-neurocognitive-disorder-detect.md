@@ -1,6 +1,5 @@
 ---
-title: Development of the cuhk elderly speech recognition system for neurocognitive disorder detection using the dementiabank
-  corpus
+title: 'Development of the CUHK Elderly Speech Recognition System for Neurocognitive Disorder Detection Using the DementiaBank Corpus'
 authors: Zi Ye, Shoukang Hu, Jinchao Li, Xurong Xie, Mengzhe Geng, Jianwei Yu, Junhao Xu, Boyang Xue, Shansong Liu, Xunying
   Liu, Helen Meng
 venue: ICASSP 2021
