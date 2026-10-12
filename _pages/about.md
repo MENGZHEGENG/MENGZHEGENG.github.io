@@ -137,7 +137,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Changbing Yang</span>
-      <span class="publication-meta">Ph.D. student intern, NRC · May–August 2025</span>
+      <span class="publication-meta">Ph.D. intern, NRC · May–August 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/patrick-littell" target="_blank" rel="noopener noreferrer">Patrick Littell</a></span></p>
