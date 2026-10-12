@@ -8,7 +8,7 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">I study how machine learning systems can <strong>understand and generate speech and audio, adapt across speakers and languages, and reason from incomplete evidence</strong>. My work develops and evaluates accessible speech recognition, low-resource language technologies, speaker adaptation, efficient speech foundation models, and spoken agents. I also study multimodal systems that use audio and visual information for prediction and reasoning, asking when they should gather more evidence, answer, act, or abstain.</p>
+<p class="lede">I study how machine learning systems can <strong>understand and generate speech and audio, adapt across speakers, languages, and modalities, and reason from incomplete evidence</strong>. My work develops and evaluates accessible speech recognition, low-resource language technologies, speaker adaptation, efficient speech foundation models, and spoken agents. I also study multimodal systems that use audio and visual information for prediction and reasoning, asking when they should gather more evidence, answer, act, or abstain.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 
@@ -20,7 +20,7 @@ classes: wide
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
 <p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">I welcome students from anywhere for <strong>remote internships</strong> and researchers from anywhere for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also explore the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> and <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Students interested in internships should email a CV and academic transcripts from their bachelor's degree onward; researchers interested in in-person guest researcher opportunities can email a CV. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<p class="collaboration-invitation">My previous four-month student internships each led to at least one peer-reviewed publication in a top-tier journal or conference. I welcome students from anywhere for <strong>remote internships</strong> and researchers from anywhere for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also explore the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> and <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Students interested in internships should email a CV and academic transcripts from their bachelor's degree onward; researchers interested in in-person guest researcher opportunities can email a CV. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
@@ -105,6 +105,35 @@ classes: wide
 <script defer src="{{ '/assets/js/publication-citations.js' | prepend: base_path }}"></script>
 <p class="more-link"><a href="/publications/">View the full publication list <span aria-hidden="true">→</span></a> <span aria-hidden="true">·</span> <a href="{{ site.author.googlescholar }}">All publications on Google Scholar</a></p>
 </details>
+
+<h2 id="student-supervision">Student Supervision</h2>
+<p class="supervision-intro">Each student's four-month internship led to at least one peer-reviewed publication in a top-tier journal or conference.</p>
+<div class="supervision-list">
+  <article class="supervision-entry">
+    <h3>Sunyi Liu</h3>
+    <p class="publication-meta">Undergraduate student intern · May–August 2024</p>
+    <p><strong>Winner, NRC Outstanding Student Contribution Award</strong> (2024).</p>
+    <p class="supervision-publication">Publication: <a href="https://ieeexplore.ieee.org/document/11004431" target="_blank" rel="noopener noreferrer">Exploring Generative Artificial Intelligence Techniques in Government: A Case Study</a>, <em>IEEE Intelligent Systems</em> (2025).</p>
+  </article>
+  <article class="supervision-entry">
+    <h3>Shenran Wang</h3>
+    <p class="publication-meta">Undergraduate student intern · May–August 2025</p>
+    <p>Co-supervised with Aidan Pine.</p>
+    <p class="supervision-publication">Publication: <a href="https://aclanthology.org/2026.eacl-short.16/" target="_blank" rel="noopener noreferrer">Exploring Cross-Lingual Voice Conversion Methods for Anonymizing Low-Resource Text-to-Speech</a>, <em>European Chapter of the Association for Computational Linguistics (EACL 2026)</em>.</p>
+  </article>
+  <article class="supervision-entry">
+    <h3>Changbing Yang</h3>
+    <p class="publication-meta">Ph.D. student intern · May–August 2025</p>
+    <p>Co-supervised with Patrick Littell · <strong>Winner, NRC Outstanding Student Contribution Award</strong> (2025).</p>
+    <p class="supervision-publication">Publication: <a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em>.</p>
+  </article>
+  <article class="supervision-entry">
+    <h3>Timothy Tse</h3>
+    <p class="publication-meta">M.Sc. student intern</p>
+    <p>Co-supervised with Aidan Pine and <a href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a> · <strong>Winner, NRC Outstanding Student Contribution Award</strong> (2025).</p>
+    <p class="supervision-publication">Publication: <a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em>.</p>
+  </article>
+</div>
 
 <h2 id="awards">Selected Awards and Honours</h2>
 <ul class="award-list">

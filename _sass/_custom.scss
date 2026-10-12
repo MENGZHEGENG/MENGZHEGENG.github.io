@@ -638,6 +638,37 @@ html[data-theme="dark"] .timeline-row {
   color: var(--site-meta-color);
 }
 
+.supervision-intro {
+  margin: 0.45em 0 0.55em;
+}
+
+.supervision-list {
+  margin: 0.3em 0 1.8em;
+}
+
+.supervision-entry {
+  padding: 0.8em 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.supervision-entry:last-child {
+  border-bottom: 0;
+}
+
+.supervision-entry h3 {
+  margin: 0 0 0.2em;
+  font-size: 1.02em;
+  line-height: 1.45;
+}
+
+.supervision-entry p {
+  margin: 0.2em 0;
+}
+
+.supervision-entry .supervision-publication {
+  margin-top: 0.35em;
+}
+
 .award-list {
   padding-left: 1.35em;
 }
