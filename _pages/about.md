@@ -111,7 +111,7 @@ classes: wide
 </details>
 
 <h2 id="student-supervision">Student Supervision</h2>
-<p class="supervision-intro">Every student listed here who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. Yujia Lu's internship with me is ongoing.</p>
+<p class="supervision-intro">Every student listed here who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>.</p>
 <div class="supervision-list">
   <details class="supervision-entry">
     <summary class="supervision-heading">
