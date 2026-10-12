@@ -739,6 +739,12 @@ html[data-theme="dark"] .timeline-row {
   min-width: 0;
 }
 
+.page__content .supervision-detail-copy a.person-link,
+.page__content .supervision-detail-copy a.person-link:hover,
+.page__content .supervision-detail-copy a.person-link:focus-visible {
+  text-decoration: none;
+}
+
 @media (max-width: 48em) {
   .supervision-details p.supervision-detail {
     display: flex;

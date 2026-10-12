@@ -35,11 +35,11 @@ classes: wide
 <h2>Education</h2>
 <div class="timeline-entry">
   <div class="timeline-date">2019–2023</div>
-  <div><h3>Ph.D. in Systems Engineering and Engineering Management</h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a></p></div>
+  <div><h3><a href="https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-systems-engineering-and-engineering-management" target="_blank" rel="noopener noreferrer">Ph.D. in Systems Engineering and Engineering Management</a></h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a></p></div>
 </div>
 <div class="timeline-entry">
   <div class="timeline-date">2015–2019</div>
-  <div><h3><a href="https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/" target="_blank" rel="noopener noreferrer">B.Sc. in Mathematics and Information Engineering</a></h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a> · <a href="https://www.cuhk.edu.hk/clear/qm/A5-2.pdf" target="_blank" rel="noopener noreferrer">First-class honours</a> · <a href="https://www.erg.cuhk.edu.hk/iris/Elite" target="_blank" rel="noopener noreferrer">ELITE Stream graduate</a> · Minor in Computer Science</p></div>
+  <div><h3><a href="https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/" target="_blank" rel="noopener noreferrer">B.Sc. in Mathematics and Information Engineering</a></h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a> · <a href="https://www.cuhk.edu.hk/clear/qm/A5-2.pdf" target="_blank" rel="noopener noreferrer">First-class honours</a> · <a href="https://www.erg.cuhk.edu.hk/iris/Elite" target="_blank" rel="noopener noreferrer">ELITE Stream graduate</a> · <a href="https://www.cse.cuhk.edu.hk/academics/minor-computer-science/" target="_blank" rel="noopener noreferrer">Minor in Computer Science</a></p></div>
 </div>
 
 <h2 id="research">Research</h2>
@@ -120,7 +120,7 @@ classes: wide
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2024)</span></p>
-      <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
+      <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://ieeexplore.ieee.org/document/11004431" target="_blank" rel="noopener noreferrer">Exploring Generative Artificial Intelligence Techniques in Government: A Case Study</a>, <em>IEEE Intelligent Systems</em> (2025)</span></p>
     </div>
   </details>
@@ -130,7 +130,7 @@ classes: wide
       <span class="publication-meta">Undergraduate student intern, NRC · May–August 2025</span>
     </summary>
     <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with <a href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a></span></p>
+      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with <a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a></span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.eacl-short.16/" target="_blank" rel="noopener noreferrer">Exploring Cross-Lingual Voice Conversion Methods for Anonymizing Low-Resource Text-to-Speech</a>, <em>European Chapter of the Association for Computational Linguistics (EACL 2026)</em></span></p>
     </div>
   </details>
@@ -140,7 +140,7 @@ classes: wide
       <span class="publication-meta">Ph.D. student intern, NRC · May–August 2025</span>
     </summary>
     <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with <a href="https://nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/patrick-littell" target="_blank" rel="noopener noreferrer">Patrick Littell</a></span></p>
+      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with <a class="person-link" href="https://nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/patrick-littell" target="_blank" rel="noopener noreferrer">Patrick Littell</a></span></p>
       <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
     </div>
@@ -151,7 +151,7 @@ classes: wide
       <span class="publication-meta">M.Sc. student intern, NRC · July–October 2025</span>
     </summary>
     <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with <a href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a> and <a href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a></span></p>
+      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with <a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a> and <a class="person-link" href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a></span></p>
       <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em></span></p>
     </div>
