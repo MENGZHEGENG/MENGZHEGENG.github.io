@@ -36,9 +36,9 @@ layout: default
         
         {% assign single_venue_year = page.date | default: "1900-01-01" | date: "%Y" %}
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{% include publication-venue-year.html venue=page.venue year=single_venue_year %}</i> </p>
+          <p> {{ page.type }}, <i>{% include publication-venue-year.html venue=page.venue year=single_venue_year category=page.category append_year=true %}</i> </p>
         {% elsif page.venue and page.date %}
-          <p>Published in <i>{% include publication-venue-year.html venue=page.venue year=single_venue_year %}</i> </p>
+          <p>Published in <i>{% include publication-venue-year.html venue=page.venue year=single_venue_year category=page.category append_year=true %}</i> </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}    

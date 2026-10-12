@@ -718,7 +718,7 @@ html[data-theme="dark"] .timeline-row {
   display: grid;
   grid-template-columns: 7.1em minmax(0, 1fr);
   column-gap: 0.7em;
-  align-items: start;
+  align-items: baseline;
   margin: 0;
   padding: 0;
   text-indent: 0;
@@ -732,7 +732,7 @@ html[data-theme="dark"] .timeline-row {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   white-space: nowrap;
-  padding-top: 0.22em;
+  padding-top: 0;
 }
 
 .supervision-detail-copy {

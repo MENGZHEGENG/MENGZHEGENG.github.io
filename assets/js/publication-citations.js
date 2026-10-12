@@ -69,6 +69,28 @@ function citationVenueName(venue, year) {
   return venueText.slice(0, -yearText.length).replace(/[\s,]+$/, "").trim() || venueText;
 }
 
+function conferenceVenueLabel(venue, year) {
+  const yearText = year.trim();
+  let venueText = venue.trim().replace(/[.,;]$/, "");
+  if (!yearText) return venueText;
+
+  const trailingClosers = venueText.match(/[)\]}]+$/)?.[0] ?? "";
+  let venueCore = trailingClosers
+    ? venueText.slice(0, -trailingClosers.length).trimEnd()
+    : venueText;
+  const commaYear = `, ${yearText}`;
+  if (venueCore.endsWith(commaYear)) venueCore = venueCore.slice(0, -commaYear.length);
+  const repeatedYear = ` ${yearText} ${yearText}`;
+  while (venueCore.endsWith(repeatedYear)) venueCore = venueCore.slice(0, -(` ${yearText}`).length);
+  venueText = `${venueCore}${trailingClosers}`;
+
+  const venueEnd = venueText.replace(/[)\]},.;:\s]+$/, "").trim();
+  const beforeYear = venueEnd.slice(0, -yearText.length);
+  const alreadyIncludesYear = venueEnd.endsWith(yearText)
+    && (!beforeYear || /[\s(]$/.test(beforeYear));
+  return alreadyIncludesYear ? venueText : `${venueText} ${yearText}`;
+}
+
 function bibtexEscape(value) {
   return value
     .replace(/\\/g, "\\textbackslash{}")
@@ -104,13 +126,16 @@ function bibtexCitation(metadata, authors, doi, url) {
   const type = bibtexType(metadata.venue);
   const venueField = type === "article" ? "journal" : "booktitle";
   const bibtexAuthors = authors.map((author) => author.etAl ? "others" : author.bibtex).join(" and ");
+  const citationVenue = metadata.category === "conferences"
+    ? conferenceVenueLabel(metadata.venue, metadata.year)
+    : metadata.venue;
   const fields = [
     `  author = {${bibtexEscape(bibtexAuthors)}},`,
     `  title = {{${bibtexEscape(metadata.title)}}},`,
   ];
 
-  if (metadata.venue) {
-    fields.push(`  ${type === "misc" ? "howpublished" : venueField} = {${bibtexEscape(metadata.venue)}},`);
+  if (citationVenue) {
+    fields.push(`  ${type === "misc" ? "howpublished" : venueField} = {${bibtexEscape(citationVenue)}},`);
   }
   fields.push(`  year = {${bibtexEscape(metadata.year)}},`);
   if (doi) fields.push(`  doi = {${bibtexEscape(doi)}},`);
@@ -126,8 +151,11 @@ function citationFor(panel, format) {
   const url = metadata.citationUrl ?? "";
   const venue = metadata.citationVenue ?? "";
   const year = metadata.citationYear ?? "";
+  const category = metadata.citationCategory ?? "";
   const title = metadata.citationTitle ?? "";
-  const citationVenue = citationVenueName(venue, year);
+  const citationVenue = category === "conferences"
+    ? conferenceVenueLabel(venue, year)
+    : citationVenueName(venue, year);
 
   if (format === "apa") {
     const authorText = apaAuthorList(authors);
@@ -138,10 +166,11 @@ function citationFor(panel, format) {
   if (format === "ieee") {
     const authorText = ieeeAuthorList(authors);
     const locator = doi ? `doi: ${doi}` : url ? `Available: ${url}` : "";
-    return `${authorText}, “${title},” ${citationVenue}, ${year}.${locator ? ` ${locator}` : ""}`;
+    const venueAndYear = category === "conferences" ? citationVenue : `${citationVenue}, ${year}`;
+    return `${authorText}, “${title},” ${venueAndYear}.${locator ? ` ${locator}` : ""}`;
   }
 
-  return bibtexCitation({ title, venue, year }, authors, doi, url);
+  return bibtexCitation({ title, venue, year, category }, authors, doi, url);
 }
 
 function copyFallback(text, output) {

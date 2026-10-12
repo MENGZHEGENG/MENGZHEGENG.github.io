@@ -26,7 +26,7 @@
       <a class="publication-action publication-action--doi" href="https://search.crossref.org/?q={{ post.title | cgi_escape }}" target="_blank" rel="noopener noreferrer" aria-label="Search Crossref for a DOI for {{ post.title | escape }}" title="Search Crossref for a DOI">Find DOI</a>
     {% endunless %}
   {% endif %}
-  <details class="publication-cite" data-citation-title="{{ post.title | escape }}" data-citation-authors="{{ post.authors | escape }}" data-citation-venue="{{ post.venue | escape }}" data-citation-year="{{ post.year | escape }}" data-citation-doi="{{ post.doi | escape }}" data-citation-url="{{ citation_url | escape }}">
+  <details class="publication-cite" data-citation-title="{{ post.title | escape }}" data-citation-authors="{{ post.authors | escape }}" data-citation-venue="{{ post.venue | escape }}" data-citation-year="{{ post.year | escape }}" data-citation-category="{{ post.category | escape }}" data-citation-doi="{{ post.doi | escape }}" data-citation-url="{{ citation_url | escape }}">
     <summary class="publication-action publication-action--cite">Cite</summary>
     <div class="publication-cite__panel">
       <div class="publication-cite__controls">

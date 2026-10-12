@@ -19,7 +19,7 @@ author_profile: true
 {% assign displayed_authors = post.authors %}
 <article class="publication-entry publication-page-entry" id="publication-{{ post.scholar_rank }}">
   <h3><a href="{{ publication_url | escape }}" target="_blank" rel="noopener noreferrer">{{ post.title | escape }} <span aria-hidden="true">↗</span></a></h3>
-  <p class="publication-meta">{% include publication-authors.html authors=displayed_authors %} <span aria-hidden="true">·</span> <em>{{ post.venue | escape }}</em></p>
+  <p class="publication-meta">{% include publication-authors.html authors=displayed_authors %} <span aria-hidden="true">·</span> <em>{% include publication-venue-year.html venue=post.venue year=post.year category=post.category %}</em></p>
   {% if post.publication_status %}<p class="publication-meta publication-status"><strong>Status:</strong> {{ post.publication_status | escape }}</p>{% endif %}
   {% if post.publication_theme %}<p class="publication-theme-line">{% include publication-theme-label.html %}</p>{% endif %}
   {% include publication-actions.html %}

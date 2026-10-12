@@ -1,11 +1,30 @@
 {%- assign venue_value = include.venue | strip -%}
 {%- assign year_value = include.year | append: "" | strip -%}
-{%- assign venue_words = venue_value | split: " " -%}
-{%- assign venue_last_word = venue_words | last | replace: ".", "" | replace: ",", "" | strip -%}
+{%- assign venue_label = venue_value -%}
+{%- if include.category == "conferences" and year_value != "" -%}
+  {%- capture comma_year -%}, {{ year_value }}{%- endcapture -%}
+  {%- capture space_year -%} {{ year_value }}{%- endcapture -%}
+  {%- capture repeated_year -%} {{ year_value }} {{ year_value }}{%- endcapture -%}
+  {%- capture repeated_parenthesis_year -%}{{ year_value }}) {{ year_value }}{%- endcapture -%}
+  {%- capture single_parenthesis_year -%}{{ year_value }}){%- endcapture -%}
+  {%- capture repeated_bracket_year -%}{{ year_value }}] {{ year_value }}{%- endcapture -%}
+  {%- capture single_bracket_year -%}{{ year_value }}]{%- endcapture -%}
+  {%- capture repeated_brace_year -%}{{ year_value }}} {{ year_value }}{%- endcapture -%}
+  {%- capture single_brace_year -%}{{ year_value }}}{%- endcapture -%}
+  {%- assign venue_label = venue_label | replace: comma_year, space_year | replace: repeated_year, space_year | replace: repeated_year, space_year -%}
+  {%- assign venue_label = venue_label | replace: repeated_parenthesis_year, single_parenthesis_year | replace: repeated_bracket_year, single_bracket_year | replace: repeated_brace_year, single_brace_year -%}
+{%- endif -%}
+{%- assign venue_check = venue_label | remove: ")" | remove: "]" | remove: "}" | remove: "." | remove: "," | strip -%}
+{%- assign venue_words = venue_check | split: " " -%}
+{%- assign venue_last_word = venue_words | last -%}
 {%- if venue_value != "" and year_value != "" and venue_last_word == year_value -%}
-{{ venue_value | escape }}
+{{ venue_label | escape }}
+{%- elsif venue_value != "" and year_value != "" and include.category == "conferences" -%}
+{{ venue_label | escape }} {{ year_value | escape }}
+{%- elsif venue_value != "" and year_value != "" and include.append_year -%}
+{{ venue_label | escape }}, {{ year_value | escape }}
 {%- elsif venue_value != "" and year_value != "" -%}
-{{ venue_value | escape }}, {{ year_value | escape }}
+{{ venue_label | escape }}
 {%- else -%}
-{{ venue_value | escape }}
+{{ venue_label | escape }}
 {%- endif -%}
