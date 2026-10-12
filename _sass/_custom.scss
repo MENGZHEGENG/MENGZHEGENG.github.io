@@ -736,10 +736,6 @@ html[data-theme="dark"] .timeline-row {
   min-width: 0;
 }
 
-.supervision-detail-line {
-  white-space: normal;
-}
-
 @media (max-width: 48em) {
   .supervision-heading {
     grid-template-columns: minmax(0, 1fr) auto;

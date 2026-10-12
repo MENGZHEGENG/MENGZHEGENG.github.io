@@ -150,7 +150,8 @@ classes: wide
       <span class="publication-meta">M.Sc. student intern, NRC · July–October 2025</span>
     </summary>
     <div class="supervision-details">
-      <p class="supervision-detail supervision-detail-line"><span class="supervision-label">Supervision &amp; award</span><span class="supervision-detail-copy">Co-supervised with Aidan Pine and <a href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a> · <strong>Winner, NRC Outstanding Student Contribution Award</strong>.</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with Aidan Pine and <a href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a>.</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>Winner, NRC Outstanding Student Contribution Award</strong>.</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em>.</span></p>
     </div>
   </details>
