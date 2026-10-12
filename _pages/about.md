@@ -35,11 +35,11 @@ classes: wide
 <h2>Education</h2>
 <div class="timeline-entry">
   <div class="timeline-date">2019–2023</div>
-  <div><h3>Ph.D. in Systems Engineering and Engineering Management</h3><p>The Chinese University of Hong Kong</p></div>
+  <div><h3>Ph.D. in Systems Engineering and Engineering Management</h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a></p></div>
 </div>
 <div class="timeline-entry">
   <div class="timeline-date">2015–2019</div>
-  <div><h3>B.Sc. in Mathematics and Information Engineering</h3><p>The Chinese University of Hong Kong · First-class honours · <a href="https://www.erg.cuhk.edu.hk/iris/Elite" target="_blank" rel="noopener noreferrer">ELITE Stream graduate</a> · Minor in Computer Science</p></div>
+  <div><h3><a href="https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/" target="_blank" rel="noopener noreferrer">B.Sc. in Mathematics and Information Engineering</a></h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a> · <a href="https://www.cuhk.edu.hk/clear/qm/A5-2.pdf" target="_blank" rel="noopener noreferrer">First-class honours</a> · <a href="https://www.erg.cuhk.edu.hk/iris/Elite" target="_blank" rel="noopener noreferrer">ELITE Stream graduate</a> · Minor in Computer Science</p></div>
 </div>
 
 <h2 id="research">Research</h2>
@@ -175,15 +175,15 @@ classes: wide
   <li class="award-item"><strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
   <li class="award-item"><strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong>, 2023</li>
   <li class="award-item">ISCA INTERSPEECH Travel Grant, 2023</li>
-  <li class="award-item">Finalist, <a href="https://www.hkxfoundation.org/aboutus" target="_blank" rel="noopener noreferrer">Hong Kong X Foundation</a> FYP+ Project, 2019</li>
+  <li class="award-item"><a href="https://www.hkxfoundation.org/aboutus" target="_blank" rel="noopener noreferrer">Finalist, Hong Kong X Foundation FYP+ Project, 2019</a></li>
   <li class="award-item">CUHK Academic Excellence Scholarship for Non-local Students, 2019</li>
   <li class="award-item"><strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong>, 2018</li>
   <li class="award-item"><strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong>, 2019 and 2016</li>
   <li class="award-item">CUHK S.H. Ho College Outstanding Student Scholarship, 2018, 2017, 2016, and 2015</li>
-  <li class="award-item">HKSAR Government <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/reaching-out-award/" target="_blank" rel="noopener noreferrer">Reaching Out Award</a>, 2018</li>
-  <li class="award-item"><strong>HKSAR Government <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">Talent Development Scholarship</a> (Innovation)</strong>, 2017</li>
-  <li class="award-item"><strong>The IET Prize</strong>, the Institute of Engineering and Technology, 2017</li>
-  <li class="award-item"><strong>The Soong Ching Ling Foundation Scholarship</strong>, China Soong Ching Ling Foundation, 2015</li>
+  <li class="award-item"><a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/reaching-out-award/" target="_blank" rel="noopener noreferrer">HKSAR Government Reaching Out Award</a>, 2018</li>
+  <li class="award-item"><strong><a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">HKSAR Government Talent Development Scholarship (Innovation)</a></strong>, 2017</li>
+  <li class="award-item"><strong><a href="https://www.theiet.org/impact-society/awards-prizes-and-scholarships/iet-student-prizes" target="_blank" rel="noopener noreferrer">The IET Prize</a></strong>, the Institute of Engineering and Technology, 2017</li>
+  <li class="award-item"><strong><a href="https://www.csclf.org/" target="_blank" rel="noopener noreferrer">The Soong Ching Ling Foundation Zhiyuan Scholarship</a></strong>, 2015</li>
 </ul>
 
 <h2>Profiles</h2>
