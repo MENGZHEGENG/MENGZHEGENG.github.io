@@ -790,9 +790,12 @@ html[data-theme="dark"] .timeline-row {
 }
 
 .page__content .award-list a.award-article-title,
+.page__content .award-list a.award-article-title:visited,
 .page__content .award-list a.award-article-title:hover,
+.page__content .award-list a.award-article-title:active,
 .page__content .award-list a.award-article-title:focus-visible {
-  text-decoration: underline;
+  color: inherit;
+  text-decoration: none;
 }
 
 .page__content .timeline-entry a,
