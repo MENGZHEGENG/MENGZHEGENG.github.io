@@ -175,13 +175,13 @@ classes: wide
   <li class="award-item"><strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
   <li class="award-item"><strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong>, 2023</li>
   <li class="award-item">ISCA INTERSPEECH Travel Grant, 2023</li>
-  <li class="award-item">Finalist, Hong Kong X Foundation FYP+ Project, 2019</li>
+  <li class="award-item">Finalist, <a href="https://www.hkxfoundation.org/aboutus" target="_blank" rel="noopener noreferrer">Hong Kong X Foundation</a> FYP+ Project, 2019</li>
   <li class="award-item">CUHK Academic Excellence Scholarship for Non-local Students, 2019</li>
   <li class="award-item"><strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong>, 2018</li>
-  <li class="award-item"><strong>CUHK ELITE Stream Student Scholarship</strong>, 2019 and 2016</li>
+  <li class="award-item"><strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong>, 2019 and 2016</li>
   <li class="award-item">CUHK S.H. Ho College Outstanding Student Scholarship, 2018, 2017, 2016, and 2015</li>
-  <li class="award-item">HKSAR Government Reaching Out Award, 2018</li>
-  <li class="award-item"><strong>HKSAR Government Talent Development Scholarship (Innovation)</strong>, 2017</li>
+  <li class="award-item">HKSAR Government <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/reaching-out-award/" target="_blank" rel="noopener noreferrer">Reaching Out Award</a>, 2018</li>
+  <li class="award-item"><strong>HKSAR Government <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">Talent Development Scholarship</a> (Innovation)</strong>, 2017</li>
   <li class="award-item"><strong>The IET Prize</strong>, the Institute of Engineering and Technology, 2017</li>
   <li class="award-item"><strong>The Soong Ching Ling Foundation Scholarship</strong>, China Soong Ching Ling Foundation, 2015</li>
 </ul>
