@@ -740,6 +740,20 @@ html[data-theme="dark"] .timeline-row {
 }
 
 @media (max-width: 48em) {
+  .supervision-details p.supervision-detail {
+    display: flex;
+    gap: 0.7em;
+    align-items: baseline;
+  }
+
+  .supervision-label {
+    padding-top: 0;
+  }
+
+  .supervision-detail-copy {
+    flex: 1 1 0;
+  }
+
   .supervision-heading {
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 0.15em;
