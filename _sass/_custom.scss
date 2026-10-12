@@ -789,6 +789,12 @@ html[data-theme="dark"] .timeline-row {
   text-decoration: underline;
 }
 
+.page__content .timeline-entry a,
+.page__content .timeline-entry a:hover,
+.page__content .timeline-entry a:focus-visible {
+  text-decoration: none;
+}
+
 .author-led-disclosure {
   margin: 0.7em 0 1.7em;
 }
