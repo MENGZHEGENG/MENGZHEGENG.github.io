@@ -110,6 +110,9 @@ classes: wide
 <p class="more-link"><a href="/publications/">View the full publication list <span aria-hidden="true">→</span></a> <span aria-hidden="true">·</span> <a href="{{ site.author.googlescholar }}">All publications on Google Scholar</a></p>
 </details>
 
+<h2 id="researchpod">ResearchPod</h2>
+<p><a href="https://researchpod.app/episode/3ce339ad-82ad-43c2-9051-aa5da401acfb" target="_blank" rel="noopener noreferrer">View on ResearchPod</a></p>
+
 <h2 id="student-supervision">Student Supervision</h2>
 <p class="supervision-intro">Every student listed here who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>.</p>
 <div class="supervision-list">
