@@ -659,6 +659,7 @@ html[data-theme="dark"] .timeline-row {
 }
 
 .supervision-entry {
+  display: block;
   padding: 0.9em 1em;
   border: 1px solid var(--global-border-color);
   border-left: 3px solid var(--site-focus-color);
@@ -667,15 +668,39 @@ html[data-theme="dark"] .timeline-row {
 
 .supervision-heading {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto auto;
   align-items: baseline;
   gap: 0.25em 1em;
+  list-style: none;
+  cursor: pointer;
 }
 
-.supervision-heading h3 {
-  margin: 0;
+.supervision-heading::-webkit-details-marker {
+  display: none;
+}
+
+.supervision-heading::after {
+  align-self: center;
+  color: var(--site-focus-color);
+  content: "+";
+  font-size: 1.2em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.supervision-entry[open] .supervision-heading::after {
+  content: "−";
+}
+
+.supervision-name {
   font-size: 1.02em;
+  font-weight: 700;
   line-height: 1.4;
+}
+
+.supervision-heading:focus-visible {
+  outline: 2px solid var(--site-focus-color);
+  outline-offset: 3px;
 }
 
 .supervision-heading .publication-meta {
@@ -690,8 +715,7 @@ html[data-theme="dark"] .timeline-row {
 }
 
 .supervision-detail {
-  display: grid;
-  grid-template-columns: 8.5em minmax(0, 1fr);
+  display: flex;
   gap: 0.7em;
   align-items: baseline;
   margin: 0;
@@ -703,19 +727,22 @@ html[data-theme="dark"] .timeline-row {
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+  white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 .supervision-detail-copy {
+  flex: 1 1 0;
   min-width: 0;
 }
 
 .supervision-detail-line {
-  white-space: nowrap;
+  white-space: normal;
 }
 
 @media (max-width: 48em) {
   .supervision-heading {
-    grid-template-columns: minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) auto;
     gap: 0.15em;
   }
 
@@ -723,12 +750,9 @@ html[data-theme="dark"] .timeline-row {
     text-align: left;
   }
 
-  .supervision-detail {
-    grid-template-columns: 7.5em minmax(0, 1fr);
-  }
-
-  .supervision-detail-line {
-    white-space: normal;
+  .supervision-heading::after {
+    grid-column: 2;
+    grid-row: 1 / span 2;
   }
 }
 
