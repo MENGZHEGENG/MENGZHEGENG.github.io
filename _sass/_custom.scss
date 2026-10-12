@@ -710,18 +710,19 @@ html[data-theme="dark"] .timeline-row {
 
 .supervision-details {
   display: grid;
-  gap: 0.18em;
-  margin-top: 0.55em;
+  gap: 0.38em;
+  margin-top: 0.72em;
 }
 
 .supervision-details p.supervision-detail {
-  display: flex;
-  gap: 0.7em;
-  align-items: baseline;
+  display: grid;
+  grid-template-columns: 7.1em minmax(0, 1fr);
+  column-gap: 0.7em;
+  align-items: start;
   margin: 0;
   padding: 0;
   text-indent: 0;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .supervision-label {
@@ -731,11 +732,10 @@ html[data-theme="dark"] .timeline-row {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   white-space: nowrap;
-  flex: 0 0 auto;
+  padding-top: 0.22em;
 }
 
 .supervision-detail-copy {
-  flex: 1 1 0;
   min-width: 0;
 }
 
