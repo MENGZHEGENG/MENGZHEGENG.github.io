@@ -710,16 +710,18 @@ html[data-theme="dark"] .timeline-row {
 
 .supervision-details {
   display: grid;
-  gap: 0.4em;
+  gap: 0.18em;
   margin-top: 0.55em;
 }
 
-.supervision-details .supervision-detail {
+.supervision-details p.supervision-detail {
   display: flex;
   gap: 0.7em;
   align-items: baseline;
   margin: 0;
+  padding: 0;
   text-indent: 0;
+  line-height: 1.4;
 }
 
 .supervision-label {
