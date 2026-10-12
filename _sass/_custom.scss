@@ -777,6 +777,18 @@ html[data-theme="dark"] .timeline-row {
   margin-bottom: 0.55em;
 }
 
+.page__content .award-list a,
+.page__content .award-list a:hover,
+.page__content .award-list a:focus-visible {
+  text-decoration: none;
+}
+
+.page__content .award-list a.award-article-title,
+.page__content .award-list a.award-article-title:hover,
+.page__content .award-list a.award-article-title:focus-visible {
+  text-decoration: underline;
+}
+
 .author-led-disclosure {
   margin: 0.7em 0 1.7em;
 }
