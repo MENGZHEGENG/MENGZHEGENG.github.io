@@ -162,6 +162,12 @@ classes: wide
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em></span></p>
     </div>
   </details>
+  <div class="supervision-entry supervision-entry-static">
+    <div class="supervision-static-heading">
+      <span class="supervision-name">Jinxin Ji</span>
+      <span class="publication-meta">Remote Ph.D. intern, PolyU · Jul 2026–present</span>
+    </div>
+  </div>
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Yujia Lu</span>

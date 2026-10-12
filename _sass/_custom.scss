@@ -666,6 +666,18 @@ html[data-theme="dark"] .timeline-row {
   border-radius: 5px;
 }
 
+.supervision-static-heading {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 0.25em 1em;
+}
+
+.supervision-static-heading .publication-meta {
+  margin: 0;
+  text-align: right;
+}
+
 .supervision-heading {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto auto;
@@ -765,7 +777,16 @@ html[data-theme="dark"] .timeline-row {
     gap: 0.15em;
   }
 
+  .supervision-static-heading {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.15em;
+  }
+
   .supervision-heading .publication-meta {
+    text-align: left;
+  }
+
+  .supervision-static-heading .publication-meta {
     text-align: left;
   }
 
