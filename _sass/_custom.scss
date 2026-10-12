@@ -396,6 +396,7 @@ html[data-theme="dark"] .publication-action--cite {
 }
 
 .publication-cite > summary {
+  display: block;
   cursor: pointer;
   list-style: none;
 }
