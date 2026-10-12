@@ -8,7 +8,11 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">I study how machine learning systems can <strong>understand and generate speech and audio, adapt across speakers, languages, and modalities, and reason from incomplete evidence</strong>. My work develops and evaluates accessible speech recognition, low-resource language technologies, speaker adaptation, efficient speech foundation models, and spoken agents. I also study multimodal systems that use audio and visual information for prediction and reasoning, asking when they should gather more evidence, answer, act, or abstain.</p>
+<p class="lede">I study how machine learning systems can <strong>understand and generate speech and audio, adapt across speakers, languages, and modalities, and reason from incomplete evidence</strong>.</p>
+<ul class="research-summary">
+  <li>My work develops and evaluates accessible speech recognition, low-resource language technologies, speaker adaptation, efficient speech foundation models, and spoken agents.</li>
+  <li>I also study multimodal systems that use audio and visual information for prediction and reasoning, asking when they should gather more evidence, answer, act, or abstain.</li>
+</ul>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 
@@ -20,7 +24,7 @@ classes: wide
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%B %-d, %Y" }}</p>
 
 <p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">My previous four-month student internships each led to at least one peer-reviewed publication in a top-tier journal or conference. I welcome students from anywhere for <strong>remote internships</strong> and researchers from anywhere for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also explore the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> and <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Students interested in internships should email a CV and academic transcripts from their bachelor's degree onward; researchers interested in in-person guest researcher opportunities can email a CV. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome students worldwide for <strong>remote internships</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Students: email a CV and transcripts from your bachelor's onward; researchers: a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
@@ -107,7 +111,7 @@ classes: wide
 </details>
 
 <h2 id="student-supervision">Student Supervision</h2>
-<p class="supervision-intro">Each student's four-month internship led to at least one peer-reviewed publication in a top-tier journal or conference.</p>
+<p class="supervision-intro">Every student listed here who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. Yujia Lu's internship with me is ongoing.</p>
 <div class="supervision-list">
   <article class="supervision-entry">
     <h3>Sunyi Liu</h3>
@@ -129,9 +133,14 @@ classes: wide
   </article>
   <article class="supervision-entry">
     <h3>Timothy Tse</h3>
-    <p class="publication-meta">M.Sc. student intern</p>
+    <p class="publication-meta">M.Sc. student intern · July–October 2025</p>
     <p>Co-supervised with Aidan Pine and <a href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a> · <strong>Winner, NRC Outstanding Student Contribution Award</strong> (2025).</p>
     <p class="supervision-publication">Publication: <a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em>.</p>
+  </article>
+  <article class="supervision-entry">
+    <h3>Yujia Lu</h3>
+    <p class="publication-meta">Remote undergraduate student intern, CUHK · August 2026–present</p>
+    <p class="supervision-publication">Preprint: <a href="https://arxiv.org/abs/2609.08899" target="_blank" rel="noopener noreferrer">From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection</a>, <em>arXiv:2609.08899</em> (2026).</p>
   </article>
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: 'From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection'
-authors: Mengzhe Geng, Y Lu, M Kunz, P Littell
+authors: Mengzhe Geng, Yujia Lu, Manuela Kunz, Patrick Littell
 venue: arXiv preprint arXiv:2609.08899
 doi: https://doi.org/10.48550/arXiv.2609.08899
 year: 2026

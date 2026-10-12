@@ -159,6 +159,16 @@ html[data-theme="dark"] .google-scholar-icon {
   font-weight: 700;
 }
 
+.research-summary {
+  max-width: 50em;
+  margin: 0 0 1.5em;
+  padding-left: 1.25em;
+}
+
+.research-summary li + li {
+  margin-top: 0.45em;
+}
+
 .availability-notice {
   margin: 1.5em 0;
   padding: 0.85em 1em;
