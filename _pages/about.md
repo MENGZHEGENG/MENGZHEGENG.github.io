@@ -119,7 +119,7 @@ classes: wide
       <span class="publication-meta">Undergraduate student intern, NRC · May–August 2024</span>
     </summary>
     <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>Winner, NRC Outstanding Student Contribution Award</strong>.</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2024).</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://ieeexplore.ieee.org/document/11004431" target="_blank" rel="noopener noreferrer">Exploring Generative Artificial Intelligence Techniques in Government: A Case Study</a>, <em>IEEE Intelligent Systems</em> (2025).</span></p>
     </div>
   </details>
@@ -140,7 +140,7 @@ classes: wide
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with Patrick Littell.</span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>Winner, NRC Outstanding Student Contribution Award</strong>.</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025).</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em>.</span></p>
     </div>
   </details>
@@ -151,7 +151,7 @@ classes: wide
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy">Co-supervised with Aidan Pine and <a href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a>.</span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>Winner, NRC Outstanding Student Contribution Award</strong>.</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025).</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em>.</span></p>
     </div>
   </details>
