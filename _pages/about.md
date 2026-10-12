@@ -111,7 +111,10 @@ classes: wide
 </details>
 
 <h2 id="researchpod">ResearchPod</h2>
-<p><a href="https://researchpod.app/episode/3ce339ad-82ad-43c2-9051-aa5da401acfb" target="_blank" rel="noopener noreferrer">View on ResearchPod</a></p>
+<article class="publication-entry">
+  <h3><a href="https://researchpod.app/episode/3ce339ad-82ad-43c2-9051-aa5da401acfb" target="_blank" rel="noopener noreferrer">VoxReason: Listener-Free Evaluation of Source-Grounded Speech Planning Before Synthesis</a></h3>
+  <p class="publication-meta">ResearchPod episode</p>
+</article>
 
 <h2 id="student-supervision">Student Supervision</h2>
 <p class="supervision-intro">Every student listed here who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>.</p>
