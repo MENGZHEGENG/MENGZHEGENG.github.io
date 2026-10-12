@@ -62,6 +62,13 @@ function normalizedDoi(rawDoi) {
   return rawDoi.replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "").trim();
 }
 
+function citationVenueName(venue, year) {
+  const venueText = venue.trim();
+  const yearText = year.trim();
+  if (!yearText || !venueText.endsWith(yearText)) return venueText;
+  return venueText.slice(0, -yearText.length).replace(/[\s,]+$/, "").trim() || venueText;
+}
+
 function bibtexEscape(value) {
   return value
     .replace(/\\/g, "\\textbackslash{}")
@@ -120,17 +127,18 @@ function citationFor(panel, format) {
   const venue = metadata.citationVenue ?? "";
   const year = metadata.citationYear ?? "";
   const title = metadata.citationTitle ?? "";
+  const citationVenue = citationVenueName(venue, year);
 
   if (format === "apa") {
     const authorText = apaAuthorList(authors);
     const locator = doi ? `https://doi.org/${doi}` : url;
-    return `${authorText} (${year}). ${title}. ${venue}.${locator ? ` ${locator}` : ""}`;
+    return `${authorText} (${year}). ${title}. ${citationVenue}.${locator ? ` ${locator}` : ""}`;
   }
 
   if (format === "ieee") {
     const authorText = ieeeAuthorList(authors);
     const locator = doi ? `doi: ${doi}` : url ? `Available: ${url}` : "";
-    return `${authorText}, “${title},” ${venue}, ${year}.${locator ? ` ${locator}` : ""}`;
+    return `${authorText}, “${title},” ${citationVenue}, ${year}.${locator ? ` ${locator}` : ""}`;
   }
 
   return bibtexCitation({ title, venue, year }, authors, doi, url);

@@ -6,7 +6,7 @@ year: 2020
 publication_date: '2020-10-25'
 author_role: co-first
 author_role_order: 16
-publication_theme: Disordered speech recognition
+publication_theme: Dysarthric speech recognition
 timeline_theme: Accessible Speech AI
 category: conferences
 sort_order: 9

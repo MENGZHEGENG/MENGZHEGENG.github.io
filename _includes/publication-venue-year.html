@@ -1,0 +1,11 @@
+{%- assign venue_value = include.venue | strip -%}
+{%- assign year_value = include.year | append: "" | strip -%}
+{%- assign venue_words = venue_value | split: " " -%}
+{%- assign venue_last_word = venue_words | last | replace: ".", "" | replace: ",", "" | strip -%}
+{%- if venue_value != "" and year_value != "" and venue_last_word == year_value -%}
+{{ venue_value | escape }}
+{%- elsif venue_value != "" and year_value != "" -%}
+{{ venue_value | escape }}, {{ year_value | escape }}
+{%- else -%}
+{{ venue_value | escape }}
+{%- endif -%}
