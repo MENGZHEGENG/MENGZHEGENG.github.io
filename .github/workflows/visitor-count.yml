@@ -2,7 +2,7 @@ name: Refresh visitor count
 
 on:
   schedule:
-    - cron: "2-59/15 * * * *"
+    - cron: "2-59/10 * * * *"
   workflow_dispatch:
 
 permissions:
