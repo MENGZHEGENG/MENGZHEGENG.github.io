@@ -122,7 +122,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Sunyi Liu</span>
-      <span class="publication-meta">Undergraduate intern, NRC · May–Aug 2024</span>
+      <span class="publication-meta">Undergraduate intern, NRC (UofT) · May–Aug 2024</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
@@ -133,7 +133,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Shenran Wang</span>
-      <span class="publication-meta">Undergraduate intern, NRC · May–Aug 2025</span>
+      <span class="publication-meta">Undergraduate intern, NRC (UBC) · May–Aug 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a></span></p>
@@ -143,7 +143,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Changbing Yang</span>
-      <span class="publication-meta">Ph.D. intern, NRC · May–Aug 2025</span>
+      <span class="publication-meta">Ph.D. intern, NRC (UBC) · May–Aug 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/patrick-littell" target="_blank" rel="noopener noreferrer">Patrick Littell</a></span></p>
@@ -154,7 +154,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Timothy Tse</span>
-      <span class="publication-meta">M.Sc. intern, NRC · Jul–Oct 2025</span>
+      <span class="publication-meta">M.Sc. intern, NRC (UBC) · Jul–Oct 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a> and <a class="person-link" href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a></span></p>
@@ -183,7 +183,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta">Incoming Ph.D. intern, NRC · Jan 2027</span>
+      <span class="publication-meta">Incoming Ph.D. intern, NRC (UofT) · Jan 2027</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
