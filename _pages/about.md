@@ -117,7 +117,7 @@ classes: wide
 </article>
 
 <h2 id="student-supervision">Student Supervision</h2>
-<p class="supervision-intro">Every student listed here who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>.</p>
+<p class="supervision-intro">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>.</p>
 <div class="supervision-list">
   <details class="supervision-entry">
     <summary class="supervision-heading">
