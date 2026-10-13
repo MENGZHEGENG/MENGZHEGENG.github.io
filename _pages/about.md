@@ -180,6 +180,15 @@ classes: wide
       <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.08899" target="_blank" rel="noopener noreferrer">From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection</a>, <em>arXiv:2609.08899</em> (2026)</span></p>
     </div>
   </details>
+  <details class="supervision-entry">
+    <summary class="supervision-heading">
+      <span class="supervision-name">Yanfei Lu</span>
+      <span class="publication-meta">Incoming Ph.D. intern, NRC · Jan 2027</span>
+    </summary>
+    <div class="supervision-details">
+      <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
+    </div>
+  </details>
 </div>
 
 <h2 id="awards">Selected Awards and Honours</h2>
