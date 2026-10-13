@@ -197,14 +197,14 @@ html[data-theme="dark"] .google-scholar-icon {
   padding: 0.55em 0.9em;
   border: 1px solid var(--site-focus-color);
   border-radius: 4px;
-  background: var(--site-focus-color);
-  color: var(--site-on-accent-color) !important;
+  background: var(--site-surface-muted);
+  color: inherit;
   font-weight: 700;
   text-decoration: none;
 }
 
 .button-link:hover {
-  background: var(--global-link-color-hover);
+  background: var(--site-surface-color);
 }
 
 .scholar-stats {
@@ -358,7 +358,7 @@ html[data-theme="dark"] .research-card {
   padding: 0.16em 0.58em;
   border: 1px solid currentColor;
   border-radius: 4px;
-  color: var(--site-meta-color);
+  color: inherit;
   font-size: 0.78em;
   font-weight: 650;
   line-height: 1.55;
@@ -369,32 +369,8 @@ html[data-theme="dark"] .research-card {
   text-decoration: none;
 }
 
-.publication-action--pdf {
-  color: #b84b3e;
-}
-
-.publication-action--doi {
-  color: #94601c;
-}
-
-.publication-action--cite {
-  color: #665bc0;
-}
-
 .publication-action:hover {
   background: var(--site-surface-muted);
-}
-
-html[data-theme="dark"] .publication-action--pdf {
-  color: #ff9283;
-}
-
-html[data-theme="dark"] .publication-action--doi {
-  color: #e5b56f;
-}
-
-html[data-theme="dark"] .publication-action--cite {
-  color: #aaa1ff;
 }
 
 .publication-cite {
@@ -446,7 +422,7 @@ html[data-theme="dark"] .publication-action--cite {
 }
 
 .publication-action--copy {
-  color: var(--site-focus-color);
+  color: inherit;
   background: var(--global-bg-color);
   cursor: pointer;
   font: inherit;
@@ -475,10 +451,6 @@ html[data-theme="dark"] .publication-action--cite {
   margin: 0.35em 0 0;
   color: var(--site-muted-color);
   font-size: 0.8em;
-}
-
-html[data-theme="dark"] .publication-action--copy {
-  color: #9adbd2;
 }
 
 @media (max-width: 600px) {
@@ -1107,4 +1079,24 @@ html[data-theme="dark"] .timeline-row {
   .stat strong {
     font-size: 1.28em;
   }
+}
+
+/* Linked copy follows the same text color as its surrounding content. */
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+/* Keep general link-buttons readable while matching surrounding text. */
+a.btn {
+  color: inherit !important;
+  border: 1px solid var(--global-dark-border-color);
+  background: var(--site-surface-muted);
+}
+
+a.btn:hover {
+  color: inherit !important;
+  background: var(--site-surface-color);
 }
