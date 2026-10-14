@@ -23,8 +23,12 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
-<p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome students worldwide for <strong>remote internships</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Students: email a CV and transcripts from your bachelor's onward; researchers: a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<p class="availability-notice"><strong>I am open to opportunities in both academia and industry, including startups. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
+<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome students worldwide for <strong>remote internships</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
+<details class="internship-note application-procedure">
+  <summary>How to Apply</summary>
+  <p><strong>Students:</strong> Email a CV and transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+</details>
 <details class="internship-note">
   <summary>Internships are highly competitive</summary>
   <p>With limited capacity and a high volume of inquiries, I may not be able to reply to everyone. Thank you for your interest; I may contact you about future opportunities.</p>
@@ -33,7 +37,7 @@ classes: wide
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
   <div class="timeline-date">Nov 2023–present</div>
-  <div><h3>Research Scientist</h3><p><a href="https://nrc.canada.ca/en/research-development/research-collaboration/research-centres/digital-technologies-research-centre">Digital Technologies</a>, <a href="https://nrc.canada.ca/en">National Research Council Canada</a> · Ottawa, Canada</p></div>
+  <div><h3>Research Scientist</h3><p><a href="https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/multilingual-text-processing">Multilingual Text Processing</a>, <a href="https://nrc.canada.ca/en/research-development/research-collaboration/research-centres/digital-technologies-research-centre">Digital Technologies</a>, <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p></div>
 </div>
 
 <h2>Education</h2>
@@ -214,7 +218,7 @@ classes: wide
 <h2 id="awards">Selected Awards and Honours</h2>
 <p class="award-section-meta">2015–2026 · 20 awards</p>
 <div class="award-groups">
-  <details id="award-group-work" class="award-card award-group" open>
+  <details id="award-group-work" class="award-card award-group">
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">Work</span>
