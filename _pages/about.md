@@ -26,7 +26,7 @@ classes: wide
 <p class="availability-notice"><strong>I am open to opportunities in both academia and industry. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
 <p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome students worldwide for <strong>remote internships</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>. Students: email a CV and transcripts from your bachelor's onward; researchers: a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 <details class="internship-note">
-  <summary>Remote internships are highly competitive</summary>
+  <summary>Internships are highly competitive</summary>
   <p>With limited capacity and a high volume of inquiries, I may not be able to reply to everyone. Thank you for your interest; I may contact you about future opportunities.</p>
 </details>
 
