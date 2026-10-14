@@ -120,6 +120,21 @@ classes: wide
   <p class="publication-meta">ResearchPod episode</p>
 </article>
 
+<h2 id="huggingface-daily-papers">Hugging Face Daily Papers</h2>
+<details class="daily-papers-disclosure">
+  <summary><span class="daily-papers-count">2 papers</span><span class="daily-papers-date">Featured Oct 14, 2026</span></summary>
+  <div class="daily-papers-list">
+    <article class="daily-papers-entry">
+      <h3><a href="https://huggingface.co/papers/2610.10808" target="_blank" rel="noopener noreferrer">Controlled Acquisition and Abstention in Three-Channel Score Conflicts</a></h3>
+      <p class="publication-meta">{% include publication-authors.html authors="Mengzhe Geng" %} <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2610.10808" target="_blank" rel="noopener noreferrer">arXiv:2610.10808</a></p>
+    </article>
+    <article class="daily-papers-entry">
+      <h3><a href="https://huggingface.co/papers/2610.15327" target="_blank" rel="noopener noreferrer">CIViC: Evidence Gates for Audio-Conditioned Visual Prediction on Proxy Tasks</a></h3>
+      <p class="publication-meta">{% include publication-authors.html authors="Mengzhe Geng, Max W. Y. Lam, Yuewen Cao, Shoukang Hu, Jing Xu, Marc Tessier, Xu Li" %} <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2610.15327" target="_blank" rel="noopener noreferrer">arXiv:2610.15327</a></p>
+    </article>
+  </div>
+</details>
+
 <h2 id="student-supervision">Student Supervision</h2>
 <p class="supervision-intro">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>.</p>
 <div class="supervision-list">
