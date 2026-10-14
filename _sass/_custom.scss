@@ -487,9 +487,7 @@ html[data-theme="dark"] .research-card {
   text-decoration: none;
 }
 
-.archive .publication-actions .publication-action,
-.archive .publication-actions .publication-action:hover,
-.archive .publication-actions .publication-action:focus-visible {
+.archive .publication-page-entry .publication-actions a:is(.publication-action--pdf, .publication-action--doi):is(:link, :visited, :hover, :focus-visible, :active) {
   text-decoration: none;
 }
 
