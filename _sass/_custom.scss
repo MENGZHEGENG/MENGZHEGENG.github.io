@@ -909,6 +909,7 @@ html[data-theme="dark"] .timeline-row {
     grid-row: 1;
     align-self: center;
     display: grid;
+    place-items: center;
     width: 2.75rem;
     height: 2.75rem;
     margin: 0;
@@ -950,7 +951,7 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-details p.supervision-detail {
-    grid-template-columns: clamp(4.7em, 22vw, 5.6em) minmax(0, 1fr);
+    grid-template-columns: clamp(5em, 24vw, 5.8em) minmax(0, 1fr);
     column-gap: 0.62em;
     align-items: start;
     padding: 0;
@@ -977,8 +978,13 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-details p.supervision-detail {
-    grid-template-columns: clamp(4.45em, 21vw, 4.9em) minmax(0, 1fr);
+    grid-template-columns: 5em minmax(0, 1fr);
     column-gap: 0.48em;
+  }
+
+  .supervision-label {
+    font-size: 0.64em;
+    letter-spacing: 0.025em;
   }
 }
 
