@@ -1185,7 +1185,7 @@ html[data-theme="dark"] .timeline-row {
 
   .timeline-entry {
     grid-template-columns: minmax(0, 1fr);
-    gap: 0.38em;
+    gap: 0.65em;
     padding: 0.72em 0;
     border-bottom: 1px solid var(--global-border-color);
   }
@@ -1207,7 +1207,7 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .timeline-entry h3 {
-    margin-bottom: 0.12em;
+    margin-bottom: 0.28em;
     font-size: 1em;
     line-height: 1.35;
     text-wrap: pretty;
