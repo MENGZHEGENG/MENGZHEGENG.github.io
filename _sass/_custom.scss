@@ -1136,7 +1136,8 @@ html[data-theme="dark"] .timeline-row {
 }
 
 .award-card__meta,
-.award-group__meta {
+.award-group__meta,
+.award-section-meta {
   color: var(--site-muted-color);
   font-size: 0.86em;
 }
@@ -1150,24 +1151,22 @@ html[data-theme="dark"] .timeline-row {
   outline-offset: -3px;
 }
 
+.award-section-meta {
+  margin: -0.5em 0 0.9em;
+}
+
 .award-groups {
   display: grid;
-  gap: 0;
+  gap: 0.65em;
+  margin: 0 0 1.8em;
+}
+
+.award-groups .award-card {
+  margin: 0;
+}
+
+.award-group__content {
   margin: 0 1em 0.95em;
-}
-
-.award-group {
-  padding-top: 0.85em;
-  border-top: 1px solid var(--global-border-color);
-}
-
-.award-group__heading {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.25em 0.7em;
-  margin: 0 0 0.45em;
-  font-size: 1em;
 }
 
 .award-group__title {
@@ -1214,12 +1213,17 @@ html[data-theme="dark"] .timeline-row {
     gap: 0.12em;
   }
 
-  .award-groups {
-    margin: 0 0.82em 0.82em;
+  .award-section-meta {
+    margin-top: -0.42em;
   }
 
-  .award-group {
-    padding-top: 0.7em;
+  .award-groups {
+    gap: 0.55em;
+    margin-bottom: 1.5em;
+  }
+
+  .award-group__content {
+    margin: 0 0.82em 0.82em;
   }
 
   .award-list {
