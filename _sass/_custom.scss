@@ -762,9 +762,9 @@ html[data-theme="dark"] .timeline-row {
 
 .supervision-heading {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto auto;
+  grid-template-columns: minmax(7.5rem, 0.75fr) minmax(0, 1.25fr) auto;
   align-items: baseline;
-  gap: 0.25em 1em;
+  gap: 0.3em 1em;
   list-style: none;
   cursor: pointer;
 }
@@ -787,6 +787,7 @@ html[data-theme="dark"] .timeline-row {
 }
 
 .supervision-name {
+  min-width: 0;
   font-size: 1.02em;
   font-weight: 700;
   line-height: 1.4;
@@ -798,7 +799,11 @@ html[data-theme="dark"] .timeline-row {
 }
 
 .supervision-heading .publication-meta {
+  min-width: 0;
+  max-width: 100%;
   margin: 0;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
   text-align: right;
 }
 
@@ -833,6 +838,14 @@ html[data-theme="dark"] .timeline-row {
   min-width: 0;
 }
 
+.supervision-upcoming-role .supervision-label {
+  color: var(--site-focus-color);
+}
+
+.supervision-upcoming-role .supervision-detail-copy {
+  font-weight: 600;
+}
+
 .page__content .supervision-detail-copy a.person-link,
 .page__content .supervision-detail-copy a.person-link:hover,
 .page__content .supervision-detail-copy a.person-link:focus-visible {
@@ -841,22 +854,18 @@ html[data-theme="dark"] .timeline-row {
 
 @media (max-width: 48em) {
   .supervision-details p.supervision-detail {
-    display: flex;
-    gap: 0.7em;
-    align-items: baseline;
+    grid-template-columns: minmax(6.4em, 7.1em) minmax(0, 1fr);
+    column-gap: 0.55em;
+    align-items: start;
   }
 
   .supervision-label {
     padding-top: 0;
   }
 
-  .supervision-detail-copy {
-    flex: 1 1 0;
-  }
-
   .supervision-heading {
     grid-template-columns: minmax(0, 1fr) auto;
-    gap: 0.15em;
+    gap: 0.25em 0.75em;
   }
 
   .supervision-heading .publication-meta {
