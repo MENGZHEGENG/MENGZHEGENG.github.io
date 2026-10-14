@@ -16,5 +16,5 @@ scholar_pending: true
 scholarurl: 'https://scholar.google.ca/scholar?hl=en&q=%22CIViC%3A+Evidence+Gates+for+Audio-Conditioned+Visual+Prediction+on+Proxy+Tasks%22'
 paperurl: https://arxiv.org/abs/2610.15327
 pdfurl: https://arxiv.org/pdf/2610.15327
-doi_pending: true
+doi: https://doi.org/10.48550/arXiv.2610.15327
 ---
