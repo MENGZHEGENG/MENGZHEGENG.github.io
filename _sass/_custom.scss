@@ -936,7 +936,7 @@ html[data-theme="dark"] .timeline-row {
 
   .supervision-role-line {
     display: grid;
-    grid-template-columns: 4.45em minmax(0, 1fr);
+    grid-template-columns: 5.3em minmax(0, 1fr);
     align-items: start;
     column-gap: 0.5em;
     min-width: 0;
@@ -959,6 +959,7 @@ html[data-theme="dark"] .timeline-row {
     letter-spacing: 0.045em;
     line-height: 1.4;
     text-transform: uppercase;
+    white-space: nowrap;
   }
 
   .supervision-role-copy {
@@ -1035,7 +1036,7 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-role-line {
-    grid-template-columns: 4.15em minmax(0, 1fr);
+    grid-template-columns: 5em minmax(0, 1fr);
     column-gap: 0.38em;
   }
 }
