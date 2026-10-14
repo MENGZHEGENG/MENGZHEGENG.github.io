@@ -754,17 +754,18 @@ html[data-theme="dark"] .timeline-row {
 
 .supervision-entry {
   display: block;
-  padding: 0.9em 1em;
+  padding: 0.95em 1.1em;
   border: 1px solid var(--global-border-color);
   border-left: 3px solid var(--site-focus-color);
-  border-radius: 5px;
+  border-radius: 7px;
+  background: var(--site-surface-muted);
 }
 
 .supervision-heading {
   display: grid;
-  grid-template-columns: minmax(7.5rem, 0.75fr) minmax(0, 1.25fr) auto;
-  align-items: baseline;
-  gap: 0.3em 1em;
+  grid-template-columns: minmax(9rem, 0.7fr) minmax(0, 1.5fr) 1.5rem;
+  align-items: center;
+  gap: 0.45em 1.25em;
   list-style: none;
   cursor: pointer;
 }
@@ -775,6 +776,7 @@ html[data-theme="dark"] .timeline-row {
 
 .supervision-heading::after {
   align-self: center;
+  justify-self: end;
   color: var(--site-focus-color);
   content: "+";
   font-size: 1.2em;
@@ -791,6 +793,7 @@ html[data-theme="dark"] .timeline-row {
   font-size: 1.02em;
   font-weight: 700;
   line-height: 1.4;
+  text-wrap: pretty;
 }
 
 .supervision-heading:focus-visible {
@@ -804,25 +807,52 @@ html[data-theme="dark"] .timeline-row {
   margin: 0;
   line-height: 1.45;
   overflow-wrap: anywhere;
-  text-align: right;
+  text-align: left;
+}
+
+.supervision-roles {
+  display: grid;
+  gap: 0.3em;
 }
 
 .supervision-role-line {
-  display: block;
+  display: grid;
+  grid-template-columns: 5.7em minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 0.65em;
+  min-width: 0;
 }
 
 .supervision-role-tag {
-  display: inline-block;
-  margin-right: 0.25em;
-  padding: 0.02em 0.45em;
-  border: 1px solid var(--site-focus-color);
-  border-radius: 999px;
+  display: block;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
   color: var(--site-focus-color);
-  font-size: 0.78em;
+  font-size: 0.69em;
   font-weight: 700;
-  letter-spacing: 0.035em;
-  line-height: 1.45;
-  vertical-align: 0.06em;
+  letter-spacing: 0.065em;
+  line-height: 1.55;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.supervision-role-copy {
+  display: block;
+  min-width: 0;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.supervision-role-context {
+  display: inline;
+  margin-left: 0.38em;
+  color: var(--site-meta-color);
+  font-size: 0.92em;
+}
+
+.supervision-role-context::before {
+  content: "· ";
 }
 
 .supervision-details {
@@ -878,7 +908,6 @@ html[data-theme="dark"] .timeline-row {
 
   .supervision-entry {
     padding: 0.72em 0.82em 0.76em;
-    background: var(--site-surface-muted);
     border-radius: 8px;
   }
 
@@ -929,16 +958,15 @@ html[data-theme="dark"] .timeline-row {
 
   .supervision-roles {
     display: grid;
-    gap: 0.34em;
-    padding-top: 0.38em !important;
-    border-top: 1px solid var(--global-border-color);
+    gap: 0.3em;
+    padding-top: 0.28em !important;
   }
 
   .supervision-role-line {
     display: grid;
-    grid-template-columns: 5.3em minmax(0, 1fr);
+    grid-template-columns: 4.7em minmax(0, 1fr);
     align-items: start;
-    column-gap: 0.5em;
+    column-gap: 0.45em;
     min-width: 0;
   }
 
@@ -951,15 +979,10 @@ html[data-theme="dark"] .timeline-row {
   .supervision-role-tag {
     justify-self: start;
     margin-top: 0.08em;
-    padding: 0.14em 0.46em;
-    border-color: transparent;
-    border-radius: 4px;
-    background: var(--site-surface-color);
-    font-size: 0.64em;
+    padding: 0;
+    font-size: 0.63em;
     letter-spacing: 0.045em;
     line-height: 1.4;
-    text-transform: uppercase;
-    white-space: nowrap;
   }
 
   .supervision-role-copy {
@@ -976,10 +999,15 @@ html[data-theme="dark"] .timeline-row {
 
   .supervision-role-context {
     display: block;
+    margin-left: 0;
     color: var(--site-meta-color);
     font-size: 0.94em;
     line-height: 1.4;
     overflow-wrap: anywhere;
+  }
+
+  .supervision-role-context::before {
+    content: none;
   }
 
   .supervision-details {
@@ -1036,8 +1064,20 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-role-line {
-    grid-template-columns: 5em minmax(0, 1fr);
+    grid-template-columns: 4.45em minmax(0, 1fr);
     column-gap: 0.38em;
+  }
+}
+
+@media (min-width: 48.01em) and (max-width: 64em) {
+  .supervision-heading {
+    grid-template-columns: minmax(7.5rem, 0.58fr) minmax(0, 1.42fr) 1.35rem;
+    column-gap: 0.85em;
+  }
+
+  .supervision-role-line {
+    grid-template-columns: 4.9em minmax(0, 1fr);
+    column-gap: 0.5em;
   }
 }
 
