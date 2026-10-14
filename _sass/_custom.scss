@@ -1184,8 +1184,39 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .timeline-entry {
-    grid-template-columns: 1fr;
-    gap: 0.05em;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.38em;
+    padding: 0.72em 0;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  .timeline-entry > div {
+    min-width: 0;
+  }
+
+  .timeline-date {
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    padding: 0.08em 0.55em;
+    border-radius: 999px;
+    background: var(--site-surface-muted);
+    font-size: 0.8em;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+  }
+
+  .timeline-entry h3 {
+    margin-bottom: 0.12em;
+    font-size: 1em;
+    line-height: 1.35;
+    text-wrap: pretty;
+  }
+
+  .timeline-entry p {
+    margin-bottom: 0;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
   }
 }
 
