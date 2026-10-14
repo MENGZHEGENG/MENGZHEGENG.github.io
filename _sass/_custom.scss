@@ -807,6 +807,24 @@ html[data-theme="dark"] .timeline-row {
   text-align: right;
 }
 
+.supervision-role-line {
+  display: block;
+}
+
+.supervision-role-tag {
+  display: inline-block;
+  margin-right: 0.25em;
+  padding: 0.02em 0.45em;
+  border: 1px solid var(--site-focus-color);
+  border-radius: 999px;
+  color: var(--site-focus-color);
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  line-height: 1.45;
+  vertical-align: 0.06em;
+}
+
 .supervision-details {
   display: grid;
   gap: 0.38em;
