@@ -202,7 +202,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta">Incoming Ph.D. intern, NRC (UofT) · Jan 2027</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line">Ph.D. intern, NRC (UofT)</span><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span> Jan 2027</span></span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
