@@ -216,14 +216,13 @@ classes: wide
     <summary class="award-group__summary">
       <span class="award-group__summary-main">
         <span class="award-group__title">Work</span>
-        <span class="award-group__meta">2023–2026 · 4 awards</span>
+        <span class="award-group__meta">2025–2026 · 3 awards</span>
       </span>
     </summary>
     <ul class="award-list">
       <li class="award-item">2026 — <strong><a href="https://www.canada.ca/en/government/system/digital-government/gcdigital-community/networking-events/digital-government-community-awards/awards.html" target="_blank" rel="noopener noreferrer">Award for Excellence in Inclusion, Diversity, Equity and Accessibility</a></strong>, Digital Government Community Awards, Government of Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
       <li class="award-item">2026 — <strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
       <li class="award-item">2025 — <strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a class="award-article-title" href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore</li>
-      <li class="award-item">2023 — <strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong></li>
     </ul>
   </details>
 
@@ -231,13 +230,14 @@ classes: wide
     <summary class="award-group__summary">
       <span class="award-group__summary-main">
         <span class="award-group__title">Postgraduate</span>
-        <span class="award-group__meta">2019–2023 · 3 awards</span>
+        <span class="award-group__meta">2019–2023 · 4 awards</span>
       </span>
     </summary>
     <ul class="award-list">
-      <li class="award-item">2019–2023 — <a href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Studentship</a></li>
       <li class="award-item">2023 — <strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
+      <li class="award-item">2023 — <strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong></li>
       <li class="award-item">2023 — <a href="https://interspeech2023.org/travel-grants/" target="_blank" rel="noopener noreferrer">ISCA INTERSPEECH Travel Grant</a></li>
+      <li class="award-item">2019–2023 — <a href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Studentship</a></li>
     </ul>
   </details>
 
