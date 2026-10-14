@@ -184,7 +184,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Jinxin Ji</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Current</span> Remote Ph.D. intern, PolyU · Jul 2026–present</span><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span> Visiting researcher · Jan 2027</span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Current</span><span class="supervision-role-copy"><strong>Remote Ph.D. intern</strong><span class="supervision-role-context">PolyU · Jul 2026–present</span></span></span><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy"><strong>Visiting researcher</strong><span class="supervision-role-context">Jan 2027</span></span></span></span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.26823" target="_blank" rel="noopener noreferrer">Text Scores Do Not Establish Performance on Lexically Non-Diagnostic Speech Tasks: A Qwen2-Audio Quantization Case Study</a>, <em>arXiv:2609.26823</em> (2026)</span></p>
@@ -202,7 +202,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span> Ph.D. intern, NRC (UofT) · Jan 2027</span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy"><strong>Ph.D. intern</strong><span class="supervision-role-context">NRC (UofT) · Jan 2027</span></span></span></span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
