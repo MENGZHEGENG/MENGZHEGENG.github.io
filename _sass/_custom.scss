@@ -491,11 +491,6 @@ html[data-theme="dark"] .research-card {
   text-decoration: none;
 }
 
-.page__content .publication-actions a.publication-action--pdf,
-.page__content .publication-actions a.publication-action--doi {
-  border-bottom: 1px solid currentColor;
-}
-
 .publication-action:hover {
   background: var(--site-surface-muted);
 }
