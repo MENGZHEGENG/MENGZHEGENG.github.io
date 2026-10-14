@@ -944,15 +944,15 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-details {
-    gap: 0.62em;
-    margin-top: 0.78em;
-    padding-top: 0.78em;
+    gap: 0.5em;
+    margin-top: 0.58em;
+    padding-top: 0.58em;
     border-top: 1px solid var(--global-border-color);
   }
 
   .supervision-details p.supervision-detail {
-    grid-template-columns: clamp(5em, 24vw, 5.8em) minmax(0, 1fr);
-    column-gap: 0.62em;
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 0.72em;
     align-items: start;
     padding: 0;
     border: 0;
@@ -960,7 +960,7 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-label {
-    padding-top: 0.24em;
+    padding-top: 0.22em;
     font-size: 0.68em;
     letter-spacing: 0.035em;
     white-space: nowrap;
@@ -978,8 +978,8 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-details p.supervision-detail {
-    grid-template-columns: 5em minmax(0, 1fr);
-    column-gap: 0.48em;
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 0.58em;
   }
 
   .supervision-label {
