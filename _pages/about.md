@@ -121,6 +121,7 @@ classes: wide
 </article>
 
 <h2 id="huggingface-daily-papers">Hugging Face Daily Papers</h2>
+<p>If you find these papers interesting, please consider upvoting them on Hugging Face.</p>
 <details class="daily-papers-disclosure">
   <summary><span class="daily-papers-count">2 papers</span><span class="daily-papers-date">Featured Oct 14, 2026</span></summary>
   <div class="daily-papers-list">
