@@ -872,20 +872,20 @@ html[data-theme="dark"] .timeline-row {
 
 @media (max-width: 48em) {
   .supervision-list {
-    gap: 0.65em;
-    margin-top: 0.45em;
+    gap: 0.72em;
+    margin-top: 0.5em;
   }
 
   .supervision-entry {
-    padding: 0.82em 0.9em;
-    border-radius: 8px;
+    padding: 0.84em 0.9em 0.92em;
+    border-radius: 9px;
   }
 
   .supervision-heading {
     grid-template-columns: minmax(0, 1fr) auto;
-    align-items: start;
-    gap: 0.28em 0.7em;
-    min-height: 2.65em;
+    align-items: center;
+    gap: 0.22em 0.65em;
+    min-height: 2.8em;
     touch-action: manipulation;
   }
 
@@ -899,8 +899,9 @@ html[data-theme="dark"] .timeline-row {
     grid-column: 1 / -1;
     grid-row: 2;
     text-align: left;
-    font-size: 0.9em;
-    line-height: 1.48;
+    padding-top: 0.08em;
+    font-size: 0.88em;
+    line-height: 1.5;
   }
 
   .supervision-heading::after {
@@ -908,19 +909,19 @@ html[data-theme="dark"] .timeline-row {
     grid-row: 1;
     align-self: center;
     display: grid;
-    width: 2.1em;
-    height: 2.1em;
+    width: 2.75rem;
+    height: 2.75rem;
     margin: 0;
     padding: 0;
     border: 1px solid var(--global-border-color);
     border-radius: 50%;
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1;
   }
 
   .supervision-roles {
     display: grid;
-    gap: 0.22em;
+    gap: 0.18em;
   }
 
   .supervision-role-line {
@@ -929,25 +930,28 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-role-line + .supervision-role-line {
+    margin-top: 0.1em;
+    padding-top: 0.16em;
+    border-top: 1px solid var(--global-border-color);
     color: var(--site-meta-color);
   }
 
   .supervision-role-tag {
-    margin-right: 0.24em;
-    padding: 0.06em 0.48em;
+    margin-right: 0.32em;
+    padding: 0.04em 0.52em;
     font-size: 0.74em;
   }
 
   .supervision-details {
-    gap: 0.58em;
-    margin-top: 0.72em;
-    padding-top: 0.72em;
+    gap: 0.62em;
+    margin-top: 0.78em;
+    padding-top: 0.78em;
     border-top: 1px solid var(--global-border-color);
   }
 
   .supervision-details p.supervision-detail {
-    grid-template-columns: 6.6em minmax(0, 1fr);
-    column-gap: 0.65em;
+    grid-template-columns: clamp(4.7em, 22vw, 5.6em) minmax(0, 1fr);
+    column-gap: 0.62em;
     align-items: start;
     padding: 0;
     border: 0;
@@ -955,7 +959,7 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-label {
-    padding-top: 0.22em;
+    padding-top: 0.24em;
     font-size: 0.68em;
     letter-spacing: 0.035em;
     white-space: nowrap;
@@ -969,12 +973,12 @@ html[data-theme="dark"] .timeline-row {
 
 @media (max-width: 360px) {
   .supervision-entry {
-    padding: 0.74em 0.78em;
+    padding: 0.78em 0.78em 0.84em;
   }
 
   .supervision-details p.supervision-detail {
-    grid-template-columns: 6.1em minmax(0, 1fr);
-    column-gap: 0.5em;
+    grid-template-columns: clamp(4.45em, 21vw, 4.9em) minmax(0, 1fr);
+    column-gap: 0.48em;
   }
 }
 
