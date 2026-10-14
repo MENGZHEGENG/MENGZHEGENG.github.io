@@ -933,8 +933,13 @@ html[data-theme="dark"] .timeline-row {
   }
 
   .supervision-role-line {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    column-gap: 0.38em;
+    row-gap: 0.12em;
     min-width: 0;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;
   }
 
   .supervision-role-line + .supervision-role-line {
@@ -942,12 +947,15 @@ html[data-theme="dark"] .timeline-row {
     padding-left: 0.62em;
     border-left: 1px solid var(--site-focus-color);
     color: var(--site-meta-color);
+    line-height: 1.42;
   }
 
   .supervision-role-tag {
-    margin-right: 0.32em;
-    padding: 0.04em 0.52em;
-    font-size: 0.74em;
+    flex: 0 0 auto;
+    margin-right: 0;
+    padding: 0.08em 0.55em;
+    font-size: 0.7em;
+    line-height: 1.35;
   }
 
   .supervision-details {
