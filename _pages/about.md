@@ -216,7 +216,7 @@ classes: wide
     <summary class="award-group__summary">
       <span class="award-group__summary-main">
         <span class="award-group__title">Work</span>
-        <span class="award-group__meta">2025–2026 · 3 awards</span>
+        <span class="award-group__meta">2023–2026 · 3 awards</span>
       </span>
     </summary>
     <ul class="award-list">
