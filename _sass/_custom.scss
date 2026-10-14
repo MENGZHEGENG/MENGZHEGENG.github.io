@@ -1081,8 +1081,81 @@ html[data-theme="dark"] .timeline-row {
   }
 }
 
+.award-groups {
+  display: grid;
+  gap: 0.8em;
+  margin: 0.6em 0 1.8em;
+}
+
+.award-group {
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--site-focus-color);
+  border-radius: 7px;
+  background: var(--site-surface-muted);
+}
+
+.award-group__summary {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  padding: 0.85em 1em;
+  cursor: pointer;
+  list-style: none;
+}
+
+.award-group__summary::-webkit-details-marker {
+  display: none;
+}
+
+.award-group__summary::after {
+  margin-left: auto;
+  color: var(--site-focus-color);
+  content: "+";
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.award-group[open] .award-group__summary::after {
+  content: "−";
+}
+
+.award-group__summary-main {
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25em 0.7em;
+}
+
+.award-group__title {
+  color: var(--global-text-color);
+  font-weight: 750;
+}
+
+.award-group__meta {
+  color: var(--site-muted-color);
+  font-size: 0.86em;
+}
+
+.award-group__summary:hover {
+  background: var(--site-surface-color);
+}
+
+.award-group__summary:focus-visible {
+  outline: 3px solid var(--site-focus-color);
+  outline-offset: -3px;
+}
+
 .award-list {
-  padding-left: 1.35em;
+  margin: 0.1em 1em 0.95em;
+  padding: 0.85em 0 0 1.35em;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.award-group .award-list li:last-child {
+  margin-bottom: 0;
 }
 
 .award-list li {
@@ -1102,6 +1175,24 @@ html[data-theme="dark"] .timeline-row {
 .page__content .award-list a.award-article-title:focus-visible {
   color: inherit;
   text-decoration: none;
+}
+
+@media (max-width: 48em) {
+  .award-group__summary {
+    padding: 0.78em 0.82em;
+  }
+
+  .award-group__summary-main {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.12em;
+  }
+
+  .award-group .award-list {
+    margin: 0.1em 0.82em 0.82em;
+    padding-top: 0.7em;
+    padding-left: 1.25em;
+  }
 }
 
 .page__content .timeline-entry a,

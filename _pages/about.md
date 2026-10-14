@@ -211,28 +211,60 @@ classes: wide
 </div>
 
 <h2 id="awards">Selected Awards and Honours</h2>
-<ul class="award-list">
-  <li class="award-item">2026 — <strong><a href="https://www.canada.ca/en/government/system/digital-government/gcdigital-community/networking-events/digital-government-community-awards/awards.html" target="_blank" rel="noopener noreferrer">Award for Excellence in Inclusion, Diversity, Equity and Accessibility</a></strong>, Digital Government Community Awards, Government of Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
-  <li class="award-item">2026 — <strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
-  <li class="award-item">2025 — <strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a class="award-article-title" href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore</li>
-  <li class="award-item">2019–2023 — <a href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Studentship</a></li>
-  <li class="award-item">2023 — <strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
-  <li class="award-item">2023 — <strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong></li>
-  <li class="award-item">2023 — <a href="https://interspeech2023.org/travel-grants/" target="_blank" rel="noopener noreferrer">ISCA INTERSPEECH Travel Grant</a></li>
-  <li class="award-item">2019 — <a href="https://www.hkxfoundation.org/aboutus" target="_blank" rel="noopener noreferrer">Finalist, Hong Kong X Foundation FYP+ Project</a></li>
-  <li class="award-item">2019 — CUHK Academic Excellence Scholarship for Non-local Students</li>
-  <li class="award-item">2019 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
-  <li class="award-item">2018 — <strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong></li>
-  <li class="award-item">2018 — <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/reaching-out-award/" target="_blank" rel="noopener noreferrer">HKSAR Government Reaching Out Award</a></li>
-  <li class="award-item">2018 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
-  <li class="award-item">2017 — <strong><a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">HKSAR Government Talent Development Scholarship (Innovation)</a></strong></li>
-  <li class="award-item">2017 — <strong><a href="https://www.theiet.org/impact-society/awards-prizes-and-scholarships/iet-student-prizes" target="_blank" rel="noopener noreferrer">The IET Prize</a></strong>, the Institute of Engineering and Technology</li>
-  <li class="award-item">2017 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
-  <li class="award-item">2016 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
-  <li class="award-item">2016 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
-  <li class="award-item">2015 — <strong><a href="https://www.csclf.org/" target="_blank" rel="noopener noreferrer">The Soong Ching Ling Foundation Zhiyuan Scholarship</a></strong></li>
-  <li class="award-item">2015 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
-</ul>
+<div class="award-groups">
+  <details class="award-group">
+    <summary class="award-group__summary">
+      <span class="award-group__summary-main">
+        <span class="award-group__title">Work</span>
+        <span class="award-group__meta">2023–2026 · 4 awards</span>
+      </span>
+    </summary>
+    <ul class="award-list">
+      <li class="award-item">2026 — <strong><a href="https://www.canada.ca/en/government/system/digital-government/gcdigital-community/networking-events/digital-government-community-awards/awards.html" target="_blank" rel="noopener noreferrer">Award for Excellence in Inclusion, Diversity, Equity and Accessibility</a></strong>, Digital Government Community Awards, Government of Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
+      <li class="award-item">2026 — <strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
+      <li class="award-item">2025 — <strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a class="award-article-title" href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore</li>
+      <li class="award-item">2023 — <strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong></li>
+    </ul>
+  </details>
+
+  <details class="award-group">
+    <summary class="award-group__summary">
+      <span class="award-group__summary-main">
+        <span class="award-group__title">Postgraduate</span>
+        <span class="award-group__meta">2019–2023 · 3 awards</span>
+      </span>
+    </summary>
+    <ul class="award-list">
+      <li class="award-item">2019–2023 — <a href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Studentship</a></li>
+      <li class="award-item">2023 — <strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
+      <li class="award-item">2023 — <a href="https://interspeech2023.org/travel-grants/" target="_blank" rel="noopener noreferrer">ISCA INTERSPEECH Travel Grant</a></li>
+    </ul>
+  </details>
+
+  <details class="award-group">
+    <summary class="award-group__summary">
+      <span class="award-group__summary-main">
+        <span class="award-group__title">Undergraduate</span>
+        <span class="award-group__meta">2015–2019 · 13 awards</span>
+      </span>
+    </summary>
+    <ul class="award-list">
+      <li class="award-item">2019 — <a href="https://www.hkxfoundation.org/aboutus" target="_blank" rel="noopener noreferrer">Finalist, Hong Kong X Foundation FYP+ Project</a></li>
+      <li class="award-item">2019 — CUHK Academic Excellence Scholarship for Non-local Students</li>
+      <li class="award-item">2019 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
+      <li class="award-item">2018 — <strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong></li>
+      <li class="award-item">2018 — <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/reaching-out-award/" target="_blank" rel="noopener noreferrer">HKSAR Government Reaching Out Award</a></li>
+      <li class="award-item">2018 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
+      <li class="award-item">2017 — <strong><a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">HKSAR Government Talent Development Scholarship (Innovation)</a></strong></li>
+      <li class="award-item">2017 — <strong><a href="https://www.theiet.org/impact-society/awards-prizes-and-scholarships/iet-student-prizes" target="_blank" rel="noopener noreferrer">The IET Prize</a></strong>, the Institute of Engineering and Technology</li>
+      <li class="award-item">2017 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
+      <li class="award-item">2016 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
+      <li class="award-item">2016 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
+      <li class="award-item">2015 — <strong><a href="https://www.csclf.org/" target="_blank" rel="noopener noreferrer">The Soong Ching Ling Foundation Zhiyuan Scholarship</a></strong></li>
+      <li class="award-item">2015 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
+    </ul>
+  </details>
+</div>
 
 <h2>Profiles</h2>
 <p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a> or browse the <a href="{{ '/publications/' | relative_url }}">Publications page</a>.</p>
