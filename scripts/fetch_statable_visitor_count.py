@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch Statable's visitor count and location breakdown for the trailing 30 days."""
+"""Fetch Statable visitor counts for the trailing 7 days and all recorded days."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ import os
 import re
 import sys
 import tempfile
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -16,7 +16,9 @@ from urllib.request import Request, urlopen
 
 SITE_ID = 3386330
 QUERY_URL = "https://statable.com/api/v1/query"
+SITES_URL = "https://statable.com/api/v1/sites"
 OUTPUT_PATH = Path(__file__).resolve().parents[1] / "_data" / "statable_visitor_count.json"
+MAX_EXPLICIT_RANGE_DAYS = 366
 DATE_PATTERN = re.compile(r"\A\d{4}-\d{2}-\d{2}\Z")
 COUNTRY_CODE_PATTERN = re.compile(r"\A[A-Z]{2}\Z")
 COUNTRY_DIMENSION = "visit:country"
@@ -71,16 +73,7 @@ def parse_date_range(payload: dict[str, object]) -> list[str]:
     return date_range
 
 
-def fetch_count(api_key: str) -> tuple[int, list[str]]:
-    payload = query_statable(
-        api_key,
-        {
-            "site_id": SITE_ID,
-            "metrics": ["visitors"],
-            "date_range": "30d",
-        },
-    )
-    date_range = parse_date_range(payload)
+def parse_aggregate_count(payload: dict[str, object]) -> int:
     results = payload.get("results")
     if not isinstance(results, list) or len(results) != 1:
         raise RuntimeError("Statable returned an unexpected aggregate result.")
@@ -88,8 +81,92 @@ def fetch_count(api_key: str) -> tuple[int, list[str]]:
     visitors = metrics.get("visitors") if isinstance(metrics, dict) else None
     if type(visitors) is not int or visitors < 0:
         raise RuntimeError("Statable returned an invalid visitor count.")
+    return visitors
 
-    return visitors, date_range
+
+def payload_has_import(payload: dict[str, object]) -> bool:
+    has_import = payload.get("has_import", False)
+    if type(has_import) is not bool:
+        raise RuntimeError("Statable returned invalid import metadata.")
+    return has_import
+
+
+def fetch_count(api_key: str, requested_range: str = "7d") -> tuple[int, list[str], bool]:
+    payload = query_statable(
+        api_key,
+        {
+            "site_id": SITE_ID,
+            "metrics": ["visitors"],
+            "date_range": requested_range,
+        },
+    )
+    date_range = parse_date_range(payload)
+    return parse_aggregate_count(payload), date_range, payload_has_import(payload)
+
+
+def fetch_site_start_date(api_key: str) -> date:
+    request = Request(
+        SITES_URL,
+        headers={"Accept": "application/json", "Authorization": f"Bearer {api_key}"},
+        method="GET",
+    )
+    try:
+        with urlopen(request, timeout=30) as response:
+            if response.status != 200:
+                raise RuntimeError("Statable returned an unsuccessful site-list response.")
+            payload = json.load(response)
+    except HTTPError as exc:
+        raise RuntimeError(f"Statable site-list request failed with HTTP {exc.code}.") from None
+    except URLError:
+        raise RuntimeError("Statable could not be reached for site metadata.") from None
+    except (TimeoutError, json.JSONDecodeError):
+        raise RuntimeError("Statable returned unreadable site metadata.") from None
+
+    sites = payload.get("sites") if isinstance(payload, dict) else None
+    if not isinstance(sites, list):
+        raise RuntimeError("Statable returned an unexpected site list.")
+    matches = [site for site in sites if isinstance(site, dict) and site.get("site_id") == SITE_ID]
+    if len(matches) != 1:
+        raise RuntimeError("Statable did not return exactly one matching site.")
+    start_value = matches[0].get("stats_start_date")
+    if not isinstance(start_value, str) or DATE_PATTERN.fullmatch(start_value) is None:
+        raise RuntimeError("Statable has no valid first-data date for this site.")
+    try:
+        return date.fromisoformat(start_value)
+    except ValueError:
+        raise RuntimeError("Statable returned an invalid first-data date.") from None
+
+
+def fetch_all_time_count(api_key: str, end_value: str) -> tuple[int, list[str]]:
+    start_date = fetch_site_start_date(api_key)
+    try:
+        end_date = date.fromisoformat(end_value)
+    except ValueError:
+        raise RuntimeError("Statable returned an invalid end date for the all-time count.") from None
+    if start_date > end_date:
+        raise RuntimeError("Statable's first-data date is later than the reporting end date.")
+
+    # The API caps explicit ranges at 366 days. Sum disjoint ranges; this is exact
+    # for native Statable data because its visitor identity resets every day.
+    visitors_all_time = 0
+    imported_data = False
+    current_start = start_date
+    while current_start <= end_date:
+        current_end = min(current_start + timedelta(days=MAX_EXPLICIT_RANGE_DAYS - 1), end_date)
+        requested_range = [current_start.isoformat(), current_end.isoformat()]
+        payload = query_statable(
+            api_key,
+            {"site_id": SITE_ID, "metrics": ["visitors"], "date_range": requested_range},
+        )
+        if parse_date_range(payload) != requested_range:
+            raise RuntimeError("Statable returned a different period for an all-time count segment.")
+        visitors_all_time += parse_aggregate_count(payload)
+        imported_data = imported_data or payload_has_import(payload)
+        current_start = current_end + timedelta(days=1)
+
+    if imported_data:
+        raise RuntimeError("The all-time range overlaps imported data, so segment counts cannot be safely combined.")
+    return visitors_all_time, [start_date.isoformat(), end_date.isoformat()]
 
 
 def fetch_country_breakdown(api_key: str, date_range: list[str]) -> list[dict[str, int | str]]:
@@ -196,15 +273,19 @@ def fetch_country_breakdown(api_key: str, date_range: list[str]) -> list[dict[st
 
 
 def write_count(
-    visitors: int,
-    date_range: list[str],
+    visitors_last_7_days: int,
+    last_7_days_date_range: list[str],
+    visitors_all_time: int | None,
+    all_time_date_range: list[str] | None,
     countries: list[dict[str, int | str]],
     countries_available: bool,
 ) -> None:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     record = {
-        "visitors": visitors,
-        "date_range": date_range,
+        "visitors_last_7_days": visitors_last_7_days,
+        "last_7_days_date_range": last_7_days_date_range,
+        "visitors_all_time": visitors_all_time,
+        "all_time_date_range": all_time_date_range,
         "refreshed_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "countries_available": countries_available,
         "countries": countries,
@@ -235,21 +316,35 @@ def main() -> int:
         return 2
 
     try:
-        visitors, date_range = fetch_count(api_key)
+        visitors_last_7_days, last_7_days_date_range, _ = fetch_count(api_key)
     except RuntimeError as exc:
         print(str(exc), file=sys.stderr)
         return 1
 
+    visitors_all_time: int | None = None
+    all_time_date_range: list[str] | None = None
+    try:
+        visitors_all_time, all_time_date_range = fetch_all_time_count(api_key, last_7_days_date_range[1])
+    except RuntimeError as exc:
+        print(f"::warning::Statable's all-time visitor count could not be refreshed: {exc}")
+
     countries_available = True
     try:
-        countries = fetch_country_breakdown(api_key, date_range)
+        countries = fetch_country_breakdown(api_key, last_7_days_date_range)
     except RuntimeError as exc:
         countries = []
         countries_available = False
         print(f"::warning::Statable's visitor location breakdown could not be refreshed: {exc}")
 
-    write_count(visitors, date_range, countries, countries_available)
-    print(f"Refreshed 30-day visitor statistics for {date_range[0]} through {date_range[1]}.")
+    write_count(
+        visitors_last_7_days,
+        last_7_days_date_range,
+        visitors_all_time,
+        all_time_date_range,
+        countries,
+        countries_available,
+    )
+    print(f"Refreshed 7-day and all-time visitor statistics through {last_7_days_date_range[1]}.")
     return 0
 
 
