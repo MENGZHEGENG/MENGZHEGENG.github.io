@@ -24,12 +24,17 @@ classes: wide
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
 <p class="availability-notice"><strong>I am open to opportunities in both academia and industry, including startups. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome students worldwide for <strong>remote internships</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
+<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. These are past outcomes; neither a future remote internship nor an in-person visit guarantees a publication. I welcome students worldwide for <strong>remote internships</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
+<details class="internship-note before-you-apply">
+  <summary>Before You Apply</summary>
+  <p><strong>Capacity and fit.</strong> Both remote internships and in-person visits have very limited capacity. I spend substantial time working closely with students and research partners, so I can take on only proposals with a strong research fit and clear mutual benefit. A remote internship is typically required before I consider an in-person visit. Research postgraduate students should notify their supervisor before contacting me. Any position, including a remote internship, requires my supervisor's written approval before I can commit.</p>
+  <p><strong>Research security and oversight.</strong> As a federal research institution, the NRC must protect the integrity of Government of Canada work. Requirements for NRC work can be more stringent than typical academic arrangements, and NRC-related activities and partnerships are subject to internal oversight and monitoring. Remote internships require a brief, risk-based research-security review under the <a href="https://nrc.canada.ca/en/corporate/values-ethics/statement-research-security" target="_blank" rel="noopener noreferrer">NRC Statement on Research Security</a>; access to non-public NRC research information depends on that review. International or inter-institutional projects may require additional security and administrative review based on the project and planned activities. Please consider the need for the proposed collaboration and its mutual benefit.</p>
+  <p><strong>Remote resources and intellectual property.</strong> Remote interns typically cannot access NRC computational resources. NRC's <a href="https://www.nrc.canada.ca/en/research-development/intellectual-property-licensing/nrcs-intellectual-property-ip-policy" target="_blank" rel="noopener noreferrer">intellectual-property policy</a> governs work connected with NRC. Depending on a person's formal status and agreement, intellectual property created as part of NRC duties or using NRC facilities, equipment, or financial support may belong to the Crown. Please raise any institutional IP requirements before a project is defined. Different ownership terms for defined parts of the work may be possible only where NRC policy permits them and NRC approves and documents them in writing before work begins.</p>
+  <p><strong>In-person visits.</strong> A visit is not NRC employment and does not itself authorize work. Immigration requirements depend on planned activities; some unpaid activities may still count as work under <a href="https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1288" target="_blank" rel="noopener noreferrer">IRCC guidance</a>. I have consulted immigration counsel to define the boundaries for these visits, but any required authorization must be confirmed before travel. In-person visitors must complete NRC's comprehensive security screening for Government of Canada <a href="https://www.canada.ca/en/government/publicservice/workforce/staffing/security-screening.html" target="_blank" rel="noopener noreferrer">Reliability Status</a>. Students studying outside Canada without Canadian residency status should contact me at least six months before a planned visit. Visits are unpaid: there is no salary, stipend, or reimbursement of expenses, including conference registration or fees for paid journal publication.</p>
+</details>
 <details class="internship-note application-procedure">
   <summary>How to Apply</summary>
-  <p><strong>Students:</strong> Email a CV and transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
-  <p>Remote internships involving NRC research require a brief, risk-based research-security review before access to non-public NRC research information, in line with the <a href="https://nrc.canada.ca/en/corporate/values-ethics/statement-research-security" target="_blank" rel="noopener noreferrer">NRC Statement on Research Security</a>.</p>
-  <p><strong>In-person visits:</strong> A visit is not an NRC employment arrangement: visitors receive no salary or stipend, and expenses are not reimbursed. Immigration authorization depends on the activities; some unpaid activities can still count as work under <a href="https://ircc.canada.ca/english/helpcentre/answer.asp?qnum=1288" target="_blank" rel="noopener noreferrer">IRCC guidance</a>. I have consulted legal counsel on a workable immigration route, but any required authorization must be confirmed before travel. In-person visitors must obtain Government of Canada <a href="https://www.canada.ca/en/government/publicservice/workforce/staffing/security-screening.html" target="_blank" rel="noopener noreferrer">Reliability Status</a> through the NRC security-screening process. This is a standard requirement for in-person hosting and does not reflect a personal assessment. Students studying outside Canada without Canadian residency status should contact me at least six months before a planned visit.</p>
+  <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 </details>
 <details class="internship-note">
   <summary>Internships are highly competitive</summary>
@@ -209,7 +214,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy"><strong>Ph.D. intern</strong><span class="supervision-role-context">NRC (UofT) · Jan 2027</span></span></span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern<span class="supervision-role-context">NRC (UofT) · Jan 2027</span></span></span></span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
@@ -220,6 +225,37 @@ classes: wide
 <h2 id="awards">Selected Awards and Honours</h2>
 <p class="award-section-meta">2015–2026 · 20 awards</p>
 <div class="award-groups">
+  <details id="award-group-work" class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">Work</span>
+        <span class="award-card__meta">2023–2026 · 3 awards</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+        <ul class="award-list">
+          <li class="award-item">2026 — <strong><a href="https://www.canada.ca/en/government/system/digital-government/gcdigital-community/networking-events/digital-government-community-awards/awards.html" target="_blank" rel="noopener noreferrer">Award for Excellence in Inclusion, Diversity, Equity and Accessibility</a></strong>, Digital Government Community Awards, Government of Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
+          <li class="award-item">2026 — <strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
+          <li class="award-item">2025 — <strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a class="award-article-title" href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore</li>
+        </ul>
+    </div>
+  </details>
+  <details id="award-group-postgraduate" class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">Postgraduate</span>
+        <span class="award-card__meta">2019–2023 · 4 awards</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+        <ul class="award-list">
+          <li class="award-item">2023 — <strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
+          <li class="award-item">2023 — <strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong></li>
+          <li class="award-item">2023 — <a href="https://interspeech2023.org/travel-grants/" target="_blank" rel="noopener noreferrer">ISCA INTERSPEECH Travel Grant</a></li>
+          <li class="award-item">2019–2023 — <a href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Studentship</a></li>
+        </ul>
+    </div>
+  </details>
   <details id="award-group-undergraduate" class="award-card award-group">
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
@@ -242,37 +278,6 @@ classes: wide
           <li class="award-item">2016 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
           <li class="award-item">2015 — <strong><a href="https://www.csclf.org/" target="_blank" rel="noopener noreferrer">The Soong Ching Ling Foundation Zhiyuan Scholarship</a></strong></li>
           <li class="award-item">2015 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
-        </ul>
-    </div>
-  </details>
-  <details id="award-group-postgraduate" class="award-card award-group">
-    <summary class="award-card__summary">
-      <span class="award-card__summary-main">
-        <span class="award-card__title" role="heading" aria-level="3">Postgraduate</span>
-        <span class="award-card__meta">2019–2023 · 4 awards</span>
-      </span>
-    </summary>
-    <div class="award-group__content">
-        <ul class="award-list">
-          <li class="award-item">2023 — <strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
-          <li class="award-item">2023 — <strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong></li>
-          <li class="award-item">2023 — <a href="https://interspeech2023.org/travel-grants/" target="_blank" rel="noopener noreferrer">ISCA INTERSPEECH Travel Grant</a></li>
-          <li class="award-item">2019–2023 — <a href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Studentship</a></li>
-        </ul>
-    </div>
-  </details>
-  <details id="award-group-work" class="award-card award-group">
-    <summary class="award-card__summary">
-      <span class="award-card__summary-main">
-        <span class="award-card__title" role="heading" aria-level="3">Work</span>
-        <span class="award-card__meta">2023–2026 · 3 awards</span>
-      </span>
-    </summary>
-    <div class="award-group__content">
-        <ul class="award-list">
-          <li class="award-item">2026 — <strong><a href="https://www.canada.ca/en/government/system/digital-government/gcdigital-community/networking-events/digital-government-community-awards/awards.html" target="_blank" rel="noopener noreferrer">Award for Excellence in Inclusion, Diversity, Equity and Accessibility</a></strong>, Digital Government Community Awards, Government of Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
-          <li class="award-item">2026 — <strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
-          <li class="award-item">2025 — <strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a class="award-article-title" href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore</li>
         </ul>
     </div>
   </details>
