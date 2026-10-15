@@ -28,6 +28,7 @@ classes: wide
 <details class="internship-note application-procedure">
   <summary>How to Apply</summary>
   <p><strong>Students:</strong> Email a CV and transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+  <p>Remote internships involving NRC research require a brief, risk-based research-security review before access to non-public NRC research information, in line with the <a href="https://nrc.canada.ca/en/corporate/values-ethics/statement-research-security" target="_blank" rel="noopener noreferrer">NRC Statement on Research Security</a>.</p>
 </details>
 <details class="internship-note">
   <summary>Internships are highly competitive</summary>
