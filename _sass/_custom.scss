@@ -121,6 +121,12 @@ body {
   line-height: 1;
 }
 
+.orcid-profile-icon {
+  color: #a6ce39;
+  font-size: 1.22em;
+  line-height: 1;
+}
+
 html[data-theme="dark"] .google-scholar-icon {
   color: #ffffff;
 }
@@ -312,6 +318,13 @@ html[data-theme="dark"] .google-scholar-icon {
   align-items: center;
   gap: 0.6em 1.1em;
   margin: 1.45em 0 1.3em;
+}
+
+.explore-note {
+  margin: -0.8em 0 1.25em;
+  color: var(--global-text-color-light);
+  font-size: 0.8em;
+  line-height: 1.4;
 }
 
 .button-link {
@@ -1807,5 +1820,80 @@ a.btn:hover {
   .supervision-heading::after {
     width: 1.7rem;
     height: 1.7rem;
+  }
+}
+
+/* Keep multi-role supervision summaries legible on desktop and mobile. */
+.supervision-roles {
+  display: grid;
+  gap: 0.18em;
+  align-content: start;
+  line-height: 1.4;
+}
+
+.supervision-role-line {
+  display: grid;
+  grid-template-columns: 5.2em minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 0.55em;
+  min-width: 0;
+}
+
+.supervision-role-line + .supervision-role-line {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.supervision-role-line + .supervision-role-line::before {
+  content: none;
+}
+
+.supervision-role-tag {
+  justify-self: start;
+  margin: 0;
+  padding: 0.07em 0.46em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--site-focus-color);
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+  line-height: 1.35;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+.supervision-role-copy {
+  display: block;
+  min-width: 0;
+  color: var(--global-text-color);
+  font-weight: 400;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 48em) {
+  .supervision-roles {
+    gap: 0.12em;
+  }
+
+  .supervision-role-line {
+    grid-template-columns: 4.8em minmax(0, 1fr);
+    align-items: start;
+    column-gap: 0.42em;
+  }
+
+  .supervision-role-tag {
+    margin-top: 0.05em;
+    padding: 0.05em 0.36em;
+    font-size: 0.74em;
+  }
+}
+
+@media (max-width: 360px) {
+  .supervision-role-line {
+    grid-template-columns: 4.45em minmax(0, 1fr);
+    column-gap: 0.34em;
   }
 }

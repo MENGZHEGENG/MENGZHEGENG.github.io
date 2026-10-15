@@ -2,6 +2,7 @@
 layout: single
 permalink: /
 title: "Mengzhe Geng"
+description: "Mengzhe Geng is a Research Scientist at the National Research Council Canada in speech recognition, natural language processing, and machine learning. Explore publications and remote research internships."
 author_profile: true
 classes: wide
 ---
@@ -15,6 +16,7 @@ classes: wide
 </ul>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
+<p class="explore-note">Many links lead to papers, programs, and related resources—feel free to explore.</p>
 
 <div class="scholar-stats" aria-label="Google Scholar metrics">
   <div class="stat"><strong>{{ site.data.scholar_metrics.citations }}</strong><span>citations</span></div>
@@ -24,8 +26,7 @@ classes: wide
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
 <p class="availability-notice"><strong>I am open to opportunities in both academia and industry, including startups. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. These are past outcomes; neither a future remote internship nor an in-person visit guarantees a publication. I welcome students worldwide for <strong>remote internships</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
-<p class="indigenous-community-invitation">Indigenous communities interested in exploring speech and language technologies with the NRC can start by visiting the NRC <a href="https://www.nrc.canada.ca/en/research-development/research-collaboration/programs/indigenous-languages-technology-program" target="_blank" rel="noopener noreferrer">Indigenous Languages Technology (ILT) Program webpage</a> and contacting me at <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>.</p>
+<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. These are past outcomes; neither a future remote internship nor an in-person visit guarantees a publication. I welcome students worldwide to inquire about <strong>remote research internships in speech processing, natural language processing (NLP), and machine learning</strong>, and researchers worldwide about <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
 <details id="before-you-apply" class="internship-note before-you-apply">
   <summary>Before You Apply</summary>
   <p><strong>Capacity, fit, and approval.</strong> Remote internships and in-person visits have very limited capacity. I spend substantial time with my students and research partners, so I consider only proposals with a strong research fit and clear mutual benefit. A remote internship is typically required before I consider an in-person visit. International and inter-institutional collaborations can involve additional risks; please consider carefully whether the proposed collaboration is necessary before applying. Research postgraduate students must notify their supervisor before contacting me and obtain the supervisor's written approval before I can commit to a position. Every position, including a remote internship, also requires written approval from my team leader and the Director of Research before I can commit.</p>
@@ -41,9 +42,10 @@ classes: wide
   <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 </details>
 <details class="internship-note">
-  <summary>Internships are highly competitive</summary>
-  <p>Because capacity is limited, only applicants who are the best fit for an available opportunity will be contacted about next steps. This reflects fit and capacity, not an assessment of your broader abilities or potential. Thank you for your interest.</p>
+  <summary>Internships and visiting positions are highly competitive</summary>
+  <p>Because capacity is limited, only applicants who are the best fit for an available internship or visiting opportunity will be contacted about next steps. This reflects fit and capacity, not an assessment of your broader abilities or potential. Thank you for your interest.</p>
 </details>
+<p class="indigenous-community-invitation">Indigenous communities interested in exploring speech and language technologies with the NRC can start by visiting the NRC <a href="https://www.nrc.canada.ca/en/research-development/research-collaboration/programs/indigenous-languages-technology-program" target="_blank" rel="noopener noreferrer">Indigenous Languages Technology (ILT) Program webpage</a> and contacting me at <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>.</p>
 
 <h2 id="experience">Experience</h2>
 <div class="timeline-entry">
@@ -200,7 +202,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Jinxin Ji</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Current</span><span class="supervision-role-copy">Remote Ph.D. intern<span class="supervision-role-context">PolyU · Jul 2026–present</span></span></span><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Visiting researcher<span class="supervision-role-context">Jan 2027</span></span></span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Current</span><span class="supervision-role-copy">Remote Ph.D. intern · PolyU · Jul 2026–present</span></span><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Visiting researcher · Jan 2027</span></span></span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.26823" target="_blank" rel="noopener noreferrer">Text Scores Do Not Establish Performance on Lexically Non-Diagnostic Speech Tasks: A Qwen2-Audio Quantization Case Study</a>, <em>arXiv:2609.26823</em> (2026)</span></p>
@@ -218,7 +220,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern<span class="supervision-role-context">NRC (UofT) · Jan 2027</span></span></span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern · NRC (UofT) · Jan 2027</span></span></span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>

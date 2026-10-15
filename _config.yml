@@ -18,6 +18,7 @@ author:
   employer_url: "https://nrc.canada.ca/en"
   github: "MENGZHEGENG"
   googlescholar: "https://scholar.google.ca/citations?user=RS59rgIAAAAJ"
+  orcid: "https://orcid.org/0000-0002-7886-439X"
 
 publication_category:
   journals:
@@ -40,6 +41,7 @@ social:
   name: "Mengzhe Geng"
   links:
     - "https://scholar.google.ca/citations?user=RS59rgIAAAAJ"
+    - "https://orcid.org/0000-0002-7886-439X"
 
 include:
   - _pages
