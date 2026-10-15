@@ -9,7 +9,7 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">I develop machine learning for <strong>speech, language, audio, and multimodal AI</strong>, including accessible speech recognition, low-resource language technology, speaker adaptation, efficient speech foundation models, speech generation, spoken agents, and audio-visual reasoning.</p>
+<p class="lede">I develop machine learning for <strong>speech, language, audio, and multimodal AI</strong>, spanning accessible and low-resource speech, speaker adaptation, efficient speech models, speech generation, spoken agents, and multimodal reasoning.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 <p class="explore-note">Explore linked papers, programs, and resources.</p>
@@ -21,8 +21,8 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
-<p class="availability-notice"><strong>Open to opportunities in academia, industry, and startups. Authorized to work in Canada, Hong Kong, and Mainland China. <a href="mailto:tim.geng.cuhk@gmail.com">Contact me</a> about a good fit.</strong></p>
-<p class="collaboration-invitation">I welcome students worldwide for <strong>remote internships in speech, NLP, and machine learning</strong>, and researchers for <strong>in-person guest researcher visits</strong>. Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. Students in Canada may also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
+<p class="availability-notice"><strong>Open to roles in academia, industry, and startups; authorized to work in Canada, Hong Kong, and Mainland China. <a href="mailto:tim.geng.cuhk@gmail.com">Contact me</a> about a good fit.</strong></p>
+<p class="collaboration-invitation">I welcome students worldwide for <strong>remote internships in speech, NLP, and machine learning</strong>, and researchers for <strong>in-person guest researcher visits</strong>. Every student who completed a four-month internship with me coauthored a peer-reviewed paper in a top-tier journal or conference.</p>
 <details id="before-you-apply" class="internship-note before-you-apply">
   <summary>Before You Apply</summary>
   <p><strong>Capacity, fit, and approval.</strong> Remote internships and in-person visits have very limited capacity. I spend substantial time with my students and research partners, so I consider only proposals with a strong research fit and clear mutual benefit. A remote internship is typically required before I consider an in-person visit. International and inter-institutional collaborations can involve additional risks; please consider carefully whether the proposed collaboration is necessary before applying. Research postgraduate students must notify their supervisor before contacting me and obtain the supervisor's written approval before I can commit to a position. Every position, including a remote internship, also requires written approval from my team leader and the Director of Research before I can commit.</p>
@@ -36,7 +36,7 @@ classes: wide
 <details class="internship-note application-procedure">
   <summary>How to Apply</summary>
   <p>Please read and understand all information in <a href="#before-you-apply">Before You Apply</a> before submitting an application. Applying confirms that you have read and understood those requirements and agree to them. Additional requirements may apply to particular projects or circumstances.</p>
-  <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+  <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>. Students in Canada may also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
 </details>
 <details class="internship-note">
   <summary>Positions are highly competitive</summary>
