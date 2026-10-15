@@ -1601,3 +1601,211 @@ a.btn:hover {
   color: inherit !important;
   background: var(--site-surface-color);
 }
+
+/* Keep publication controls and linked titles clean in every link state. */
+.page__content a.publication-action--pdf:is(:link, :visited, :hover, :focus-visible, :active),
+.page__content a.publication-action--doi:is(:link, :visited, :hover, :focus-visible, :active),
+.page__content .publication-entry h2 a:is(:link, :visited, :hover, :focus-visible, :active),
+.page__content .publication-entry h3 a:is(:link, :visited, :hover, :focus-visible, :active),
+.page__content .daily-papers-entry h2 a:is(:link, :visited, :hover, :focus-visible, :active),
+.page__content .daily-papers-entry h3 a:is(:link, :visited, :hover, :focus-visible, :active),
+.page__content .supervision-detail-copy a:is(:link, :visited, :hover, :focus-visible, :active) {
+  text-decoration: none;
+}
+
+.indigenous-community-invitation {
+  max-width: 52em;
+  margin: 0.7em 0 1.5em;
+  padding: 0.75em 1em;
+  border-left: 3px solid var(--site-focus-color);
+  border-radius: 0 6px 6px 0;
+  background: var(--site-surface-muted);
+}
+
+/* Use whitespace and a single accent edge to keep supervision cards calm. */
+.supervision-entry {
+  padding: 0.88em 1.05em;
+  border: 0;
+  border-left: 3px solid var(--site-focus-color);
+  border-radius: 0 7px 7px 0;
+}
+
+.supervision-roles {
+  display: block;
+  line-height: 1.45;
+}
+
+.supervision-role-line {
+  display: inline;
+  min-width: 0;
+}
+
+.supervision-role-line + .supervision-role-line::before {
+  margin: 0 0.42em;
+  color: var(--site-meta-color);
+  content: "·";
+}
+
+.supervision-role-tag {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.32em;
+  padding: 0.04em 0.42em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 999px;
+  color: var(--site-focus-color);
+  font-size: 0.67em;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  line-height: 1.35;
+  text-transform: uppercase;
+  vertical-align: 0.08em;
+  white-space: nowrap;
+}
+
+.supervision-role-copy {
+  display: inline;
+  min-width: 0;
+  line-height: inherit;
+}
+
+.supervision-role-context {
+  display: inline;
+  margin-left: 0.3em;
+  color: var(--site-meta-color);
+  font-size: 0.91em;
+}
+
+.supervision-details {
+  gap: 0.3em;
+  margin-top: 0.52em;
+  padding-top: 0;
+  border: 0;
+}
+
+.supervision-details p.supervision-detail {
+  padding: 0;
+  border: 0;
+}
+
+@media (max-width: 48em) {
+  .supervision-list {
+    gap: 0.48em;
+    margin-top: 0.42em;
+  }
+
+  .supervision-entry {
+    padding: 0.62em 0.76em 0.66em;
+    border-radius: 0 7px 7px 0;
+  }
+
+  .supervision-heading {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.12em 0.45em;
+    min-height: 0;
+    touch-action: manipulation;
+  }
+
+  .supervision-name {
+    grid-column: 1;
+    padding: 0;
+    font-size: 1.02em;
+    line-height: 1.3;
+  }
+
+  .supervision-heading .publication-meta {
+    grid-column: 1;
+    grid-row: 2;
+    padding-top: 0;
+    font-size: 0.82em;
+    line-height: 1.32;
+    text-align: left;
+  }
+
+  .supervision-heading::after {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    width: 1.85rem;
+    height: 1.85rem;
+    align-self: center;
+    place-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 1em;
+    line-height: 1;
+  }
+
+  .supervision-role-tag {
+    font-size: 0.7em;
+    letter-spacing: 0.02em;
+  }
+
+  .supervision-roles {
+    padding-top: 0 !important;
+  }
+
+  .supervision-role-context {
+    font-size: 0.9em;
+  }
+
+  .supervision-role-context::before {
+    content: "· ";
+  }
+
+  .supervision-role-line + .supervision-role-line {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .supervision-details {
+    gap: 0.3em;
+    margin-top: 0.42em;
+    padding-top: 0;
+    border: 0;
+  }
+
+  .supervision-details p.supervision-detail {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1.38;
+  }
+
+  .supervision-label {
+    display: inline;
+    margin: 0 0.38em 0 0;
+    padding: 0;
+    font-size: 0.66em;
+    letter-spacing: 0.035em;
+    vertical-align: 0.08em;
+  }
+
+  .supervision-detail-copy {
+    display: inline;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+}
+
+@media (max-width: 360px) {
+  .supervision-entry {
+    padding: 0.58em 0.64em 0.62em;
+  }
+
+  .supervision-heading {
+    column-gap: 0.34em;
+  }
+
+  .supervision-heading::after {
+    width: 1.7rem;
+    height: 1.7rem;
+  }
+}
