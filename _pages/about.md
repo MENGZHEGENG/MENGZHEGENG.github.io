@@ -9,14 +9,14 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">I develop and evaluate machine learning for <strong>speech, language, audio, and multimodal AI</strong>.</p>
+<p class="lede">I develop machine learning for <strong>speech, language, audio, and multimodal AI</strong>.</p>
 <ul class="research-summary">
-  <li>My work spans accessible speech recognition and speaker adaptation, low-resource and multilingual language technology, efficient speech foundation models, speech and audio generation, and spoken agents.</li>
-  <li>I evaluate multimodal systems, including audio-conditioned visual prediction and when models should gather evidence, respond, act, or abstain.</li>
+  <li>My work includes accessible speech recognition, speaker adaptation, low-resource and multilingual language technology, efficient speech foundation models, speech and audio generation, and spoken agents.</li>
+  <li>I study multimodal prediction and reasoning, including when systems should gather evidence, respond, act, or abstain.</li>
 </ul>
 
-<p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
-<p class="explore-note">Many links lead to papers, programs, and related resources—feel free to explore.</p>
+<p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Google Scholar profile <span aria-hidden="true">↗</span></a></p>
+<p class="explore-note">Explore the linked papers and programs.</p>
 
 <div class="scholar-stats" aria-label="Google Scholar metrics">
   <div class="stat"><strong>{{ site.data.scholar_metrics.citations }}</strong><span>citations</span></div>
@@ -25,8 +25,8 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
-<p class="availability-notice"><strong>I am open to opportunities in both academia and industry, including startups. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome students worldwide for <strong>remote research internships in speech processing, NLP, and machine learning</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Canadian students may apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
+<p class="availability-notice"><strong>I am open to opportunities in academia, industry, and startups. I am authorized to work in Canada, Hong Kong, and Mainland China. <a href="mailto:tim.geng.cuhk@gmail.com">Contact me</a> about a good fit.</strong></p>
+<p class="collaboration-invitation">Each student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome students worldwide for <strong>remote internships in speech, NLP, and machine learning</strong> and researchers for <strong>in-person guest researcher visits</strong>. Canadian students may apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
 <details id="before-you-apply" class="internship-note before-you-apply">
   <summary>Before You Apply</summary>
   <p><strong>Capacity, fit, and approval.</strong> Remote internships and in-person visits have very limited capacity. I spend substantial time with my students and research partners, so I consider only proposals with a strong research fit and clear mutual benefit. A remote internship is typically required before I consider an in-person visit. International and inter-institutional collaborations can involve additional risks; please consider carefully whether the proposed collaboration is necessary before applying. Research postgraduate students must notify their supervisor before contacting me and obtain the supervisor's written approval before I can commit to a position. Every position, including a remote internship, also requires written approval from my team leader and the Director of Research before I can commit.</p>
@@ -155,7 +155,6 @@ classes: wide
 </details>
 
 <h2 id="student-supervision">Student Supervision</h2>
-<p class="supervision-intro">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>.</p>
 <div class="supervision-list">
   <details class="supervision-entry">
     <summary class="supervision-heading">
