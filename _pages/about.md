@@ -2,17 +2,17 @@
 layout: single
 permalink: /
 title: "Mengzhe Geng"
-description: "Mengzhe Geng is a Research Scientist at the National Research Council Canada in speech recognition, natural language processing, and machine learning. Explore publications and remote research internships."
+description: "Research Scientist Mengzhe Geng at the National Research Council Canada studies speech processing, natural language processing, machine learning, and multimodal AI."
 author_profile: true
 classes: wide
 ---
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">I study how machine learning systems can <strong>understand and generate speech and audio, adapt across speakers, languages, and modalities, and reason from incomplete evidence</strong>.</p>
+<p class="lede">I develop and evaluate machine learning for <strong>speech, language, audio, and multimodal AI</strong>.</p>
 <ul class="research-summary">
-  <li>My work develops and evaluates accessible speech recognition, low-resource language technologies, speaker adaptation, efficient speech foundation models, and spoken agents.</li>
-  <li>I also study multimodal systems that use audio and visual information for prediction and reasoning, asking when they should gather more evidence, answer, act, or abstain.</li>
+  <li>My work spans accessible speech recognition and speaker adaptation, low-resource and multilingual language technology, efficient speech foundation models, speech and audio generation, and spoken agents.</li>
+  <li>I evaluate multimodal systems, including audio-conditioned visual prediction and when models should gather evidence, respond, act, or abstain.</li>
 </ul>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Full Google Scholar profile <span aria-hidden="true">↗</span></a></p>
@@ -26,7 +26,7 @@ classes: wide
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
 <p class="availability-notice"><strong>I am open to opportunities in both academia and industry, including startups. I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of a good fit, <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. These are past outcomes; neither a future remote internship nor an in-person visit guarantees a publication. I welcome students worldwide to inquire about <strong>remote research internships in speech processing, natural language processing (NLP), and machine learning</strong>, and researchers worldwide about <strong>in-person guest researcher opportunities</strong>. Students in Canada can also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
+<p class="collaboration-invitation">Every student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome students worldwide for <strong>remote research internships in speech processing, NLP, and machine learning</strong> and researchers for <strong>in-person guest researcher opportunities</strong>. Canadian students may apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
 <details id="before-you-apply" class="internship-note before-you-apply">
   <summary>Before You Apply</summary>
   <p><strong>Capacity, fit, and approval.</strong> Remote internships and in-person visits have very limited capacity. I spend substantial time with my students and research partners, so I consider only proposals with a strong research fit and clear mutual benefit. A remote internship is typically required before I consider an in-person visit. International and inter-institutional collaborations can involve additional risks; please consider carefully whether the proposed collaboration is necessary before applying. Research postgraduate students must notify their supervisor before contacting me and obtain the supervisor's written approval before I can commit to a position. Every position, including a remote internship, also requires written approval from my team leader and the Director of Research before I can commit.</p>
@@ -35,6 +35,7 @@ classes: wide
   <p><strong>Visa sponsorship.</strong> We do not sponsor visas or visa applications of any kind. Applicants and visitors are responsible for obtaining the entry documents required for their circumstances.</p>
   <p><strong>In-person visits and immigration.</strong> An in-person visit is not NRC employment and does not authorize work. Immigration requirements depend on the planned activities; some unpaid activities may still count as work under <a href="https://www.ircc.canada.ca/english/helpcentre/answer.asp?qnum=1288&amp;top=17" target="_blank" rel="noopener noreferrer">IRCC guidance</a>. I have consulted immigration counsel to define the boundaries for these visits. You must obtain any immigration authorization required for your circumstances before travel. For an in-person visit, I require any Canadian visitor visa you need to remain valid for at least six months after your planned arrival; see <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html" target="_blank" rel="noopener noreferrer">IRCC's current entry-document guidance</a>. Students studying outside Canada without Canadian residency status must contact me at least six months before their planned visit.</p>
   <p><strong>Costs.</strong> In-person visits are unpaid. Visitors receive no salary or stipend, and expenses are not reimbursed, including conference registration fees and fees charged for paid journal publication.</p>
+  <p><strong>Publication outcomes.</strong> An internship or visit does not guarantee a publication.</p>
 </details>
 <details class="internship-note application-procedure">
   <summary>How to Apply</summary>
@@ -42,8 +43,8 @@ classes: wide
   <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 </details>
 <details class="internship-note">
-  <summary>Internships and visiting positions are highly competitive</summary>
-  <p>Because capacity is limited, only applicants who are the best fit for an available internship or visiting opportunity will be contacted about next steps. This reflects fit and capacity, not an assessment of your broader abilities or potential. Thank you for your interest.</p>
+  <summary>Positions are highly competitive</summary>
+  <p>Only applicants who best fit an available position will be contacted about next steps. This reflects fit and capacity, not an assessment of your broader abilities or potential. Thank you for your interest. I may reach out in the future for suitable opportunities.</p>
 </details>
 <p class="indigenous-community-invitation">Indigenous communities interested in exploring speech and language technologies with the NRC can start by visiting the NRC <a href="https://www.nrc.canada.ca/en/research-development/research-collaboration/programs/indigenous-languages-technology-program" target="_blank" rel="noopener noreferrer">Indigenous Languages Technology (ILT) Program webpage</a> and contacting me at <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>.</p>
 
