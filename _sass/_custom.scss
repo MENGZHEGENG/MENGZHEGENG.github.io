@@ -803,6 +803,7 @@ html[data-theme="dark"] .timeline-row {
 
 .supervision-name {
   min-width: 0;
+  color: var(--global-text-color);
   font-size: 1.02em;
   font-weight: 700;
   line-height: 1.4;
@@ -818,6 +819,7 @@ html[data-theme="dark"] .timeline-row {
   min-width: 0;
   max-width: 100%;
   margin: 0;
+  color: var(--global-text-color);
   line-height: 1.45;
   overflow-wrap: anywhere;
   text-align: left;
@@ -1909,12 +1911,12 @@ a:active {
 .supervision-heading .supervision-name {
   color: var(--global-text-color);
 }
-/* Match current and incoming role descriptions to the other supervision metadata. */
+/* Keep all supervision summary text at the same readable theme color. */
 .supervision-heading .supervision-role-copy {
-  color: var(--site-meta-color);
+  color: var(--global-text-color);
 }
 
-/* Match Current and Incoming labels to the shared supervision meta color. */
+/* Match Current and Incoming labels to the supervision summary text. */
 .supervision-heading .supervision-role-tag {
-  color: var(--site-meta-color);
+  color: var(--global-text-color);
 }
