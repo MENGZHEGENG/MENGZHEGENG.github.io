@@ -1913,3 +1913,8 @@ a:active {
 .supervision-heading .supervision-role-copy {
   color: var(--site-meta-color);
 }
+
+/* Match Current and Incoming labels to the shared supervision meta color. */
+.supervision-heading .supervision-role-tag {
+  color: var(--site-meta-color);
+}
