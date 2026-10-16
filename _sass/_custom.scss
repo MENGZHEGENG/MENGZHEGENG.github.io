@@ -1897,3 +1897,11 @@ a.btn:hover {
     column-gap: 0.34em;
   }
 }
+/* Keep hyperlinks consistent without underlines. */
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+}
