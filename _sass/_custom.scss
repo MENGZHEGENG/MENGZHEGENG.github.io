@@ -1916,6 +1916,10 @@ a:active {
   color: var(--global-text-color);
 }
 
+.supervision-heading .supervision-role-context {
+  color: var(--global-text-color);
+}
+
 /* Match Current and Incoming labels to the supervision summary text. */
 .supervision-heading .supervision-role-tag {
   color: var(--global-text-color);
