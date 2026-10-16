@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -21,25 +22,77 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - name: Skip delayed duplicate scheduled refreshes
+        id: duplicate-check
+        if: github.event_name == 'schedule'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            try {
+              const { data } = await github.rest.actions.listWorkflowRuns({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: "visitor-count.yml",
+                branch: context.ref_name,
+                per_page: 100
+              });
+              const currentRun = data.workflow_runs.find(
+                (run) => run.id === Number(context.runId)
+              );
+              if (!currentRun) {
+                core.warning("Could not locate this run in the Actions API; continuing with the refresh.");
+                core.setOutput("skip", "false");
+                return;
+              }
+
+              const createdAt = new Date(currentRun.created_at);
+              const scheduledSlot = new Date(createdAt);
+              const minuteOffset = (createdAt.getUTCMinutes() - 7 + 10) % 10;
+              scheduledSlot.setUTCMinutes(createdAt.getUTCMinutes() - minuteOffset, 0, 0);
+              const coveredRun = data.workflow_runs.find(
+                (run) => run.id !== currentRun.id &&
+                  run.status === "completed" &&
+                  run.conclusion === "success" &&
+                  run.completed_at &&
+                  Date.parse(run.completed_at) >= scheduledSlot.getTime()
+              );
+
+              if (coveredRun) {
+                core.notice(`Skipping scheduled slot ${scheduledSlot.toISOString()}; run #${coveredRun.run_number} already refreshed successfully after it.`);
+                core.setOutput("skip", "true");
+              } else {
+                core.setOutput("skip", "false");
+              }
+            } catch (error) {
+              core.warning(`Could not check for a delayed duplicate (${error.message}); continuing with the refresh.`);
+              core.setOutput("skip", "false");
+            }
       - name: Check out website
+        if: steps.duplicate-check.outputs.skip != 'true'
         uses: actions/checkout@v4
       - name: Set up Ruby
+        if: steps.duplicate-check.outputs.skip != 'true'
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.1"
           bundler-cache: true
       - name: Refresh Statable 7-day and all-time visitor counts
+        if: steps.duplicate-check.outputs.skip != 'true'
         env:
           STATABLE_API_KEY: ${{ secrets.STATABLE_API_KEY }}
         run: python3 scripts/fetch_statable_visitor_count.py
       - name: Build Jekyll site
+        if: steps.duplicate-check.outputs.skip != 'true'
         run: JEKYLL_ENV=production bundle exec jekyll build
       - name: Configure GitHub Pages
+        if: steps.duplicate-check.outputs.skip != 'true'
         uses: actions/configure-pages@v5
       - name: Upload Pages artifact
+        if: steps.duplicate-check.outputs.skip != 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
       - name: Deploy to GitHub Pages
         id: deployment
+        if: steps.duplicate-check.outputs.skip != 'true'
         uses: actions/deploy-pages@v4
