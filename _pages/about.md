@@ -9,7 +9,7 @@ classes: wide
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">I develop machine learning for <strong>speech, language, audio, and multimodal AI</strong>, spanning accessible and low-resource speech, speaker adaptation, efficient speech models, speech generation, spoken agents, and multimodal reasoning.</p>
+<p class="lede">I develop machine-learning methods for accessible speech recognition, low-resource language technology, adaptive speech models, speech generation and spoken agents, and evidence-based multimodal AI.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 <p class="explore-note">Explore linked papers, programs, and resources.</p>
@@ -22,7 +22,7 @@ classes: wide
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
 <p class="availability-notice"><strong>Open to roles in academia, industry, and startups; authorized to work in Canada, Hong Kong, and Mainland China. <a href="mailto:tim.geng.cuhk@gmail.com">Contact me</a> about a good fit.</strong></p>
-<p class="collaboration-invitation">My past four-month student interns each coauthored a peer-reviewed paper in a top-tier journal or conference. I welcome <strong>remote interns worldwide</strong> in speech, NLP, and machine learning, and <strong>in-person guest researchers</strong>.</p>
+<p class="collaboration-invitation">Each student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome remote interns and in-person guest researchers worldwide in speech, NLP, and machine learning.</p>
 <details id="before-you-apply" class="internship-note before-you-apply">
   <summary>Before You Apply</summary>
   <p><strong>Capacity, fit, and approval.</strong> Remote internships and in-person visits have very limited capacity. I spend substantial time with my students and research partners, so I consider only proposals with a strong research fit and clear mutual benefit. A remote internship is typically required before I consider an in-person visit. International and inter-institutional collaborations can involve additional risks; please consider carefully whether the proposed collaboration is necessary before applying. Research postgraduate students must notify their supervisor before contacting me and obtain the supervisor's written approval before I can commit to a position. Every position, including a remote internship, also requires written approval from my team leader and the Director of Research before I can commit.</p>
