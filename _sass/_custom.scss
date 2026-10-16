@@ -1927,3 +1927,11 @@ a:active {
     color: var(--global-text-color);
   font-size: 0.88em;
 }
+
+
+/* Match multi-role summaries to regular supervision role text. */
+.supervision-heading .supervision-roles,
+.supervision-heading .supervision-role-copy,
+.supervision-heading .supervision-role-tag {
+  color: var(--global-text-color) !important;
+}
