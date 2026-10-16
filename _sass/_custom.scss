@@ -1909,3 +1909,7 @@ a:active {
 .supervision-heading .supervision-name {
   color: var(--global-text-color);
 }
+/* Match current and incoming role descriptions to the other supervision metadata. */
+.supervision-heading .supervision-role-copy {
+  color: var(--site-meta-color);
+}
