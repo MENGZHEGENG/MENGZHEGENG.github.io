@@ -1947,3 +1947,9 @@ a:active {
 .supervision-heading .supervision-role-tag {
   color: var(--global-text-color) !important;
 }
+
+
+/* Match Jinxin Ji and Yanfei Lu name colors to their role descriptions. */
+details.supervision-entry:has(.supervision-roles) .supervision-name {
+  color: var(--site-meta-color) !important;
+}
