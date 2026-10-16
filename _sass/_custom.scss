@@ -1939,3 +1939,11 @@ a:active {
 .supervision-heading .supervision-role-tag {
   color: var(--site-meta-color) !important;
 }
+
+
+/* Keep Jinxin Ji's and Yanfei Lu's role summaries on the same text color as other roles. */
+.supervision-heading .supervision-roles,
+.supervision-heading .supervision-roles *,
+.supervision-heading .supervision-role-tag {
+  color: var(--global-text-color) !important;
+}
