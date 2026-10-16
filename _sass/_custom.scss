@@ -1923,7 +1923,7 @@ a:active {
 
 
 /* Keep Current and Incoming labels as legible as adjacent role text. */
-.supervision-heading .supervision-role-tag {
-  color: inherit;
+  .supervision-heading .supervision-role-tag {
+    color: var(--global-text-color);
   font-size: 0.88em;
 }
