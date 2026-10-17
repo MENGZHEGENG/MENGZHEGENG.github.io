@@ -2030,3 +2030,10 @@ a:active {
     row-gap: 0.28em;
   }
 }
+/* Underline key application and policy references. */
+.availability-notice a,
+.internship-note a[href="#before-you-apply"],
+#before-you-apply a {
+  text-decoration: underline !important;
+  text-underline-offset: 0.15em;
+}
