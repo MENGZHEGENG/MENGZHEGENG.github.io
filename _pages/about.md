@@ -21,7 +21,7 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
-<p class="availability-notice"><strong>I am open to opportunities in academia, industry, and startups, and am authorized to work in Canada, Hong Kong, and Mainland China. If you know of an opportunity that might be a good fit, please feel free to <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
+<p class="availability-notice"><strong>I welcome opportunities in academia, industry, and startups, and have authorization to work in Canada, Hong Kong, and Mainland China. If you know of an opportunity that might be a good fit, please feel free to <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
 <p class="collaboration-invitation">Each student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome remote interns and in-person guest researchers worldwide in speech, NLP, and machine learning.</p>
 <details id="before-you-apply" class="internship-note">
   <summary>Before you apply</summary>
