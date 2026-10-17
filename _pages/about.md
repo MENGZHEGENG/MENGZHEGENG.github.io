@@ -150,7 +150,7 @@ classes: wide
   </div>
 </details>
 
-<h2 id="student-supervision">Student Supervision</h2>
+<h2 id="research-supervision">Research Supervision</h2>
 <div class="supervision-list">
   <details class="supervision-entry">
     <summary class="supervision-heading">
@@ -221,6 +221,18 @@ classes: wide
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
     </div>
+  </details>
+  <details class="supervision-entry">
+    <summary class="supervision-heading">
+      <span class="supervision-name">Xiaoying Zhang</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern · CUHK · Oct 2026-</span></span></span>
+    </summary>
+  </details>
+  <details class="supervision-entry">
+    <summary class="supervision-heading">
+      <span class="supervision-name">Yu Chen</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote M.Eng intern · UCB · Oct 2026-</span></span></span>
+    </summary>
   </details>
 </div>
 
