@@ -1953,3 +1953,80 @@ a:active {
 .supervision-list details.supervision-entry:has(.supervision-roles) .supervision-heading .supervision-name, .supervision-list details.supervision-entry:has(.supervision-roles) .supervision-heading .supervision-roles, .supervision-list details.supervision-entry:has(.supervision-roles) .supervision-heading .supervision-roles *, .supervision-list details.supervision-entry:has(.supervision-roles) .supervision-heading .supervision-role-tag {
     color: var(--global-text-color) !important;
 }
+
+
+/* Give supervision cards more breathing room on smaller screens. */
+@media (max-width: 48em) {
+  .supervision-list {
+    gap: 0.82em;
+    margin-top: 0.62em;
+  }
+
+  .supervision-entry {
+    padding: 0.82em 0.9em 0.9em;
+  }
+
+  .supervision-heading {
+    row-gap: 0.32em;
+  }
+
+  .supervision-heading .publication-meta {
+    padding-top: 0.12em;
+    line-height: 1.48;
+  }
+
+  .supervision-roles {
+    gap: 0.3em;
+    padding-top: 0.12em !important;
+  }
+
+  .supervision-role-line {
+    line-height: 1.48;
+  }
+
+  .supervision-role-line + .supervision-role-line {
+    margin-top: 0.22em;
+    padding-top: 0.3em;
+    border-top: 1px solid var(--global-border-color);
+  }
+
+  .supervision-role-tag {
+    margin-top: 0.1em;
+  }
+
+  .supervision-role-copy,
+  .supervision-role-context {
+    line-height: 1.48;
+  }
+
+  .supervision-role-context {
+    margin-top: 0.08em;
+  }
+
+  .supervision-details {
+    gap: 0.48em;
+    margin-top: 0.62em;
+  }
+
+  .supervision-details p.supervision-detail {
+    line-height: 1.5;
+  }
+
+  .supervision-detail-copy {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 360px) {
+  .supervision-list {
+    gap: 0.78em;
+  }
+
+  .supervision-entry {
+    padding: 0.78em 0.72em 0.86em;
+  }
+
+  .supervision-heading {
+    row-gap: 0.28em;
+  }
+}
