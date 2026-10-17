@@ -21,9 +21,9 @@ classes: wide
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
-<p class="availability-notice"><strong>Open to roles in academia, industry, and startups; authorized to work in Canada, Hong Kong, and Mainland China. <a href="mailto:tim.geng.cuhk@gmail.com">Contact me</a> about a good fit.</strong></p>
+<p class="availability-notice"><strong>I am open to opportunities in academia, industry, and startups, and am authorized to work in Canada, Hong Kong, and Mainland China. If you think there may be a good fit, please feel free to <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
 <p class="collaboration-invitation">Each student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed publication in a top-tier journal or conference</strong>. I welcome remote interns and in-person guest researchers worldwide in speech, NLP, and machine learning.</p>
-<details id="before-you-apply" class="internship-note before-you-apply">
+<details id="before-you-apply" class="internship-note">
   <summary>Before You Apply</summary>
   <p><strong>Capacity, fit, and approval.</strong> Remote internships and in-person visits have very limited capacity. I spend substantial time with my students and research partners, so I consider only proposals with a strong research fit and clear mutual benefit. A remote internship is typically required before I consider an in-person visit. International and inter-institutional collaborations can involve additional risks; please consider carefully whether the proposed collaboration is necessary before applying. Research postgraduate students must notify their supervisor before contacting me and obtain the supervisor's written approval before I can commit to a position. Every position, including a remote internship, also requires written approval from my team leader and the Director of Research before I can commit.</p>
   <p><strong>Research security and oversight.</strong> As a federal research institution, the NRC applies strict internal requirements to research security, and NRC-related activities and collaborations are subject to oversight and monitoring. Remote internships require a minimal, risk-based research-security review under the <a href="https://nrc.canada.ca/en/corporate/values-ethics/statement-research-security" target="_blank" rel="noopener noreferrer">NRC Statement on Research Security</a>; access to non-public NRC research information depends on that review. As a condition of an in-person visit, visitors must complete comprehensive screening for Government of Canada <a href="https://www.canada.ca/en/government/publicservice/workforce/staffing/security-screening.html" target="_blank" rel="noopener noreferrer">Reliability Status</a> before the visit. International or inter-institutional projects may require additional review based on the project and planned activities.</p>
@@ -33,7 +33,7 @@ classes: wide
   <p><strong>Costs.</strong> In-person visits are unpaid. Visitors receive no salary or stipend, and expenses are not reimbursed, including conference registration fees and fees charged for paid journal publication.</p>
   <p><strong>Publication outcomes.</strong> An internship or visit does not guarantee a publication.</p>
 </details>
-<details class="internship-note application-procedure">
+<details class="internship-note">
   <summary>How to Apply</summary>
   <p>Please read and understand all information in <a href="#before-you-apply">Before You Apply</a> before submitting an application. Applying confirms that you have read and understood those requirements and agree to them. Additional requirements may apply to particular projects or circumstances.</p>
   <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>. Students in Canada may also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
@@ -215,12 +215,9 @@ classes: wide
   </details>
   <details class="supervision-entry">
     <summary class="supervision-heading">
-      <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern · NRC (UofT) · Jan 2027</span></span></span>
+      <span class="supervision-name">Yu Chen</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote M.Eng intern · UCB · Oct 2026-</span></span></span>
     </summary>
-    <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
-    </div>
   </details>
   <details class="supervision-entry">
     <summary class="supervision-heading">
@@ -230,9 +227,12 @@ classes: wide
   </details>
   <details class="supervision-entry">
     <summary class="supervision-heading">
-      <span class="supervision-name">Yu Chen</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote M.Eng intern · UCB · Oct 2026-</span></span></span>
+      <span class="supervision-name">Yanfei Lu</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern · NRC (UofT) · Jan 2027</span></span></span>
     </summary>
+    <div class="supervision-details">
+      <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
+    </div>
   </details>
 </div>
 
