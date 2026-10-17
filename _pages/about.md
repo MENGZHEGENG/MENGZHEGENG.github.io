@@ -157,7 +157,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Sunyi Liu</span>
-      <span class="publication-meta">Undergraduate intern, NRC (UofT) · May–Aug 2024</span>
+      <span class="publication-meta">Undergrad. intern, NRC (UofT) · May–Aug 2024</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
@@ -168,7 +168,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Shenran Wang</span>
-      <span class="publication-meta">Undergraduate intern, NRC (UBC) · May–Aug 2025</span>
+      <span class="publication-meta">Undergrad. intern, NRC (UBC) · May–Aug 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a></span></p>
@@ -209,7 +209,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Yujia Lu</span>
-      <span class="publication-meta">Remote undergraduate intern, CUHK · Aug 2026–present</span>
+      <span class="publication-meta">Remote undergrad. intern, CUHK · Aug 2026–present</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.08899" target="_blank" rel="noopener noreferrer">From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection</a>, <em>arXiv:2609.08899</em> (2026)</span></p>
