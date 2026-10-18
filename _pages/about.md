@@ -2,7 +2,8 @@
 layout: single
 permalink: /
 title: "Mengzhe Geng"
-description: "Research Scientist Mengzhe Geng at the National Research Council Canada studies speech processing, natural language processing, machine learning, and multimodal AI."
+seo_title: "Mengzhe Geng | Speech AI and Language Technology"
+description: "Mengzhe Geng is a Research Scientist at the National Research Council Canada, working on speech AI, low-resource language technology, and multimodal AI."
 author_profile: true
 classes: wide
 ---
@@ -38,7 +39,7 @@ classes: wide
 <details class="internship-note">
   <summary>How to apply</summary>
   <p>Please read and understand all information in <a href="#before-you-apply">Before you apply</a> before submitting an application. Applying confirms that you have read and understood those requirements and agree to them. Additional requirements may apply to particular projects or circumstances.</p>
-  <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. Students in Canada may also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p><p><strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+  <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. <strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>. Students in Canada may also apply through the NRC <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
 </details>
 <details class="internship-note">
   <summary>Positions are highly competitive</summary>
@@ -157,7 +158,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Sunyi Liu</span>
-      <span class="publication-meta">Undergrad. intern, NRC (UofT) · May–Aug 2024</span>
+      <span class="publication-meta">Undergraduate intern, NRC (UofT) · May–Aug 2024</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
@@ -168,7 +169,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Shenran Wang</span>
-      <span class="publication-meta">Undergrad. intern, NRC (UBC) · May–Aug 2025</span>
+      <span class="publication-meta">Undergraduate intern, NRC (UBC) · May–Aug 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a></span></p>
@@ -209,7 +210,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Yujia Lu</span>
-      <span class="publication-meta">Remote undergrad. intern, CUHK · Aug 2026–present</span>
+      <span class="publication-meta">Remote undergraduate intern, CUHK · Aug 2026–present</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.08899" target="_blank" rel="noopener noreferrer">From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection</a>, <em>arXiv:2609.08899</em> (2026)</span></p>
@@ -299,4 +300,4 @@ classes: wide
   </details>
 </div>
 <h2>Profiles</h2>
-<p class="profile-directory-links">For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a> or browse the <a href="{{ '/publications/' | relative_url }}">Publications page</a>.</p>
+<p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a> or browse the <a href="{{ '/publications/' | relative_url }}">Publications page</a>.</p>
