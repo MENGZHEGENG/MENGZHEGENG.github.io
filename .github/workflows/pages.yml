@@ -41,6 +41,26 @@ jobs:
       - name: Check out website
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: actions/checkout@v4
+      - name: Check application audience blocks
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          source = Path("_pages/about.md").read_text(encoding="utf-8")
+          students = re.search(r"<p(?:\s[^>]*)?>\s*<strong>Students:</strong>.*?</p>", source, re.S)
+          researchers = re.search(r"<p(?:\s[^>]*)?>\s*<strong>Researchers:</strong>.*?</p>", source, re.S)
+
+          if not students or not researchers:
+              raise SystemExit("Students and Researchers must remain in separate paragraph elements.")
+          if students.end() > researchers.start():
+              raise SystemExit("The Students paragraph must precede the Researchers paragraph.")
+          if "Student Employment Program" not in students.group(0):
+              raise SystemExit("NRC student employment options must stay in the Students paragraph.")
+
+          print("Application instructions are separate and correctly ordered.")
+          PY
       - name: Set up Ruby
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: ruby/setup-ruby@v1
