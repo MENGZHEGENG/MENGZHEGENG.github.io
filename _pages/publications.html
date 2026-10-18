@@ -1,11 +1,14 @@
 ---
 layout: archive
 title: "Publications"
+description: "Browse Mengzhe Geng’s journal articles, conference papers, and preprints in speech recognition, language technology, speech models, and multimodal AI."
 permalink: /publications/
 author_profile: true
 ---
 
+
 <p class="publication-intro">This page lists {{ site.publications.size }} publications and preprints. Each record links to its paper or PDF, with DOI and Google Scholar citation information where available. An asterisk (*) marks co-first authors.</p>
+
 
 {% assign publication_years = site.publications | group_by: "year" | sort: "name" | reverse %}
 {% for year_group in publication_years %}
