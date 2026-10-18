@@ -234,7 +234,7 @@ classes: wide
       <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern (post-graduation) · CUHK · Oct 2026–</span></span></span>
     </summary>
     <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Google Scholar</span><span class="supervision-detail-copy"><a href="https://scholar.google.com/citations?hl=zh-TW&amp;user=UFjt8h0AAAAJ&amp;view_op=list_works" target="_blank" rel="noopener noreferrer">View publications <span aria-hidden="true">↗</span></a></span></p>
+      <p class="supervision-detail"><span class="supervision-label">Profile</span><span class="supervision-detail-copy"><a href="https://scholar.google.com/citations?hl=zh-TW&amp;user=UFjt8h0AAAAJ&amp;view_op=list_works" target="_blank" rel="noopener noreferrer">Google Scholar profile <span aria-hidden="true">↗</span></a></span></p>
     </div>
   </details>
   <details class="supervision-entry">
