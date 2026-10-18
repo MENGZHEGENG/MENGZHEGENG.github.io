@@ -225,7 +225,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Ning Lai</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern (Post-graduation) · ANU · Oct 2026–</span></span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern (post-graduation) · ANU · Oct 2026–</span></span></span>
     </summary>
   </details>
   <details class="supervision-entry">
