@@ -8,6 +8,12 @@ author_profile: true
 classes: wide
 ---
 
+<aside class="safety-notice" role="note">
+  <p><strong>Notice.</strong> An email threatening one of my interns is wholly unacceptable. I take the safety of my interns and myself seriously, and I will take every appropriate measure to protect them and myself. Please forward any suspicious emails related to this matter to <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+</aside>
+
+
+
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
 <p class="lede">My research applies machine learning to accessible speech, low-resource language technology, adaptive speech models, speech and audio generation, spoken agents, and multimodal reasoning.</p>
