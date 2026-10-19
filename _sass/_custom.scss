@@ -2047,3 +2047,73 @@ a:active {
   text-decoration: underline !important;
   text-underline-offset: 0.15em;
 }
+
+/* Dismissible, high-visibility safety banner at the top of the homepage. */
+.safety-notice {
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  margin: 0 0 1.5em;
+  padding: 1.05em 3.25em 1.05em 1.25em;
+  border: 2px solid #b42318;
+  border-left-width: 7px;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #b42318;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: 1.55;
+}
+
+.safety-notice p {
+  margin: 0;
+}
+
+.safety-notice[hidden] {
+  display: none;
+}
+
+.safety-notice__close {
+  position: absolute;
+  top: 0.55em;
+  right: 0.55em;
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  padding: 0;
+  border: 1px solid currentColor;
+  border-radius: 50%;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1.15em;
+  line-height: 1;
+}
+
+.safety-notice__close:hover {
+  background: rgba(180, 35, 24, 0.08);
+}
+
+.safety-notice__close:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 2px;
+}
+
+.safety-notice a {
+  color: inherit !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.15em;
+  overflow-wrap: anywhere;
+}
+
+html[data-theme="dark"] .safety-notice {
+  border-color: #ffdd57;
+  background: #000000;
+  color: #ffdd57;
+}
+
+html[data-theme="dark"] .safety-notice__close:hover {
+  background: rgba(255, 221, 87, 0.12);
+}
