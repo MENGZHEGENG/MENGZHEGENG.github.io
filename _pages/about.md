@@ -9,7 +9,7 @@ classes: wide
 ---
 
 <aside id="safety-notice" class="safety-notice" role="region" aria-label="Safety notice">
-  <p><strong>Notice.</strong> An email threatening one of my interns is wholly unacceptable. I take the safety of my interns and myself seriously and will take every appropriate step to protect them and myself, including legal action where warranted. Please forward any suspicious emails related to this matter to <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+  <p><strong>Notice.</strong> An email threatening my interns is wholly unacceptable. I take the safety of my interns and myself seriously and will take every appropriate step to protect them and myself, including legal action where warranted. Please forward any suspicious emails related to this matter to <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
   <button class="safety-notice__close" type="button" aria-label="Dismiss safety notice">×</button>
 </aside>
 <script src="{{ '/assets/js/safety-notice.js' | relative_url }}" defer></script>
