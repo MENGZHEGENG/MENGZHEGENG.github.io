@@ -8,8 +8,16 @@ author_profile: true
 classes: wide
 ---
 
-<aside class="safety-notice" role="note">
-  <p><strong>Notice.</strong> An email threatening one of my interns is wholly unacceptable. I take the safety of my interns and myself seriously, and I will take every appropriate measure to protect them and myself. Please forward any suspicious emails related to this matter to <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<aside id="safety-notice" class="safety-notice" role="region" aria-label="Safety notice">
+  <p><strong>Notice.</strong> An email threatening one of my interns is wholly unacceptable. I take the safety of my interns and myself seriously and will take every appropriate step to protect them and myself, including legal action where warranted. Please forward any suspicious emails related to this matter to <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+  <button class="safety-notice__close" type="button" aria-label="Dismiss safety notice">×</button>
+  <script>
+    (() => {
+      const notice = document.getElementById("safety-notice");
+      const closeButton = notice && notice.querySelector(".safety-notice__close");
+      if (closeButton) closeButton.addEventListener("click", () => { notice.hidden = true; });
+    })();
+  </script>
 </aside>
 
 
