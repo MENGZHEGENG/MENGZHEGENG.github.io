@@ -168,18 +168,18 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Sunyi Liu</span>
-      <span class="publication-meta">Undergraduate intern, NRC (UofT) · May–Aug 2024</span>
+      <span class="publication-meta">Undergraduate intern at the NRC (UofT) · May–Aug 2024</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2024)</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>the NRC Outstanding Student Contribution Award</strong> (2024)</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://ieeexplore.ieee.org/document/11004431" target="_blank" rel="noopener noreferrer">Exploring Generative Artificial Intelligence Techniques in Government: A Case Study</a>, <em>IEEE Intelligent Systems</em> (2025)</span></p>
     </div>
   </details>
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Shenran Wang</span>
-      <span class="publication-meta">Undergraduate intern, NRC (UBC) · May–Aug 2025</span>
+      <span class="publication-meta">Undergraduate intern at the NRC (UBC) · May–Aug 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a></span></p>
@@ -189,22 +189,22 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Changbing Yang</span>
-      <span class="publication-meta">Ph.D. intern, NRC (UBC) · May–Aug 2025</span>
+      <span class="publication-meta">Ph.D. intern at the NRC (UBC) · May–Aug 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/patrick-littell" target="_blank" rel="noopener noreferrer">Patrick Littell</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>the NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
     </div>
   </details>
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Timothy Tse</span>
-      <span class="publication-meta">M.Sc. intern, NRC (UBC) · Jul–Oct 2025</span>
+      <span class="publication-meta">M.Sc. intern at the NRC (UBC) · Jul–Oct 2025</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a> and <a class="person-link" href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>the NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em></span></p>
     </div>
   </details>
@@ -250,7 +250,7 @@ classes: wide
   <div class="supervision-entry">
     <div class="supervision-heading">
       <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern · NRC (UofT) · Jan 2027–</span></span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern at the NRC (UofT) · Jan 2027–</span></span></span>
     </div>
     <div class="supervision-details">
       
@@ -271,7 +271,7 @@ classes: wide
     <div class="award-group__content">
         <ul class="award-list">
           <li class="award-item">2026 — <strong><a href="https://www.canada.ca/en/government/system/digital-government/gcdigital-community/networking-events/digital-government-community-awards/awards.html" target="_blank" rel="noopener noreferrer">Award for Excellence in Inclusion, Diversity, Equity and Accessibility</a></strong>, Digital Government Community Awards, Government of Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
-          <li class="award-item">2026 — <strong>Honourable Mention, Outstanding Achievement Award</strong>, NRC Inclusive Innovation Award, National Research Council Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
+          <li class="award-item">2026 — <strong>Honourable Mention, Outstanding Achievement Award</strong>, the NRC Inclusive Innovation Award, National Research Council Canada <span class="award-qualifier"><strong>One team recipient per year</strong></span></li>
           <li class="award-item">2025 — <strong>IEEE Signal Processing Society Top 25 Downloaded Article (2024–2025),</strong> <a class="award-article-title" href="https://ieeexplore.ieee.org/document/10584335/" target="_blank" rel="noopener noreferrer">“Self-Supervised ASR Models and Features for Dysarthric and Elderly Speech Recognition”</a>, <em>IEEE/ACM Transactions on Audio, Speech, and Language Processing</em>, IEEE Xplore</li>
         </ul>
     </div>
