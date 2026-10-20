@@ -226,36 +226,36 @@ classes: wide
       <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.08899" target="_blank" rel="noopener noreferrer">From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection</a>, <em>arXiv:2609.08899</em> (2026)</span></p>
     </div>
   </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
+  <div class="supervision-entry">
+    <div class="supervision-heading">
       <span class="supervision-name">Yu Chen</span>
       <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote M.B.A. & M.Eng. intern   · UCB · Oct 2026–</span></span></span>
-    </summary>
-  </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
+    </div>
+  </div>
+  <div class="supervision-entry">
+    <div class="supervision-heading">
       <span class="supervision-name">Ning Lai</span>
       <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern (post-graduation) · ANU · Oct 2026–</span></span></span>
-    </summary>
-  </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
+    </div>
+  </div>
+  <div class="supervision-entry">
+    <div class="supervision-heading">
       <span class="supervision-name">Xiaoying Zhang</span>
       <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern (post-graduation) · CUHK · Oct 2026–</span></span></span>
-    </summary>
-    <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Profile</span><span class="supervision-detail-copy"><a href="https://scholar.google.com/citations?hl=zh-TW&amp;user=UFjt8h0AAAAJ&amp;view_op=list_works" target="_blank" rel="noopener noreferrer">Google Scholar profile <span aria-hidden="true">↗</span></a></span></p>
     </div>
-  </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
+    
+      
+     
+  </div>
+  <div class="supervision-entry">
+    <div class="supervision-heading">
       <span class="supervision-name">Yanfei Lu</span>
       <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern · NRC (UofT) · Jan 2027–</span></span></span>
-    </summary>
+    </div>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
-    </div>
-  </details>
+    
+  </div>
 </div>
 
 <h2 id="awards">Selected Awards and Honours</h2>
