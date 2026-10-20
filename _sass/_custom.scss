@@ -2117,3 +2117,15 @@ html[data-theme="dark"] .safety-notice {
 html[data-theme="dark"] .safety-notice__close:hover {
   background: rgba(255, 221, 87, 0.12);
 }
+
+
+/* Static supervision cards have no disclosure affordance. */
+.supervision-list div.supervision-entry .supervision-heading {
+  cursor: default;
+  touch-action: auto;
+}
+
+.supervision-list div.supervision-entry .supervision-heading::after {
+  display: none;
+  content: none;
+}
