@@ -253,7 +253,7 @@ classes: wide
       <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern · NRC (UofT) · Jan 2027–</span></span></span>
     </div>
     <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
+      
     
   </div>
 </div>
