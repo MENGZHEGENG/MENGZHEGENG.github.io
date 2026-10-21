@@ -804,7 +804,7 @@ html[data-theme="dark"] .timeline-row {
 .supervision-name {
   min-width: 0;
   color: var(--global-text-color);
-  font-size: 1.02em;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 1.4;
   text-wrap: pretty;
@@ -937,7 +937,7 @@ html[data-theme="dark"] .timeline-row {
   .supervision-name {
     grid-column: 1;
     padding: 0;
-    font-size: 1.06em;
+    font-size: 1rem;
     line-height: 1.35;
   }
 
@@ -1141,7 +1141,7 @@ html[data-theme="dark"] .timeline-row {
 
 .award-card__title {
   color: var(--global-text-color);
-  font-size: 1.08em;
+  font-size: 1rem;
   font-weight: 750;
 }
 
@@ -1725,7 +1725,7 @@ a.btn:hover {
   .supervision-name {
     grid-column: 1;
     padding: 0;
-    font-size: 1.02em;
+    font-size: 1rem;
     line-height: 1.3;
   }
 
