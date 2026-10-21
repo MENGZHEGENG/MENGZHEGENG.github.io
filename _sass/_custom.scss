@@ -2154,3 +2154,11 @@ html[data-theme="dark"] .safety-notice__close:hover {
   text-underline-offset: 0.15em;
   overflow-wrap: anywhere;
 }
+
+
+/* Keep every email link underlined in every link state. */
+a[href^="mailto:"]:is(:link, :visited, :hover, :focus-visible, :active) {
+  text-decoration: underline !important;
+  text-underline-offset: 0.15em;
+  text-decoration-thickness: 0.08em;
+}
