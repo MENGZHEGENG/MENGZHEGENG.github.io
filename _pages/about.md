@@ -391,7 +391,7 @@ classes: wide
 </div>
 
 <h2 id="fundings">Fundings</h2>
-<p><strong>Funding eligibility and collaboration.</strong> As an employee of the National Research Council Canada, my eligibility to apply as PI for Canadian federal research grants is limited under the <a href="https://ised-isde.canada.ca/site/science/en/interagency-research-funding/policies-and-guidelines/tri-agency-policy-use-funds-federal-government-employees-applying-granting-agency-programs" target="_blank" rel="noopener noreferrer">Tri-Agency policy</a> and depends on the program and proposed work. I welcome funding collaborations worldwide—as co-PI/co-applicant where permitted, or as a collaborator. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<p><strong>Canadian federal funding eligibility.</strong> As an employee of the National Research Council Canada, my eligibility to apply as PI for Canadian federal research grants is limited under the <a href="https://ised-isde.canada.ca/site/science/en/interagency-research-funding/policies-and-guidelines/tri-agency-policy-use-funds-federal-government-employees-applying-granting-agency-programs" target="_blank" rel="noopener noreferrer">Tri-Agency policy</a> and depends on the program and proposed work. </p><p class="funding-collaboration-callout"><strong>Funding collaboration.</strong> I welcome funding collaborations worldwide—as co-PI/co-applicant where permitted, or as a collaborator. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 
 <h2 id="teaching">Teaching</h2>
 <div class="award-groups teaching-groups">
@@ -423,7 +423,7 @@ classes: wide
       </span>
     </summary>
     <div class="award-group__content">
-      <p>I provide independent instruction across mathematics, computer science, data science, machine learning, and artificial intelligence. Topics include calculus, linear algebra, probability, discrete mathematics, data structures, and data mining. If you are looking for teaching services, please feel free to contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+      <p>I provide independent instruction across mathematics, computer science, data science, machine learning, and artificial intelligence. Examples include calculus, linear algebra, probability, discrete mathematics, data structures, and data mining, among many others. If you are looking for teaching services, please feel free to contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
     </div>
   </details>
 </div>
