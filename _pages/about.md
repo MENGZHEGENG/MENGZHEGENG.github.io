@@ -53,7 +53,8 @@ classes: wide
 </details>
 <details class="internship-note">
   <summary>Positions are highly competitive</summary>
-  <p>Only applicants who best fit an available position will be contacted about next steps. This reflects fit and capacity, not an assessment of your broader abilities or potential. Thank you for your interest. I may reach out in the future for suitable opportunities.</p>
+  <p>Only applicants who best fit an available position will be contacted about next steps, typically within 10 business days. This reflects fit and capacity, not an assessment of your broader abilities or potential.</p>
+  <p>Thank you for your interest. I may reach out in the future for suitable opportunities. Remote internship applications are accepted on a rolling basis.</p>
 </details>
 <p class="indigenous-community-invitation">Indigenous communities interested in exploring speech and language technologies with the NRC can start by visiting the NRC <a href="https://www.nrc.canada.ca/en/research-development/research-collaboration/programs/indigenous-languages-technology-program" target="_blank" rel="noopener noreferrer">Indigenous Languages Technology (ILT) Program webpage</a> and contacting me at <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>.</p>
 
