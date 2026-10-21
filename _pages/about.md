@@ -318,5 +318,81 @@ classes: wide
     </div>
   </details>
 </div>
+
+<h2 id="selected-talks">Selected Talks</h2>
+<p class="award-section-meta">2022–2026 · 6 talks</p>
+<div class="award-groups selected-talks">
+  <details class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">2026</span>
+        <span class="award-card__meta">1 talk</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+      <ul class="award-list">
+        <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">PSL University</a>, Paris</li>
+      </ul>
+    </div>
+  </details>
+  <details class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">2025</span>
+        <span class="award-card__meta">1 talk</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+      <ul class="award-list">
+        <li class="award-item"><strong>Automatic Speech Recognition for Canadian Indigenous Languages</strong>, the NRC</li>
+      </ul>
+    </div>
+  </details>
+  <details class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">2024</span>
+        <span class="award-card__meta">2 talks</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+      <ul class="award-list">
+        <li class="award-item"><strong>Advancement in ASR Techniques to Support Indigenous Language Documentation</strong>, University of Toronto</li>
+        <li class="award-item"><strong>Exploring Spectro-Temporal Features for Dysarthric and Elderly Speech Augmentation and Adaptation</strong>, the NRC</li>
+      </ul>
+    </div>
+  </details>
+  <details class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">2023</span>
+        <span class="award-card__meta">1 talk</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+      <ul class="award-list">
+        <li class="award-item"><strong>Towards Fair and Inclusive Speech Techniques for Dysarthric and Elderly Speakers</strong>, the NRC</li>
+      </ul>
+    </div>
+  </details>
+  <details class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">2022</span>
+        <span class="award-card__meta">1 talk</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+      <ul class="award-list">
+        <li class="award-item"><strong>Spectro-Temporal Deep Features for Disordered Speech Assessment and Recognition</strong>, University of Illinois Urbana-Champaign</li>
+      </ul>
+    </div>
+  </details>
+</div>
+
+<h2 id="fundings">Fundings</h2>
+<p><strong>Canadian federal funding eligibility.</strong> Eligibility depends on the program and proposed work. Under the <a href="https://ised-isde.canada.ca/site/science/en/interagency-research-funding/policies-and-guidelines/tri-agency-policy-use-funds-federal-government-employees-applying-granting-agency-programs" target="_blank" rel="noopener noreferrer">Tri-Agency policy</a>, research outside a federal employee’s employer mandate that does not use the employer’s facilities or resources is deemed eligible. When research falls within the employer’s mandate and uses its resources, agency funds may be allocated only for student salaries, stipends, or travel. Program rules and required approvals also apply. I welcome joint funding applications with researchers worldwide as a co-PI/co-applicant, where the program provides for that role, or as a collaborator. Under the NRC’s <a href="https://nrc.canada.ca/en/research-development/research-collaboration/grant-contribution-funding-collaborators" target="_blank" rel="noopener noreferrer">grant and contribution funding program</a>, international collaborators may be eligible when the project benefits Canada and Canadians. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+
+
 <h2>Profiles</h2>
 <p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a> or browse the <a href="{{ '/publications/' | relative_url }}">Publications page</a>.</p>
