@@ -73,7 +73,7 @@ classes: wide
   <div><h3><a href="https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/" target="_blank" rel="noopener noreferrer">B.Sc. in Mathematics and Information Engineering</a></h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a> · <a href="https://www.cuhk.edu.hk/clear/qm/A5-2.pdf" target="_blank" rel="noopener noreferrer">First-class honours</a> · <a href="https://www.erg.cuhk.edu.hk/iris/Elite" target="_blank" rel="noopener noreferrer">ELITE Stream graduate</a> · <a href="https://www.cse.cuhk.edu.hk/academics/minor-computer-science/" target="_blank" rel="noopener noreferrer">Minor in Computer Science</a></p></div>
 </div>
 
-<h2 id="research">Research</h2>
+<h2 id="research">Research Interests</h2>
 {% assign research_themes = site.data.research_themes %}
 <div class="research-grid">
   {% for theme in research_themes %}
@@ -331,7 +331,7 @@ classes: wide
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
-        <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">PSL University</a>, Paris</li>
+        <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">Paris Sciences et Lettres University (PSL)</a>, Paris</li>
       </ul>
     </div>
   </details>
@@ -344,7 +344,7 @@ classes: wide
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
-        <li class="award-item"><strong>Automatic Speech Recognition for Canadian Indigenous Languages</strong>, the NRC</li>
+        <li class="award-item"><strong>Automatic Speech Recognition for Canadian Indigenous Languages</strong>, National Research Council Canada</li>
       </ul>
     </div>
   </details>
@@ -358,7 +358,7 @@ classes: wide
     <div class="award-group__content">
       <ul class="award-list">
         <li class="award-item"><strong>Advancement in ASR Techniques to Support Indigenous Language Documentation</strong>, University of Toronto</li>
-        <li class="award-item"><strong>Exploring Spectro-Temporal Features for Dysarthric and Elderly Speech Augmentation and Adaptation</strong>, the NRC</li>
+        <li class="award-item"><strong>Exploring Spectro-Temporal Features for Dysarthric and Elderly Speech Augmentation and Adaptation</strong>, National Research Council Canada</li>
       </ul>
     </div>
   </details>
@@ -371,7 +371,7 @@ classes: wide
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
-        <li class="award-item"><strong>Towards Fair and Inclusive Speech Techniques for Dysarthric and Elderly Speakers</strong>, the NRC</li>
+        <li class="award-item"><strong>Towards Fair and Inclusive Speech Techniques for Dysarthric and Elderly Speakers</strong>, National Research Council Canada</li>
       </ul>
     </div>
   </details>
@@ -384,15 +384,49 @@ classes: wide
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
-        <li class="award-item"><strong>Spectro-Temporal Deep Features for Disordered Speech Assessment and Recognition</strong>, University of Illinois Urbana-Champaign</li>
+        <li class="award-item"><strong>Spectro-Temporal Deep Features for Disordered Speech Assessment and Recognition</strong>, presented as part of <a href="https://courses.grainger.illinois.edu/ece590sic/sp2022/index.html" target="_blank" rel="noopener noreferrer">ECE 590SIC: Audio, Speech and Language Processing</a>, University of Illinois Urbana-Champaign</li>
       </ul>
     </div>
   </details>
 </div>
 
 <h2 id="fundings">Fundings</h2>
-<p><strong>Canadian federal funding eligibility.</strong> Eligibility depends on the program and proposed work. Under the <a href="https://ised-isde.canada.ca/site/science/en/interagency-research-funding/policies-and-guidelines/tri-agency-policy-use-funds-federal-government-employees-applying-granting-agency-programs" target="_blank" rel="noopener noreferrer">Tri-Agency policy</a>, research outside a federal employee’s employer mandate that does not use the employer’s facilities or resources is deemed eligible. When research falls within the employer’s mandate and uses its resources, agency funds may be allocated only for student salaries, stipends, or travel. Program rules and required approvals also apply. I welcome joint funding applications with researchers worldwide as a co-PI/co-applicant, where the program provides for that role, or as a collaborator. Under the NRC’s <a href="https://nrc.canada.ca/en/research-development/research-collaboration/grant-contribution-funding-collaborators" target="_blank" rel="noopener noreferrer">grant and contribution funding program</a>, international collaborators may be eligible when the project benefits Canada and Canadians. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<p><strong>Funding eligibility and collaboration.</strong> As an employee of the National Research Council Canada, my eligibility to apply as PI for Canadian federal research grants is limited by the Tri-Agency policy and depends on the program and proposed work. I welcome funding collaborations worldwide—as co-PI/co-applicant where permitted, or as a collaborator. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 
+<h2 id="teaching">Teaching</h2>
+<div class="award-groups teaching-groups">
+  <details class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">Institutional teaching and coordination</span>
+        <span class="award-card__meta">The Chinese University of Hong Kong · 2018–2023</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+      <p>Teaching assistant and student coordinator at The Chinese University of Hong Kong (CUHK), 2018–2023.</p>
+      <ul class="award-list">
+        <li class="award-item"><a href="https://pg.com.cuhk.edu.hk/course-list/" target="_blank" rel="noopener noreferrer">COMM 5961/5962 — Topical Studies in New Media I/II</a></li>
+        <li class="award-item"><a href="https://epin.cuhk.edu.hk/course/design-thinking-and-practice/index.html" target="_blank" rel="noopener noreferrer">EPIN 1020 — Design Thinking and Practice</a></li>
+        <li class="award-item"><a href="https://seem.se.cuhk.edu.hk/programme-details/course-details/seem3490/" target="_blank" rel="noopener noreferrer">SEEM 3490 — Information Systems Management</a></li>
+        <li class="award-item"><a href="https://seem.se.cuhk.edu.hk/programme-details/course-details/seem4540/" target="_blank" rel="noopener noreferrer">SEEM 4540 — Open Systems for E-Commerce</a></li>
+        <li class="award-item"><a href="https://fintech.erg.cuhk.edu.hk/programme-information/master-science/master-science" target="_blank" rel="noopener noreferrer">FTEC 5910 — Financial Technology Project I</a></li>
+        <li class="award-item"><a href="https://fintech.erg.cuhk.edu.hk/programme-information/master-science/master-science" target="_blank" rel="noopener noreferrer">FTEC 5920 — Financial Technology Project II</a></li>
+        <li class="award-item"><a href="https://fintech.erg.cuhk.edu.hk/programme-information/master-science/master-science" target="_blank" rel="noopener noreferrer">FTEC 5540 — Financial Technology Internship</a></li>
+      </ul>
+    </div>
+  </details>
+  <details class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">Independent instruction</span>
+        <span class="award-card__meta">Mathematics · Computer Science · Data Science · Machine Learning · AI</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+      <p>I provide independent instruction across mathematics, computer science, data science, machine learning, and artificial intelligence. Topics include calculus, linear algebra, probability, discrete mathematics, data structures, and data mining. If you are looking for teaching services, please feel free to contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+    </div>
+  </details>
+</div>
 
 <h2>Profiles</h2>
 <p>For the complete publication record, visit <a href="{{ site.author.googlescholar }}">Google Scholar</a> or browse the <a href="{{ '/publications/' | relative_url }}">Publications page</a>.</p>
