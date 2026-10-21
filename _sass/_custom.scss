@@ -2170,3 +2170,9 @@ a[href^="mailto:"]:is(:link, :visited, :hover, :focus-visible, :active) {
   font-size: 0.88rem;
   font-weight: 700;
 }
+
+
+/* Keep the left sidebar email unlined while retaining underlines for email links in page content. */
+.sidebar .author__urls a[href^="mailto:"]:is(:link, :visited, :hover, :focus-visible, :active) {
+  text-decoration: none !important;
+}
