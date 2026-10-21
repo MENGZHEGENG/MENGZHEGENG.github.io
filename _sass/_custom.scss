@@ -2180,3 +2180,9 @@ a[href^="mailto:"]:is(:link, :visited, :hover, :focus-visible, :active) {
 .sidebar .author__urls a[href^="mailto:"]:is(:link, :visited, :hover, :focus-visible, :active) {
   text-decoration: none !important;
 }
+
+
+/* Let status-free supervision rows use the full card width. */
+.supervision-role-line--plain {
+  grid-template-columns: minmax(0, 1fr);
+}
