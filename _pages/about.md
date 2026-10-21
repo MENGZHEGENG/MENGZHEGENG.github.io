@@ -418,7 +418,7 @@ classes: wide
   <details class="award-card award-group">
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
-        <span class="award-card__title" role="heading" aria-level="3">Independent instruction</span>
+        <span class="award-card__title" role="heading" aria-level="3">Independent Instructor</span>
         <span class="award-card__meta">Mathematics · Computer Science · Data Science · Machine Learning · AI</span>
       </span>
     </summary>
