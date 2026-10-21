@@ -230,7 +230,7 @@ classes: wide
   <div class="supervision-entry">
     <div class="supervision-heading">
       <span class="supervision-name">Yu Chen</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote M.B.A. & M.Eng. intern   · UCB · Oct 2026–</span></span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote M.B.A. & M.Eng. intern   · UCB · Oct 2026–present</span></span></span>
     </div>
   </div>
   <div class="supervision-entry">
