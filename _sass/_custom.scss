@@ -838,6 +838,10 @@ html[data-theme="dark"] .timeline-row {
   min-width: 0;
 }
 
+.supervision-role-line--plain {
+    grid-template-columns: minmax(0, 1fr);
+}
+
 .supervision-role-tag {
   display: block;
   padding: 0;
