@@ -2162,3 +2162,11 @@ a[href^="mailto:"]:is(:link, :visited, :hover, :focus-visible, :active) {
   text-underline-offset: 0.15em;
   text-decoration-thickness: 0.08em;
 }
+
+
+/* Set a compact, shared title size for every collapsible profile card. */
+.award-card__title,
+.supervision-name {
+  font-size: 0.92rem;
+  font-weight: 700;
+}
