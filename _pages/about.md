@@ -391,7 +391,7 @@ classes: wide
 </div>
 
 <h2 id="fundings">Fundings</h2>
-<p><strong>Funding eligibility and collaboration.</strong> As an employee of the National Research Council Canada, my eligibility to apply as PI for Canadian federal research grants is limited by the Tri-Agency policy and depends on the program and proposed work. I welcome funding collaborations worldwide—as co-PI/co-applicant where permitted, or as a collaborator. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<p><strong>Funding eligibility and collaboration.</strong> As an employee of the National Research Council Canada, my eligibility to apply as PI for Canadian federal research grants is limited under the <a href="https://ised-isde.canada.ca/site/science/en/interagency-research-funding/policies-and-guidelines/tri-agency-policy-use-funds-federal-government-employees-applying-granting-agency-programs" target="_blank" rel="noopener noreferrer">Tri-Agency policy</a> and depends on the program and proposed work. I welcome funding collaborations worldwide—as co-PI/co-applicant where permitted, or as a collaborator. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 
 <h2 id="teaching">Teaching</h2>
 <div class="award-groups teaching-groups">
