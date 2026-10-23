@@ -49,8 +49,9 @@ jobs:
           import re
 
           source = Path("_pages/about.md").read_text(encoding="utf-8")
-          students = re.search(r"<p(?:\s[^>]*)?>\s*<strong>Students:</strong>.*?</p>", source, re.S)
-          researchers = re.search(r"<p(?:\s[^>]*)?>\s*<strong>Researchers:</strong>.*?</p>", source, re.S)
+          # Use stable paragraph IDs so audience-label edits do not break deployment.
+          students = re.search(r'<p\s+id="application-students"[^>]*>.*?</p>', source, re.S)
+          researchers = re.search(r'<p\s+id="application-researchers"[^>]*>.*?</p>', source, re.S)
 
           if not students or not researchers:
               raise SystemExit("Students and Researchers must remain in separate paragraph elements.")
