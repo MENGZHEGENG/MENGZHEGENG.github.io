@@ -229,6 +229,12 @@ classes: wide
   </details>
   <div class="supervision-entry">
     <div class="supervision-heading">
+      <span class="supervision-name">Xin Chen</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote guest researcher · CUHK · Oct 2026–</span></span></span>
+    </div>
+  </div>
+  <div class="supervision-entry">
+    <div class="supervision-heading">
       <span class="supervision-name">Yu Chen</span>
       <span class="publication-meta supervision-roles"><span class="supervision-role-line supervision-role-line--plain"><span class="supervision-role-copy">Remote M.B.A. & M.Eng. intern   · UCB · Oct 2026–present</span></span></span>
     </div>
@@ -236,13 +242,13 @@ classes: wide
   <div class="supervision-entry">
     <div class="supervision-heading">
       <span class="supervision-name">Ning Lai</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern (post-graduation) · ANU · Oct 2026–</span></span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote guest researcher · ANU · Oct 2026–</span></span></span>
     </div>
   </div>
   <div class="supervision-entry">
     <div class="supervision-heading">
       <span class="supervision-name">Xiaoying Zhang</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern (post-graduation) · CUHK · Oct 2026–</span></span></span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote guest researcher · CUHK · Oct 2026–</span></span></span>
     </div>
     
       
