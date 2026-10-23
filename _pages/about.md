@@ -48,7 +48,7 @@ classes: wide
 <details class="internship-note">
   <summary>How to apply</summary>
   <p>Please read and understand all information in <a href="#before-you-apply">Before you apply</a> before submitting an application. Applying confirms that you have read and understood those requirements and agree to them. Additional requirements may apply to particular projects or circumstances.</p>
-  <p><strong>Students:</strong> Email a CV and academic transcripts from your bachelor's degree onward. Students in Canada may also apply through the NRC's <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or the NRC's <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
+  <p><strong>Students &amp; Postdocs:</strong> Email a CV and academic transcripts from your bachelor's degree onward. Students in Canada may also apply through the NRC's <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or the NRC's <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
   <p><strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
 </details>
 <details class="internship-note">
