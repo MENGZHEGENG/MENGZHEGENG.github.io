@@ -212,7 +212,7 @@ classes: wide
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Jinxin Ji</span>
-      <span class="publication-meta">Remote Ph.D. intern · PolyU · Jul 2026–Oct 2026</span>
+      <span class="publication-meta">Remote Ph.D. intern · PolyU · Jul–Oct 2026</span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.26823" target="_blank" rel="noopener noreferrer">Text Scores Do Not Establish Performance on Lexically Non-Diagnostic Speech Tasks: A Qwen2-Audio Quantization Case Study</a>, <em>arXiv:2609.26823</em> (2026)</span></p>
