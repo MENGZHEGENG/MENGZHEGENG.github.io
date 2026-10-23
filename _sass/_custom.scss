@@ -1935,3 +1935,15 @@ a:active {
 .supervision-heading .supervision-role-tag {
   color: var(--global-text-color) !important;
 }
+
+/* Keep every multi-role summary aligned with the regular role metadata. */
+.supervision-entry .supervision-heading,
+.supervision-entry .supervision-heading .supervision-name,
+.supervision-entry .supervision-heading .publication-meta,
+.supervision-entry .supervision-heading .supervision-roles,
+.supervision-entry .supervision-heading .supervision-role-line,
+.supervision-entry .supervision-heading .supervision-role-tag,
+.supervision-entry .supervision-heading .supervision-role-copy,
+.supervision-entry .supervision-heading .supervision-role-context {
+  color: var(--global-text-color) !important;
+}
