@@ -12,7 +12,7 @@ timeline_theme: Accessible Speech AI
 category: conferences
 scholar_sort_order: 502
 scholar_rank: 7
-scholar_citations: 69
+scholar_citations: 70
 scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3ALkGwnXOMwfcC
 paperurl: https://www.isca-archive.org/interspeech_2021/jin21_interspeech.pdf
 ---

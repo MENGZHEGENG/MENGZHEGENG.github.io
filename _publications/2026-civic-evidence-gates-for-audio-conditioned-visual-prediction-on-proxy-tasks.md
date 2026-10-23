@@ -11,8 +11,8 @@ timeline_theme: Trustworthy Multimodal AI
 category: preprints
 scholar_sort_order: 0.1
 scholar_rank: pending-civic-evidence-gates
-scholar_pending: true
-scholarurl: 'https://scholar.google.ca/scholar?hl=en&q=%22CIViC%3A+Evidence+Gates+for+Audio-Conditioned+Visual+Prediction+on+Proxy+Tasks%22'
+scholar_citations: 0
+scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3AabG-DnoFyZgC
 paperurl: https://arxiv.org/abs/2610.15327
 pdfurl: https://arxiv.org/pdf/2610.15327
 doi: https://doi.org/10.48550/arXiv.2610.15327

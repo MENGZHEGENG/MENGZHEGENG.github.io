@@ -10,6 +10,6 @@ publication_theme: Speech enhancement
 category: conferences
 scholar_sort_order: 19
 scholar_rank: 69
-scholar_citations: 0
+scholar_citations: 1
 scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3A2P1L_qKh6hAC
 ---

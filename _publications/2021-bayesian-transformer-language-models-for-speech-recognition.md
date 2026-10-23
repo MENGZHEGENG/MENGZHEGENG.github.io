@@ -9,7 +9,7 @@ publication_theme: Speech recognition
 category: conferences
 scholar_sort_order: 504
 scholar_rank: 11
-scholar_citations: 55
+scholar_citations: 57
 scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3AYsMSGLbcyi4C
 paperurl: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9414046
 ---

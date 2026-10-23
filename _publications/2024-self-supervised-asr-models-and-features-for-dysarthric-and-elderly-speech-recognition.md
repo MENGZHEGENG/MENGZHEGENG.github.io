@@ -8,7 +8,7 @@ publication_theme: Dysarthric speech recognition
 category: journals
 scholar_sort_order: 202
 scholar_rank: 10
-scholar_citations: 61
+scholar_citations: 63
 scholarurl: https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=RS59rgIAAAAJ&citation_for_view=RS59rgIAAAAJ%3Ak_IJM867U9cC
 paperurl: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10584335
 ---
