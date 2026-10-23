@@ -87,7 +87,17 @@ classes: wide
 </div>
 
 <h2 id="author-led-publications">Author-led publications</h2>
-{% assign author_led_publications = site.publications | where_exp: "post", "post.author_role" | sort: "scholar_sort_order" %}
+{% comment %}Include first/last authors directly from the author list; retain explicit roles for co-first and corresponding authors. This avoids omissions when a new record lacks author_role metadata.{% endcomment %}
+{% assign author_led_publications = "" | split: "," %}
+{% for post in site.publications %}
+  {% assign publication_authors = post.authors | remove: "*" | remove: "†" | split: "," %}
+  {% assign first_author = publication_authors | first | strip %}
+  {% assign last_author = publication_authors | last | strip %}
+  {% if post.author_role or first_author == "Mengzhe Geng" or first_author == "M. Geng" or first_author == "M Geng" or last_author == "Mengzhe Geng" or last_author == "M. Geng" or last_author == "M Geng" %}
+    {% assign author_led_publications = author_led_publications | push: post %}
+  {% endif %}
+{% endfor %}
+{% assign author_led_publications = author_led_publications | sort: "scholar_sort_order" %}
 {% assign author_led_years = author_led_publications | group_by: "year" | sort: "name" | reverse %}
 {% assign timeline_themes = site.data.research_themes %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
@@ -95,7 +105,7 @@ classes: wide
 {% assign timeline_years = (first_timeline_year..last_timeline_year) %}
 <details class="author-led-disclosure">
   <summary><span class="disclosure-label--collapsed">Show timeline and publications ({{ author_led_publications.size }})</span><span class="disclosure-label--expanded">Hide timeline and publications ({{ author_led_publications.size }})</span></summary>
-<p class="publication-intro">These include publications for which I am a first author, co-first author, or (joint) corresponding author.</p>
+<p class="publication-intro">These include publications for which I am a first author, co-first author, (joint) corresponding author, or senior/last author.</p>
 <div class="timeline-scroller" tabindex="0" aria-label="Scrollable publication timeline">
   <div class="research-timeline" style="--timeline-year-count: {{ timeline_years.size }}">
     <div class="timeline-axis"><span class="timeline-axis-label">Research theme</span>{% for year in timeline_years %}<span class="timeline-year">{{ year }}</span>{% endfor %}</div>
