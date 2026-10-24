@@ -322,7 +322,7 @@ classes: wide
           <li class="award-item">2019 — <a href="https://www.hkxfoundation.org/aboutus" target="_blank" rel="noopener noreferrer">Finalist, Hong Kong X Foundation FYP+ Project</a></li>
           <li class="award-item">2019 — CUHK Academic Excellence Scholarship for Non-local Students</li>
           <li class="award-item">2019 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
-          <li class="award-item">2018–2019 — <strong>Undergraduate Research Fellowship</strong>, sponsored by the Research Grants Council</li>
+          <li class="award-item">2018-19 — <strong>Undergraduate Research Fellowship</strong>, sponsored by the Research Grants Council</li>
           <li class="award-item">2018 — Information Engineering Awards for Academic Exchange</li>
           <li class="award-item">2018 — <strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong></li>
           <li class="award-item">2018 — <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/reaching-out-award/" target="_blank" rel="noopener noreferrer">HKSAR Government Reaching Out Award</a></li>
