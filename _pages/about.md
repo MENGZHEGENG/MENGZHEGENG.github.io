@@ -458,7 +458,7 @@ classes: wide
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
-        <li class="award-item">Nov 2026 — <strong>Carleton University</strong>, Ottawa · Lecture topic to be confirmed</li>
+        <li class="award-item">Nov 2026 — <strong>Carleton University</strong> · Lecture topic to be confirmed</li>
         <li class="award-item">Nov 2026 — <strong>The Hong Kong Polytechnic University</strong> · Lecture topic to be confirmed</li>
       </ul>
     </div>
