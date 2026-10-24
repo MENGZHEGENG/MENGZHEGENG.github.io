@@ -329,7 +329,7 @@ classes: wide
           <li class="award-item">2018 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
           <li class="award-item">2017/18 — Arthur and Louise May Memorial Scholarship</li>
           <li class="award-item">2017 — Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)</li>
-          <li class="award-item">2017 — <strong>S.H. Ho College Social Service Award</strong></li>
+          <li class="award-item">2017 — CUHK S.H. Ho College Social Service Award</li>
           <li class="award-item">2017 — <strong><a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">HKSAR Government Talent Development Scholarship (Innovation)</a></strong></li>
           <li class="award-item">2017 — <strong><a href="https://www.theiet.org/impact-society/awards-prizes-and-scholarships/iet-student-prizes" target="_blank" rel="noopener noreferrer">The IET Prize</a></strong>, the Institute of Engineering and Technology</li>
           <li class="award-item">2017 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
