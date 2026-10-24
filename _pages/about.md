@@ -277,7 +277,7 @@ classes: wide
 </div>
 
 <h2 id="awards">Selected Awards and Honours</h2>
-<p class="award-section-meta">2015–2026 · 20 awards</p>
+<p class="award-section-meta">2015–2026 · 25 awards</p>
 <div class="award-groups">
   <details id="award-group-work" class="award-card award-group">
     <summary class="award-card__summary">
@@ -314,7 +314,7 @@ classes: wide
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">Undergraduate</span>
-        <span class="award-card__meta">2015–2019 · 13 awards</span>
+        <span class="award-card__meta">2015–2019 · 18 awards</span>
       </span>
     </summary>
     <div class="award-group__content">
@@ -322,9 +322,14 @@ classes: wide
           <li class="award-item">2019 — <a href="https://www.hkxfoundation.org/aboutus" target="_blank" rel="noopener noreferrer">Finalist, Hong Kong X Foundation FYP+ Project</a></li>
           <li class="award-item">2019 — CUHK Academic Excellence Scholarship for Non-local Students</li>
           <li class="award-item">2019 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
+          <li class="award-item">2018–2019 — <strong>Undergraduate Research Fellowship</strong>, sponsored by the Research Grants Council (RGC)</li>
+          <li class="award-item">2018 — <strong>Information Engineering Awards for Academic Exchange</strong></li>
           <li class="award-item">2018 — <strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong></li>
           <li class="award-item">2018 — <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/reaching-out-award/" target="_blank" rel="noopener noreferrer">HKSAR Government Reaching Out Award</a></li>
           <li class="award-item">2018 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
+          <li class="award-item">2017/18 — <strong>Arthur and Louise May Memorial Scholarship</strong></li>
+          <li class="award-item">2017 — <strong>Second Prize</strong>, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)</li>
+          <li class="award-item">2017 — <strong>S.H. Ho College Social Service Award</strong></li>
           <li class="award-item">2017 — <strong><a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">HKSAR Government Talent Development Scholarship (Innovation)</a></strong></li>
           <li class="award-item">2017 — <strong><a href="https://www.theiet.org/impact-society/awards-prizes-and-scholarships/iet-student-prizes" target="_blank" rel="noopener noreferrer">The IET Prize</a></strong>, the Institute of Engineering and Technology</li>
           <li class="award-item">2017 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
@@ -442,6 +447,20 @@ classes: wide
     </summary>
     <div class="award-group__content">
       <p>I provide independent instruction across mathematics, computer science, data science, machine learning, and artificial intelligence. Examples include calculus, linear algebra, probability, discrete mathematics, data structures, and data mining, among many others. If you are looking for teaching services, please feel free to contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+    </div>
+  </details>
+  <details class="award-card award-group">
+    <summary class="award-card__summary">
+      <span class="award-card__summary-main">
+        <span class="award-card__title" role="heading" aria-level="3">Guest lectures</span>
+        <span class="award-card__meta">Nov 2026 · 2 lectures</span>
+      </span>
+    </summary>
+    <div class="award-group__content">
+      <ul class="award-list">
+        <li class="award-item">Nov 2026 — <strong>Carleton University</strong>, Ottawa · Lecture topic to be confirmed</li>
+        <li class="award-item">Nov 2026 — <strong>The Hong Kong Polytechnic University</strong> · Lecture topic to be confirmed</li>
+      </ul>
     </div>
   </details>
 </div>
