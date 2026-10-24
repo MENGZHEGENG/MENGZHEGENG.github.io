@@ -453,7 +453,7 @@ classes: wide
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">Guest lectures</span>
-        <span class="award-card__meta">Nov 2026 · 2 lectures</span>
+        <span class="award-card__meta">· 2 lectures</span>
       </span>
     </summary>
     <div class="award-group__content">
