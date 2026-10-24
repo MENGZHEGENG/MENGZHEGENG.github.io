@@ -2043,11 +2043,12 @@ a:active {
 }
 
 
-/* Underline the NRC co-op, student employment, ILT, and final profile links. */
+/* Underline application, ILT, final profile, and complete publication record links. */
 .internship-note a[href*="nrc-co-op-program"],
 .internship-note a[href*="nrc-student-employment-program"],
 .indigenous-community-invitation a[href*="indigenous-languages-technology-program"],
-.profile-directory-links a {
+.profile-directory-links a,
+.complete-publication-links a {
   text-decoration: underline !important;
   text-underline-offset: 0.15em;
 }
