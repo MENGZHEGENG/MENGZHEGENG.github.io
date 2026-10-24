@@ -357,7 +357,7 @@ show_safety_notice: false
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
-        <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">Paris Sciences et Lettres University </a>, Paris</li>
+        <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">Paris Sciences et Lettres University</a></li>
       </ul>
     </div>
   </details>
