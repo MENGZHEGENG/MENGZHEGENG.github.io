@@ -327,7 +327,7 @@ classes: wide
           <li class="award-item">2018 — <strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong></li>
           <li class="award-item">2018 — <a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/reaching-out-award/" target="_blank" rel="noopener noreferrer">HKSAR Government Reaching Out Award</a></li>
           <li class="award-item">2018 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
-          <li class="award-item">2017/18 — Arthur and Louise May Memorial Scholarship</li>
+          <li class="award-item">2017-18 — Arthur and Louise May Memorial Scholarship</li>
           <li class="award-item">2017 — Second Prize, Contemporary Undergraduate Mathematical Contest in Modeling (CUMCM)</li>
           <li class="award-item">2017 — CUHK S.H. Ho College Social Service Award</li>
           <li class="award-item">2017 — <strong><a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">HKSAR Government Talent Development Scholarship (Innovation)</a></strong></li>
