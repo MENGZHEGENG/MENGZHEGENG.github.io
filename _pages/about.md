@@ -306,7 +306,7 @@ classes: wide
           <li class="award-item">2023 — <strong>Valedictorian</strong>, <a href="https://www.cpr.cuhk.edu.hk/en/press/cuhk-holds-92nd-congregation-for-the-conferment-of-degrees/" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Class of 2023</a></li>
           <li class="award-item">2023 — <strong><a href="https://2023.ieeeicassp.org/outstanding-reviewer-recognitions/" target="_blank" rel="noopener noreferrer">IEEE ICASSP Outstanding Reviewer</a></strong></li>
           <li class="award-item">2023 — <a href="https://interspeech2023.org/travel-grants/" target="_blank" rel="noopener noreferrer">ISCA INTERSPEECH Travel Grant</a></li>
-          <li class="award-item">2019–2023 — <a href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Studentship</a></li>
+          <li class="award-item">2019–23 — <a href="https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships" target="_blank" rel="noopener noreferrer">CUHK Postgraduate Studentship</a></li>
         </ul>
     </div>
   </details>
