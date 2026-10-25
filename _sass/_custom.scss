@@ -2199,3 +2199,21 @@ a[href^="mailto:"]:is(:link, :visited, :hover, :focus-visible, :active) {
 .supervision-entry .supervision-heading .supervision-role-context {
   color: var(--global-text-color) !important;
 }
+
+/* Align Incoming badges with the first baseline of their role descriptions. */
+.supervision-heading .supervision-role-line {
+  grid-template-columns: max-content minmax(0, 1fr);
+  align-items: baseline;
+  column-gap: 0.55em;
+}
+
+.supervision-heading .supervision-role-line--plain {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.supervision-heading .supervision-role-tag {
+  display: block;
+  align-self: baseline;
+  margin: 0;
+  vertical-align: baseline;
+}
