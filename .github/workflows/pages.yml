@@ -57,8 +57,9 @@ jobs:
               raise SystemExit("Students and Researchers must remain in separate paragraph elements.")
           if students.end() > researchers.start():
               raise SystemExit("The Students paragraph must precede the Researchers paragraph.")
-          if "Student Employment Program" not in students.group(0):
-              raise SystemExit("NRC student employment options must stay in the Students paragraph.")
+          invitation = re.search(r'<p\s+class="collaboration-invitation"[^>]*>.*?</p>', source, re.S)
+          if not invitation or "Student Employment Program" not in invitation.group(0):
+              raise SystemExit("NRC student employment options must appear in the collaboration invitation.")
 
           print("Application instructions are separate and correctly ordered.")
           PY
