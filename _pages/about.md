@@ -456,7 +456,7 @@ show_safety_notice: false
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">Guest lectures</span>
-        <span class="award-card__meta">· 3 lectures</span>
+        <span class="award-card__meta">· 4 lectures</span>
       </span>
     </summary>
     <div class="award-group__content">
@@ -464,6 +464,7 @@ show_safety_notice: false
         <li class="award-item">Nov 2026 — <strong>Carleton University</strong> · Topic to be confirmed</li>
         <li class="award-item">Nov 2026 — <strong>The Hong Kong Polytechnic University</strong> · Topic to be confirmed</li>
         <li class="award-item">Nov 2026 — <strong>University of British Columbia</strong> · Topics to be determined</li>
+        <li class="award-item">Nov 2026 — <strong>University of California, Berkeley</strong> · Topics to be determined</li>
       </ul>
     </div>
   </details>
