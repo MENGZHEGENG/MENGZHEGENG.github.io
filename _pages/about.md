@@ -186,7 +186,7 @@ show_safety_notice: false
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>the NRC Outstanding Student Contribution Award</strong> (2024)</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2024)</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://ieeexplore.ieee.org/document/11004431" target="_blank" rel="noopener noreferrer">Exploring Generative Artificial Intelligence Techniques in Government: A Case Study</a>, <em>IEEE Intelligent Systems</em> (2025)</span></p>
     </div>
   </details>
@@ -207,7 +207,7 @@ show_safety_notice: false
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/patrick-littell" target="_blank" rel="noopener noreferrer">Patrick Littell</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>the NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
     </div>
   </details>
@@ -218,7 +218,7 @@ show_safety_notice: false
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a> and <a class="person-link" href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>the NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
+      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
       <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em></span></p>
     </div>
   </details>
