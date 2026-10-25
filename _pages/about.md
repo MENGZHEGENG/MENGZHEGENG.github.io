@@ -182,7 +182,7 @@ show_safety_notice: false
   <details class="supervision-entry">
     <summary class="supervision-heading">
       <span class="supervision-name">Sunyi Liu</span>
-      <span class="publication-meta">Undergraduate intern at the NRC (UofT) · May–Aug 2024</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line supervision-role-line--plain"><span class="supervision-role-copy">Undergraduate intern at the NRC (UofT) · May–Aug 2024</span></span><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote intern · Nov 2026–</span></span></span>
     </summary>
     <div class="supervision-details">
       <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
