@@ -109,7 +109,8 @@ show_safety_notice: true
 <details class="author-led-disclosure">
   <summary><span class="disclosure-label--collapsed">Show timeline and publications ({{ author_led_publications.size }})</span><span class="disclosure-label--expanded">Hide timeline and publications ({{ author_led_publications.size }})</span></summary>
 <p class="publication-intro">These include publications for which I am a first author, co-first author, (joint) corresponding author, or senior/last author.</p>
-<div class="timeline-scroller" role="region" aria-label="Publication timeline by research theme and year">
+<p class="timeline-note" id="timeline-instructions">Scroll horizontally to view all years. Numbers show publications per year; select a dot to jump to its publication.</p>
+<div class="timeline-scroller" tabindex="0" role="region" aria-label="Publication timeline by research theme and year" aria-describedby="timeline-instructions">
   <div class="research-timeline" style="--timeline-year-count: {{ timeline_years.size }}">
     <div class="timeline-axis"><span class="timeline-axis-label">Research theme</span>{% for year in timeline_years %}<span class="timeline-year">{{ year }}</span>{% endfor %}</div>
     {% for theme in timeline_themes %}
@@ -122,7 +123,6 @@ show_safety_notice: true
       {% assign year_theme_publications = author_led_publications | where: "year", year_number | where: "timeline_theme", theme_label %}
       <span class="timeline-cell{% if year_theme_publications.size > 0 %} has-publications{% endif %}" aria-label="{{ year }}: {{ year_theme_publications.size }} publications">
         {% if year_theme_publications.size > 0 %}
-        <span class="timeline-cell-year" aria-hidden="true">{{ year }}</span>
         <span class="timeline-count">{{ year_theme_publications.size }}</span>
         <span class="timeline-markers">
         {% for post in year_theme_publications %}<a class="timeline-marker" href="#author-publication-{{ post.scholar_rank }}" title="{{ post.title | escape }}" aria-label="{{ year }}: {{ post.title | escape }}"></a>{% endfor %}
@@ -133,7 +133,6 @@ show_safety_notice: true
     </div>
     {% endfor %}
   </div>
-  <p class="timeline-note">Numbers show publications per year. Select a dot to jump to its publication.</p>
 </div>
 <div class="publication-filters" role="group" aria-label="Filter author-led publications by research theme">
   <button class="publication-filter is-active" type="button" data-publication-filter="all" aria-pressed="true">All</button>
