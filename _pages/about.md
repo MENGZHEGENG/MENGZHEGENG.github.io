@@ -276,14 +276,14 @@ show_safety_notice: true
   </div>
   <div class="supervision-entry">
     <div class="supervision-heading">
-      <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern at the NRC (UofT) · Jan 2027–</span></span></span>
+      <span class="supervision-name">Yizhen Xie</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote Ph.D. intern · CMU · Nov 2026–</span></span></span>
     </div>
   </div>
   <div class="supervision-entry">
     <div class="supervision-heading">
-      <span class="supervision-name">Yizhen Xie</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern · CMU · Nov 2027–</span></span></span>
+      <span class="supervision-name">Yanfei Lu</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern at the NRC (UofT) · Jan 2027–</span></span></span>
     </div>
   </div>
 </div>
@@ -471,7 +471,7 @@ show_safety_notice: true
     <div class="award-group__content">
       <ul class="award-list">
         <li class="award-item">Nov 2026 — <strong>Carleton University</strong> · Topic to be confirmed</li>
-        <li class="award-item">Nov 2026 — <strong>The Hong Kong Polytechnic University</strong> · Topic to be confirmed</li>
+        <li class="award-item">Nov 2026 — <strong>The Hong Kong Polytechnic University</strong> · Who Gets Heard? Building Inclusive Speech and Language Technologies</li>
         <li class="award-item">Nov 2026 — <strong>University of British Columbia</strong> · Topics to be determined</li>
         <li class="award-item">Nov 2026 — <strong>University of California, Berkeley</strong> · Topics to be determined</li>
       </ul>

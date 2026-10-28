@@ -384,6 +384,8 @@ html[data-theme="dark"] .google-scholar-icon {
 
 .research-card {
   --research-card-accent: var(--research-theme-color-light, var(--site-focus-color));
+  min-width: 0;
+  overflow-wrap: break-word;
   padding: 1em 1.1em 0.85em;
   border: 1px solid var(--global-border-color);
   border-top: 3px solid var(--research-card-accent);
@@ -395,8 +397,10 @@ html[data-theme="dark"] .research-card {
   --research-card-accent: var(--research-theme-color-dark, var(--site-focus-color));
 }
 
-.research-card:last-child {
-  grid-column: 1 / -1;
+@media (min-width: 1280px) {
+  .research-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .research-label {
@@ -1535,10 +1539,6 @@ html[data-theme="dark"] .timeline-row {
 
   .research-grid {
     grid-template-columns: 1fr;
-  }
-
-  .research-card:last-child {
-    grid-column: auto;
   }
 
   .scholar-stats {
