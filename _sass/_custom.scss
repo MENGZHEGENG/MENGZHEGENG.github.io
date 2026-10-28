@@ -641,8 +641,8 @@ html[data-theme="dark"] .research-card {
 .timeline-row {
   --timeline-color: var(--timeline-color-light, var(--site-focus-color));
   align-items: stretch;
-  height: 5rem;
-  margin: 0.45em 0;
+  height: 4rem;
+  margin: 0.3rem 0;
   border-left: 3px solid var(--timeline-color);
   border-radius: 5px;
   background: var(--site-surface-color);
@@ -666,7 +666,7 @@ html[data-theme="dark"] .timeline-row {
 .timeline-cell {
   display: flex;
   min-width: 0;
-  padding: 0.55em 0.15em;
+  padding: 0.25rem 0.15em;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -695,10 +695,9 @@ html[data-theme="dark"] .timeline-row {
 .timeline-marker::after {
   width: 12px;
   height: 12px;
-  border: 2px solid var(--site-surface-color);
+  border: 2px solid var(--timeline-color);
   border-radius: 50%;
-  background: var(--timeline-color);
-  box-shadow: 0 0 0 1px var(--timeline-color);
+  background: var(--site-surface-color);
   content: "";
 }
 
