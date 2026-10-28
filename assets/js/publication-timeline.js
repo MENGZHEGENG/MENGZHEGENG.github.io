@@ -5,6 +5,15 @@ if (timeline) {
   const publications = [...document.querySelectorAll(".author-led-publication")];
   const status = document.querySelector(".publication-filter-status");
 
+  document.querySelectorAll(".timeline-marker").forEach((marker) => {
+    marker.addEventListener("click", () => {
+      const target = document.getElementById(marker.hash.slice(1));
+      if (target?.hidden) {
+        filters.find((filter) => filter.dataset.publicationFilter === "all")?.click();
+      }
+    });
+  });
+
   filters.forEach((filter) => {
     filter.addEventListener("click", () => {
       const selectedTheme = filter.dataset.publicationFilter;
