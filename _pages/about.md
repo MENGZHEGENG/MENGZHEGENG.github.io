@@ -6,7 +6,7 @@ seo_title: "Mengzhe Geng · Speech AI and Language Technology"
 description: "Mengzhe Geng is a Research Scientist at the National Research Council Canada, working on speech AI, low-resource language technology, and multimodal AI."
 author_profile: true
 classes: wide
-show_safety_notice: true
+show_safety_notice: false
 ---
 
 {% if page.show_safety_notice %}
