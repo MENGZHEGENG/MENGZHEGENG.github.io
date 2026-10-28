@@ -270,6 +270,12 @@ show_safety_notice: true
   </div>
   <div class="supervision-entry">
     <div class="supervision-heading">
+      <span class="supervision-name">Zhen Wang</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote guest researcher · ANU · Nov 2026–</span></span></span>
+    </div>
+  </div>
+  <div class="supervision-entry">
+    <div class="supervision-heading">
       <span class="supervision-name">Yanfei Lu</span>
       <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern at the NRC (UofT) · Jan 2027–</span></span></span>
     </div>
