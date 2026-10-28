@@ -613,7 +613,8 @@ html[data-theme="dark"] .research-card {
   display: grid;
   grid-template-columns: minmax(9rem, 28%) repeat(var(--timeline-year-count), minmax(0, 1fr));
   padding: 0 0.55rem;
-  border-left: 3px solid transparent;
+  border: 1px solid transparent;
+  border-left-width: 3px;
 }
 
 .timeline-axis {
@@ -634,6 +635,7 @@ html[data-theme="dark"] .research-card {
   align-items: stretch;
   min-height: 4.2em;
   margin: 0.45em 0;
+  border-color: var(--global-border-color);
   border-left-color: var(--timeline-color);
   border-radius: 5px;
   background: var(--site-surface-color);
