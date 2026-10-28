@@ -23,3 +23,9 @@
   description: Speech and audio generation, cross-lingual voice conversion, video-to-audio systems, and spoken agents that ground plans and actions in evidence.
   color: "#885e00"
   dark_color: "#dabf64"
+- label: AI for Humanity
+  heading: Interdisciplinary AI for people and society
+  description: Interdisciplinary research connecting AI with linguistics, finance, psychology, media studies, neuroscience, and related fields to advance human understanding and societal well-being.
+  color: "#a23b70"
+  dark_color: "#eda3ca"
+  show_in_publications: false

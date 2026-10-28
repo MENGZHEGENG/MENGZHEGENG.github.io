@@ -102,7 +102,7 @@ show_safety_notice: true
 {% endfor %}
 {% assign author_led_publications = author_led_publications | sort: "scholar_sort_order" %}
 {% assign author_led_years = author_led_publications | group_by: "year" | sort: "name" | reverse %}
-{% assign timeline_themes = site.data.research_themes %}
+{% assign timeline_themes = site.data.research_themes | where_exp: "theme", "theme.show_in_publications != false" %}
 {% assign first_timeline_year = author_led_publications | map: "year" | sort | first | plus: 0 %}
 {% assign last_timeline_year = site.time | date: "%Y" | plus: 0 %}
 {% assign timeline_years = (first_timeline_year..last_timeline_year) %}
@@ -279,9 +279,12 @@ show_safety_notice: true
       <span class="supervision-name">Yanfei Lu</span>
       <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern at the NRC (UofT) · Jan 2027–</span></span></span>
     </div>
-    <div class="supervision-details">
-      
-    
+  </div>
+  <div class="supervision-entry">
+    <div class="supervision-heading">
+      <span class="supervision-name">Yizhen Xie</span>
+      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern · CMU · Nov 2027–</span></span></span>
+    </div>
   </div>
 </div>
 
