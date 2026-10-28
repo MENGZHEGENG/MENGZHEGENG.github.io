@@ -108,8 +108,7 @@ show_safety_notice: false
 {% assign timeline_years = (first_timeline_year..last_timeline_year) %}
 <details class="author-led-disclosure">
   <summary><span class="disclosure-label--collapsed">Show timeline and publications ({{ author_led_publications.size }})</span><span class="disclosure-label--expanded">Hide timeline and publications ({{ author_led_publications.size }})</span></summary>
-<p class="publication-intro">These include publications for which I am a first author, co-first author, (joint) corresponding author, or senior/last author.</p>
-<p class="timeline-note" id="timeline-instructions">Scroll horizontally to view all years. Numbers show publications per year; select a dot to jump to its publication.</p>
+<p class="publication-intro" id="timeline-instructions">Publications where I am first/co-first, (joint) corresponding, or senior/last author. Scroll horizontally for all years; numbers show yearly counts, and dots link to publications.</p>
 <div class="timeline-scroller" tabindex="0" role="region" aria-label="Publication timeline by research theme and year" aria-describedby="timeline-instructions">
   <div class="research-timeline" style="--timeline-year-count: {{ timeline_years.size }}">
     <div class="timeline-axis"><span class="timeline-axis-label">Research theme</span>{% for year in timeline_years %}<span class="timeline-year">{{ year }}</span>{% endfor %}</div>
