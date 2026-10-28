@@ -613,21 +613,22 @@ html[data-theme="dark"] .research-card {
 
 .research-timeline {
   width: 100%;
-  min-width: calc(13rem + var(--timeline-year-count) * 9rem + 1.1rem + 4px);
+  min-width: calc(12rem + var(--timeline-year-count) * 5.5rem + 1.1rem + 3px);
   padding: 0.2em 0 0.5em;
 }
 
 .timeline-axis,
 .timeline-row {
   display: grid;
-  grid-template-columns: 13rem repeat(var(--timeline-year-count), minmax(9rem, 1fr));
+  grid-template-columns: 12rem repeat(var(--timeline-year-count), minmax(5.5rem, 1fr));
   padding: 0 0.55rem;
   border: 0;
 }
 
 .timeline-axis {
   align-items: center;
-  min-height: 2.2em;
+  min-height: 1.6em;
+  padding-left: calc(0.55rem + 3px);
   color: var(--site-muted-color);
   font-size: 0.77em;
   font-weight: 650;
@@ -641,8 +642,8 @@ html[data-theme="dark"] .research-card {
 .timeline-row {
   --timeline-color: var(--timeline-color-light, var(--site-focus-color));
   align-items: stretch;
-  height: 4rem;
-  margin: 0.3rem 0;
+  height: 3rem;
+  margin: 0.2rem 0;
   border-left: 3px solid var(--timeline-color);
   border-radius: 5px;
   background: var(--site-surface-color);
@@ -655,7 +656,7 @@ html[data-theme="dark"] .timeline-row {
 .timeline-row-label {
   align-self: center;
   min-width: 0;
-  padding: 0.6em 0.65em 0.6em 0;
+  padding: 0.2rem 0.65em 0.2rem 0;
   color: var(--site-muted-color);
   font-size: 0.82em;
   font-weight: 650;
@@ -670,7 +671,7 @@ html[data-theme="dark"] .timeline-row {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.35em;
+  gap: 0.2em;
 }
 
 .timeline-markers {
@@ -679,26 +680,17 @@ html[data-theme="dark"] .timeline-row {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
-  gap: 0.1rem;
+  gap: 0.18em;
 }
 
 .timeline-marker {
-  display: inline-flex;
-  width: 24px;
-  height: 24px;
-  flex: 0 0 24px;
-  align-items: center;
-  justify-content: center;
+  width: 0.78em;
+  height: 0.78em;
+  flex: 0 0 0.78em;
+  border: 2px solid var(--global-bg-color);
   border-radius: 50%;
-}
-
-.timeline-marker::after {
-  width: 12px;
-  height: 12px;
-  border: 2px solid var(--timeline-color);
-  border-radius: 50%;
-  background: var(--site-surface-color);
-  content: "";
+  background: var(--timeline-color);
+  box-shadow: 0 0 0 1px var(--timeline-color);
 }
 
 .timeline-marker:hover,
