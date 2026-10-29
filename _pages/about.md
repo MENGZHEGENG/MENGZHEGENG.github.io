@@ -6,12 +6,12 @@ seo_title: "Mengzhe Geng · Speech AI and Language Technology"
 description: "Mengzhe Geng is a Research Scientist at the National Research Council Canada, working on speech AI, low-resource language technology, and multimodal AI."
 author_profile: true
 classes: wide
-show_safety_notice: false
+show_safety_notice: true
 ---
 
 {% if page.show_safety_notice %}
 <aside id="safety-notice" class="safety-notice" role="region" aria-label="Safety notice">
-  <p><strong>Notice.</strong> I have zero tolerance for any harassment directed at my collaborators, interns, or me. I will take all appropriate steps to protect those affected, including legal action where warranted.</p>
+  <p><strong>Notice.</strong> I'm aware of a recent serious attack on my collaborators, students, and me. Every feasible step will be taken, including legal action where warranted.</p>
   <button class="safety-notice__close" type="button" aria-label="Dismiss safety notice">×</button>
 </aside>
 <script src="{{ '/assets/js/safety-notice.js' | relative_url }}?v=a748c56" defer></script>
