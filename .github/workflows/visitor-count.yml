@@ -2,7 +2,7 @@ name: Refresh visitor count
 
 on:
   schedule:
-    - cron: "7-59/10 * * * *"
+    - cron: "7-59/20 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -47,7 +47,7 @@ jobs:
 
               const createdAt = new Date(currentRun.created_at);
               const scheduledSlot = new Date(createdAt);
-              const minuteOffset = (createdAt.getUTCMinutes() - 7 + 10) % 10;
+              const minuteOffset = (createdAt.getUTCMinutes() - 7 + 20) % 20;
               scheduledSlot.setUTCMinutes(createdAt.getUTCMinutes() - minuteOffset, 0, 0);
               const coveredRun = data.workflow_runs.find(
                 (run) => run.id !== currentRun.id &&
