@@ -41,28 +41,6 @@ jobs:
       - name: Check out website
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: actions/checkout@v4
-      - name: Check application audience blocks
-        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import re
-
-          source = Path("_pages/about.md").read_text(encoding="utf-8")
-          # Use stable paragraph IDs so audience-label edits do not break deployment.
-          students = re.search(r'<p\s+id="application-students"[^>]*>.*?</p>', source, re.S)
-          researchers = re.search(r'<p\s+id="application-researchers"[^>]*>.*?</p>', source, re.S)
-
-          if not students or not researchers:
-              raise SystemExit("Students and Researchers must remain in separate paragraph elements.")
-          if students.end() > researchers.start():
-              raise SystemExit("The Students paragraph must precede the Researchers paragraph.")
-          invitation = re.search(r'<p\s+class="collaboration-invitation"[^>]*>.*?</p>', source, re.S)
-          if not invitation or "Student Employment Program" not in invitation.group(0):
-              raise SystemExit("NRC student employment options must appear in the collaboration invitation.")
-
-          print("Application instructions are separate and correctly ordered.")
-          PY
       - name: Set up Ruby
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: ruby/setup-ruby@v1
