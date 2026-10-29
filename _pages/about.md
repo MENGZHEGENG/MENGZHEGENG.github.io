@@ -21,7 +21,7 @@ show_safety_notice: false
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">My research applies machine learning to accessible speech, low-resource language technology, adaptive speech models, speech and audio generation, spoken agents, and multimodal reasoning.</p>
+<p class="lede">My research develops AI for accessible speech, low-resource language technology, adaptive speech models, speech and audio generation, spoken agents, and multimodal reasoning. I also study how AI can serve people and society through interdisciplinary work with linguistics, finance, psychology, media studies, neuroscience, and related fields.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 <p class="explore-note">Explore linked papers, programs, and resources.</p>
