@@ -34,31 +34,7 @@ show_safety_notice: false
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
 <p class="availability-notice"><strong>I welcome opportunities in academia, industry, and startups, and have authorization to work in Canada, Hong Kong, and Mainland China. If you know of an opportunity that might be a good fit, please feel free to <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
-<p class="collaboration-invitation">Each student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed paper in a top-tier journal or conference</strong>. I welcome remote interns and in-person guest researchers worldwide, with backgrounds including but not limited to speech, NLP, computer vision, business, mathematics, linguistics, psychology, and general machine learning. Students in Canada may also apply through the NRC's <a href="https://www.nrc.canada.ca/en/corporate/careers/nrc-co-op-program" target="_blank" rel="noopener noreferrer">Co-op Program</a> or <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program" target="_blank" rel="noopener noreferrer">Student Employment Program</a>.</p>
-<details id="before-you-apply" class="internship-note">
-  <summary>Before you apply</summary>
-  <p><strong>Capacity, fit, and approval.</strong> Remote internships and in-person visits have very limited capacity. I spend substantial time with my students and research partners, so I consider only proposals with a strong research fit and clear mutual benefit. A remote internship is typically required before I consider an in-person visit. International and inter-institutional collaborations can involve additional risks; please consider carefully whether the proposed collaboration is necessary before applying. Research postgraduate students must notify their supervisor before contacting me and obtain the supervisor's written approval before I can commit to a position. Every position, including a remote internship, also requires written approval from my team leader and the Director of Research before I can commit.</p>
-  <p><strong>Remote intern/guest researcher status.</strong> Remote internships and remote guest-researcher arrangements are independent. They do not create an employment relationship with the National Research Council of Canada (the NRC) or an affiliation with the NRC. Remote interns and remote guest researchers are not employees or representatives of the NRC.</p>
-  <p><strong>Compensation and computing resources.</strong> Both remote internships and in-person visits are unpaid and include no salary, stipend, or reimbursement of any kind. In-person visitors may be granted access to the NRC's top-tier, world-class computing resources, subject to further approval.</p>
-  <p><strong>Research security and oversight.</strong> As a federal research institution, the NRC applies strict internal requirements to research security, and activities and collaborations involving the NRC are subject to oversight and monitoring. Remote internships require a minimal, risk-based research-security review under the NRC's <a href="https://nrc.canada.ca/en/corporate/values-ethics/statement-research-security" target="_blank" rel="noopener noreferrer">Statement on Research Security</a>; access to non-public research information from the NRC depends on that review. As a condition of an in-person visit, visitors must complete comprehensive screening for Government of Canada <a href="https://www.canada.ca/en/government/publicservice/workforce/staffing/security-screening.html" target="_blank" rel="noopener noreferrer">Reliability Status</a> before the visit. International or inter-institutional projects may require additional review based on the project and planned activities.</p>
-  <p><strong>Remote resources and intellectual property.</strong> Remote interns typically cannot access the NRC's computational resources. The NRC's <a href="https://www.nrc.canada.ca/en/research-development/intellectual-property-licensing/nrcs-intellectual-property-ip-policy" target="_blank" rel="noopener noreferrer">intellectual-property policy</a> applies to work connected to the NRC. Please disclose your institution's IP requirements before a project is defined. Where the NRC's policies permit, the NRC may agree not to claim IP in a clearly defined part of work by a remote intern or visiting researcher, subject to written approval before work begins.</p>
-  <p><strong>Visa sponsorship.</strong> We do not sponsor visas or visa applications of any kind. Applicants and visitors are responsible for obtaining the entry documents required for their circumstances.</p>
-  <p><strong>In-person visits and immigration.</strong> An in-person visit is not employment with the NRC and does not authorize work. Immigration requirements depend on the planned activities; some unpaid activities may still count as work under <a href="https://www.ircc.canada.ca/english/helpcentre/answer.asp?qnum=1288&amp;top=17" target="_blank" rel="noopener noreferrer">IRCC guidance</a>. I have consulted immigration counsel to define the boundaries for these visits. You must obtain any immigration authorization required for your circumstances before travel. For an in-person visit, I require any Canadian visitor visa you need to remain valid for at least six months after your planned arrival; see <a href="https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html" target="_blank" rel="noopener noreferrer">IRCC's current entry-document guidance</a>. Students studying outside Canada without Canadian residency status must contact me at least six months before their planned visit. A presentation/talk is typically required, e.g. at the NRC's NLP seminar, before an in-person visit position can be committed.</p>
-  <p><strong>Costs.</strong> Visitors are responsible for all visit-related expenses, including conference registration fees and fees charged for paid journal publication.</p>
-  <p><strong>Documentation.</strong> Upon request, I can issue a certificate or letter confirming your experience. This may serve as proof of experience or help meet your institution's overseas experience requirements. All documentation is subject to the NRC's policies.</p>
-  <p><strong>Publication.</strong> An internship or visit does not guarantee a publication.</p>
-</details>
-<details class="internship-note">
-  <summary>How to apply</summary>
-  <p>Please read and understand all information in <a href="#before-you-apply">Before you apply</a> before submitting an application. Applying confirms that you have read and understood those requirements and agree to them. Additional requirements may apply to particular projects or circumstances.</p>
-  <p id="application-students"><strong>Students &amp; Postdocs:</strong> Email a CV and academic transcripts from your bachelor's degree onward.</p>
-  <p id="application-researchers"><strong>Researchers:</strong> Email a CV. Contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
-</details>
-<details class="internship-note">
-  <summary>Positions are highly competitive</summary>
-  <p>Only applicants who best fit an available position will be contacted about next steps, typically within 10 business days. This reflects fit and capacity, not an assessment of your broader abilities or potential.</p>
-  <p>Thank you for your interest. I may reach out in the future for suitable opportunities. Remote internship applications are accepted on a rolling basis.</p>
-</details>
+<p class="collaboration-invitation">Each student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed paper in a top-tier journal or conference</strong>. Details will be announced later.</p>
 <p class="indigenous-community-invitation">Indigenous communities interested in exploring speech and language technologies with the NRC can start by visiting the NRC <a href="https://www.nrc.canada.ca/en/research-development/research-collaboration/programs/indigenous-languages-technology-program" target="_blank" rel="noopener noreferrer">Indigenous Languages Technology (ILT) Program webpage</a> and contacting me at <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>.</p>
 
 <h2 id="experience">Experience</h2>
@@ -180,117 +156,6 @@ show_safety_notice: false
     </article>
   </div>
 </details>
-
-<h2 id="research-supervision">Research Supervision</h2>
-<div class="supervision-list">
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
-      <span class="supervision-name">Sunyi Liu</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line supervision-role-line--plain"><span class="supervision-role-copy">UG intern at the NRC (UofT) · May–Aug 2024</span></span></span>
-    </summary>
-    <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Funding</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/corporate-overview/rebecca-hart" target="_blank" rel="noopener noreferrer">Rebecca Hart</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2024)</span></p>
-      <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://ieeexplore.ieee.org/document/11004431" target="_blank" rel="noopener noreferrer">Exploring Generative Artificial Intelligence Techniques in Government: A Case Study</a>, <em>IEEE Intelligent Systems</em> (2025)</span></p>
-    </div>
-  </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
-      <span class="supervision-name">Shenran Wang</span>
-      <span class="publication-meta">UG intern at the NRC (UBC) · May–Aug 2025</span>
-    </summary>
-    <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.eacl-short.16/" target="_blank" rel="noopener noreferrer">Exploring Cross-Lingual Voice Conversion Methods for Anonymizing Low-Resource Text-to-Speech</a>, <em>European Chapter of the Association for Computational Linguistics (EACL 2026)</em></span></p>
-    </div>
-  </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
-      <span class="supervision-name">Changbing Yang</span>
-      <span class="publication-meta">Ph.D. intern at the NRC (UBC) · May–Aug 2025</span>
-    </summary>
-    <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/patrick-littell" target="_blank" rel="noopener noreferrer">Patrick Littell</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
-      <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://aclanthology.org/2026.lrec-1.709/" target="_blank" rel="noopener noreferrer">GlossMATE: Multi-Agent Translator Explanations for Glosses</a>, <em>Language Resources and Evaluation Conference (LREC 2026)</em></span></p>
-    </div>
-  </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
-      <span class="supervision-name">Timothy Tse</span>
-      <span class="publication-meta">M.Sc. intern at the NRC (UBC) · Jul–Oct 2025</span>
-    </summary>
-    <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Co-supervision</span><span class="supervision-detail-copy"><a class="person-link" href="https://www.nrc.canada.ca/en/corporate/contact-us/nrc-directory-science-professionals/aidan-pine" target="_blank" rel="noopener noreferrer">Aidan Pine</a> and <a class="person-link" href="https://linguistics.ubc.ca/profile/jian-zhu/" target="_blank" rel="noopener noreferrer">Jian Zhu</a></span></p>
-      <p class="supervision-detail"><span class="supervision-label">Award</span><span class="supervision-detail-copy"><strong>NRC Outstanding Student Contribution Award</strong> (2025)</span></p>
-      <p class="supervision-detail"><span class="supervision-label">Publication</span><span class="supervision-detail-copy"><a href="https://www.isca-archive.org/interspeech_2026/tse26_interspeech.html" target="_blank" rel="noopener noreferrer">AudioNoisePrints: Model-Free Audio Watermarking Using Spatial Correlation in Flow Matching TTS</a>, <em>INTERSPEECH 2026</em></span></p>
-    </div>
-  </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
-      <span class="supervision-name">Jinxin Ji</span>
-      <span class="publication-meta">Remote Ph.D. intern · PolyU · Jul–Oct 2026</span>
-    </summary>
-    <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.26823" target="_blank" rel="noopener noreferrer">Text Scores Do Not Establish Performance on Lexically Non-Diagnostic Speech Tasks: A Qwen2-Audio Quantization Case Study</a>, <em>arXiv:2609.26823</em> (2026)</span></p>
-    </div>
-  </details>
-  <details class="supervision-entry">
-    <summary class="supervision-heading">
-      <span class="supervision-name">Yujia Lu</span>
-      <span class="publication-meta">Remote UG intern, CUHK · Aug 2026–present</span>
-    </summary>
-    <div class="supervision-details">
-      <p class="supervision-detail"><span class="supervision-label">Preprint</span><span class="supervision-detail-copy"><a href="https://arxiv.org/abs/2609.08899" target="_blank" rel="noopener noreferrer">From Scores to Evidence: Auditable Decisions Can Improve Speech Deepfake Detection</a>, <em>arXiv:2609.08899</em> (2026)</span></p>
-    </div>
-  </details>
-  <div class="supervision-entry">
-    <div class="supervision-heading">
-      <span class="supervision-name">Yu Chen</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line supervision-role-line--plain"><span class="supervision-role-copy">Remote M.B.A. & M.Eng. intern   · UCB · Oct 2026–present</span></span></span>
-    </div>
-  </div>
-  <!-- Incoming roles follow current roles; within each group, sort by start date and surname. -->
-  <div class="supervision-entry">
-    <div class="supervision-heading">
-      <span class="supervision-name">Xin Chen</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote guest researcher · CUHK · Oct 2026–</span></span></span>
-    </div>
-  </div>
-  <div class="supervision-entry">
-    <div class="supervision-heading">
-      <span class="supervision-name">Ning Lai</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote guest researcher · ANU · Oct 2026–</span></span></span>
-    </div>
-  </div>
-  <div class="supervision-entry">
-    <div class="supervision-heading">
-      <span class="supervision-name">Xiaoying Zhang</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote guest researcher · CUHK · Oct 2026–</span></span></span>
-    </div>
-    
-      
-     
-  </div>
-  <div class="supervision-entry">
-    <div class="supervision-heading">
-      <span class="supervision-name">Zhen Wang</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote guest researcher · ANU · Nov 2026–</span></span></span>
-    </div>
-  </div>
-  <div class="supervision-entry">
-    <div class="supervision-heading">
-      <span class="supervision-name">Yizhen Xie</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Remote Ph.D. intern · CMU · Nov 2026–</span></span></span>
-    </div>
-  </div>
-  <div class="supervision-entry">
-    <div class="supervision-heading">
-      <span class="supervision-name">Yanfei Lu</span>
-      <span class="publication-meta supervision-roles"><span class="supervision-role-line"><span class="supervision-role-tag">Incoming</span><span class="supervision-role-copy">Ph.D. intern at the NRC (UofT) · Jan 2027–</span></span></span>
-    </div>
-  </div>
-</div>
 
 <h2 id="awards">Selected Awards and Honours</h2>
 <p class="award-section-meta">2015–2026 · 25 awards</p>
@@ -430,7 +295,7 @@ show_safety_notice: false
 </div>
 
 <h2 id="fundings">Fundings</h2>
-<p><strong>Canadian federal funding eligibility.</strong> As an employee of the National Research Council Canada, my eligibility to apply as PI for Canadian federal research grants is limited under the <a href="https://ised-isde.canada.ca/site/science/en/interagency-research-funding/policies-and-guidelines/tri-agency-policy-use-funds-federal-government-employees-applying-granting-agency-programs" target="_blank" rel="noopener noreferrer">Tri-Agency policy</a> and depends on the program and proposed work. </p><p class="funding-collaboration-callout"><strong>Funding collaboration.</strong> I welcome funding collaborations worldwide—as co-PI/co-applicant where permitted, or as a collaborator. Please contact me at <a href="mailto:tim.geng.cuhk@gmail.com">tim.geng.cuhk@gmail.com</a>.</p>
+<p><strong>Canadian federal funding eligibility.</strong> As an employee of the National Research Council Canada, my eligibility to apply as PI for Canadian federal research grants is limited under the <a href="https://ised-isde.canada.ca/site/science/en/interagency-research-funding/policies-and-guidelines/tri-agency-policy-use-funds-federal-government-employees-applying-granting-agency-programs" target="_blank" rel="noopener noreferrer">Tri-Agency policy</a> and depends on the program and proposed work. </p><p class="funding-collaboration-callout"><strong>Funding collaboration.</strong> I welcome funding collaborations worldwide—as co-PI/co-applicant where permitted, or as a collaborator. Please contact me at <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>.</p>
 
 <h2 id="teaching">Teaching</h2>
 <div class="award-groups teaching-groups">
