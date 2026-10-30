@@ -18,7 +18,12 @@ PROFILE_URLS = (
     "https://scholar.google.com/citations?user=RS59rgIAAAAJ&hl=en",
     "https://scholar.google.co.uk/citations?user=RS59rgIAAAAJ&hl=en",
 )
-MIRROR_BASE_URL = "https://r.jina.ai/http://scholar.google.ca/citations?"
+MIRROR_BASE_URLS = (
+    "https://r.jina.ai/https://scholar.google.ca/citations?",
+    "https://r.jina.ai/https://scholar.google.com/citations?",
+    "https://r.jina.ai/https://scholar.google.co.uk/citations?",
+    "https://r.jina.ai/http://scholar.google.ca/citations?",
+)
 PROFILE_ID = "RS59rgIAAAAJ"
 OUTPUT_PATH = Path(__file__).resolve().parents[1] / "_data" / "scholar_metrics.json"
 
@@ -86,7 +91,7 @@ def read_profile_metrics(profile_url: str) -> dict[str, int]:
     return metrics
 
 
-def read_profile_metrics_through_reader() -> dict[str, int]:
+def read_profile_metrics_through_reader(mirror_base_url: str) -> dict[str, int]:
     """Read the profile's public publication pages and derive its three metrics."""
     counts: list[int] = []
     seen_pages: set[tuple[int, ...]] = set()
@@ -98,7 +103,7 @@ def read_profile_metrics_through_reader() -> dict[str, int]:
             "cstart": start,
             "pagesize": 20,
         })
-        page_url = MIRROR_BASE_URL + query
+        page_url = mirror_base_url + query
         request = Request(page_url, headers={"User-Agent": "AcademicHomepageMetrics/1.0"})
         with urlopen(request, timeout=45) as response:
             if response.status != 200:
@@ -143,11 +148,16 @@ def main() -> None:
                 last_error = f"{profile_url}: {error}"
 
     if not metrics:
-        try:
-            metrics = read_profile_metrics_through_reader()
-            source_url = MIRROR_BASE_URL + urlencode({"user": PROFILE_ID, "view_op": "list_works"})
-        except Exception as error:
-            last_error = f"{MIRROR_BASE_URL}: {error}"
+        reader_errors: list[str] = []
+        for mirror_base_url in MIRROR_BASE_URLS:
+            try:
+                metrics = read_profile_metrics_through_reader(mirror_base_url)
+                source_url = mirror_base_url + urlencode({"user": PROFILE_ID, "view_op": "list_works"})
+                break
+            except Exception as error:
+                reader_errors.append(f"{mirror_base_url}: {error}")
+        if not metrics:
+            last_error = "; ".join(reader_errors)
 
     expected = {"citations", "h_index", "i10_index"}
     if set(metrics) != expected:
