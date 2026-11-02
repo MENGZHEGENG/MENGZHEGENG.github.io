@@ -2,8 +2,9 @@
 layout: single
 permalink: /
 title: "Mengzhe Geng"
-seo_title: "Mengzhe Geng · Speech AI and Language Technology"
-description: "Mengzhe Geng is a Research Scientist at the National Research Council Canada, working on speech AI, low-resource language technology, and multimodal AI."
+seo_title: "Mengzhe Geng · Artificial Intelligence and Machine Learning"
+description: "Mengzhe Geng is a Research Scientist at the National Research Council Canada studying artificial intelligence and machine learning across speech and language technology, multimodal systems, and interdisciplinary applications."
+last_modified_at: 2026-11-02
 author_profile: true
 classes: wide
 show_safety_notice: true
@@ -21,7 +22,7 @@ show_safety_notice: true
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
 
-<p class="lede">My research develops AI for accessible speech, low-resource language technology, adaptive speech models, speech and audio generation, spoken agents, and multimodal reasoning. I also study how AI can serve people and society through interdisciplinary work with linguistics, finance, psychology, media studies, neuroscience, and related fields.</p>
+<p class="lede">My research spans artificial intelligence and machine learning, including accessible speech, low-resource and multilingual language technology, adaptive speech models, speech and audio generation, spoken agents, and multimodal systems. I also study interdisciplinary applications of AI in linguistics, finance, psychology, media studies, neuroscience, and related fields.</p>
 
 <p class="profile-actions"><a class="button-link" href="/publications/">Browse publications</a> <a href="{{ site.author.googlescholar }}">Google Scholar profile <span aria-hidden="true">↗</span></a></p>
 <p class="explore-note">Explore linked papers, programs, and resources.</p>
