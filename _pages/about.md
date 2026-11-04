@@ -51,7 +51,7 @@ show_safety_notice: true
 </div>
 <div class="timeline-entry">
   <div class="timeline-date">2015–2019</div>
-  <div><h3><a href="https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/" target="_blank" rel="noopener noreferrer">B.Sc. in Mathematics and Information Engineering</a></h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a> · <a href="https://www.cuhk.edu.hk/clear/qm/A5-2.pdf" target="_blank" rel="noopener noreferrer">First-class honours</a> · <a href="https://www.erg.cuhk.edu.hk/iris/Elite" target="_blank" rel="noopener noreferrer">ELITE Stream graduate</a> · <a href="https://www.cse.cuhk.edu.hk/academics/minor-computer-science/" target="_blank" rel="noopener noreferrer">Minor in Computer Science</a></p></div>
+  <div><h3><a href="https://www.ie.cuhk.edu.hk/programmes/bsc-in-mieg/" target="_blank" rel="noopener noreferrer">B.Sc. in Mathematics and Information Engineering</a></h3><p><a href="https://www.cuhk.edu.hk/english/" target="_blank" rel="noopener noreferrer">The Chinese University of Hong Kong</a> · <a href="https://www.shho.cuhk.edu.hk/" target="_blank" rel="noopener noreferrer">S.H. Ho College</a> · <a href="https://www.cuhk.edu.hk/clear/qm/A5-2.pdf" target="_blank" rel="noopener noreferrer">First-class honours</a> · <a href="https://www.erg.cuhk.edu.hk/iris/Elite" target="_blank" rel="noopener noreferrer">ELITE Stream graduate</a> · <a href="https://www.cse.cuhk.edu.hk/academics/minor-computer-science/" target="_blank" rel="noopener noreferrer">Minor in Computer Science</a></p></div>
 </div>
 
 <h2 id="research">Research Interests</h2>
