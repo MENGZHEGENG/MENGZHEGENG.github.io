@@ -26,6 +26,21 @@ COUNTRY_LIMIT = 1000
 OTHER_LOCATIONS = "Other locations"
 UNKNOWN_COUNTRY_CODES = {"XX", "ZZ"}
 UNKNOWN_COUNTRY_LABELS = {"", "(not set)", "n/a", "not available", "not set", "other", "unknown"}
+ERROR_CODE_PATTERN = re.compile(r"\A[a-z0-9_]{1,64}\Z")
+
+
+def statable_http_error_message(context: str, exc: HTTPError) -> str:
+    """Include only Statable's machine-readable error code, never its response body."""
+    try:
+        payload = json.loads(exc.read())
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        payload = None
+
+    code = payload.get("code") if isinstance(payload, dict) else None
+    if not isinstance(code, str) or ERROR_CODE_PATTERN.fullmatch(code) is None:
+        code = None
+    suffix = f" ({code})" if code else ""
+    return f"{context} failed with HTTP {exc.code}{suffix}."
 
 
 def query_statable(api_key: str, query: dict[str, object]) -> dict[str, object]:
@@ -47,7 +62,7 @@ def query_statable(api_key: str, query: dict[str, object]) -> dict[str, object]:
                 raise RuntimeError("Statable returned an unsuccessful response.")
             payload = json.load(response)
     except HTTPError as exc:
-        raise RuntimeError(f"Statable request failed with HTTP {exc.code}.") from None
+        raise RuntimeError(statable_http_error_message("Statable request", exc)) from None
     except URLError:
         raise RuntimeError("Statable could not be reached.") from None
     except (TimeoutError, json.JSONDecodeError):
@@ -116,7 +131,7 @@ def fetch_site_start_date(api_key: str) -> date:
                 raise RuntimeError("Statable returned an unsuccessful site-list response.")
             payload = json.load(response)
     except HTTPError as exc:
-        raise RuntimeError(f"Statable site-list request failed with HTTP {exc.code}.") from None
+        raise RuntimeError(statable_http_error_message("Statable site-list request", exc)) from None
     except URLError:
         raise RuntimeError("Statable could not be reached for site metadata.") from None
     except (TimeoutError, json.JSONDecodeError):
