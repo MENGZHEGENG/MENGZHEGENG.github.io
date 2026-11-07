@@ -4,7 +4,7 @@ permalink: /
 title: "Mengzhe Geng"
 seo_title: "Mengzhe Geng · Artificial Intelligence and Machine Learning"
 description: "Mengzhe Geng is a Research Scientist at the National Research Council Canada studying artificial intelligence and machine learning across speech and language technology, multimodal systems, and interdisciplinary applications."
-last_modified_at: 2026-11-02
+last_modified_at: 2026-11-07
 author_profile: true
 classes: wide
 show_safety_notice: true
@@ -21,6 +21,8 @@ show_safety_notice: true
 
 
 <p class="eyebrow">Research Scientist <span aria-hidden="true">·</span> <a href="https://nrc.canada.ca/en">National Research Council Canada</a></p>
+
+<p class="availability-notice student-opportunity-notice"><strong>Prospective students:</strong> I welcome students from the humanities, social sciences, and related fields—including linguistics, finance, psychology, and media studies—to pursue interdisciplinary research collaborations with the goal of publishing in respected peer-reviewed venues. A computer science background is not required. If interested, please email your CV and academic transcripts from the bachelor’s level onward to <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>. Students in Canada can also explore the NRC <a href="https://nrc.canada.ca/en/corporate/careers/nrc-co-op-program">Co-op Program</a> and <a href="https://nrc.canada.ca/en/corporate/careers/nrc-student-employment-program">Student Employment Program</a>; eligibility and application routes vary by program.</p>
 
 <p class="lede">My research spans artificial intelligence and machine learning, including accessible speech, low-resource and multilingual language technology, adaptive speech models, speech and audio generation, spoken agents, and multimodal systems. I also study interdisciplinary applications of AI in linguistics, finance, psychology, media studies, neuroscience, and related fields.</p>
 
