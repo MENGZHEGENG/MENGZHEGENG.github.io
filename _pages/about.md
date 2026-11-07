@@ -227,18 +227,19 @@ show_safety_notice: true
 </div>
 
 <h2 id="selected-talks">Selected Talks</h2>
-<p class="award-section-meta">2022–2026 · 6 talks</p>
+<p class="award-section-meta">2022–2026 · 7 talks</p>
 <div class="award-groups selected-talks">
   <details class="award-card award-group">
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">2026</span>
-        <span class="award-card__meta">1 talk</span>
+        <span class="award-card__meta">2 talks</span>
       </span>
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
         <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">Paris Sciences et Lettres University</a></li>
+        <li class="award-item">Nov 2026 — <strong>University of California, Berkeley</strong> · Topics to be determined</li>
       </ul>
     </div>
   </details>
@@ -337,7 +338,7 @@ show_safety_notice: true
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">Guest lectures</span>
-        <span class="award-card__meta">· 4 lectures</span>
+        <span class="award-card__meta">· 3 lectures</span>
       </span>
     </summary>
     <div class="award-group__content">
@@ -345,7 +346,6 @@ show_safety_notice: true
         <li class="award-item">Nov 2026 — <strong>Carleton University</strong> · Topic to be confirmed</li>
         <li class="award-item">Nov 2026 — <strong>The Hong Kong Polytechnic University</strong> · Who Gets Heard? Building Inclusive Speech and Language Technologies</li>
         <li class="award-item">Nov 2026 — <strong>University of British Columbia</strong> · Topics to be determined</li>
-        <li class="award-item">Nov 2026 — <strong>University of California, Berkeley</strong> · Topics to be determined</li>
       </ul>
     </div>
   </details>
