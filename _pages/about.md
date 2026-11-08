@@ -343,9 +343,9 @@ show_safety_notice: true
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
-        <li class="award-item">Nov 2026 — <strong>Carleton University</strong> · Topic to be confirmed</li>
+        <li class="award-item">Nov 2026 — <strong>Carleton University</strong> · Whose Speech Gets Heard? Indigenous Languages and Speech Technology</li>
         <li class="award-item">Nov 2026 — <strong>The Hong Kong Polytechnic University</strong> · Who Gets Heard? Building Inclusive Speech and Language Technologies</li>
-        <li class="award-item">Nov 2026 — <strong>University of British Columbia</strong> · Topics to be determined</li>
+        <li class="award-item">Nov 2026 — <strong>University of British Columbia</strong> · Beyond Transcription: Evaluating Speech Technology for Indigenous Languages</li>
       </ul>
     </div>
   </details>
