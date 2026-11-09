@@ -153,12 +153,12 @@ html[data-theme="dark"] .google-scholar-icon {
 }
 
 .lede {
-  max-width: 45em;
+  max-width: 65ch;
   margin: 0 0 0.8em;
   color: var(--global-text-color);
   font-size: 1.35em;
   font-weight: 400;
-  line-height: 1.42;
+  line-height: 1.55;
 }
 
 .lede strong {
@@ -1545,6 +1545,11 @@ html[data-theme="dark"] .timeline-row {
     width: 100%;
     max-width: 100%;
     min-width: 0;
+  }
+
+  .lede {
+    font-size: 1.2em;
+    line-height: 1.55;
   }
 
   .research-grid,
