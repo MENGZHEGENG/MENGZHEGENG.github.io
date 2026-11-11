@@ -339,7 +339,7 @@ show_safety_notice: true
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">Guest lectures</span>
-        <span class="award-card__meta">· 3 lectures</span>
+        <span class="award-card__meta">· 4 lectures</span>
       </span>
     </summary>
     <div class="award-group__content">
@@ -347,6 +347,7 @@ show_safety_notice: true
         <li class="award-item">Nov 2026 — <strong>Carleton University</strong> · Whose Speech Gets Heard? Indigenous Languages and Speech Technology</li>
         <li class="award-item">Nov 2026 — <strong>The Hong Kong Polytechnic University</strong> · Who Gets Heard? Building Inclusive Speech and Language Technologies</li>
         <li class="award-item">Nov 2026 — <strong>University of British Columbia</strong> · Beyond Transcription: Evaluating Speech Technology for Indigenous Languages</li>
+        <li class="award-item">TBD — <strong>University of British Columbia</strong> · TBD</li>
       </ul>
     </div>
   </details>
