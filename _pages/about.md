@@ -240,7 +240,7 @@ show_safety_notice: true
     <div class="award-group__content">
       <ul class="award-list">
         <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">Paris Sciences et Lettres University</a></li>
-        <li class="award-item"><strong>University of California, Berkeley</strong> · Topics to be determined</li>
+        <li class="award-item"><strong>University of California, Berkeley</strong> · In the Era of Voice Agents</li>
       </ul>
     </div>
   </details>
