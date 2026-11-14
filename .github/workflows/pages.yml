@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -55,6 +55,20 @@ jobs:
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         continue-on-error: true
         run: python3 scripts/fetch_scholar_metrics.py
+      - name: Persist successfully refreshed Scholar metrics
+        if: steps.scholar-metrics.outcome == 'success'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- _data/scholar_metrics.json; then
+            echo "Google Scholar metrics match the tracked source."
+            exit 0
+          fi
+          git add _data/scholar_metrics.json
+          git commit -m "Refresh Google Scholar metrics"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
       - name: Record Scholar metrics refresh warning
         if: steps.scholar-metrics.outcome == 'failure'
         run: |
