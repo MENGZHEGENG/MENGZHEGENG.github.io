@@ -30,6 +30,16 @@ body {
   padding-bottom: 2.4em;
 }
 
+.page__content p,
+.page__content li,
+.page__content dd,
+.page__content blockquote,
+.safety-notice p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
 .page__content h2 {
   margin-top: 2.35em;
   padding-bottom: 0.34em;
