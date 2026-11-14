@@ -37,7 +37,6 @@ body {
 .safety-notice p {
   text-align: justify;
   text-justify: inter-word;
-  hyphens: auto;
 }
 
 .page__content h2 {
@@ -2092,7 +2091,7 @@ a:active {
   position: relative;
   width: 100%;
   margin: 0 0 1.5em;
-  padding: 1.05em 3.75rem 1.05em 1.25em;
+  padding: 1.05em 1.25em;
   border: 2px solid #b42318;
   border-left-width: 7px;
   border-radius: 6px;
@@ -2111,10 +2110,14 @@ a:active {
   display: none;
 }
 
+.safety-notice::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
 .safety-notice__close {
-  position: absolute;
-  top: 0.45rem;
-  right: 0.45rem;
+  float: right;
   display: grid;
   width: 2.75rem;
   height: 2.75rem;
@@ -2125,6 +2128,7 @@ a:active {
   background: transparent;
   color: inherit;
   cursor: pointer;
+  margin: 0 0 0.5rem 0.65rem;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -2171,13 +2175,12 @@ html[data-theme="dark"] .safety-notice__close:active {
 
 @media (max-width: 600px) {
   .safety-notice {
-    padding: 0.95em 3.5rem 0.95em 0.9em;
+    padding: 0.95em 0.9em;
     font-size: 1em;
   }
 
   .safety-notice__close {
-    top: 0.35rem;
-    right: 0.35rem;
+    margin-left: 0.5rem;
   }
 }
 

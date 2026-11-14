@@ -12,12 +12,12 @@ show_safety_notice: true
 
 {% if page.show_safety_notice %}
 <aside id="safety-notice" class="safety-notice" role="region" aria-label="Safety notice">
-  <p><strong>Notice.</strong> I'm aware of serious attacks affecting me and members of my academic community, and concerns about academic misconducts. Based on information currently available to me, I'm concerned that my Ph.D. supervisor, <a href="https://www1.se.cuhk.edu.hk/~xyliu/" rel="noopener noreferrer">Prof. Xunying Liu</a>, may be connected to these matters. I have notified the IEEE ICASSP Organizing Committee and The Chinese University of Hong Kong and requested further investigation. I'm preparing a detailed report for the Hong Kong Police with another person who reports a similar experience.</p>
   <button class="safety-notice__close" type="button" aria-label="Dismiss safety notice">
     <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
       <path d="M7 7l10 10M17 7 7 17" />
     </svg>
   </button>
+  <p><strong>Notice.</strong> I'm aware of serious attacks affecting me and members of my academic community, and concerns about academic misconducts. Based on information currently available to me, I'm concerned that my Ph.D. supervisor, <a href="https://www1.se.cuhk.edu.hk/~xyliu/" rel="noopener noreferrer">Prof. Xunying Liu</a>, may be connected to these matters. I have notified the IEEE ICASSP Organizing Committee and The Chinese University of Hong Kong and requested further investigation. I'm preparing a detailed report for the Hong Kong Police with another person who reports a similar experience.</p>
 </aside>
 <script src="{{ '/assets/js/safety-notice.js' | relative_url }}?v=a748c56" defer></script>
 {% endif %}
