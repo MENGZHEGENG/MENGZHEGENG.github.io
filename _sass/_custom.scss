@@ -1200,7 +1200,7 @@ html[data-theme="dark"] .timeline-row {
   margin: -0.5em 0 0.9em;
 }
 
-.page__content #awards + .award-section-meta {
+.page__content .award-section-meta {
   text-align: left;
   text-justify: auto;
 }
@@ -1233,10 +1233,10 @@ html[data-theme="dark"] .timeline-row {
   margin-bottom: 0;
 }
 
-.page__content #awards + .award-section-meta + .award-groups p,
-.page__content #awards + .award-section-meta + .award-groups li,
-.page__content #awards + .award-section-meta + .award-groups dd,
-.page__content #awards + .award-section-meta + .award-groups blockquote {
+.page__content .award-groups p,
+.page__content .award-groups li,
+.page__content .award-groups dd,
+.page__content .award-groups blockquote {
   text-align: left;
   text-justify: auto;
 }
