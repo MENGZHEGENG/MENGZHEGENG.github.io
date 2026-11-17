@@ -1198,6 +1198,9 @@ html[data-theme="dark"] .timeline-row {
 
 .award-section-meta {
   margin: -0.5em 0 0.9em;
+}
+
+.page__content #awards + .award-section-meta {
   text-align: left;
   text-justify: auto;
 }
