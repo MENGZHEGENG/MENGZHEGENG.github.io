@@ -1198,6 +1198,8 @@ html[data-theme="dark"] .timeline-row {
 
 .award-section-meta {
   margin: -0.5em 0 0.9em;
+  text-align: left;
+  text-justify: auto;
 }
 
 .award-groups {
@@ -1228,8 +1230,19 @@ html[data-theme="dark"] .timeline-row {
   margin-bottom: 0;
 }
 
-.award-list li {
+.page__content #awards + .award-section-meta + .award-groups p,
+.page__content #awards + .award-section-meta + .award-groups li,
+.page__content #awards + .award-section-meta + .award-groups dd,
+.page__content #awards + .award-section-meta + .award-groups blockquote {
+  text-align: left;
+  text-justify: auto;
+}
+
+.page__content #awards + .award-section-meta + .award-groups .award-list li {
   margin-bottom: 0.55em;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  hyphens: manual;
 }
 
 .page__content .award-list a,
@@ -2123,8 +2136,8 @@ a:active {
   height: 2.75rem;
   place-items: center;
   padding: 0;
-  border: 0;
-  border-radius: 0.65rem;
+  border: 1px solid currentColor;
+  border-radius: 50%;
   background: transparent;
   color: inherit;
   cursor: pointer;
