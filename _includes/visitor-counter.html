@@ -1,0 +1,56 @@
+<section class="visitor-counter" aria-label="Visitor statistics">
+  {% unless include.simple %}
+  <span class="visitor-counter__icon" aria-hidden="true">
+    <i class="fas fa-users"></i>
+  </span>
+  {% endunless %}
+  <div class="visitor-counter__content">
+    <div class="visitor-counter__metrics">
+      <div class="visitor-counter__metric">
+        <p class="visitor-counter__metric-label">Visitors in the last 7 days</p>
+        <p class="visitor-counter__metric-reading">
+          {% if site.data.statable_visitor_count.visitors_last_7_days != nil %}
+            <strong>{{ site.data.statable_visitor_count.visitors_last_7_days }}</strong>
+          {% else %}
+            <strong aria-label="Count unavailable">N/A</strong>
+            <span>This count is temporarily unavailable.</span>
+          {% endif %}
+        </p>
+      </div>
+      <div class="visitor-counter__metric">
+        <p class="visitor-counter__metric-label">Visitors all time</p>
+        <p class="visitor-counter__metric-reading">
+          {% if site.data.statable_visitor_count.visitors_all_time != nil %}
+            <strong>{{ site.data.statable_visitor_count.visitors_all_time }}</strong>
+          {% else %}
+            <strong aria-label="Count unavailable">N/A</strong>
+            <span>This count is temporarily unavailable.</span>
+          {% endif %}
+        </p>
+      </div>
+    </div>
+    <p class="visitor-counter__note">Statable deduplicates visitors within each day; a returning visitor may be counted again on another day.</p>
+    {% if site.data.statable_visitor_count.countries_available and site.data.statable_visitor_count.countries.size > 0 %}
+      <details class="visitor-counter__locations">
+        <summary>
+          <span>Visitors by location</span>
+          <span class="visitor-counter__location-total">last 7 days · {{ site.data.statable_visitor_count.countries.size }} locations</span>
+        </summary>
+        <div class="visitor-counter__country-breakdown">
+          <ol class="visitor-counter__country-list">
+            {% for country in site.data.statable_visitor_count.countries %}
+              <li>
+                <span class="visitor-counter__country-name">{{ country.name | escape }}</span>
+                <span class="visitor-counter__country-count">{{ country.visitors }}<span class="screen-reader-text"> visitors</span></span>
+                <span class="visitor-counter__country-bar" aria-hidden="true"><span style="width: {{ country.bar_percent }}%;"></span></span>
+              </li>
+            {% endfor %}
+          </ol>
+          <p class="visitor-counter__country-note">Location estimates are approximate; counts may not add to the 7-day total.</p>
+        </div>
+      </details>
+    {% else %}
+      <p class="visitor-counter__locations-unavailable">Location breakdown temporarily unavailable.</p>
+    {% endif %}
+  </div>
+</section>

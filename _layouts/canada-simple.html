@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Mengzhe Geng">
+    <meta name="theme-color" content="#080808">
+    <title>Mengzhe Geng</title>
+    <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+    <link rel="stylesheet" href="{{ '/assets/css/canada-simple.css' | relative_url }}?v=1">
+  </head>
+  <body>
+    <main class="simple-site">
+      {% include author-profile.html simple=true %}
+      {% include safety-notice.html %}
+      {% include visitor-counter.html simple=true %}
+    </main>
+  </body>
+</html>

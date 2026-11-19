@@ -1,0 +1,20 @@
+{
+  "$schema": "https://unpkg.com/wrangler@4.165.0/config-schema.json",
+  "name": "mengzhegeng-academic-site",
+  "main": "cloudflare/worker.js",
+  "compatibility_date": "2026-11-18",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./_site",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/*",
+      "!/assets/css/canada-simple.css",
+      "!/assets/js/safety-notice.js",
+      "!/images/favicon.svg",
+      "!/images/mengzhe-geng.jpg"
+    ]
+  },
+  "observability": { "enabled": true }
+}

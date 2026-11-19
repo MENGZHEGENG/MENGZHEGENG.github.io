@@ -4,7 +4,7 @@ title: "Mengzhe Geng"
 title_separator: "·"
 name: &name "Mengzhe Geng"
 description: &description "Mengzhe Geng is a Research Scientist at the National Research Council Canada studying artificial intelligence and machine learning across speech and language technology, multimodal systems, and interdisciplinary applications."
-url: "https://mengzhegeng.github.io"
+url: "https://mengzhegeng.com"
 baseurl: ""
 repository: "MENGZHEGENG/mengzhegeng.github.io"
 
@@ -55,6 +55,7 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - redirect
   - _config_docker.yml
   - _drafts
   - node_modules
