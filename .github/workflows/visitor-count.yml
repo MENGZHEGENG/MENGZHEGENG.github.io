@@ -97,6 +97,8 @@ jobs:
         uses: actions/github-script@v9
         with:
           script: |
+            core.info("Waiting 60 seconds for GitHub Pages to index the uploaded artifact.");
+            await new Promise((resolve) => setTimeout(resolve, 60_000));
             const runId = Number(context.runId);
             for (let attempt = 1; attempt <= 12; attempt += 1) {
               const { data } = await github.rest.actions.listWorkflowRunArtifacts({
