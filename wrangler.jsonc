@@ -1,6 +1,6 @@
 {
   "$schema": "https://unpkg.com/wrangler@4.165.0/config-schema.json",
-  "name": "mengzhegeng-academic-site",
+  "name": "engzhegeng-academic-site",
   "main": "cloudflare/worker.js",
   "compatibility_date": "2026-11-18",
   "workers_dev": false,
