@@ -16,9 +16,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  refresh-and-upload:
-    outputs:
-      skip: ${{ steps.duplicate-check.outputs.skip }}
+  refresh-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-24.04
     steps:
       - name: Skip delayed duplicate scheduled refreshes
@@ -91,15 +92,32 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
-
-  deploy:
-    needs: refresh-and-upload
-    if: needs.refresh-and-upload.outputs.skip != 'true'
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-24.04
-    steps:
+      - name: Wait for Pages artifact to become available to the deploy action
+        if: steps.duplicate-check.outputs.skip != 'true'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const runId = Number(context.runId);
+            for (let attempt = 1; attempt <= 12; attempt += 1) {
+              const { data } = await github.rest.actions.listWorkflowRunArtifacts({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: runId,
+                per_page: 100
+              });
+              const artifact = data.artifacts.find(
+                (item) => item.name === "github-pages" && !item.expired
+              );
+              if (artifact) {
+                core.info(`Pages artifact is visible to the Actions API (attempt ${attempt}).`);
+                return;
+              }
+              if (attempt < 12) {
+                await new Promise((resolve) => setTimeout(resolve, 5000));
+              }
+            }
+            core.setFailed("Pages artifact was not visible to the Actions API after 60 seconds.");
       - name: Deploy to GitHub Pages
+        if: steps.duplicate-check.outputs.skip != 'true'
         id: deployment
         uses: actions/deploy-pages@v5
