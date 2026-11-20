@@ -61,7 +61,7 @@ jobs:
         continue-on-error: true
         run: python3 scripts/fetch_scholar_metrics.py
       - name: Persist successfully refreshed Scholar metrics
-        if: steps.scholar-metrics.outcome == 'success'
+        if: github.ref == 'refs/heads/main' && steps.scholar-metrics.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
