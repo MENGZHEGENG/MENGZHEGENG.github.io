@@ -16,6 +16,8 @@ concurrency:
 jobs:
   refresh-and-deploy:
     runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
     steps:
       - name: Skip delayed duplicate scheduled refreshes
         id: duplicate-check

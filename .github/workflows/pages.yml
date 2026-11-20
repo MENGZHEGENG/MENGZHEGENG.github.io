@@ -24,6 +24,8 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
     outputs:
       run_refresh: ${{ steps.schedule-gate.outputs.run_refresh }}
     steps:
