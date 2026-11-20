@@ -154,6 +154,32 @@ jobs:
     steps:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+      - name: Wait for Pages artifact to become available to the deploy action
+        uses: actions/github-script@v9
+        with:
+          script: |
+            core.info("Waiting 60 seconds for GitHub Pages to index the uploaded artifact.");
+            await new Promise((resolve) => setTimeout(resolve, 60_000));
+            const runId = Number(context.runId);
+            for (let attempt = 1; attempt <= 12; attempt += 1) {
+              const { data } = await github.rest.actions.listWorkflowRunArtifacts({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: runId,
+                per_page: 100
+              });
+              const artifact = data.artifacts.find(
+                (item) => item.name === "github-pages" && !item.expired
+              );
+              if (artifact) {
+                core.info(`Pages artifact is visible to the Actions API (attempt ${attempt}).`);
+                return;
+              }
+              if (attempt < 12) {
+                await new Promise((resolve) => setTimeout(resolve, 5000));
+              }
+            }
+            core.setFailed("Pages artifact was not visible to the Actions API after 60 seconds.");
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
