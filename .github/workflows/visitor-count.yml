@@ -16,10 +16,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  refresh-and-deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  refresh-and-upload:
+    outputs:
+      skip: ${{ steps.duplicate-check.outputs.skip }}
     runs-on: ubuntu-24.04
     steps:
       - name: Skip delayed duplicate scheduled refreshes
@@ -92,7 +91,15 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+
+  deploy:
+    needs: refresh-and-upload
+    if: needs.refresh-and-upload.outputs.skip != 'true'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-24.04
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        if: steps.duplicate-check.outputs.skip != 'true'
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
