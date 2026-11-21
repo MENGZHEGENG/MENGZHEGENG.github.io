@@ -244,7 +244,7 @@ show_safety_notice: false
     <div class="award-group__content">
       <ul class="award-list">
         <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">Paris Sciences et Lettres University</a></li>
-        <li class="award-item"><strong>Topic to be determined</strong>, International Institute of Information Technology, India</li>
+        <li class="award-item"><strong>In the Era of Voice Agents</strong>, International Institute of Information Technology, India</li>
       </ul>
     </div>
   </details>
