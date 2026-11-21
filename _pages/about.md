@@ -7,7 +7,7 @@ description: "Mengzhe Geng is a Research Scientist at the National Research Coun
 last_modified_at: 2026-11-07
 author_profile: true
 classes: wide
-show_safety_notice: true
+show_safety_notice: false
 ---
 
 {% if page.show_safety_notice %}
