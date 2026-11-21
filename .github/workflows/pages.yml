@@ -7,22 +7,27 @@ on:
     - cron: "10 4 * * *"
     - cron: "10 5 * * *"
   workflow_dispatch:
+    inputs:
+      deploy_legacy_redirect:
+        description: Deploy the GitHub Pages redirect after the custom domain is serving the Worker.
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
-  group: github-pages
+  group: website-worker-deployment
   cancel-in-progress: false
 
 jobs:
   build-and-deploy:
+    runs-on: ubuntu-24.04
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-24.04
+    outputs:
+      run_refresh: ${{ steps.schedule-gate.outputs.run_refresh }}
     steps:
       - name: Check 12:10 a.m. ET schedule
         id: schedule-gate
@@ -56,7 +61,7 @@ jobs:
         continue-on-error: true
         run: python3 scripts/fetch_scholar_metrics.py
       - name: Persist successfully refreshed Scholar metrics
-        if: steps.scholar-metrics.outcome == 'success'
+        if: github.ref == 'refs/heads/main' && steps.scholar-metrics.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -108,16 +113,50 @@ jobs:
       - name: Build Jekyll site
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         run: JEKYLL_ENV=production bundle exec jekyll build
+      - name: Check Cloudflare deployment settings
+        id: cloudflare-settings
+        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [[ -z "$CLOUDFLARE_API_TOKEN" || -z "$CLOUDFLARE_ACCOUNT_ID" ]]; then
+            echo "::error::Add the CLOUDFLARE_API_TOKEN repository secret and CLOUDFLARE_ACCOUNT_ID repository variable before deploying."
+            exit 1
+          fi
       - name: Configure GitHub Pages
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: actions/configure-pages@v5
-      - name: Upload Pages artifact
+      - name: Deploy country-aware site to Cloudflare Workers
         if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
+        uses: cloudflare/wrangler-action@9acf94ace14e7dc412b076f2c5c20b8ce93c79cd
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          wranglerVersion: "4.165.0"
+          quiet: true
+      - name: Upload legacy redirect Pages artifact
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_legacy_redirect
         uses: actions/upload-pages-artifact@v4
         with:
-          path: _site
+          path: redirect
+
+  deploy-legacy-redirect:
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy_legacy_redirect
+    needs: build-and-deploy
+    runs-on: ubuntu-24.04
+    permissions:
+      actions: read
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - name: Wait for Pages artifact to become available to the deploy action
-        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         uses: actions/github-script@v9
         with:
           script: |
@@ -144,6 +183,5 @@ jobs:
             }
             core.setFailed("Pages artifact was not visible to the Actions API after 60 seconds.");
       - name: Deploy to GitHub Pages
-        if: github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true'
         id: deployment
         uses: actions/deploy-pages@v5
