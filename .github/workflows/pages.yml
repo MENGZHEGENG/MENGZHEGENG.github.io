@@ -136,13 +136,13 @@ jobs:
           wranglerVersion: "4.165.0"
           quiet: true
       - name: Upload legacy redirect Pages artifact
-        if: (github.event_name != 'schedule' || steps.schedule-gate.outputs.run_refresh == 'true') && (github.event_name != 'workflow_dispatch' || inputs.deploy_legacy_redirect)
+        if: github.event_name == 'workflow_dispatch' && inputs.deploy_legacy_redirect
         uses: actions/upload-pages-artifact@v4
         with:
           path: redirect
 
   deploy-legacy-redirect:
-    if: (github.event_name != 'workflow_dispatch' || inputs.deploy_legacy_redirect) && (github.event_name != 'schedule' || needs.build-and-deploy.outputs.run_refresh == 'true')
+    if: github.event_name == 'workflow_dispatch' && inputs.deploy_legacy_redirect
     needs: build-and-deploy
     runs-on: ubuntu-24.04
     permissions:
