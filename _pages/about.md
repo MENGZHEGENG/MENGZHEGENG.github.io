@@ -232,19 +232,20 @@ show_safety_notice: false
 </div>
 
 <h2 id="selected-talks">Selected Talks</h2>
-<p class="award-section-meta">2022–2026 · 7 talks</p>
+<p class="award-section-meta">2022–2026 · 8 talks</p>
 <div class="award-groups selected-talks">
   <details class="award-card award-group">
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">2026</span>
-        <span class="award-card__meta">2 talks</span>
+        <span class="award-card__meta">3 talks</span>
       </span>
     </summary>
     <div class="award-group__content">
       <ul class="award-list">
         <li class="award-item"><strong>Reliable and Inclusive Speech and Language Technologies</strong>, <a href="https://www.psl.eu/en" target="_blank" rel="noopener noreferrer">Paris Sciences et Lettres University</a></li>
         <li class="award-item"><strong>In the Era of Voice Agents</strong>, International Institute of Information Technology, India</li>
+        <li class="award-item"><strong>In the Era of Voice Agents</strong>, <a href="https://www.berkeley.edu/" target="_blank" rel="noopener noreferrer">University of California, Berkeley</a></li>
       </ul>
     </div>
   </details>
