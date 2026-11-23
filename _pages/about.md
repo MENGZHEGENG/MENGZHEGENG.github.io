@@ -41,7 +41,7 @@ show_safety_notice: false
 </div>
 <p class="stats-note">Google Scholar metrics, last refreshed {{ site.data.scholar_metrics.updated_at | date: "%b %-d, %Y" }}</p>
 
-<p class="availability-notice"><strong>I welcome opportunities in academia, industry, and startups, and have authorization to work in Canada, Hong Kong, and Mainland China. If you know of an opportunity that might be a good fit, please feel free to <a href="mailto:tim.geng.cuhk@gmail.com">contact me</a>.</strong></p>
+<p class="availability-notice"><strong>I welcome opportunities in academia, industry, and startups, and I am authorized to work in Canada, Hong Kong, and Mainland China. If you know of an opportunity that might be a good fit, please feel free to contact me via <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>.</strong></p>
 <p class="collaboration-invitation">Each student who completed a four-month internship with me coauthored at least <strong>one peer-reviewed paper in a top-tier journal or conference</strong>. Details will be announced later.</p>
 <p class="indigenous-community-invitation">Indigenous communities interested in exploring speech and language technologies with the NRC can start by visiting the NRC <a href="https://www.nrc.canada.ca/en/research-development/research-collaboration/programs/indigenous-languages-technology-program" target="_blank" rel="noopener noreferrer">Indigenous Languages Technology (ILT) Program webpage</a> and contacting me at <a href="mailto:Mengzhe.Geng@nrc-cnrc.gc.ca">Mengzhe.Geng@nrc-cnrc.gc.ca</a>.</p>
 
