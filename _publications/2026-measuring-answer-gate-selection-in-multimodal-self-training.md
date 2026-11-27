@@ -15,7 +15,7 @@ scholar_rank: pending-answer-gate-selection
 scholar_pending: true
 paperurl: /files/measuring-answer-gate-selection-in-multimodal-self-training.pdf
 pdfurl: /files/measuring-answer-gate-selection-in-multimodal-self-training.pdf
-publication_status: 'To appear on arXiv on Nov. 26, 2026'
+publication_status: 'To appear on arXiv on Nov. 29, 2026'
 doi_pending: true
 omit_doi_search: true
 ---

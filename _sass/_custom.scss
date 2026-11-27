@@ -130,6 +130,16 @@ body {
   line-height: 1;
 }
 
+.author__urls .linkedin-profile-icon {
+  color: #0a66c2;
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+html[data-theme="dark"] .author__urls .linkedin-profile-icon {
+  color: #70b5f9;
+}
+
 .orcid-profile-icon {
   color: #a6ce39;
   font-size: 1.22em;
