@@ -12,7 +12,11 @@
 {% endunless %}
 {% assign citation_url = post.paperurl | default: post.pdfurl | default: post.scholarurl %}
 <div class="publication-actions" role="group" aria-label="Publication links">
-  <a class="publication-action publication-action--pdf" href="{{ pdf_url | escape }}" target="_blank" rel="noopener noreferrer"{% unless post.paperurl or post.pdfurl %} title="Open this Google Scholar record to check for a linked PDF"{% endunless %}>PDF</a>
+  {% if post.pdf_unavailable %}
+    <span class="publication-action publication-action--pdf" aria-label="PDF is not currently available" title="No PDF is currently available for this article">PDF unavailable</span>
+  {% else %}
+    <a class="publication-action publication-action--pdf" href="{{ pdf_url | escape }}" target="_blank" rel="noopener noreferrer"{% unless post.paperurl or post.pdfurl %} title="Open this Google Scholar record to check for a linked PDF"{% endunless %}>PDF</a>
+  {% endif %}
   {% if post.doi %}
     {% assign doi_description = 'Open DOI record for ' | append: post.title %}
     {% if post.doiurl %}
