@@ -227,7 +227,7 @@ show_safety_notice: false
           <li class="award-item">2016 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
           <li class="award-item">2016 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
           <li class="award-item">2015-16 — <a href="https://www.erg.cuhk.edu.hk/erg/sites/default/files/publication/2015-16-compressed.pdf" target="_blank" rel="noopener noreferrer">Dean's List</a>, Faculty of Engineering, CUHK</li>
-          <li class="award-item">2015 — <strong><a href="https://www.csclf.org/" target="_blank" rel="noopener noreferrer">The Soong Ching Ling Foundation Zhiyuan Scholarship</a></strong></li>
+          <li class="award-item">2015-19 — <strong><a href="https://www.csclf.org/" target="_blank" rel="noopener noreferrer">The Soong Ching Ling Foundation Zhiyuan Scholarship</a></strong></li>
           <li class="award-item">2015 — <strong><a href="https://www.shho.cuhk.edu.hk/news/s-h-ho-college-matriculation-scholarships-for-talented-students-2026-27/" target="_blank" rel="noopener noreferrer">S.H. Ho College Matriculation Scholarship for Talented Students</a></strong></li>
         </ul>
     </div>
