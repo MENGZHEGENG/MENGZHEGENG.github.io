@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mengzhegeng.github.io/sitemap.xml
+Sitemap: https://mengzhegeng.com/sitemap.xml
