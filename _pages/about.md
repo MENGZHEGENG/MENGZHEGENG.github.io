@@ -166,7 +166,7 @@ show_safety_notice: false
 </details>
 
 <h2 id="awards">Selected Awards and Honours</h2>
-<p class="award-section-meta">2015–2026 · 25 awards</p>
+<p class="award-section-meta">2015–2026 · 28 awards</p>
 <div class="award-groups">
   <details id="award-group-work" class="award-card award-group">
     <summary class="award-card__summary">
@@ -203,7 +203,7 @@ show_safety_notice: false
     <summary class="award-card__summary">
       <span class="award-card__summary-main">
         <span class="award-card__title" role="heading" aria-level="3">Undergraduate</span>
-        <span class="award-card__meta">2015–2019 · 18 awards</span>
+        <span class="award-card__meta">2015–2019 · 21 awards</span>
       </span>
     </summary>
     <div class="award-group__content">
@@ -211,6 +211,7 @@ show_safety_notice: false
           <li class="award-item">2019 — <a href="https://www.hkxfoundation.org/aboutus" target="_blank" rel="noopener noreferrer">Finalist, Hong Kong X Foundation FYP+ Project</a></li>
           <li class="award-item">2019 — CUHK Academic Excellence Scholarship for Non-local Students</li>
           <li class="award-item">2019 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
+          <li class="award-item">2018-19 — <a href="https://www.erg.cuhk.edu.hk/erg/sites/default/files/Booklet-upload.pdf" target="_blank" rel="noopener noreferrer">Dean's List</a>, Faculty of Engineering, CUHK</li>
           <li class="award-item">2018-19 — <strong>Undergraduate Research Fellowship</strong>, sponsored by the Research Grants Council</li>
           <li class="award-item">2018 — Information Engineering Awards for Academic Exchange</li>
           <li class="award-item">2018 — <strong>CUHK Best Project Award for Undergraduate Research Summer Internship</strong></li>
@@ -222,8 +223,10 @@ show_safety_notice: false
           <li class="award-item">2017 — <strong><a href="https://admission.cuhk.edu.hk/fees-financing-your-studies/scholarships/talent-development-sch/" target="_blank" rel="noopener noreferrer">HKSAR Government Talent Development Scholarship (Innovation)</a></strong></li>
           <li class="award-item">2017 — <strong><a href="https://www.theiet.org/impact-society/awards-prizes-and-scholarships/iet-student-prizes" target="_blank" rel="noopener noreferrer">The IET Prize</a></strong>, the Institute of Engineering and Technology</li>
           <li class="award-item">2017 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
+          <li class="award-item">2016-17 — <a href="https://www.erg.cuhk.edu.hk/erg/sites/default/files/publication/2016-17-compressed.pdf" target="_blank" rel="noopener noreferrer">Dean's List</a>, Faculty of Engineering, CUHK</li>
           <li class="award-item">2016 — <strong><a href="https://www3.erg.cuhk.edu.hk/erg/Elite/Scholarship" target="_blank" rel="noopener noreferrer">CUHK ELITE Stream Student Scholarship</a></strong></li>
           <li class="award-item">2016 — CUHK S.H. Ho College Outstanding Student Scholarship</li>
+          <li class="award-item">2015-16 — <a href="https://www.erg.cuhk.edu.hk/erg/sites/default/files/publication/2015-16-compressed.pdf" target="_blank" rel="noopener noreferrer">Dean's List</a>, Faculty of Engineering, CUHK</li>
           <li class="award-item">2015 — <strong><a href="https://www.csclf.org/" target="_blank" rel="noopener noreferrer">The Soong Ching Ling Foundation Zhiyuan Scholarship</a></strong></li>
           <li class="award-item">2015 — <strong><a href="https://www.shho.cuhk.edu.hk/news/s-h-ho-college-matriculation-scholarships-for-talented-students-2026-27/" target="_blank" rel="noopener noreferrer">S.H. Ho College Matriculation Scholarship for Talented Students</a></strong></li>
         </ul>
